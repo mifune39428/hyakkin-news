@@ -1,5 +1,5 @@
 {
-  "_comment": "収集元。enabled:false で一時的に外せる。media は blog / news / youtube。region は全部 国内。max_items はこのフィードから1回に取り込む上限（件数の多い媒体で枠を食い潰さないための蓋）。hint に new か use を書くと、その軸に寄せて分類される（LLMが逆を言えばそちら）。2026-10-23に全URLの疎通と、100均の記事の割合を確認済み。暮らし系メディア（ROOMIE・ヨムーノ・RoomClip mag）は100均の記事が20件に1件ほどで枠を食うので入れていない（Googleニュースで拾える）。",
+  "_comment": "収集元。enabled:false で一時的に外せる。media は blog / news / youtube。region は全部 国内。max_items はこのフィードから1回に取り込む上限（件数の多い媒体で枠を食い潰さないための蓋）。hint に new か use を書くと、その軸に寄せて分類される（LLMが逆を言えばそちら）。2026-10-23に全URLの疎通と、100均の記事の割合を確認済み。暮らし系メディア（ROOMIE・ヨムーノ・RoomClip mag）は100均の記事が20件に1件ほどで枠を食うので入れていない（Googleニュースで拾える）。 YouTubeの記事一覧（RSS）はYouTube側の不調で404/500を返す回がある（2026-10-23に12本中11本が落ちた。ミニマリストでも起きている）。落ちた回の動画を次の回で拾えるよう、YouTubeだけ intake_days を7日にしている。",
   "feeds": [
     {
       "name": "Google ニュース",
@@ -161,7 +161,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "My-Room",
@@ -169,7 +170,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "おもち100均マニア",
@@ -177,7 +179,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "まんまるなライフ",
@@ -185,7 +188,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "100円ショップの気になる一品（ヒャッキニ）",
@@ -193,7 +197,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "きこの100均パトロール",
@@ -201,7 +206,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "とも【100均紹介】",
@@ -209,7 +215,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "ヨッパン・100均紹介",
@@ -217,7 +224,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "きのっこ",
@@ -225,7 +233,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "マナの時間",
@@ -233,7 +242,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "100均と生きる女",
@@ -241,7 +251,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     },
     {
       "name": "すきなもんちゅーぶ",
@@ -249,7 +260,8 @@
       "media": "youtube",
       "region": "国内",
       "max_items": 2,
-      "enabled": true
+      "enabled": true,
+      "intake_days": 7
     }
   ]
 }
