@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T20:20:03.699655+09:00",
+ "updated_at": "2026-10-24T01:48:55.464469+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,31 +27,31 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-23T20:20:44.943121+09:00",
+  "generated_at": "2026-10-24T01:49:27.230807+09:00",
   "days": 3,
-  "period": "10月23日〜10月23日",
+  "period": "10月23日〜10月24日",
   "count": 45,
-  "new_count": 17,
-  "use_count": 28,
-  "overview": "100円ショップの最新グッズや、身近なアイテムを使った多彩なアレンジ術が紹介されています。",
-  "new": "キャンドゥのキャラクターコラボグッズや3COINSの秋向け雑貨などの新作が多数登場しています。",
-  "use": "ブックスタンドやクッキー缶など身近な商品を活用した便利な収納やリメイク術が話題です。",
+  "new_count": 16,
+  "use_count": 29,
+  "overview": "100円ショップの最新グッズや、ダイソーやセリアなどのアイテムを活用した便利なDIY・収納術、キャラクターコラボ商品の情報が多数紹介されています。",
+  "new": "キャンドゥのおじゃる丸コラボやダイソーのクリスマスアイテム、3COINSのガーリックツイストなど多様な新商品が注目されています。",
+  "use": "ダイソーのブックエンドを猫のごはん台やキッチンで使うなど、身近なアイテムを工夫した便利な活用法が広く紹介されています。",
   "points": [
    {
-    "title": "キャラクターグッズ",
-    "body": "キャンドゥからはアニメおじゃる丸のグッズやパペットスンスンのクリアファイル、サンリオのランダムアイテムが登場し、セリアではパウパトロールのグッズが販売されています。"
+    "title": "キャラクター雑貨",
+    "body": "キャンドゥからはアニメおじゃる丸のグッズやパペットスンスンのクリアファイルが登場し、セリアでもパウパトロールやピングーの雑貨が話題になっています。"
    },
    {
-    "title": "キッチンの便利グッズ",
-    "body": "3COINSのガーリックツイストや二刀流フライ返し、ダイソーのレトルトカレー食べ比べや便利キッチングッズ、セリアのごはん保存容器などが料理をラクにするアイテムとして紹介されています。"
+    "title": "収納・整理の工夫",
+    "body": "ダイソーのケースとセリアのシートを組み合わせたミニチュア部屋のDIYや、クッキー缶を活用したアクセサリーケースの手作りアイデアが紹介されています。"
    },
    {
-    "title": "収納・インテリア活用術",
-    "body": "ダイソーのブックエンドやブックスタンドを猫のごはん台やキッチンで活用する方法や、クッキー缶とダイソー商品を組み合わせておしゃれなアクセサリーケースを手作りするアイデアが取り上げられています。"
+    "title": "便利なキッチングッズ",
+    "body": "セリアのごはん保存容器はふたが皿として使えて洗い物を減らせるほか、ダイソーのブックエンドをキッチンでの小物収納に活用する工夫が見られます。"
    },
    {
-    "title": "手作り・リメイク術",
-    "body": "ダイソーのタオルをサンリオのハンギョドン風にリメイクしたり、セリアのナイトキャップをギャザーバッグに作り変えたりするハンドメイドの工夫が紹介されています。"
+    "title": "ファッション小物リメイク",
+    "body": "セリアのナイトキャップをポーチと組み合わせてギャザーバッグへリメイクしたり、100均の毛糸でモコモコ質感のリップケースを手作りする方法が紹介されています。"
    }
   ],
   "keywords": [
@@ -59,7 +59,7 @@
    "セリア",
    "キャンドゥ",
    "3COINS",
-   "グッズ"
+   "おじゃる丸"
   ]
  },
  "things": [
@@ -69,6 +69,10 @@
   },
   {
    "name": "アクセサリー",
+   "count": 3
+  },
+  {
+   "name": "バッグ",
    "count": 3
   },
   {
@@ -84,6 +88,10 @@
    "count": 2
   },
   {
+   "name": "キッチングッズ",
+   "count": 2
+  },
+  {
    "name": "クッキー缶",
    "count": 2
   },
@@ -93,10 +101,6 @@
   },
   {
    "name": "デジタルクロック",
-   "count": 2
-  },
-  {
-   "name": "バッグ",
    "count": 2
   },
   {
@@ -156,8 +160,60 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 115,
+ "count": 124,
  "items": [
+  {
+   "id": "e2f2c1d773906f3e",
+   "url": "https://note.com/tsubaki_nikki/n/nb0229b90628b",
+   "title_original": "ミニ言葉帖はセリアメモ",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/327674552/rectangle_large_type_2_87bf4754a499d07992b8f4efbd87b82f.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-23T15:15:41+00:00",
+   "title_ja": "セリアのメモ帳を活用したミニ言葉帖",
+   "summary_ja": "セリアのメモ帳をミニ言葉帖として活用しているブログ記事です。日々の記録や言葉をまとめるための使い方について紹介しています。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "メモ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "4bef4dbf03bce580",
+   "url": "https://note.com/gui_note91/n/n36dd3a98aaf5",
+   "title_original": "ハートを散らして。",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/327660154/rectangle_large_type_2_1734ed05909ef7c7fc5c4626fdf4c0f8.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-23T14:07:00+00:00",
+   "title_ja": "ダイソーの薄型ミラーを小さなポーチ用に活用",
+   "summary_ja": "小さくて薄いミラーを探していた筆者が、ダイソーで見つけたミラーを小さなポーチに入れてお出かけ用に活用しているブログ記事です。最低限のアイテムを持ち歩く際に役立っています。",
+   "category": "コスメ・美容",
+   "axis": "use",
+   "things": [
+    "ミラー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "1a3ec6134066d59e",
+   "url": "https://www.youtube.com/shorts/L5hztSAazLI",
+   "title_original": "【100均】新商品速報‼️過去一すごい!!便利なダイソー新商品♡ #100均 #ダイソー #ダイソー新商品 #ダイソー購入品 #洗濯 #便利 #shorts",
+   "source": "はるチャンネル【100均】",
+   "image": "https://i1.ytimg.com/vi/L5hztSAazLI/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-23T12:00:22+00:00",
+   "title_ja": "ダイソーの便利な洗濯関連の新商品を紹介",
+   "summary_ja": "ダイソーで販売されている洗濯に役立つ便利な新商品を紹介している動画。詳細な商品の情報は記載されていない。",
+   "category": "掃除・洗濯",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
   {
    "id": "0cded9d38084e7fb",
    "url": "https://note.com/r2mtksrn/n/n66fc64edd6b1",
@@ -189,6 +245,42 @@
    "axis": "new",
    "things": [
     "サンリオ手帳"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "ef43658d597941df",
+   "url": "https://news.allabout.co.jp/articles/o/131956",
+   "title_original": "「やば！めっちゃいいコレ」キャンドゥの“クリアジッパーバッグ 内服薬柄”に反響。「薬局のお薬袋そっくり」の声",
+   "source": "All About ニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T11:00:00+00:00",
+   "title_ja": "キャンドゥのクリアジッパーバッグ 内服薬柄",
+   "summary_ja": "薬局のお薬袋にそっくりなデザインが話題を集めている、キャンドゥのクリアジッパーバッグ 内服薬柄を紹介している。",
+   "category": "その他",
+   "axis": "new",
+   "things": [
+    "クリアジッパーバッグ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "cdf7775ac115d98a",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-ed7007f50a2e48cc182333b89c71cbc918d563fe?page=2",
+   "title_original": "「食器用スポンジ」やめてみた！【セリア】110円『キッチングッズ』に「もっと早く試せばよかった！」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-ed7007f50a2e48cc182333b89c71cbc918d563fe.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T11:00:00+00:00",
+   "title_ja": "セリアの110円キッチングッズの使い心地",
+   "summary_ja": "食器用スポンジの代わりにセリアで販売されている110円のキッチングッズを試したところ、非常に便利だと評判になっている。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "キッチングッズ"
    ],
    "importance": 3
   },
@@ -948,6 +1040,22 @@
    "importance": 3
   },
   {
+   "id": "3bf83f6a31443970",
+   "url": "https://www.walkerplus.com/article/1297222/image15409471.html",
+   "title_original": "画像12 / 14＞ダイソーの超巨大店舗「アルカキット錦糸町店」がリニューアル！都内最大級の売り場で公式キャラクター「だいぞう」も初披露",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1297222/15409457_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-22T16:39:55+00:00",
+   "title_ja": "ダイソーのアルカキット錦糸町店がリニューアルオープン",
+   "summary_ja": "ダイソーの超巨大店舗であるアルカキット錦糸町店がリニューアルしました。都内最大級の売り場となり、公式キャラクターのだいぞうも初めて披露されています。",
+   "category": "お店・ブランド",
+   "axis": "new",
+   "things": [],
+   "importance": 4
+  },
+  {
    "id": "4c97bdd3024998fd",
    "url": "https://news.dellows.jp/639032",
    "title_original": "大創産業 ジョージアに同国初のDAISOを2026年11月に出店へ",
@@ -998,6 +1106,24 @@
     "デコアイテム"
    ],
    "importance": 4
+  },
+  {
+   "id": "7720fe83dd8f6f50",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-29d57f4aca0f7feee286aa2378f09471d515c129",
+   "title_original": "え、これ【3COINS】なの！？ どこのブランドか聞かれそうな『高見えバッグ』",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-29d57f4aca0f7feee286aa2378f09471d515c129.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-22T14:00:00+00:00",
+   "title_ja": "3COINSの高見えするバッグ",
+   "summary_ja": "3COINSから、どこのブランドか聞かれそうなほど高見えするデザインのバッグが登場しています。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "バッグ"
+   ],
+   "importance": 3
   },
   {
    "id": "12c2930c00902541",
@@ -1723,6 +1849,24 @@
    "importance": 4
   },
   {
+   "id": "21c99e9f154f32e3",
+   "url": "https://news.yahoo.co.jp/articles/58ae7e4f97c3011031db62812bdd5d10719dd429",
+   "title_original": "調理中の油はね対策に！3COINS新作の880円〈油はねガード〉が便利。半分開閉OK＆折りたたんでコンパクトに収納できる！",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261021-00142247-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-21T00:31:04+00:00",
+   "title_ja": "3COINSの880円の油はねガード",
+   "summary_ja": "調理中の油はねを防ぐ3COINSの新作アイテムです。880円で販売されており、半分だけ開閉できるほか、折りたたんでコンパクトに収納できる便利な仕様になっています。",
+   "category": "キッチン",
+   "axis": "new",
+   "things": [
+    "油はねガード"
+   ],
+   "importance": 4
+  },
+  {
    "id": "31043bf175e43dac",
    "url": "https://news.yahoo.co.jp/expert/articles/120253ff214ad7b048b9e438190c84a1b67fed14",
    "title_original": "【キャンドゥ新作】モナ・リザがウサギに？！110円の名画風文具がユーモア満点でかわいい（あや） - エキスパート",
@@ -2113,6 +2257,24 @@
    "axis": "new",
    "things": [
     "ロングシール"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "8162f9a118109bbd",
+   "url": "http://www.excite.co.jp/news/article/Grape_2349928",
+   "title_original": "ダイソーの『ソフト小物入れ』が優秀！ 柔軟素材でマルチに使える優秀アイテム【活用4選】",
+   "source": "Excite エキサイト",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-16T08:04:00+00:00",
+   "title_ja": "ダイソーのソフト小物入れの便利な活用法4選",
+   "summary_ja": "ダイソーの「ソフト小物入れ」は柔軟な素材で作られており、様々な用途にマルチに使える優秀なアイテムです。実際の生活の中でどのように活用できるか、便利な使い方を4つ紹介しています。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ソフト小物入れ"
    ],
    "importance": 3
   },
