@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>100均ニュース</title>
+<meta name="description" content="ダイソー・セリア・キャンドゥ・3COINSの新作と使い方を、ニュース・note・YouTubeから自動で集めて要約。YouTubeは字幕から要約するので再生しなくても中身が分かります。6時間ごとに更新。">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="100均ニュース">
+<meta property="og:title" content="100均ニュース">
+<meta property="og:description" content="100円ショップの新作と使い方を、「新作」と「使い方」の2つの軸で。6時間ごとに自動更新。">
+<meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="ui.js" data-site="hyakkin-news"></script>
+<style>
+  /* ---------------------------------------------------------------- 色（このサイトの分）
+     値札の赤と、使い方の青緑。白地で明るく、ごちゃつかせない。 */
+  :root {
+    --bg: #f6f4f1;
+    --card: #ffffff;
+    --text: #1d1b19;
+    --muted: #736d67;
+    --line: rgba(0,0,0,.07);
+    --accent: #cf3f2a;
+    --new: #cf3f2a;
+    --use: #23798a;
+    --soft: rgba(207,63,42,.08);
+    --chip: rgba(0,0,0,.045);
+    --seg-on: #ffffff;
+    --header: rgba(252,251,249,.88);
+    --shadow: 0 1px 2px rgba(0,0,0,.03), 0 6px 20px rgba(0,0,0,.04);
+    --radius: 14px;
+    --ph-bg: radial-gradient(120% 90% at 30% 20%, #f5b39f 0%, #dd6a4f 45%, #8f2b1d 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121110;
+      --card: #1c1a19;
+      --text: #eeebe7;
+      --muted: #a09992;
+      --line: rgba(255,255,255,.07);
+      --accent: #ff7a63;
+      --new: #ff7a63;
+      --use: #6cc3d1;
+      --soft: rgba(255,122,99,.12);
+      --chip: rgba(255,255,255,.06);
+      --seg-on: #2d2a28;
+      --header: rgba(18,17,16,.82);
+      --shadow: 0 0 0 1px rgba(255,255,255,.05);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+                 "Noto Sans JP", "Segoe UI", sans-serif;
+    /* 和文の字間を詰めて、見出しを引き締める。 */
+    font-feature-settings: "palt";
+    letter-spacing: .02em;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  a { color: inherit; text-decoration: none; }
+  button { -webkit-tap-highlight-color: transparent; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .clamp2, .clamp3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .clamp2 { -webkit-line-clamp: 2; }
+  .clamp3 { -webkit-line-clamp: 3; }
+
+  /* ---------------------------------------------------------------- 上のメニュー */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--header);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--line);
+    padding-top: env(safe-area-inset-top);
+  }
+  .bar {
+    max-width: 1080px; margin: 0 auto; height: 52px; padding: 0 16px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .brandmark { display: flex; align-items: center; gap: 8px; }
+  .logo {
+    background: var(--accent); color: #fff; border-radius: 3px;
+    font-size: 9.5px; font-weight: 800; letter-spacing: .1em; line-height: 1;
+    padding: 5px 5px 5px 6px;
+  }
+  .wordmark { font-size: 19px; font-weight: 900; letter-spacing: .12em; line-height: 1; }
+  .updated { margin-left: auto; font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .icon-btn {
+    flex: 0 0 auto; width: 36px; height: 36px; border-radius: 50%; border: 0;
+    background: var(--chip); color: var(--text); cursor: pointer;
+    display: grid; place-items: center;
+  }
+  .icon-btn[aria-expanded="true"] { background: var(--text); color: var(--bg); }
+
+  /* カテゴリはタブ1列。選んでいるものに赤い下線。右端は薄くしてスクロールできると分かるように。 */
+  .tabs {
+    max-width: 1080px; margin: 0 auto;
+    display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none;
+    padding: 0 36px 0 8px;
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 36px), transparent);
+            mask-image: linear-gradient(90deg, #000 calc(100% - 36px), transparent);
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs .chip {
+    flex: 0 0 auto; position: relative; border: 0; background: none; cursor: pointer;
+    color: var(--muted); font: inherit; font-size: 14.5px; font-weight: 700; letter-spacing: .03em;
+    padding: 9px 9px 12px; white-space: nowrap;
+  }
+  .tabs .chip[aria-pressed="true"] { color: var(--text); }
+  .tabs .chip[aria-pressed="true"]::after {
+    content: ""; position: absolute; left: 9px; right: 9px; bottom: 0; height: 3px;
+    border-radius: 3px 3px 0 0; background: var(--accent);
+  }
+  /* お気に入りのタブ（ui.js が差し込む）は最後尾に回す。 */
+  #ui-favChip { order: 99; }
+  body.ui-favmode .tabs .chip[aria-pressed="true"]:not(#ui-favChip) { color: var(--muted); }
+  body.ui-favmode .tabs .chip[aria-pressed="true"]:not(#ui-favChip)::after { display: none; }
+
+  /* ---------------------------------------------------------------- 本文の枠 */
+  main { max-width: 1080px; margin: 0 auto; padding: 14px 16px 64px; }
+
+  .searchbar { position: relative; margin: 0 0 14px; }
+  .searchbar[hidden] { display: none; }
+  .searchbar svg { position: absolute; left: 14px; top: 13px; color: var(--muted); pointer-events: none; }
+  .search {
+    width: 100%; height: 46px; border-radius: 14px;
+    background: var(--card); color: var(--text); border: 1px solid var(--line);
+    padding: 0 14px 0 42px; font: inherit; font-size: 16px; box-shadow: var(--shadow);
+  }
+  .search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .search::placeholder { color: var(--muted); }
+
+  /* タブごとの小さな切り替え（ブランド・国内外・性別など） */
+  #subFilters { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 -16px 14px; padding: 0 16px; }
+  #subFilters::-webkit-scrollbar { display: none; }
+  #subFilters:empty { display: none; }
+  body.ui-favmode #subFilters { display: none; }
+  .seg { flex: 0 0 auto; display: inline-flex; background: var(--chip); border-radius: 999px; padding: 3px; }
+  .seg button {
+    border: 0; background: none; cursor: pointer; white-space: nowrap;
+    font: inherit; font-size: 12.5px; font-weight: 700; color: var(--muted);
+    padding: 5px 12px; border-radius: 999px; letter-spacing: .02em;
+  }
+  .seg button[aria-pressed="true"] { background: var(--seg-on); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+
+  /* タブや切り替えを押したときだけ、ふわっと出す。
+     （読み込みのたびに動かすと、アプリに戻るたびに一覧全体がちらつく） */
+  #list.anim > * { animation: rise .28s ease both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { #list.anim > * { animation: none; } }
+
+  /* ---------------------------------------------------------------- 先頭の大きな記事 */
+  .lead {
+    position: relative; overflow: hidden; border-radius: var(--radius);
+    background: #111; box-shadow: var(--shadow); margin: 0 0 16px;
+  }
+  .lead > a { display: block; color: #fff; }
+  .lead-img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+  .lead-txt {
+    position: absolute; left: 0; right: 0; bottom: 0; padding: 64px 18px 16px;
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,.6) 38%, rgba(0,0,0,.88));
+  }
+  .lead h2 { font-size: 21px; font-weight: 800; line-height: 1.45; margin: 6px 0 6px; letter-spacing: .02em; }
+  .lead .dek { font-size: 13.5px; line-height: 1.65; margin: 0 0 8px; color: rgba(255,255,255,.86); }
+  .lead .kicker .cat { color: #fff; background: var(--accent); padding: 2px 7px; border-radius: 4px; }
+  .lead .byline { color: rgba(255,255,255,.72); }
+  @media (min-width: 760px) {
+    .lead-img { aspect-ratio: 21 / 9; }
+    .lead-txt { padding: 90px 28px 24px; }
+    .lead h2 { font-size: 28px; max-width: 820px; }
+    .lead .dek { max-width: 760px; font-size: 14.5px; }
+  }
+
+  /* 記事の見出しの上の小さな行（カテゴリ・注目） */
+  .kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 11px; line-height: 1.4; }
+  .cat { color: var(--accent); font-weight: 800; letter-spacing: .06em; }
+  .hot { background: var(--accent); color: #fff; font-weight: 800; padding: 1px 6px; border-radius: 4px; letter-spacing: .04em; }
+  .byline { font-size: 11.5px; color: var(--muted); letter-spacing: .01em; }
+  .byline .dot { margin: 0 4px; opacity: .6; }
+
+  /* ---------------------------------------------------------------- 記事の一覧 */
+  /* スマホは1枚の面に行を並べる（区切りは細線）。広い画面では写真が上のカードを並べる。 */
+  .news { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .news:empty { display: none; }
+  .post { position: relative; }
+  .post + .post { border-top: 1px solid var(--line); }
+  .post > a { display: grid; grid-template-columns: 1fr 96px; gap: 14px; padding: 15px 16px; align-items: start; }
+  .post > a:active { background: var(--chip); }
+  .post-img { grid-column: 2; grid-row: 1; position: relative; }
+  .post-txt { grid-column: 1; grid-row: 1; min-width: 0; }
+  .post .thumb { display: block; width: 96px; height: 96px; object-fit: cover; border-radius: 12px; background: var(--chip); }
+  .post h2 { font-size: 15.5px; font-weight: 700; line-height: 1.55; margin: 5px 0 4px; letter-spacing: .02em; }
+  .post .dek { font-size: 13px; line-height: 1.65; color: var(--muted); margin: 0 0 6px; }
+  @media (min-width: 760px) {
+    .news { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; background: none; box-shadow: none; overflow: visible; border-radius: 0; }
+    .post { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+    .post + .post { border-top: 0; }
+    .post > a { grid-template-columns: 1fr; gap: 0; padding: 0; height: 100%; align-content: start; }
+    .post-img { grid-column: 1; grid-row: 1; }
+    .post-txt { grid-column: 1; grid-row: 2; padding: 13px 17px 17px; }
+    .post .thumb { width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 0; }
+    .post > a:hover h2 { color: var(--accent); }
+  }
+  @media (min-width: 1060px) { .news { grid-template-columns: repeat(3, 1fr); } }
+
+  /* 画像が取れなかった記事の代わりの絵。空白にしない。
+     写真用の display:block に負けないよう、組み合わせで指定する。 */
+  .ph, .thumb.ph, .lead-img.ph {
+    display: flex; align-items: center; justify-content: center;
+    background: var(--ph-bg);
+    color: #fff; font-size: 30px; line-height: 1;
+  }
+  .lead-img.ph { font-size: 64px; }
+
+  /* ---------------------------------------------------------------- 見出し（セクション） */
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 26px 2px 11px; }
+  .sec-head h3 { margin: 0; font-size: 18px; font-weight: 800; letter-spacing: .04em; }
+  .sec-head h3 small { font-size: 11.5px; color: var(--muted); font-weight: 600; margin-left: 8px; letter-spacing: .02em; }
+  .sec-link { border: 0; background: none; padding: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+
+  /* ---------------------------------------------------------------- ここ数日のまとめ */
+  .digest {
+    position: relative; overflow: hidden; background: var(--card); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 16px 18px 14px 20px; margin: 0 0 4px;
+  }
+  .digest::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--accent); }
+  .dg-label { font-size: 11.5px; font-weight: 800; color: var(--accent); letter-spacing: .08em; }
+  .dg-label span { color: var(--muted); font-weight: 600; letter-spacing: .02em; margin-left: 6px; }
+  .digest h3 { font-size: 17px; font-weight: 800; line-height: 1.5; margin: 6px 0 10px; }
+  .digest ol { list-style: none; margin: 0; padding: 0; counter-reset: dg; }
+  .digest li { position: relative; padding-left: 28px; font-size: 14px; line-height: 1.75; margin-bottom: 9px; }
+  .digest li::before {
+    counter-increment: dg; content: counter(dg);
+    position: absolute; left: 0; top: 3px; width: 19px; height: 19px; border-radius: 50%;
+    background: var(--soft); color: var(--accent); font-size: 11px; font-weight: 800;
+    display: grid; place-items: center; letter-spacing: 0;
+  }
+  .digest li a { margin-left: 3px; font-size: 16px; line-height: 1; font-weight: 700; color: var(--accent); letter-spacing: 0; vertical-align: -1px; }
+  .digest li a:first-of-type { margin-left: 6px; }
+  .digest li.more { display: none; }
+  .digest.open li.more { display: list-item; }
+  .dg-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 2px; }
+  .dg-note { font-size: 11px; color: var(--muted); }
+  .dg-toggle { border: 0; background: none; padding: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+
+  /* ---------------------------------------------------------------- そのほか */
+  .empty, .loading { text-align: center; color: var(--muted); padding: 56px 0; font-size: 14px; }
+  .sk { border-radius: 12px; background: var(--chip); background-image: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent);
+        background-size: 200% 100%; animation: sk 1.3s ease-in-out infinite; }
+  @keyframes sk { from { background-position: 150% 0; } to { background-position: -50% 0; } }
+  .sk-lead { aspect-ratio: 4 / 3; border-radius: var(--radius); margin-bottom: 16px; }
+  .sk-row { height: 96px; margin-bottom: 10px; }
+
+  #more {
+    display: block; margin: 18px auto 0; padding: 11px 28px; cursor: pointer;
+    background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px;
+    font: inherit; font-size: 14px; font-weight: 700; box-shadow: var(--shadow);
+  }
+  /* #more の display 指定が hidden 属性に勝ってしまうので、消えるように戻す。 */
+  #more[hidden] { display: none; }
+
+  /* お気に入りの一覧（ui.js が描く）の見た目 */
+  #ui-favs article { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px 16px; margin-bottom: 10px; }
+  #ui-favs .meta { display: flex; flex-wrap: wrap; gap: 6px; font-size: 11.5px; color: var(--muted); margin-bottom: 4px; }
+  #ui-favs .tag { color: var(--accent); font-weight: 800; }
+  #ui-favs .row { display: flex; gap: 12px; align-items: flex-start; }
+  #ui-favs .row .body { flex: 1; min-width: 0; }
+  #ui-favs .thumb { width: 84px; height: 84px; object-fit: cover; border-radius: 10px; }
+  #ui-favs h2 { font-size: 15.5px; line-height: 1.55; margin: 0 0 6px; }
+  #ui-favs .src { font-size: 12.5px; font-weight: 700; color: var(--accent); }
+
+  footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 44px; font-size: 11.5px; color: var(--muted); }
+  footer details { border-top: 1px solid var(--line); padding-top: 14px; }
+  footer summary { cursor: pointer; font-weight: 700; color: var(--text); font-size: 12.5px; }
+  footer p { margin: 8px 0 0; line-height: 1.8; }
+  footer .copy { margin-top: 14px; text-align: center; letter-spacing: .06em; }
+
+  /* ---------------------------------------------------------------- このサイトだけの部品 */
+  .logo { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1.5px var(--accent); letter-spacing: .16em; }
+  .wordmark { font-weight: 800; letter-spacing: .2em; }
+  .tabs .chip[aria-pressed="true"]::after { height: 2px; }
+  .axis { font-weight: 900; letter-spacing: .04em; }
+  .axis.new { color: var(--new); }
+  .axis.use { color: var(--use); }
+  .lead .axis.new { color: #ffc9bd; }
+  .lead .axis.use { color: #b9eaf2; }
+  .kicker .sub { color: var(--muted); font-weight: 700; }
+  .intro { margin: 0 2px 12px; font-size: 13px; color: var(--muted); }
+  .intro b { color: var(--text); }
+  body.ui-favmode .intro { display: none; }
+
+  /* 動画は写真の上に ▶ を重ねる */
+  .play {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+    background: rgba(0,0,0,.6); color: #fff; font-size: 13px; padding-left: 2px;
+    -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); pointer-events: none;
+  }
+  .lead .play { top: 38%; width: 56px; height: 56px; font-size: 20px; }
+  /* 字幕から要約できた動画。押すと動画ではなく要約ページが開くので、再生マークは出さない。 */
+  .play.sum {
+    left: auto; top: auto; right: 6px; bottom: 6px; transform: none;
+    width: auto; height: auto; border-radius: 999px; padding: 3px 8px;
+    font-size: 10.5px; font-weight: 700; letter-spacing: .04em;
+  }
+  .lead .play.sum { top: 14px; right: 14px; bottom: auto; width: auto; height: auto; font-size: 12px; padding: 4px 10px; }
+
+  /* 商品名（押すとその言葉で絞り込む） */
+  .things { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0 7px; }
+  .thing {
+    font-size: 11px; font-weight: 700; color: var(--accent); background: var(--soft);
+    border-radius: 999px; padding: 1px 9px; cursor: pointer; letter-spacing: .02em;
+  }
+  .lead .thing { color: #fff; background: rgba(255,255,255,.16); }
+  .orig { text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+
+  /* ここ数日の傾向 */
+  .digest .dg-keys { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+  .digest .dg-key {
+    border: 0; cursor: pointer; font: inherit; font-size: 12px; font-weight: 700;
+    color: var(--accent); background: var(--soft); border-radius: 999px; padding: 3px 11px;
+  }
+  .digest .dg-keys.more { display: none; }
+  .digest.open .dg-keys.more { display: flex; }
+  .digest li b { display: block; }
+  /* 傾向の一文目は見出しではなく文章なので、少し控えめに。 */
+  .digest h3 { font-size: 15px; font-weight: 700; line-height: 1.8; }
+  body.ui-favmode .digest { display: none !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="brandmark" href="./" aria-label="100均ニュース トップへ">
+      <span class="logo">100均</span><span class="wordmark">NEWS</span>
+    </a>
+    <h1 class="sr-only">100均ニュース</h1>
+    <span class="updated" id="updated"></span>
+    <button class="icon-btn" id="searchToggle" type="button" aria-label="キーワードで探す" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+    </button>
+  </div>
+  <!-- 先頭の .filters に ui.js がお気に入りのタブを差し込む。 -->
+  <nav class="filters tabs" id="categoryFilters" aria-label="軸"></nav>
+</header>
+
+<main>
+  <div class="searchbar" id="searchBar" hidden>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+    <input class="search" id="search" type="search" placeholder="服、キッチン、リュック…" autocomplete="off" enterkeyhint="search">
+  </div>
+  <div id="subFilters"></div>
+  <div id="list">
+    <div class="sk sk-lead"></div><div class="sk sk-row"></div><div class="sk sk-row"></div><div class="sk sk-row"></div>
+  </div>
+  <button id="more" type="button" hidden>もっと見る</button>
+</main>
+
+<footer>
+  <details>
+    <summary>このサイトについて・出典</summary>
+    <p>ニュース、note、YouTube を自動で集め、見出しと要約を機械生成しています。要約は原文の全訳ではありません。詳しい内容は必ず出典元をご確認ください。</p>
+    <p>「ここ数日の傾向」は、直近に集まった記事の要約だけを材料に機械がまとめたものです。集めた範囲の中での傾向であって、世の中全体の統計ではありません。</p>
+    <p>「🆕 新作」は新商品・再入荷・新ブランドや新店舗の話、「💡 使い方」は活用の工夫や比べてみた話です。振り分けも自動なので、時々ずれることがあります。</p>
+    <p>YouTube の「📝 要約」は、動画の字幕をもとに機械がまとめたものです。聞き間違いや言い漏らしがあることがあります。</p>
+    <p>価格・発売日・在庫は店舗や時期によって変わります。商品名や価格は出典元と各社の公式情報でご確認ください。</p>
+    <p>サムネイルは各媒体が配信データ（RSS・OGP）で公開している画像を、出典と原文リンクを添えて表示しています。記事および画像の著作権は各媒体に帰属します。掲載の停止をご希望の媒体様はリポジトリのIssueよりご連絡ください。</p>
+    <p id="sources"></p>
+  </details>
+  <p class="copy">個人が運営する100円ショップの情報まとめです（各社とは関係ありません）・6時間ごとに自動更新</p>
+</footer>
+
+<script>
+// ================================================================ 共通の部品
+// （6つのニュースサイトで同じ作り。ユニクロ ニュースの画面をもとにしている）
+
+const PAGE_SIZE = 30;
+
+const fmt = new Intl.DateTimeFormat("ja-JP", {
+  month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Tokyo"
+});
+
+function relative(iso) {
+  const then = new Date(iso), diff = (Date.now() - then) / 1000;
+  if (diff < 3600) return `${Math.max(1, Math.floor(diff / 60))}分前`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}時間前`;
+  if (diff < 604800) return `${Math.floor(diff / 86400)}日前`;
+  return fmt.format(then);
+}
+
+// Google翻訳を通した原文ページ。1タップで日本語の全文が読める。
+function translated(url) {
+  return "https://translate.google.com/translate?sl=auto&tl=ja&u=" + encodeURIComponent(url);
+}
+
+function escapeHtml(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+const num = n => Number(n || 0).toLocaleString("ja-JP");
+const linkAttrs = t => `href="${escapeHtml(t.href)}"${t.blank ? ' target="_blank" rel="noopener noreferrer"' : ""}`;
+
+// 押して切り替えたときだけ、ふわっと出す（CSS の #list.anim）。
+// 読み込みのたびに動かすと、アプリに戻るたびに一覧全体がちらつく。
+function animateNext() {
+  const list = document.getElementById("list");
+  list.classList.remove("anim");
+  void list.offsetWidth;   // 付け直しても動くように、一度描き直させる
+  list.classList.add("anim");
+  clearTimeout(animateNext.timer);
+  animateNext.timer = setTimeout(() => list.classList.remove("anim"), 500);
+}
+
+// ---------------------------------------------------------------- タブと小さな切り替え
+
+// 上のタブ（1列）を作り直す。お気に入りのタブ（ui.js が足したもの）は残して元の場所に戻す。
+function renderTabs(tabs, current) {
+  const box = document.getElementById("categoryFilters");
+  box.querySelectorAll(".chip:not(#ui-favChip)").forEach(el => el.remove());
+  const fav = box.querySelector("#ui-favChip");
+  box.insertAdjacentHTML("afterbegin", tabs.map(([key, label]) =>
+    `<button type="button" class="chip" data-tab="${escapeHtml(key)}" aria-pressed="${key === current}">${label}</button>`).join(""));
+  // ui.js は「先頭の次」にお気に入りを置くので、作り直したあとも同じ場所に戻しておく。
+  if (fav) box.insertBefore(fav, box.children[1] || null);
+}
+
+function markTab(key) {
+  document.querySelectorAll("#categoryFilters .chip[data-tab]").forEach(c =>
+    c.setAttribute("aria-pressed", String(c.dataset.tab === key)));
+  const tab = document.querySelector(`#categoryFilters .chip[data-tab="${CSS.escape(key)}"]`);
+  if (tab) tab.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+}
+
+function segHtml(name, current, options) {
+  return `<div class="seg" role="group">${options.map(([value, label]) =>
+    `<button type="button" data-seg="${name}" data-val="${escapeHtml(value)}" aria-pressed="${value === current}">${label}</button>`
+  ).join("")}</div>`;
+}
+
+// ---------------------------------------------------------------- 記事のカード
+
+// 先頭の大きな記事（写真に見出しを重ねる）と、一覧の行。
+// kicker … 見出しの上の小さな行（カテゴリ・注目など）
+// byline … 出典と時刻の行
+// extra  … 要約の下に足すもの（開催日など）
+// overlay … 写真の上に重ねる印（動画の ▶ など。無くてよい）
+function leadHtml(item, parts) {
+  const img = item.image
+    ? `<img class="lead-img" src="${escapeHtml(item.image)}" alt="" decoding="async" referrerpolicy="no-referrer" data-ph="${parts.mark}">`
+    : `<div class="lead-img ph">${parts.mark}</div>`;
+  return `
+  <article class="lead" data-id="${escapeHtml(item.id)}">
+    <a ${linkAttrs(parts.target)}>
+      ${img}${parts.overlay || ""}
+      <div class="lead-txt">
+        ${parts.kicker}
+        <h2>${escapeHtml(item.title_ja)}</h2>
+        ${parts.summary ? `<p class="dek clamp2">${escapeHtml(parts.summary)}</p>` : ""}
+        ${parts.extra || ""}
+        ${parts.byline}
+      </div>
+    </a>
+  </article>`;
+}
+
+function postHtml(item, parts) {
+  const img = item.image
+    ? `<img class="thumb" src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-ph="${parts.mark}">`
+    : `<div class="thumb ph">${parts.mark}</div>`;
+  return `
+  <article class="post" data-id="${escapeHtml(item.id)}">
+    <a ${linkAttrs(parts.target)}>
+      <div class="post-img">${img}${parts.overlay || ""}</div>
+      <div class="post-txt">
+        ${parts.kicker}
+        <h2 class="clamp3">${escapeHtml(item.title_ja)}</h2>
+        ${parts.summary ? `<p class="dek clamp2">${escapeHtml(parts.summary)}</p>` : ""}
+        ${parts.extra || ""}
+        ${parts.byline}
+      </div>
+    </a>
+  </article>`;
+}
+
+// いちばん新しい記事だけ大きく、あとは同じ大きさで並べる。
+// #list の中に <div id="leadSlot"> と <div class="news" id="news"> を置いてから呼ぶ。
+let filtered = [], shown = 0;
+function renderMore(partsFor) {
+  const news = document.getElementById("news");
+  const lead = document.getElementById("leadSlot");
+  if (!news) return;
+  const slice = filtered.slice(shown, shown + PAGE_SIZE);
+  if (shown === 0 && slice.length && lead) {
+    lead.outerHTML = leadHtml(slice[0], partsFor(slice[0]));
+    news.insertAdjacentHTML("beforeend", slice.slice(1).map(i => postHtml(i, partsFor(i))).join(""));
+  } else {
+    news.insertAdjacentHTML("beforeend", slice.map(i => postHtml(i, partsFor(i))).join(""));
+  }
+  shown += slice.length;
+  document.getElementById("more").hidden = shown >= filtered.length;
+}
+
+// ---------------------------------------------------------------- 検索・もっと見る・画像
+
+function setupSearch(onChange) {
+  const toggle = document.getElementById("searchToggle");
+  const bar = document.getElementById("searchBar");
+  const input = document.getElementById("search");
+  toggle.addEventListener("click", () => {
+    const open = bar.hidden;
+    bar.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+    if (open) {
+      input.focus();
+    } else if (input.value) {
+      // 閉じたら絞り込みも外す（見えないところで絞り込まれたままにしない）。
+      input.value = "";
+      input.dispatchEvent(new Event("input"));
+      onChange("", true);
+    }
+  });
+  let timer;
+  input.addEventListener("input", e => {
+    clearTimeout(timer);
+    const value = e.target.value;
+    timer = setTimeout(() => onChange(value, false), 180);
+  });
+}
+
+function setupMore(render) {
+  const more = document.getElementById("more");
+  more.addEventListener("click", render);
+  // ボタンが見えてきたら、押さなくても続きを出す。
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(entries => {
+      if (entries.some(en => en.isIntersecting) && !more.hidden && !document.body.classList.contains("ui-favmode")) render();
+    }, { rootMargin: "400px 0px" }).observe(more);
+  }
+}
+
+// 画像のURLが切れていたら、同じ大きさの代わりの絵に置き換える（穴を空けない）。
+// 読み込めても極端に小さい画像は「いいね」ボタンなどの部品なので同じ扱いにする。
+// error / load は親まで上がってこないので、捕捉フェーズで受ける。
+function setupPlaceholders(fallback) {
+  const replace = img => {
+    const box = document.createElement("div");
+    box.className = `${img.className} ph`;
+    box.textContent = img.dataset.ph || fallback;
+    img.replaceWith(box);
+  };
+  const list = document.getElementById("list");
+  list.addEventListener("error", e => {
+    if (e.target instanceof HTMLImageElement) replace(e.target);
+  }, true);
+  list.addEventListener("load", e => {
+    const img = e.target;
+    if (img instanceof HTMLImageElement && img.naturalWidth && img.naturalWidth < 200) replace(img);
+  }, true);
+}
+
+// ================================================================ このサイトの分
+
+let all = [], digest = null, meta = { categories: [], media_kinds: [], regions: [] };
+// tab … 上のタブ（2つの軸）
+let tab = "all", media = "all", region = "all", category = "all", query = "";
+
+const MEDIA_LABELS = { blog: "📝 ブログ", news: "🗞 ニュース", youtube: "▶️ YouTube", x: "𝕏 ポスト" };
+const AXIS_LABELS = { new: "新作", use: "使い方" };
+const AXIS_MARK = { new: "🆕", use: "💡" };
+const INTRO = {
+  all: "100円ショップの新作と使い方",
+  new: "いま何が出ているか",
+  use: "どう使うと便利か",
+};
+
+// 海外の記事は Google 翻訳ごしのURLで開く。
+// translate.goog はホスト名の "." を "-"、もとの "-" を "--" に置き換えた別ホストで
+// 同じページを配信する（example-com.translate.goog/…）。
+// 変換はこちら側では一切通信せずに組み立てる。読みに行くのは記事を開いた人のブラウザだけ。
+function translateUrl(raw) {
+  try {
+    const u = new URL(raw);
+    if (u.protocol !== "https:" && u.protocol !== "http:") return "";
+    const host = u.hostname.split(".").map(part => part.replace(/-/g, "--")).join("-");
+    const params = new URLSearchParams(u.search);
+    params.set("_x_tr_sl", "auto");
+    params.set("_x_tr_tl", "ja");
+    params.set("_x_tr_hl", "ja");
+    return `https://${host}.translate.goog${u.pathname}?${params}${u.hash}`;
+  } catch (err) {
+    return "";
+  }
+}
+
+// 動画は訳しても仕方がなく、Xは翻訳ごしだと本文が出ない。日本語の記事もそのまま。
+function readingUrl(item) {
+  if (item.region !== "海外") return "";
+  if (item.media === "youtube" || item.media === "x") return "";
+  return translateUrl(item.url);
+}
+
+// お気に入り一覧（ui.js）も同じ決め方を使うので、window.NEWS_LINK に置いておく。
+function linkTarget(item) {
+  const translated = readingUrl(item);
+  // 字幕から要約できた動画は、動画ではなく要約ページ（v.html）を開く。
+  if (item.media === "youtube" && item.has_video_summary) {
+    return { href: `v.html?id=${encodeURIComponent(item.id)}`, blank: false, label: "📝 要約を読む →" };
+  }
+  const cta = translated ? "日本語で読む →"
+    : item.media === "youtube" ? "動画を見る →"
+    : item.media === "x" ? "Xで見る →" : "元の記事を読む →";
+  return { href: translated || item.url, blank: true, label: (translated ? "🌐 " : "") + cta };
+}
+window.NEWS_LINK = linkTarget;
+
+const pool = () => tab === "all" ? all : all.filter(i => i.axis === tab);
+const isPlain = () => media === "all" && region === "all" && category === "all" && !query.trim();
+
+function partsFor(item) {
+  const axis = item.axis === "use" ? "use" : "new";
+  const translated = readingUrl(item);
+  const things = (item.things || []).slice(0, 4);
+  return {
+    mark: AXIS_MARK[axis],
+    target: linkTarget(item),
+    summary: item.summary_ja,
+    overlay: item.media !== "youtube" ? ""
+      : item.has_video_summary ? '<span class="play sum">📝 要約</span>' : '<span class="play">▶</span>',
+    kicker: `<div class="kicker">
+        <span class="axis ${axis}">${AXIS_MARK[axis]} ${AXIS_LABELS[axis]}</span>
+        <span class="sub">${escapeHtml(item.category)}</span>
+        ${item.importance >= 4 ? '<span class="hot">読み応え</span>' : ""}
+      </div>`,
+    extra: things.length ? `<div class="things">${things.map(t =>
+      `<span class="thing" data-thing="${escapeHtml(t)}">${escapeHtml(t)}</span>`).join("")}</div>` : "",
+    // 翻訳を受け付けない媒体があるので、海外の記事には必ず「原文」を添える。
+    byline: `<div class="byline">${MEDIA_LABELS[item.media] || "📝 ブログ"}<span class="dot">·</span>${item.region === "海外" ? "🌍 " : ""}${escapeHtml(item.source)}<span class="dot">·</span>${relative(item.published)}${
+      translated ? `<span class="dot">·</span><span class="orig" data-orig="${escapeHtml(item.url)}">原文</span>` : ""}</div>`,
+  };
+}
+
+function apply() {
+  const q = query.trim().toLowerCase();
+  // 軸を切り替えた結果、選んでいた絞り込みが空になることがあるので戻す。
+  if (category !== "all" && !pool().some(i => i.category === category)) category = "all";
+  if (media !== "all" && !pool().some(i => i.media === media)) media = "all";
+  if (region !== "all" && !pool().some(i => i.region === region)) region = "all";
+  renderSubFilters();
+
+  filtered = all.filter(item => {
+    if (tab !== "all" && item.axis !== tab) return false;
+    if (media !== "all" && item.media !== media) return false;
+    if (region !== "all" && item.region !== region) return false;
+    if (category !== "all" && item.category !== category) return false;
+    if (q) {
+      const hay = `${item.title_ja} ${item.summary_ja} ${item.title_original} ${item.source} ${(item.things || []).join(" ")}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  shown = 0;
+  const list = document.getElementById("list");
+  const intro = `<p class="intro">${escapeHtml(INTRO[tab] || INTRO.all)} — <b>${filtered.length}件</b></p>`;
+  if (!filtered.length) {
+    list.innerHTML = intro + '<p class="empty">該当する記事がありません</p>';
+    document.getElementById("more").hidden = true;
+    return;
+  }
+  // 絞り込みをしていないときは、先頭の記事のあとに「ここ数日の傾向」を挟む。
+  list.innerHTML = intro + `<div id="leadSlot"></div>` + (isPlain() ? digestHtml() : "")
+    + (isPlain() && digest ? `<div class="sec-head"><h3>新着</h3></div>` : "")
+    + `<div class="news" id="news"></div>`;
+  render();
+}
+const render = () => renderMore(partsFor);
+
+// ---- ここ数日の傾向 --------------------------------------------------------
+// 収集のたびに collect.py が作り直して articles.json に入れてくる。
+// 最初は要点2つだけ見せ、残りとキーワードは「続きを読む」で開く。開いたかどうかは端末ごとに覚える
+// （同じドメインに6サイトあるので、キーにサイト名を入れて混ざらないようにする）。
+const DIGEST_KEY = "hyakkin-news:digest-more";
+function digestMore() {
+  try { return localStorage.getItem(DIGEST_KEY) === "1"; } catch (err) { return false; }
+}
+
+function digestHtml() {
+  if (!digest || !digest.overview) return "";
+  // 開いているタブに合わせて一文目を差し替える。軸ごとの一言が無ければ全体の話を出す。
+  const lead = (tab === "new" && digest.new) || (tab === "use" && digest.use) || digest.overview;
+  const FIRST = 2;
+  const points = digest.points || [];
+  const keys = (digest.keywords || []).map(k =>
+    `<button class="dg-key" type="button" data-key="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join("");
+  const counts = digest.new_count != null ? `🆕 ${digest.new_count} ・ 💡 ${digest.use_count}` : "";
+  const extra = points.length > FIRST || keys;
+  return `
+  <section class="digest${digestMore() ? " open" : ""}" id="digest">
+    <div class="dg-label">ここ数日の傾向<span>${escapeHtml(digest.period || "")} · ${digest.count || 0}件から${counts ? ` · ${counts}` : ""}</span></div>
+    <h3>${escapeHtml(lead)}</h3>
+    ${points.length ? `<ol>${points.map((p, n) =>
+      `<li class="${n >= FIRST ? "more" : ""}"><b>${escapeHtml(p.title)}</b>${escapeHtml(p.body)}</li>`).join("")}</ol>` : ""}
+    ${keys ? `<div class="dg-keys more">${keys}</div>` : ""}
+    <div class="dg-foot">
+      <span class="dg-note">集めた記事の要約から機械がまとめた傾向です</span>
+      ${extra ? `<button class="dg-toggle" type="button" data-digest>${digestMore() ? "閉じる" : "続きを読む"}</button>` : ""}
+    </div>
+  </section>`;
+}
+
+// 該当0件の切り替えは押しても空になるだけなので、そもそも出さない。
+// 軸で絞り込んだあとの中身に合わせたいので、いまの軸の記事だけで数える。
+function renderSubFilters() {
+  const here = pool();
+  const cats = meta.categories.filter(c => here.some(i => i.category === c));
+  const medias = meta.media_kinds.filter(m => here.some(i => i.media === m));
+  const regions = meta.regions.filter(r => here.some(i => i.region === r));
+  document.getElementById("subFilters").innerHTML =
+    segHtml("category", category, [["all", "全カテゴリ"]].concat(cats.map(c => [c, escapeHtml(c)])))
+    + segHtml("media", media, [["all", "全種別"]].concat(medias.map(m => [m, MEDIA_LABELS[m] || m])))
+    // 100均は国内だけなので、地域が1つしか無いときは絞り込みを出さない。
+    + (regions.length > 1
+      ? segHtml("region", region, [["all", "海外＋国内"]].concat(regions.map(r => [r, r === "海外" ? "🌍 海外" : "🇯🇵 国内"])))
+      : "");
+}
+
+function buildTabs() {
+  const tabs = [["all", "トップ"]]
+    .concat(["new", "use"].filter(a => all.some(i => i.axis === a)).map(a => [a, `${AXIS_MARK[a]} ${AXIS_LABELS[a]}`]));
+  if (!tabs.some(([key]) => key === tab)) tab = "all";
+  renderTabs(tabs, tab);
+}
+
+document.getElementById("categoryFilters").addEventListener("click", e => {
+  const btn = e.target.closest("[data-tab]");
+  if (!btn) return;
+  tab = btn.dataset.tab;
+  markTab(tab);
+  animateNext();
+  apply();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+document.getElementById("subFilters").addEventListener("click", e => {
+  const btn = e.target.closest("[data-seg]");
+  if (!btn) return;
+  const value = btn.dataset.val;
+  ({ category: () => { category = value; }, media: () => { media = value; }, region: () => { region = value; } })[btn.dataset.seg]();
+  animateNext();
+  apply();
+});
+
+// 一覧の中で押せるもの: 商品名・キーワード（その言葉で絞り込む）、原文、傾向の開け閉め。
+function searchFor(word) {
+  const input = document.getElementById("search");
+  document.getElementById("searchBar").hidden = false;
+  document.getElementById("searchToggle").setAttribute("aria-expanded", "true");
+  input.value = query = word;
+  animateNext();
+  apply();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+document.getElementById("list").addEventListener("click", e => {
+  const thing = e.target.closest("[data-thing]");
+  const key = e.target.closest("[data-key]");
+  const orig = e.target.closest("[data-orig]");
+  if (thing || key || orig) e.preventDefault();   // カード全体のリンクは開かない
+  if (thing) return searchFor(thing.dataset.thing);
+  if (key) return searchFor(key.dataset.key);
+  if (orig) return window.open(orig.dataset.orig, "_blank", "noopener,noreferrer");
+  if (e.target.closest("[data-digest]")) {
+    try { localStorage.setItem(DIGEST_KEY, digestMore() ? "0" : "1"); } catch (err) { /* 使えなくても動く */ }
+    const box = document.getElementById("digest");
+    if (box) box.outerHTML = digestHtml();
+  }
+});
+
+setupSearch(value => { query = value; apply(); });
+setupMore(render);
+setupPlaceholders("🛒");
+
+// リンクを開いて戻ったとき、一覧の位置・開いていた絞り込みを元に戻す。
+// アプリに戻るたびに一覧を作り直すと、先頭に戻ってしまうので、
+// 内容が変わっていなければ描き直さず、変わっていても位置と表示件数を引き継ぐ。
+const VIEW_KEY = "hkn-view";
+let lastUpdated = null;
+
+function saveView() {
+  try {
+    sessionStorage.setItem(VIEW_KEY, JSON.stringify({ y: window.scrollY, shown, tab, media, region, category, query }));
+  } catch (err) { /* 使えなくても動く */ }
+}
+window.addEventListener("pagehide", saveView);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") saveView(); });
+
+function savedViewOnBack() {
+  try {
+    const nav = performance.getEntriesByType("navigation")[0];
+    const raw = sessionStorage.getItem(VIEW_KEY);
+    if (!raw || !nav || nav.type !== "back_forward") return null;
+    return JSON.parse(raw);
+  } catch (err) { return null; }
+}
+
+function restoreScroll(view) {
+  if (!view) return;
+  while (shown < view.shown && shown < filtered.length) render();
+  window.scrollTo(0, view.y);
+}
+
+// 動画の要約は Mac の news_yt_summary が別のファイルに置く（Actions の articles.json とぶつけないため）。
+// 無くても一覧は出す。
+async function withVideoSummaries(items) {
+  try {
+    const res = await fetch(`yt_summaries.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) return items;
+    const done = (await res.json()).done || {};
+    for (const item of items) {
+      const v = done[item.id];
+      if (item.media !== "youtube" || !v) continue;
+      item.has_video_summary = true;
+      item.summary_ja = v.summary;
+    }
+  } catch (err) { /* 要約が読めなくても一覧は出す */ }
+  return items;
+}
+
+async function load() {
+  try {
+    const res = await fetch(`articles.json?t=${Date.now()}`, { cache: "no-store" });
+    const data = await res.json();
+    const firstLoad = lastUpdated === null;
+    if (!firstLoad && (data.updated_at || "") === lastUpdated) {
+      document.getElementById("updated").textContent = data.updated_at ? `${relative(data.updated_at)}に更新` : "";
+      return;
+    }
+    lastUpdated = data.updated_at || "";
+    let view = null;
+    if (firstLoad) {
+      view = savedViewOnBack();
+      if (view) {
+        ({ tab, media, region, category, query } = view);
+        if (query) {
+          document.getElementById("search").value = query;
+          document.getElementById("searchBar").hidden = false;
+          document.getElementById("searchToggle").setAttribute("aria-expanded", "true");
+        }
+      }
+    } else {
+      view = { y: window.scrollY, shown };
+    }
+    all = window.NEWS_ITEMS = await withVideoSummaries(data.items || []);
+    meta = {
+      categories: data.categories || [],
+      media_kinds: data.media_kinds || [],
+      regions: data.regions || [],
+    };
+    digest = data.digest || null;
+    document.getElementById("updated").textContent = data.updated_at ? `${relative(data.updated_at)}に更新` : "";
+    document.getElementById("sources").textContent = "収集元: " + (data.sources || []).join("、");
+    buildTabs();
+    apply();
+    restoreScroll(view);
+  } catch (err) {
+    document.getElementById("list").innerHTML = '<p class="empty">記事を読み込めませんでした。時間をおいて再読み込みしてください。</p>';
+  }
+}
+
+load();
+// ホーム画面から復帰したときに最新へ追従する。
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") load();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1211 @@
+#!/usr/bin/env python3
+"""100円ショップ（ダイソー・セリア・キャンドゥ・3COINS など）の話題を集め、
+日本語の見出しと要約を付けて docs/articles.json に書き出す。
+
+集めるのは2つの軸。
+  new = 新作・新商品（何が出たか・再入荷・新ブランドや新店舗）
+  use = 使い方・活用（どう使うと便利か・比べてみた・収納や掃除の工夫）
+
+原文の本文はそのまま載せない。独自の短い要約・出典名・原文へのリンクだけを持たせる
+（引用の範囲に収めるため）。
+
+ミニマリスト・ニュース（minimalist_news_site）を写して作った。収集・要約・まとめの
+仕組みは同じで、違うのは収集元・軸・分類・LLMへの指示だけ。
+
+GitHub Actions から6時間ごとに実行され、差分がコミットされると
+GitHub Pages 側のサイトが更新される。ローカルでも同じスクリプトが動く。
+"""
+
+from __future__ import annotations
+
+import concurrent.futures
+import datetime as dt
+import hashlib
+import html
+import json
+import os
+import re
+import sys
+import time
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+from difflib import SequenceMatcher
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, BASE_DIR)
+
+import llm_providers  # noqa: E402  （.env 読み込みより前でよい。キーは呼び出し時に参照される）
+
+FEEDS_PATH = os.path.join(BASE_DIR, "feeds.json")
+OUTPUT_PATH = os.path.join(BASE_DIR, "docs", "articles.json")
+
+USER_AGENT = "hyakkin-news/1.0 (+https://github.com/mifune39428)"
+FETCH_TIMEOUT = 25
+
+# 新しく取り込む記事の対象期間。ブログは毎日は更新されないので少し広めに取る。
+# フィード側で intake_days を指定すると、その収集元だけ期間を変えられる
+# （Xの投稿は数日〜数週間おきなので、既定の4日だと1件も入らない）。
+INTAKE_DAYS = 4
+# サイトに残す期間と件数の上限。新作は1か月もすると店頭から消えるので、ミニマリストより短くする。
+KEEP_DAYS = 30
+KEEP_MAX = 400
+# noteのハッシュタグ記事は量が多く、放っておくと棚の半分近くを占めた（2026-10-20に47%）。
+# 新しい順に数えて、この割合を超えた分は載せない。
+NOTE_SHARE_MAX = 0.15
+
+
+def cap_note_share(items: list[dict]) -> list[dict]:
+    others = sum(1 for item in items if not str(item.get("source", "")).startswith("note"))
+    limit = int(others * NOTE_SHARE_MAX / (1 - NOTE_SHARE_MAX))
+    kept, notes = [], 0
+    for item in items:
+        if str(item.get("source", "")).startswith("note"):
+            if notes >= limit:
+                continue
+            notes += 1
+        kept.append(item)
+    return kept
+# 1回のLLM呼び出しでまとめて処理する記事数。
+# Groqの無料枠は分あたりトークン数（TPM 6000）が厳しいので、大きくし過ぎない。
+BATCH_SIZE = 5
+# 1回の実行で要約する上限。無料枠の1日あたり回数を使い切らないための蓋。
+# 溢れた分は次の実行（6時間後）に回る。
+MAX_NEW_PER_RUN = 40
+# そのうち「使い方」寄りの収集元のために空けておく枠。
+# 「新商品」の検索は1回で数十件届くので、放っておくと「使い方」タブが埋まらない。
+USE_QUOTA = 15
+# 海外の記事のための枠。100均は国内の話だけなので使わない（ミニマリストの名残）。
+GLOBAL_QUOTA = 0
+# 1回の実行で、過去の記事のサムネイルを取りに行く件数の上限。
+BACKFILL_PER_RUN = 30
+# トップに出す「ここ数日の傾向」が見る期間と、まとめに渡す記事数の上限。
+DIGEST_DAYS = 3
+DIGEST_MAX_ITEMS = 45
+# これを下回る件数しか無いときは傾向をまとめ直さず、前回のものを残す
+# （2〜3件から「傾向」を語らせると、記事1本の紹介文にしかならない）。
+DIGEST_MIN_ITEMS = 5
+# nitter は連続で叩くと弾かれる。slow 指定のフィードはこの間隔をあけて順番に取る。
+SLOW_FEED_INTERVAL = 12
+SLOW_FEED_RETRIES = 2
+
+# 記事の2軸。サイト上部のタブに対応する。
+AXES = ["new", "use"]
+
+CATEGORIES = [
+    "収納・整理",
+    "キッチン",
+    "掃除・洗濯",
+    "文具・手帳",
+    "コスメ・美容",
+    "ファッション・小物",
+    "スマホ・ガジェット",
+    "インテリア・季節",
+    "キャラクター・コラボ",
+    "お店・ブランド",
+    "その他",
+]
+
+MEDIA_KINDS = ["blog", "news", "youtube", "x"]
+REGIONS = ["国内"]
+
+# Googleニュース経由で紛れ込む、この話題と縁のない出典。部分一致で落とす。
+# ゲーム攻略と占いは「持ち物」「捨てる」という語に反応して繰り返し湧いてくる。
+# 100均ではPR TIMESは落とさない（新ブランド・新店舗・コラボの一次情報が出るため）。
+BLOCK_SOURCES = ["GameWith", "Game8", "アルテマ", "神ゲー攻略"]
+
+# Googleニュースの <source> がドメインのまま入ってくる媒体を、読める名前に直す。
+DOMAIN_NAMES = {
+    "news.yahoo.co.jp": "Yahoo!ニュース",
+    "www3.nhk.or.jp": "NHK",
+    "www.nhk.or.jp": "NHK",
+    "news.ntv.co.jp": "日テレNEWS",
+}
+
+JST = dt.timezone(dt.timedelta(hours=9))
+
+ATOM = "{http://www.w3.org/2005/Atom}"
+MEDIA = "{http://search.yahoo.com/mrss/}"
+DC = "{http://purl.org/dc/elements/1.1/}"
+CONTENT = "{http://purl.org/rss/1.0/modules/content/}"
+RSS10 = "{http://purl.org/rss/1.0/}"
+YT = "{http://www.youtube.com/xml/schemas/2015}"
+
+
+# --------------------------------------------------------------------------
+# 下ごしらえ
+# --------------------------------------------------------------------------
+
+def load_env() -> None:
+    """.env があれば読む（GitHub Actions では Secrets が環境変数で入るので不要）。"""
+    path = os.path.join(BASE_DIR, ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            os.environ.setdefault(key.strip(), value.strip().strip("'\""))
+
+
+def strip_html(text: str) -> str:
+    text = re.sub(r"(?is)<(script|style).*?</\1>", " ", text or "")
+    text = re.sub(r"(?s)<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def canonical_url(url: str) -> str:
+    """トラッキング用のクエリを落として、同じ記事が別URLに見えないようにする。"""
+    try:
+        parts = urllib.parse.urlsplit(url.strip())
+    except ValueError:
+        return url.strip()
+    query = [
+        (k, v)
+        for k, v in urllib.parse.parse_qsl(parts.query)
+        if not k.lower().startswith(("utm_", "fbclid", "gclid", "ref", "at_"))
+    ]
+    # Google ニュースと YouTube はクエリに記事・動画のIDが載るので触らない。
+    if parts.netloc in ("news.google.com", "www.youtube.com", "youtube.com"):
+        query = urllib.parse.parse_qsl(parts.query)
+    cleaned = parts._replace(query=urllib.parse.urlencode(query), fragment="")
+    return urllib.parse.urlunsplit(cleaned).rstrip("/")
+
+
+def article_id(url: str) -> str:
+    return hashlib.sha1(canonical_url(url).encode("utf-8")).hexdigest()[:16]
+
+
+def parse_date(raw: str) -> dt.datetime | None:
+    raw = (raw or "").strip()
+    if not raw:
+        return None
+    try:
+        from email.utils import parsedate_to_datetime
+
+        parsed = parsedate_to_datetime(raw)
+        if parsed is not None:
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=dt.timezone.utc)
+            return parsed.astimezone(dt.timezone.utc)
+    except (TypeError, ValueError):
+        pass
+    try:
+        parsed = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=dt.timezone.utc)
+        return parsed.astimezone(dt.timezone.utc)
+    except ValueError:
+        return None
+
+
+# --------------------------------------------------------------------------
+# RSS / Atom / RDF の取得
+# --------------------------------------------------------------------------
+
+def _text(node, *paths: str) -> str:
+    for path in paths:
+        found = node.find(path)
+        if found is not None:
+            if found.text:
+                return found.text
+            # Atom の <link href="..."> のように属性側に入っている場合。
+            href = found.get("href")
+            if href:
+                return href
+    return ""
+
+
+# 記事のサムネイルとして使わない画像（配信計測用の透明画像やアイコンなど）。
+IMAGE_BLOCKLIST = ("feedburner", "gravatar", "/pixel", "1x1", "blank.gif", "spacer",
+                   "doubleclick", "/award_", "profile_images")
+IMG_TAG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.I)
+OG_IMAGE_RE = re.compile(
+    r'<meta[^>]+(?:property|name)=["\'](?:og:image(?::url)?|twitter:image(?::src)?)["\']'
+    r'[^>]+content=["\']([^"\']+)["\']|'
+    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+'
+    r'(?:property|name)=["\'](?:og:image(?::url)?|twitter:image(?::src)?)["\']',
+    re.I,
+)
+
+
+def usable_image(url: str, base: str) -> str:
+    url = html.unescape((url or "").strip())
+    if not url:
+        return ""
+    url = urllib.parse.urljoin(base, url)
+    if not url.startswith(("http://", "https://")):
+        return ""
+    if any(word in url.lower() for word in IMAGE_BLOCKLIST):
+        return ""
+    return url
+
+
+def image_from_entry(entry, base: str) -> str:
+    """RSSの中に入っている画像を探す。媒体ごとに置き場所が違うので順に当たる。"""
+    # YouTube はサムネイルを <media:group> の中に入れるので、入れ子ごと辿る。
+    for node in list(entry.iter(f"{MEDIA}thumbnail")) + list(entry.iter(f"{MEDIA}content")):
+        medium = (node.get("medium") or node.get("type") or "").lower()
+        if medium and "image" not in medium:
+            continue
+        found = usable_image(node.get("url", ""), base)
+        if found:
+            return found
+
+    for node in entry.findall("enclosure") + entry.findall(f"{ATOM}link"):
+        if "image" in (node.get("type") or "").lower():
+            found = usable_image(node.get("url") or node.get("href") or "", base)
+            if found:
+                return found
+
+    # 本文HTMLの最初の <img>。多くの媒体はここにアイキャッチが入っている。
+    raw_body = " ".join(
+        node.text or ""
+        for tag in ("description", f"{CONTENT}encoded", f"{RSS10}description",
+                    f"{ATOM}summary", f"{ATOM}content")
+        for node in entry.findall(tag)
+    )
+    for candidate in IMG_TAG_RE.findall(raw_body):
+        found = usable_image(candidate, base)
+        if found:
+            return found
+    return ""
+
+
+# --------------------------------------------------------------------------
+# Google ニュースのリンクを元媒体のURLに戻す
+# --------------------------------------------------------------------------
+
+GOOGLE_BATCH_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+SIGNATURE_RE = re.compile(r'data-n-a-sg="([^"]+)"')
+TIMESTAMP_RE = re.compile(r'data-n-a-ts="([^"]+)"')
+
+
+def resolve_google_url(url: str) -> str:
+    """news.google.com の転送URLから、元媒体の記事URLを取り出す。
+
+    転送ページはJavaScriptで飛ぶ作りなので、HTTPを追うだけでは元URLが分からない。
+    ページに埋まっている署名（sg）と時刻（ts）を Google の batchexecute に投げると
+    元URLが返る。取れなければ転送URLのまま使う（リンクとしては機能する）。
+    """
+    if "news.google.com" not in url:
+        return url
+    try:
+        gid = url.split("/articles/")[1].split("?")[0]
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(request, timeout=15) as response:
+            # 署名はページのかなり後ろに入っているので、途中で切らずに全部読む。
+            page = response.read().decode("utf-8", errors="ignore")
+        signature, timestamp = SIGNATURE_RE.search(page), TIMESTAMP_RE.search(page)
+        if not signature or not timestamp:
+            return url
+
+        payload = [[
+            "Fbv4je",
+            json.dumps([
+                "garturlreq",
+                [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+                  None, None, None, None, None, 0, 1],
+                 "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                gid, int(timestamp.group(1)), signature.group(1),
+            ]),
+            None, "1",
+        ]]
+        data = urllib.parse.urlencode({"f.req": json.dumps([payload])}).encode()
+        request = urllib.request.Request(
+            GOOGLE_BATCH_URL,
+            data=data,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=15) as response:
+            body = response.read().decode("utf-8", errors="ignore")
+    except Exception:  # noqa: BLE001  取れなくても転送URLで記事は読める
+        return url
+    return parse_garturlres(body) or url
+
+
+def parse_garturlres(body: str) -> str:
+    """batchexecute の返事から元URLを取り出す。
+
+    返事は `[["wrb.fr","Fbv4je","[\\"garturlres\\",\\"https://…\\",1]",…]]` の形で、
+    URLは二重にJSONエスケープされている。素直に2段階で読む。
+    """
+    for line in body.splitlines():
+        if "garturlres" not in line:
+            continue
+        try:
+            for part in json.loads(line):
+                if isinstance(part, list) and len(part) > 2 and part[0] == "wrb.fr":
+                    inner = json.loads(part[2])
+                    if len(inner) > 1 and str(inner[1]).startswith("http"):
+                        return canonical_url(inner[1])
+        except (json.JSONDecodeError, TypeError, ValueError):
+            continue
+    return ""
+
+
+def resolve_google_urls(items: list[dict]) -> None:
+    targets = [item for item in items if "news.google.com" in item["url"]]
+    if not targets:
+        return
+    print(f"  Googleニュースのリンク {len(targets)}件を元媒体のURLに変換中 …")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for item, resolved in zip(targets, pool.map(lambda i: resolve_google_url(i["url"]), targets)):
+            item["url"] = resolved
+    remaining = sum(1 for item in targets if "news.google.com" in item["url"])
+    print(f"  変換できたもの {len(targets) - remaining}件")
+
+
+def fetch_og_image(url: str) -> str:
+    """RSSに画像が無い記事は、元ページの og:image を見に行く。"""
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(request, timeout=12) as response:
+            head = response.read(200_000).decode("utf-8", errors="ignore")
+            final_url = response.geturl()
+    except Exception:  # noqa: BLE001  取れなくても記事自体は載せる
+        return ""
+    match = OG_IMAGE_RE.search(head)
+    if not match:
+        return ""
+    return usable_image(match.group(1) or match.group(2) or "", final_url)
+
+
+def fill_missing_images(items: list[dict], limit: int = 0) -> None:
+    """画像がまだ無い記事について、元ページの og:image を取りに行く。
+
+    limit を渡すと1回に取りに行く件数を抑える（既存記事の穴埋め用）。
+    """
+    targets = [item for item in items if not item.get("image")]
+    if limit:
+        targets = targets[:limit]
+    if not targets:
+        return
+    print(f"  サムネイル未取得 {len(targets)}件をページから取得中 …")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for item, image in zip(targets, pool.map(lambda i: fetch_og_image(i["url"]), targets)):
+            item["image"] = image
+    print(f"  取得できたもの {sum(1 for item in targets if item['image'])}件")
+
+
+# YouTubeの概要欄で、動画の中身ではなく宣伝・定型文が書かれている行の目印。
+# 行ごと落とす（Matt D'Avella のように1行目がスポンサー読み上げの動画があるため）。
+PROMO_MARKERS = (
+    # 英語圏
+    "sponsor", "free trial", "discount", "% off", "promo code", "coupon", "$",
+    "affiliate", "commission", "subscribe", "my gear", "gear i use", "follow me",
+    "instagram", "twitter", "tiktok", "patreon", "newsletter", "join the",
+    "shop ", "use code", "check out", "link below", "watch more", "click here",
+    "membership", "/month", "sign up", "i'd love to help", "free guide",
+    "download", "my course", "my book", "0:00", "chapters", "@",
+    # 日本語圏
+    "チャンネル登録", "使用機材", "お仕事", "ご依頼", "お問い合わせ", "楽天",
+    "アフィリエイト", "提供", "案件", "bgm", "音源", "素材", "サブチャンネル",
+    "メンバーシップ", "インスタ", "目次", "こちら", "リンク", "キャンペーン",
+    "無料", "限定", "クーポン", "ダウンロード", "公式サイト", "円off", "プレゼント",
+    "詳細は", "応募", "当たる",
+)
+
+
+def clean_youtube_description(raw: str) -> str:
+    """YouTubeの概要欄から、動画の中身を語っている行だけを残す。
+
+    概要欄はスポンサー読み上げ・SNS誘導・使用機材・目次で大半が埋まる。
+    そのまま要約に渡すと「無料トライアルはこちら」のような要約が出来上がるので、
+    行単位で落としてから渡す。
+    """
+    text = html.unescape(re.sub(r"(?s)<br\s*/?>", "\n", raw or ""))
+    text = re.sub(r"(?s)<[^>]+>", " ", text)
+    kept = []
+    for line in text.splitlines():
+        line = re.sub(r"https?://\S+", " ", line)
+        line = re.sub(r"\s+", " ", line).strip(" 　-–—=*・▼▶︎▶#")
+        if len(line) < 8:
+            continue
+        lowered = line.lower()
+        if any(marker in lowered for marker in PROMO_MARKERS):
+            continue
+        # 「00:35 導入」のような目次行。
+        if re.match(r"^\d{1,2}:\d{2}", line):
+            continue
+        # 記号や絵文字ばかりの飾り行。
+        if len(re.sub(r"[\wぁ-んァ-ヶ一-龥]", "", line)) > len(line) * 0.5:
+            continue
+        kept.append(line)
+        if sum(len(k) for k in kept) > 400:
+            break
+    return " ".join(kept).strip()
+
+
+# X の投稿は nitter 経由で取る。nitter のURL・画像は本家のものに直してから使う。
+NITTER_STATUS_RE = re.compile(r"^https?://[^/]+/([^/]+)/status/(\d+)")
+NITTER_PIC_RE = re.compile(r'src="https?://[^/"]+/pic/(?:orig/)?([^"?]+)(\?[^"]*)?"')
+# nitter の見出しは、リツイートなら "RT by @…"、返信なら "R to @…" で始まる。
+# 本人の言葉ではないので取り込まない。
+RETWEET_PREFIXES = ("RT by ", "R to ")
+
+
+def x_permalink(nitter_url: str) -> str:
+    """nitter のURLを本家 x.com のURLに直す。読む人を nitter に送らないため。"""
+    match = NITTER_STATUS_RE.match(nitter_url)
+    return f"https://x.com/{match.group(1)}/status/{match.group(2)}" if match else nitter_url
+
+
+def x_image(entry) -> str:
+    """投稿に付いている画像を pbs.twimg.com のURLとして取り出す。
+
+    nitter は画像を自分のドメイン経由（/pic/media%2F…）で配 るので、そのままでは
+    こちらのサイトから見えない。元のファイル名に戻して本家のCDNを指す。
+    """
+    raw = _text(entry, "description", f"{CONTENT}encoded")
+    match = NITTER_PIC_RE.search(raw or "")
+    if not match:
+        return ""
+    path = urllib.parse.unquote(match.group(1))
+    # カード画像は既定が name=80（80px）で、サムネイルにすると粗い。大きい版を指す。
+    query = (match.group(2) or "").replace("name=80", "name=medium").replace("name=small", "name=medium")
+    return usable_image(f"https://pbs.twimg.com/{path}{query}", "https://pbs.twimg.com/")
+
+
+def entry_body(entry, media: str) -> str:
+    """要約の材料になる本文を取り出す。"""
+    if media == "youtube":
+        # YouTube の説明文は <media:group> の中にある。
+        node = entry.find(f"{MEDIA}group/{MEDIA}description")
+        if node is not None and node.text:
+            return clean_youtube_description(node.text)
+
+    raw = _text(
+        entry,
+        "description",
+        f"{CONTENT}encoded",
+        f"{RSS10}description",
+        f"{ATOM}summary",
+        f"{ATOM}content",
+    )
+    return strip_html(raw)
+
+
+def fetch_feed(feed: dict) -> list[dict]:
+    request = urllib.request.Request(feed["url"], headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=FETCH_TIMEOUT) as response:
+        raw = response.read()
+
+    root = ET.fromstring(raw)
+    entries = (
+        root.findall(".//item")
+        or root.findall(f".//{RSS10}item")
+        or root.findall(f".//{ATOM}entry")
+    )
+
+    media = feed.get("media", "blog")
+    items = []
+    for entry in entries:
+        title = strip_html(_text(entry, "title", f"{ATOM}title", f"{RSS10}title"))
+        link = _text(entry, "link", f"{RSS10}link", f"{ATOM}link").strip()
+        if not link:
+            # Atom は複数の <link> を持つので rel="alternate" を拾う。
+            for candidate in entry.findall(f"{ATOM}link"):
+                if candidate.get("rel", "alternate") == "alternate":
+                    link = (candidate.get("href") or "").strip()
+                    break
+        if not title or not link:
+            continue
+
+        source = feed["name"]
+        if feed.get("google_news"):
+            # Google ニュースの見出しは「本文の見出し - 媒体名」の形。
+            # 媒体名は <source> にも入っているので、そちらを出典として使う。
+            actual = strip_html(_text(entry, "source"))
+            if actual:
+                source = DOMAIN_NAMES.get(actual, actual)
+                if title.endswith(f" - {actual}"):
+                    title = title[: -len(actual) - 3].strip()
+            else:
+                title = re.sub(r"\s+-\s+[^-]{2,30}$", "", title).strip()
+        if any(blocked.lower() in source.lower() for blocked in BLOCK_SOURCES):
+            continue
+
+        published = parse_date(
+            _text(entry, "pubDate", f"{DC}date", f"{ATOM}published", f"{ATOM}updated", "date")
+        )
+        body = entry_body(entry, media)
+        # 見出しがハッシュタグ並びで説明も無い動画はショート。中身を知る手がかりが無く、
+        # 「暮らしを整える様子を紹介」のような当たり障りのない要約にしかならないので取らない。
+        if media == "youtube" and not body and len(re.findall(r"#\S+", title)) >= 2:
+            continue
+        # Google ニュースの description は他媒体へのリンク集なので要約の材料にならない。
+        if feed.get("google_news"):
+            body = ""
+
+        # 総合的な媒体は、100均に関わる語が見出しか本文に入った記事だけ拾う。
+        # LLMに投げる前のふるい（無関係な記事で1回の処理枠を食い潰さないため）。
+        if feed.get("keywords"):
+            haystack = f"{title} {body}".lower()
+            if not any(word in haystack for word in feed["keywords"]):
+                continue
+
+        if media == "x":
+            # 本人の投稿だけを、本家へのリンクと本家の画像で取り込む。
+            if title.startswith(RETWEET_PREFIXES):
+                continue
+            link = x_permalink(link)
+            image = x_image(entry)
+        else:
+            image = image_from_entry(entry, link)
+
+        items.append(
+            {
+                "id": article_id(link),
+                "url": canonical_url(link),
+                "title_original": title,
+                "excerpt": body[:800],
+                "source": source,
+                "image": image,
+                "media": media if media in MEDIA_KINDS else "blog",
+                "region": feed.get("region", "海外"),
+                "hint": feed.get("hint", ""),
+                "intake_days": int(feed.get("intake_days", 0) or 0),
+                "published": (published or dt.datetime.now(dt.timezone.utc)).isoformat(),
+            }
+        )
+
+    limit = int(feed.get("max_items", 0) or 0)
+    if limit:
+        items.sort(key=lambda item: item["published"], reverse=True)
+        items = items[:limit]
+    return items
+
+
+def collect_feed_items(feeds: list[dict]) -> list[dict]:
+    """通常のフィードは並列で、slow 指定のものは間隔をあけて順番に取る。"""
+    collected: list[dict] = []
+    quick = [feed for feed in feeds if not feed.get("slow")]
+    slow = [feed for feed in feeds if feed.get("slow")]
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        futures = {pool.submit(fetch_feed, feed): feed for feed in quick}
+        for future in concurrent.futures.as_completed(futures):
+            feed = futures[future]
+            try:
+                items = future.result()
+            except Exception as exc:  # 1本落ちても全体は続ける
+                print(f"  × {feed['name']}: {type(exc).__name__}: {exc}")
+                continue
+            print(f"  ○ {feed['name']}: {len(items)}件")
+            collected.extend(items)
+
+    if slow:
+        print(f"  X など {len(slow)}本は{SLOW_FEED_INTERVAL}秒あけて順番に取得します"
+              f"（弾かれた分は次の実行に回ります）")
+    for index, feed in enumerate(slow):
+        if index:
+            time.sleep(SLOW_FEED_INTERVAL)
+        for attempt in range(SLOW_FEED_RETRIES + 1):
+            try:
+                items = fetch_feed(feed)
+            except Exception as exc:  # noqa: BLE001
+                if attempt < SLOW_FEED_RETRIES:
+                    time.sleep(SLOW_FEED_INTERVAL)
+                    continue
+                # 429 は日常茶飯事。落ちた分は次の実行で拾い直せばよい。
+                print(f"  × {feed['name']}: {type(exc).__name__}: {exc}")
+                break
+            print(f"  ○ {feed['name']}: {len(items)}件")
+            collected.extend(items)
+            break
+    return collected
+
+
+# --------------------------------------------------------------------------
+# 重複の除去
+# --------------------------------------------------------------------------
+
+def normalize_title(title: str) -> str:
+    title = re.sub(r"[\s　]+", "", title.lower())
+    return re.sub(r"[!-/:-@\[-`{-~、。「」・…—–\-]", "", title)
+
+
+TOKEN_RE = re.compile(r"[A-Za-z]{2,}|[0-9]+|[ァ-ヶー]{2,}|[一-龥]{2,}")
+
+
+def title_tokens(title: str) -> set[str]:
+    return {t.lower() for t in TOKEN_RE.findall(title)}
+
+
+def same_story(a: dict, b: dict) -> bool:
+    """日本語化した見出しで、同じ話題かどうかを見る。
+
+    海外記事と国内記事は原題が別物なので、日本語の見出しになって初めて重なりが分かる。
+    """
+    published_a, published_b = parse_date(a["published"]), parse_date(b["published"])
+    if published_a and published_b and abs((published_a - published_b).total_seconds()) > 36 * 3600:
+        return False
+
+    left, right = normalize_title(a["title_ja"]), normalize_title(b["title_ja"])
+    if SequenceMatcher(None, left, right).ratio() >= 0.78:
+        return True
+
+    tokens_a, tokens_b = title_tokens(a["title_ja"]), title_tokens(b["title_ja"])
+    if len(tokens_a) >= 3 and len(tokens_b) >= 3:
+        if len(tokens_a & tokens_b) / len(tokens_a | tokens_b) >= 0.72:
+            return True
+    return False
+
+
+def dedupe_stories(
+    new_items: list[dict], existing_items: list[dict]
+) -> tuple[list[dict], set[str]]:
+    """同じ話題は1本に絞る。Googleニュース経由の転載より、元媒体の記事を優先する。
+
+    掲載する新着と、入れ替えで取り下げる既存記事のIDを返す。
+    """
+    recent = existing_items[:120]
+    ordered = sorted(new_items, key=lambda item: 1 if item["media"] == "news" else 0)
+    kept: list[dict] = []
+    replaced: set[str] = set()
+    for item in ordered:
+        older = next(
+            (o for o in recent if o["id"] not in replaced and same_story(item, o)), None
+        )
+        if older is not None:
+            # 集約サイト経由の短報を先に載せたあとに元媒体の記事が届いたら、そちらへ差し替える。
+            if item["media"] != "news" and older.get("media") == "news":
+                print(f"  ・元媒体に差し替え: {item['title_ja']}（{item['source']}）")
+                replaced.add(older["id"])
+                kept.append(item)
+            else:
+                print(f"  ・既出のため除外: {item['title_ja']}（{item['source']}）")
+            continue
+        if any(same_story(item, other) for other in kept):
+            print(f"  ・重複のため除外: {item['title_ja']}（{item['source']}）")
+            continue
+        kept.append(item)
+    return kept, replaced
+
+
+def is_duplicate(title: str, known_titles: list[str]) -> bool:
+    target = normalize_title(title)
+    if not target:
+        return False
+    for known in known_titles:
+        if not known:
+            continue
+        if target == known:
+            return True
+        if abs(len(target) - len(known)) <= max(6, len(target) * 0.3):
+            if SequenceMatcher(None, target, known).ratio() >= 0.86:
+                return True
+    return False
+
+
+def interleave_by_source(items: list[dict], limit: int) -> list[dict]:
+    """出典ごとに1件ずつ順番に取って上限まで詰める。
+
+    YouTube のように毎日出る媒体が枠を独占すると、週1更新のブログが
+    いつまでも載らない。出典を回しながら取ることで、どの媒体も必ず1件は入る。
+    """
+    buckets: dict[str, list[dict]] = {}
+    for item in items:
+        buckets.setdefault(item["source"], []).append(item)
+    for bucket in buckets.values():
+        bucket.sort(key=lambda item: item["published"], reverse=True)
+
+    picked: list[dict] = []
+    while len(picked) < limit:
+        added = False
+        for bucket in buckets.values():
+            if not bucket:
+                continue
+            picked.append(bucket.pop(0))
+            added = True
+            if len(picked) >= limit:
+                break
+        if not added:
+            break
+    return picked
+
+
+# --------------------------------------------------------------------------
+# 翻訳・要約・分類
+# --------------------------------------------------------------------------
+
+PROMPT_TEMPLATE = """あなたは「100円ショップ」をテーマにした日本語のニュースサイトの編集者です。
+ニュース、ブログ、note、YouTube から集めた記事を渡します。
+読者向けに「短い見出し」と「要約」を作り、分類してください。
+
+このサイトが読者に届けたいのは次の2つです。
+  new（新作）  … 何が新しく出たか。新商品・再入荷・限定品・コラボ・新ブランドや新店舗。
+  use（使い方）… どう使うと便利か。活用の工夫、比べてみた、収納・掃除・料理での使い道、買ってよかった・失敗した。
+
+厳守すること:
+- 原文をそのまま写さない。事実を踏まえて自分の言葉で短くまとめる。
+- 事実を足さない。抜粋に書かれていない値段・商品名・発売日を創作しない。
+  抜粋が無く見出しだけの場合は、見出しから確実に言えることだけを書く。
+- 値段は書いてあれば必ず残す。数字は算用数字（110円、330円、10月22日）。漢数字は使わない。
+- 店名は正式な表記にそろえる（ダイソー、セリア、キャンドゥ、3COINS、ワッツ、Standard Products）。
+- YouTubeの抜粋（概要欄）には、動画の中身と関係のない宣伝が混ざっていることがある。
+  スポンサー、割引、SNSの案内、楽天ROOMやAmazonへの誘導は無視する。
+  使える部分が無ければ見出しだけから書く。宣伝を要約してはいけない。
+- 見出し(title_ja)は日本語で40文字以内。煽らず、何の話かが分かる形にする。
+  「神アイテム」「買わなきゃ損」「〜すぎる」のような煽り言葉は使わない。店名を入れる。
+- 要約(summary_ja)は日本語で80〜140文字。1〜3文。
+  できるだけ具体を残す（何という商品か、いくらか、何に使えるか）。
+- relevant: 100円ショップ・300円ショップ（3COINS、Standard Products、THREEPPY など）の
+  商品・お店・使い方に関係する内容なら true。
+  100均と関係のない一般ニュース、通販サイトの広告、求人、店名が出てくるだけで中身が別の話
+  （事件・決算の数字だけ・スポーツのスポンサー）は false。
+- axis: new か use のどちらか1つ。
+  新商品・新発売・再入荷・新店舗の紹介が中心なら new。
+  使い方・活用・比較・買ってよかったレビューが中心なら use。
+  「新作を買って使ってみた」は、新作の紹介が主なら new、使い道の工夫が主なら use。
+- things: 記事に出てくる具体的な商品名を最大4つ、日本語の配列で（例: 「ブックスタンド」「電子メモ」）。
+  店名だけ（「ダイソー」）は入れない。抜粋に出てこないなら空配列 []。憶測で商品名を作らない。
+- category は次から必ず1つ選ぶ: {categories}
+- importance は1〜5の整数。5=多くの人に役立つ・話題の新作、3=普通、1=軽い小ネタ。
+- 出力はJSON配列のみ。前置き・説明・コードフェンスを付けない。
+
+出力形式（要素数は入力と同じ{count}件、iは入力の番号）:
+[{{"i":1,"relevant":true,"axis":"new","title_ja":"...","summary_ja":"...","things":["..."],"category":"キッチン","importance":3}}]
+
+入力記事:
+{articles}
+"""
+
+MEDIA_LABELS = {
+    "blog": "ブログ記事",
+    "news": "ニュース記事",
+    "youtube": "YouTube動画（見出しは動画タイトル、抜粋は概要欄）",
+    "x": "Xの投稿（見出しと抜粋はどちらも投稿本文。短いので書かれていること以上に踏み込まない）",
+}
+
+
+def build_prompt(batch: list[dict]) -> str:
+    lines = []
+    for index, item in enumerate(batch, start=1):
+        lines.append(
+            f"[{index}] 種別: {MEDIA_LABELS.get(item['media'], 'ブログ記事')} / "
+            f"出典: {item['source']}（{item['region']}）\n"
+            f"見出し: {item['title_original']}\n"
+            f"抜粋: {item['excerpt'][:600] or '(抜粋なし)'}\n"
+        )
+    return PROMPT_TEMPLATE.format(
+        categories=" / ".join(CATEGORIES),
+        count=len(batch),
+        articles="\n".join(lines),
+    )
+
+
+def parse_llm_json(text: str, expected: int) -> list[dict]:
+    cleaned = text.strip()
+    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.MULTILINE).strip()
+    start, end = cleaned.find("["), cleaned.rfind("]")
+    if start == -1 or end == -1:
+        raise llm_providers.ResponseInvalid("JSON配列が見つかりません")
+    try:
+        data = json.loads(cleaned[start : end + 1])
+    except json.JSONDecodeError as exc:
+        raise llm_providers.ResponseInvalid(f"JSONとして読めません: {exc}") from exc
+    if not isinstance(data, list) or not data:
+        raise llm_providers.ResponseInvalid("空の配列です")
+    if len(data) != expected:
+        raise llm_providers.ResponseInvalid(f"{expected}件のはずが{len(data)}件です")
+    for entry in data:
+        if not isinstance(entry, dict) or not entry.get("title_ja") or not entry.get("summary_ja"):
+            raise llm_providers.ResponseInvalid("title_ja / summary_ja が欠けています")
+    return data
+
+
+def clean_things(raw) -> list[str]:
+    if not isinstance(raw, list):
+        return []
+    things = []
+    for value in raw:
+        name = re.sub(r"\s+", " ", str(value)).strip(" 　・,、")
+        if name and len(name) <= 24 and name not in things:
+            things.append(name)
+    return things[:4]
+
+
+def enrich(items: list[dict], skipped: dict[str, str]) -> list[dict]:
+    """LLMで日本語の見出し・要約・分類を付ける。失敗した分は捨てて次回に回す。"""
+    results: list[dict] = []
+    for offset in range(0, len(items), BATCH_SIZE):
+        batch = items[offset : offset + BATCH_SIZE]
+        print(f"  要約 {offset + 1}〜{offset + len(batch)}件目 …")
+        try:
+            text = llm_providers.generate_text(
+                build_prompt(batch),
+                validate=lambda t, n=len(batch): parse_llm_json(t, n),
+            )
+            entries = parse_llm_json(text, len(batch))
+        except llm_providers.LLMError as exc:
+            # 生煮えの記事をサイトに出すより、今回は見送って次の実行で拾い直す。
+            # RSSには数日分残っているので、枠が空けば自然に再挑戦される。
+            print(f"  × 要約に失敗（この{len(batch)}件は次回に回します）: {exc}")
+            continue
+
+        by_index = {}
+        for entry in entries:
+            try:
+                by_index[int(entry.get("i", 0))] = entry
+            except (TypeError, ValueError):
+                continue
+
+        for index, item in enumerate(batch, start=1):
+            entry = by_index.get(index) or entries[index - 1]
+            if entry.get("relevant") is False:
+                print(f"  ・100均と無関係のため除外: {item['title_original'][:40]}")
+                skipped[item["id"]] = dt.datetime.now(dt.timezone.utc).isoformat()
+                continue
+            category = str(entry.get("category", "")).strip()
+            axis = str(entry.get("axis", "")).strip()
+            item["title_ja"] = str(entry["title_ja"]).strip()
+            item["summary_ja"] = str(entry["summary_ja"]).strip()
+            item["category"] = category if category in CATEGORIES else "その他"
+            # フィードに hint がある媒体は、LLMが逆を言わない限りその軸に寄せる。
+            if axis not in AXES:
+                axis = item["hint"] if item["hint"] in AXES else "new"
+            item["axis"] = axis
+            item["things"] = clean_things(entry.get("things"))
+            try:
+                item["importance"] = max(1, min(5, int(entry.get("importance", 3))))
+            except (TypeError, ValueError):
+                item["importance"] = 3
+            results.append(item)
+    return results
+
+
+def to_public(item: dict) -> dict:
+    """サイトに出す形に整える。原文の抜粋は公開データに残さない。"""
+    return {key: value for key, value in item.items()
+            if key not in ("excerpt", "hint", "intake_days")}
+
+
+# --------------------------------------------------------------------------
+# ここ数日の傾向（トップに出すまとめ）
+# --------------------------------------------------------------------------
+
+DIGEST_PROMPT_TEMPLATE = """あなたは「100円ショップ」をテーマにした日本語のニュースサイトの編集者です。
+{period}に集まった{count}件の記事の見出しと要約を渡します。
+読者が一覧を読み始める前に「いま100均で何が出ていて、どう使われているか」をつかめる短いまとめを書いてください。
+
+厳守すること:
+- 渡した記事に書かれていることだけを使う。外の知識で補わない。
+- 件数を書くときは、渡した記事を数えた実際の数だけを書く。それらしい数字を作らない。
+- 数字は算用数字で書く（110円、10月22日）。漢数字は使わない。
+- 「〜が話題です」で終わらせない。何がどう語られているかまで具体的に書く。
+  例えば「収納グッズが多い」ではなく「本棚のすき間を埋めるブックスタンドを3店で比べる記事が多い」。
+- overview: 全体の傾向を日本語で80〜140文字。1〜2文。
+- new: 「新作」に分類された記事だけを見た傾向を40〜70文字で1文。
+  該当する記事が無ければ空文字。
+- use: 「使い方」に分類された記事だけを見た傾向を40〜70文字で1文。
+  該当する記事が無ければ空文字。
+- points: 3〜4個。渡した記事の中で複数の書き手が触れている商品や、
+  目を引いた具体例を拾う。それぞれ次の形。
+    title = 14文字以内の短い見出し（体言止め）
+    body  = 50〜90文字。どの店の何が、どう紹介されているかを具体的に書く。
+  同じことを言い換えただけの項目を並べない。
+- keywords: 一覧を絞り込むための言葉を4〜6個。
+  **渡した見出しか要約の中に実際に出てくる語**を選ぶ（押すとその語で検索するため、
+  出てこない語を挙げると0件になる）。
+- 出力はJSONオブジェクトのみ。前置き・説明・コードフェンスを付けない。
+
+出力形式:
+{{"overview":"...","new":"...","use":"...","points":[{{"title":"...","body":"..."}}],"keywords":["..."]}}
+
+記事一覧:
+{articles}
+"""
+
+
+def build_digest_prompt(items: list[dict], period: str) -> str:
+    lines = []
+    for index, item in enumerate(items, start=1):
+        axis = "新作" if item.get("axis") == "new" else "使い方"
+        lines.append(
+            f"[{index}] {axis} / {item.get('category', '')} / {item.get('source', '')}\n"
+            f"  {item.get('title_ja', '')}\n"
+            f"  {item.get('summary_ja', '')[:90]}"
+        )
+    return DIGEST_PROMPT_TEMPLATE.format(
+        period=period,
+        count=len(items),
+        articles="\n".join(lines),
+    )
+
+
+def parse_digest_json(text: str) -> dict:
+    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip(), flags=re.MULTILINE).strip()
+    start, end = cleaned.find("{"), cleaned.rfind("}")
+    if start == -1 or end == -1:
+        raise llm_providers.ResponseInvalid("JSONオブジェクトが見つかりません")
+    try:
+        data = json.loads(cleaned[start : end + 1])
+    except json.JSONDecodeError as exc:
+        raise llm_providers.ResponseInvalid(f"JSONとして読めません: {exc}") from exc
+    if not isinstance(data, dict) or not str(data.get("overview", "")).strip():
+        raise llm_providers.ResponseInvalid("overview がありません")
+    points = data.get("points")
+    if not isinstance(points, list) or len(points) < 2:
+        raise llm_providers.ResponseInvalid("points が2個未満です")
+    for point in points:
+        if not isinstance(point, dict) or not point.get("title") or not point.get("body"):
+            raise llm_providers.ResponseInvalid("points に title / body が欠けています")
+    return data
+
+
+def make_digest(items: list[dict], previous: dict | None, has_new: bool) -> dict:
+    """直近の記事から「ここ数日の傾向」を作る。
+
+    毎回作り直すと無料枠を余計に使ううえ、新着が無い回は前回と同じ文章になる。
+    新しく載った記事があるときだけ作り直し、それ以外は前回のものをそのまま残す。
+    """
+    now = dt.datetime.now(dt.timezone.utc)
+    recent = [
+        item for item in items
+        if (parse_date(item.get("published", "")) or now) >= now - dt.timedelta(days=DIGEST_DAYS)
+    ]
+    recent = recent[:DIGEST_MAX_ITEMS]
+
+    if len(recent) < DIGEST_MIN_ITEMS:
+        print(f"  直近{DIGEST_DAYS}日の記事が{len(recent)}件しかないため、前回のまとめを残します")
+        return previous or {}
+    if previous and not has_new:
+        print("  新着が無いので、前回のまとめをそのまま使います")
+        return previous
+
+    newest = parse_date(recent[0]["published"]) or now
+    oldest = parse_date(recent[-1]["published"]) or now
+    period = (f"{oldest.astimezone(JST):%-m月%-d日}〜{newest.astimezone(JST):%-m月%-d日}")
+
+    print(f"  直近{DIGEST_DAYS}日の{len(recent)}件から傾向をまとめています …")
+    try:
+        text = llm_providers.generate_text(build_digest_prompt(recent, period),
+                                           validate=parse_digest_json)
+        data = parse_digest_json(text)
+    except llm_providers.LLMError as exc:
+        # まとめは記事一覧の付け足しなので、失敗しても前回のものを出しておく。
+        print(f"  × 傾向のまとめに失敗（前回のものを残します）: {exc}")
+        return previous or {}
+
+    keywords = []
+    # 押しても0件になる言葉を出さないよう、一覧に実際に含まれる語だけ残す。
+    haystack = " ".join(f"{i.get('title_ja', '')} {i.get('summary_ja', '')}" for i in recent)
+    for word in data.get("keywords", []) if isinstance(data.get("keywords"), list) else []:
+        word = re.sub(r"\s+", "", str(word)).strip("「」#・")
+        if word and len(word) <= 12 and word in haystack and word not in keywords:
+            keywords.append(word)
+
+    digest = {
+        "generated_at": now.astimezone(JST).isoformat(),
+        "days": DIGEST_DAYS,
+        "period": period,
+        "count": len(recent),
+        "new_count": sum(1 for i in recent if i.get("axis") == "new"),
+        "use_count": sum(1 for i in recent if i.get("axis") == "use"),
+        "overview": str(data["overview"]).strip(),
+        "new": str(data.get("new", "") or "").strip(),
+        "use": str(data.get("use", "") or "").strip(),
+        "points": [
+            {"title": str(p["title"]).strip()[:20], "body": str(p["body"]).strip()}
+            for p in data["points"][:4]
+        ],
+        "keywords": keywords[:6],
+    }
+    print(f"  傾向 {len(digest['points'])}項目 / キーワード {len(keywords)}語")
+    return digest
+
+
+# --------------------------------------------------------------------------
+# 保存
+# --------------------------------------------------------------------------
+
+SKIPPED_PATH = os.path.join(BASE_DIR, "docs", "skipped.json")
+SKIP_MEMORY_DAYS = 14
+
+
+def load_skipped() -> dict[str, str]:
+    """無関係と判定して見送った記事のID。毎回LLMに投げ直さないために覚えておく。"""
+    try:
+        with open(SKIPPED_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=SKIP_MEMORY_DAYS)
+    return {
+        key: value
+        for key, value in data.get("ids", {}).items()
+        if (parse_date(value) or cutoff) >= cutoff
+    }
+
+
+def save_skipped(skipped: dict[str, str]) -> None:
+    with open(SKIPPED_PATH, "w", encoding="utf-8") as f:
+        json.dump({"ids": skipped}, f, ensure_ascii=False, indent=0)
+        f.write("\n")
+
+
+def load_existing() -> dict:
+    if not os.path.exists(OUTPUT_PATH):
+        return {"updated_at": None, "items": []}
+    try:
+        with open(OUTPUT_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {"updated_at": None, "items": []}
+    data.setdefault("items", [])
+    return data
+
+
+def main() -> int:
+    load_env()
+
+    with open(FEEDS_PATH, encoding="utf-8") as f:
+        feeds = [feed for feed in json.load(f)["feeds"] if feed.get("enabled", True)]
+
+    print(f"■ フィード取得（{len(feeds)}本）")
+    fetched = collect_feed_items(feeds)
+    print(f"  合計 {len(fetched)}件")
+
+    existing = load_existing()
+    existing_items = existing["items"]
+    skipped = load_skipped()
+    known_ids = {item["id"] for item in existing_items} | set(skipped)
+    known_urls = {canonical_url(item["url"]) for item in existing_items}
+    known_titles = [normalize_title(item.get("title_original", "")) for item in existing_items]
+
+    now = dt.datetime.now(dt.timezone.utc)
+
+    # 元媒体を先に見ることで、同じ記事がGoogleニュース経由でも流れてきたときに
+    # 元の媒体のURLのほうを残す。
+    fetched.sort(key=lambda item: item["published"], reverse=True)
+    fetched.sort(key=lambda item: 1 if item["media"] == "news" else 0)  # 安定ソート
+
+    new_items: list[dict] = []
+    for item in fetched:
+        published = parse_date(item["published"])
+        cutoff = now - dt.timedelta(days=item["intake_days"] or INTAKE_DAYS)
+        if published is None or published < cutoff or published > now + dt.timedelta(hours=12):
+            continue
+        if item["id"] in known_ids or item["url"] in known_urls:
+            continue
+        if is_duplicate(item["title_original"], known_titles):
+            continue
+        known_ids.add(item["id"])
+        known_urls.add(item["url"])
+        known_titles.append(normalize_title(item["title_original"]))
+        new_items.append(item)
+
+    new_items.sort(key=lambda item: item["published"], reverse=True)
+
+    print(f"■ 新着 {len(new_items)}件（重複と期間外を除外）")
+    if len(new_items) > MAX_NEW_PER_RUN:
+        print(f"  うち{MAX_NEW_PER_RUN}件を今回処理（残りは次回）")
+        # 「使い方」寄りの収集元の枠を先に確保してから、残りを出典を回して埋める。
+        owned = interleave_by_source(
+            [item for item in new_items if item["hint"] == "use"], USE_QUOTA
+        )
+        taken = {item["id"] for item in owned}
+        # 海外の記事は国内より少なく届くので、1回の処理枠の一部を先に確保する。
+        have_global = sum(1 for item in owned if item["region"] == "海外")
+        abroad = interleave_by_source(
+            [item for item in new_items if item["id"] not in taken and item["region"] == "海外"],
+            max(0, GLOBAL_QUOTA - have_global),
+        )
+        taken |= {item["id"] for item in abroad}
+        rest = interleave_by_source(
+            [item for item in new_items if item["id"] not in taken],
+            MAX_NEW_PER_RUN - len(owned) - len(abroad),
+        )
+        new_items = owned + abroad + rest
+        new_items.sort(key=lambda item: item["published"], reverse=True)
+
+    enriched: list[dict] = []
+    replaced: set[str] = set()
+    if new_items:
+        enriched = enrich(new_items, skipped)
+        print(f"  要約 {len(enriched)}件（100均と無関係と判定された分は除外）")
+        enriched, replaced = dedupe_stories(enriched, existing_items)
+        print(f"  掲載対象 {len(enriched)}件")
+        # 実際に載せる記事だけ元ページを見に行く（無駄なアクセスを増やさないため）。
+        resolve_google_urls(enriched)
+        fill_missing_images(enriched)
+
+    # 既に載っている記事にも、あとから足した出典名の変換とブロックを後追いで効かせる。
+    kept_existing = [
+        {**item, "source": DOMAIN_NAMES.get(item["source"], item["source"])}
+        for item in existing_items
+        if item["id"] not in replaced
+        and item.get("category") in CATEGORIES
+        and item.get("axis") in AXES
+        # 収集をやめた種別（Redditなど）の記事は、次の実行で棚から下ろす。
+        and item.get("media") in MEDIA_KINDS
+        and not any(blocked.lower() in item["source"].lower() for blocked in BLOCK_SOURCES)
+    ]
+
+    merged = enriched + kept_existing
+    merged = [
+        item
+        for item in merged
+        if (parse_date(item.get("published", "")) or now) >= now - dt.timedelta(days=KEEP_DAYS)
+    ]
+    merged.sort(key=lambda item: item["published"], reverse=True)
+    merged = cap_note_share(merged)[:KEEP_MAX]
+
+    # 以前の実行で画像が付かなかった記事を、少しずつ埋めていく。
+    stale = [item for item in merged if not item.get("image")][:BACKFILL_PER_RUN]
+    if stale:
+        print("■ 既存記事のサムネイル補完")
+        resolve_google_urls(stale)
+        fill_missing_images(stale)
+
+    merged = [to_public(item) for item in merged]
+
+    # 記事に出てきた商品名を数えて、よく出てくる順に並べる。
+    counts: dict[str, int] = {}
+    for item in merged:
+        for name in item.get("things", []):
+            counts[name] = counts.get(name, 0) + 1
+    things_ranking = [
+        {"name": name, "count": count}
+        for name, count in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+        if count >= 2
+    ][:40]
+
+    print("■ ここ数日の傾向")
+    digest = make_digest(merged, existing.get("digest"), has_new=bool(enriched))
+
+    payload = {
+        "updated_at": now.astimezone(JST).isoformat(),
+        "categories": CATEGORIES,
+        "axes": AXES,
+        "media_kinds": MEDIA_KINDS,
+        "regions": REGIONS,
+        "digest": digest,
+        "things": things_ranking,
+        "sources": sorted({item["source"] for item in merged}),
+        "count": len(merged),
+        "items": merged,
+    }
+
+    save_skipped(skipped)
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+
+    new_count = sum(1 for item in merged if item["axis"] == "new")
+    print(f"■ 書き出し: {OUTPUT_PATH}"
+          f"（掲載 {len(merged)}件 / 新作 {new_count} ・ 使い方 {len(merged) - new_count}）")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

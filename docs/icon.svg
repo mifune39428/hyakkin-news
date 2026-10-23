@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f6f4f1"/>
+  <!-- 値札。ミニマリストの○1つと同じく、図形1つで見せる -->
+  <g transform="rotate(-20 256 256)">
+    <path d="M150 170 L300 170 L392 256 L300 342 L150 342 Q130 342 130 322 L130 190 Q130 170 150 170 Z" fill="#cf3f2a"/>
+    <circle cx="318" cy="256" r="22" fill="#f6f4f1"/>
+  </g>
+</svg>
