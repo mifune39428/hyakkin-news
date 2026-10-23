@@ -50,6 +50,12 @@ INTAKE_DAYS = 4
 # サイトに残す期間と件数の上限。新作は1か月もすると店頭から消えるので、ミニマリストより短くする。
 KEEP_DAYS = 30
 KEEP_MAX = 400
+# iPhoneアクセサリ・ガジェットの記事は必ず載せる（2026-10-23、本人の希望）。
+# 1回の処理枠の一部を先に確保し、棚からも期間・件数の上限で落とさず一定数は残す。
+GADGET_CATEGORY = "スマホ・ガジェット"
+GADGET_QUOTA = 12
+GADGET_KEEP = 30
+GADGET_KEEP_DAYS = 60
 # noteのハッシュタグ記事は量が多く、放っておくと棚の半分近くを占めた（2026-10-20に47%）。
 # 新しい順に数えて、この割合を超えた分は載せない。
 NOTE_SHARE_MAX = 0.15
@@ -571,6 +577,7 @@ def fetch_feed(feed: dict) -> list[dict]:
                 "media": media if media in MEDIA_KINDS else "blog",
                 "region": feed.get("region", "海外"),
                 "hint": feed.get("hint", ""),
+                "must": feed.get("must", ""),
                 "intake_days": int(feed.get("intake_days", 0) or 0),
                 "published": (published or dt.datetime.now(dt.timezone.utc)).isoformat(),
             }
@@ -768,6 +775,8 @@ PROMPT_TEMPLATE = """あなたは「100円ショップ」をテーマにした�
 - things: 記事に出てくる具体的な商品名を最大4つ、日本語の配列で（例: 「ブックスタンド」「電子メモ」）。
   店名だけ（「ダイソー」）は入れない。抜粋に出てこないなら空配列 []。憶測で商品名を作らない。
 - category は次から必ず1つ選ぶ: {categories}
+  iPhoneケース・保護フィルム・充電器・ケーブル・モバイルバッテリー・スマホスタンド・イヤホン・
+  Bluetooth機器・タブレット用品・PC周辺機器など、スマホやガジェットに関わる商品は必ず「スマホ・ガジェット」にする。
 - importance は1〜5の整数。5=多くの人に役立つ・話題の新作、3=普通、1=軽い小ネタ。
 - 出力はJSON配列のみ。前置き・説明・コードフェンスを付けない。
 
@@ -885,7 +894,7 @@ def enrich(items: list[dict], skipped: dict[str, str]) -> list[dict]:
 def to_public(item: dict) -> dict:
     """サイトに出す形に整える。原文の抜粋は公開データに残さない。"""
     return {key: value for key, value in item.items()
-            if key not in ("excerpt", "hint", "intake_days")}
+            if key not in ("excerpt", "hint", "must", "intake_days")}
 
 
 # --------------------------------------------------------------------------
@@ -1139,8 +1148,13 @@ def main() -> int:
     if len(new_items) > MAX_NEW_PER_RUN:
         print(f"  うち{MAX_NEW_PER_RUN}件を今回処理（残りは次回）")
         # 「使い方」寄りの収集元の枠を先に確保してから、残りを出典を回して埋める。
-        owned = interleave_by_source(
-            [item for item in new_items if item["hint"] == "use"], USE_QUOTA
+        gadgets = interleave_by_source(
+            [item for item in new_items if item.get("must") == "gadget"], GADGET_QUOTA
+        )
+        taken = {item["id"] for item in gadgets}
+        owned = gadgets + interleave_by_source(
+            [item for item in new_items if item["hint"] == "use" and item["id"] not in taken],
+            USE_QUOTA,
         )
         taken = {item["id"] for item in owned}
         # 海外の記事は国内より少なく届くので、1回の処理枠の一部を先に確保する。
@@ -1181,13 +1195,26 @@ def main() -> int:
     ]
 
     merged = enriched + kept_existing
+    fresh_cutoff = now - dt.timedelta(days=KEEP_DAYS)
+    gadget_cutoff = now - dt.timedelta(days=GADGET_KEEP_DAYS)
+    # ガジェット記事は一般の記事より長く残す（新しい順にGADGET_KEEP件まで）。
+    by_date = sorted(merged, key=lambda item: item["published"], reverse=True)
+    protected = {
+        item["id"]
+        for item in [i for i in by_date if i.get("category") == GADGET_CATEGORY][:GADGET_KEEP]
+        if (parse_date(item.get("published", "")) or now) >= gadget_cutoff
+    }
     merged = [
         item
         for item in merged
-        if (parse_date(item.get("published", "")) or now) >= now - dt.timedelta(days=KEEP_DAYS)
+        if item["id"] in protected
+        or (parse_date(item.get("published", "")) or now) >= fresh_cutoff
     ]
     merged.sort(key=lambda item: item["published"], reverse=True)
-    merged = cap_note_share(merged)[:KEEP_MAX]
+    merged = cap_note_share(merged)
+    head = merged[:KEEP_MAX]
+    kept_ids = {item["id"] for item in head}
+    merged = head + [item for item in merged[KEEP_MAX:] if item["id"] in protected and item["id"] not in kept_ids]
 
     # 以前の実行で画像が付かなかった記事を、少しずつ埋めていく。
     stale = [item for item in merged if not item.get("image")][:BACKFILL_PER_RUN]

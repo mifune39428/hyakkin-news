@@ -580,8 +580,11 @@ let tab = "all", media = "all", region = "all", category = "all", query = "";
 const MEDIA_LABELS = { blog: "📝 ブログ", news: "🗞 ニュース", youtube: "▶️ YouTube", x: "𝕏 ポスト" };
 const AXIS_LABELS = { new: "新作", use: "使い方" };
 const AXIS_MARK = { new: "🆕", use: "💡" };
+const GADGET_CAT = "スマホ・ガジェット";
+const inTab = i => tab === "all" || (tab === "gadget" ? i.category === GADGET_CAT : i.axis === tab);
 const INTRO = {
   all: "100円ショップの新作と使い方",
+  gadget: "iPhoneアクセサリ・ガジェットの新作と使い方",
   new: "いま何が出ているか",
   use: "どう使うと便利か",
 };
@@ -626,7 +629,7 @@ function linkTarget(item) {
 }
 window.NEWS_LINK = linkTarget;
 
-const pool = () => tab === "all" ? all : all.filter(i => i.axis === tab);
+const pool = () => all.filter(inTab);
 const isPlain = () => media === "all" && region === "all" && category === "all" && !query.trim();
 
 function partsFor(item) {
@@ -661,7 +664,7 @@ function apply() {
   renderSubFilters();
 
   filtered = all.filter(item => {
-    if (tab !== "all" && item.axis !== tab) return false;
+    if (!inTab(item)) return false;
     if (media !== "all" && item.media !== media) return false;
     if (region !== "all" && item.region !== region) return false;
     if (category !== "all" && item.category !== category) return false;
@@ -738,7 +741,8 @@ function renderSubFilters() {
 
 function buildTabs() {
   const tabs = [["all", "トップ"]]
-    .concat(["new", "use"].filter(a => all.some(i => i.axis === a)).map(a => [a, `${AXIS_MARK[a]} ${AXIS_LABELS[a]}`]));
+    .concat(["new", "use"].filter(a => all.some(i => i.axis === a)).map(a => [a, `${AXIS_MARK[a]} ${AXIS_LABELS[a]}`]))
+    .concat([["gadget", "📱 iPhone・ガジェット"]]);
   if (!tabs.some(([key]) => key === tab)) tab = "all";
   renderTabs(tabs, tab);
 }
