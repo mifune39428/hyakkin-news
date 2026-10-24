@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T13:04:14.894624+09:00",
+ "updated_at": "2026-10-24T19:39:45.828856+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,36 +27,35 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-24T13:04:48.997586+09:00",
+  "generated_at": "2026-10-24T19:40:23.652490+09:00",
   "days": 3,
   "period": "10月23日〜10月24日",
   "count": 45,
-  "new_count": 14,
-  "use_count": 31,
-  "overview": "ダイソーやセリアなどの100円ショップの商品について、バッグの整理や洗濯槽の掃除といった具体的な活用法や、クリスマスやコラボなどの新作情報を紹介する記事が集まっています。",
-  "new": "ダイソーやセリアなどの新商品として、クリスマスアイテムやキャラクターコラボ、毛糸や文房具などのラインナップが紹介されています。",
-  "use": "ダイソーの靴収納ボックスを裏返したり、ブックスタンドをキッチンで使うなど、身近なアイテムを別の用途で便利に使う工夫が多く紹介されています。",
+  "new_count": 10,
+  "use_count": 35,
+  "overview": "ダイソーやセリア、3COINSなどの100円ショップやプチプラショップで購入した商品を、収納や掃除、DIYなどのさまざまな用途で活用する工夫が多数紹介されています。",
+  "new": "ダイソーのちいかわアクスタや惑星の発掘玩具、3COINSのアクセサリーなどの新作が登場しています。",
+  "use": "ダイソーのつっぱり棒を使った部屋の仕切り作りや、洗濯機の過炭酸ナトリウム掃除など実用的な工夫が多く語られています。",
   "points": [
    {
-    "title": "ダイソーの洗濯掃除",
-    "body": "ダイソーの過炭酸ナトリウムを使い始めて9年目の洗濯機に入れて回したところ、驚きの汚れが取れる結果となり洗濯槽の掃除に役立つと話題になっています。"
+    "title": "ダイソーのつっぱり棒",
+    "body": "ダイソーのつっぱり棒を活用して440円で簡単に部屋の仕切りを作る方法。わずか5分で完成する手軽な模様替えの工夫として紹介されています。"
    },
    {
-    "title": "セリアのバッグリメイク",
-    "body": "セリアのナイトキャップを使い、ポーチ2個と組み合わせて華やかなギャザーバッグへと変身させるプチプラのハンドメイド方法が紹介されています。"
+    "title": "洗濯機の過炭酸ナトリウム掃除",
+    "body": "購入から9年が経過した洗濯機にダイソーの過炭酸ナトリウムを投入し、洗濯槽を掃除して驚きの汚れが取れる結果になった実用的な使い道です。"
    },
    {
-    "title": "ダイソーのブックエンド",
-    "body": "ダイソーのブックエンドを活用して愛猫用の食事台を手作りしたり、キッチンで小物の収納に使うなど、本来とは違う場所での便利な活用法が語られています。"
+    "title": "ダイソーの惑星発掘玩具",
+    "body": "ダイソーから新たに発売された、水星や金星、地球や火星などをモチーフにした惑星の発掘玩具。そのままでも飾って楽しめるデザインが特徴です。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "3COINS",
-   "キャンドゥ",
-   "クリスマス",
-   "活用法"
+   "収納",
+   "掃除"
   ]
  },
  "things": [
@@ -65,12 +64,12 @@
    "count": 5
   },
   {
-   "name": "毛糸",
+   "name": "アクセサリー",
    "count": 4
   },
   {
-   "name": "アクセサリー",
-   "count": 3
+   "name": "毛糸",
+   "count": 4
   },
   {
    "name": "バッグ",
@@ -79,6 +78,10 @@
   {
    "name": "文房具",
    "count": 3
+  },
+  {
+   "name": "ぬいぐるみ",
+   "count": 2
   },
   {
    "name": "カレー",
@@ -159,6 +162,7 @@
   "マナの時間",
   "ヨムーノ",
   "ライブドアニュース",
+  "ロケットニュース24",
   "千葉テレビ放送",
   "千葉テレビ放送株式会社",
   "地域ニュースサイト号外NET",
@@ -166,8 +170,311 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 149,
+ "count": 173,
  "items": [
+  {
+   "id": "ab64786aee57d226",
+   "url": "https://limo.media/articles/-/142802",
+   "title_original": "【100均DIY】ダイソーの超強力マグネットで旅行で拾った石が「お土産マグネット」に変身 フレームに飾って付け替えも",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/f/1/1200w/img_f15d1402a0d2eaf0bbc71a2f7da64c7366025.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T10:31:00+00:00",
+   "title_ja": "ダイソーの超強力マグネットで旅行の石をリメイク",
+   "summary_ja": "ダイソーの超強力マグネットを使い、旅行先で拾った石をお土産のマグネットへ作り替えるDIY術。フレームへ飾ることで手軽に付け替えも楽しめます。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "超強力マグネット"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "f1720eee5caca29d",
+   "url": "https://www.youtube.com/watch?v=xOlpg-sLdto",
+   "title_original": "【100均】ダイソー｜すごいの出た！売り切れる前に買って欲しい新作など便利グッズ5選【DAISO】",
+   "source": "とも【100均紹介】",
+   "image": "https://i1.ytimg.com/vi/xOlpg-sLdto/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-24T10:21:38+00:00",
+   "title_ja": "ダイソーの売り切れ必至な新商品や便利グッズ5選",
+   "summary_ja": "ダイソーで販売されている、収納ポーチ付メガネ拭きやワンプッシュペットボトルキャップなどの新作5選。価格は110円から550円です。",
+   "category": "キッチン",
+   "axis": "new",
+   "things": [
+    "収納ポーチ付メガネ拭き",
+    "ワンプッシュペットボトルキャップ",
+    "フック付マルチポーチ",
+    "簡単そぼろメーカー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "de4dd0772f0881d3",
+   "url": "https://note.com/ao_aoirodaisuki/n/ne13a71cbd18f",
+   "title_original": "ちいかわアクリルスタンド",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/img/1792832420-xkT4P1J79aRGlYIOdW0Ly8FE.png",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T10:10:28+00:00",
+   "title_ja": "ダイソーで見つけた全12種類のちいかわアクスタ",
+   "summary_ja": "ダイソーで販売されている、全12種類のミニサイズなちいかわのアクリルスタンド第3弾。お店で偶然見つけて購入したという報告です。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "アクリルスタンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "40916d1fa15b8fc6",
+   "url": "https://www.youtube.com/watch?v=-XGAlZzOX9c",
+   "title_original": "【ダイソー新商品】地球や土星の中身は何が入ってる？そのままでも面白い惑星の発掘玩具！！",
+   "source": "100円ショップの気になる一品（ヒャッキニ）",
+   "image": "https://i2.ytimg.com/vi/-XGAlZzOX9c/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-24T10:00:20+00:00",
+   "title_ja": "ダイソーから惑星の中身がわかる新しい発掘玩具が登場",
+   "summary_ja": "ダイソーで新たに発売された、水星や金星、地球や火星などをモチーフにした惑星の発掘玩具。そのままでも飾って楽しめるデザインが特徴です。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "発掘玩具"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "04783f4888fc174a",
+   "url": "https://grapee.jp/2358402",
+   "title_original": "ビーズ状のフチがかわいい『セリアのコースター』 コップ以外に使う方法で「おしゃれな雰囲気になった」",
+   "source": "grapee.jp",
+   "image": "https://grapee.jp/wp-content/uploads/2026/10/G05774_main03.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T09:26:48+00:00",
+   "title_ja": "フチのビーズが可愛いセリアのコースターの活用法",
+   "summary_ja": "ビーズ状のフチがデザインされたセリアのコースターを、コップを置く以外の用途でおしゃれに活用する方法を紹介しています。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "コースター"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "a4576b3f18a0b297",
+   "url": "https://note.com/tekute2050/n/necd3b9d3955c",
+   "title_original": "万年筆インク2本目。色彩雫「深緑」を迎えてしまった",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/327301210/rectangle_large_type_2_335e8189bdecc933ca0996cb5c644cf1.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T09:22:04+00:00",
+   "title_ja": "ダイソーの万年筆インク、色彩雫の深緑を試す",
+   "summary_ja": "人生最初のボトルインクである色彩雫の山葡萄に続き、新たに色彩雫の深緑を迎えて万年筆で試し書きをした記録。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "万年筆インク",
+    "色彩雫"
+   ],
+   "importance": 1
+  },
+  {
+   "id": "d658e643cf688804",
+   "url": "https://note.com/kasitakasi/n/nf15a4e0c7547",
+   "title_original": "ぬいぐるみの相棒を見つけよう",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/325329804/rectangle_large_type_2_3393f8ed55694fbb257ff818970fadd0.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T08:39:25+00:00",
+   "title_ja": "ダイソーのぬい活グッズでぬいぐるみを探す",
+   "summary_ja": "話題のぬい活に乗っかり、常に手に持って持ち歩けるようなちょうどいいサイズのぬいぐるみを探した話題。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ぬいぐるみ"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "1d37cb2f9f1444aa",
+   "url": "https://trilltrill.jp/articles/5128715",
+   "title_original": "【ダイソー】に売っててよかった！すぐ買いに行きたくなるアイデアグッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5128715/featured-image.577a90a3b3ddba0f1ae2af60a2ba2b8b?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T08:35:15+00:00",
+   "title_ja": "ダイソーですぐに買いたくなる便利なアイデアグッズ3選",
+   "summary_ja": "ダイソーで販売されている、売り場で見つけたらすぐに買いに行きたくなる便利なアイデアグッズ3選の紹介。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "75429fd9f1d56491",
+   "url": "https://trilltrill.jp/articles/5128668",
+   "title_original": "【ダイソー】行ったら探してほしい……！おすすめ家電系アイテム3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5128668/featured-image.158925a15844024c997f80c5e3b61030?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T08:12:22+00:00",
+   "title_ja": "ダイソーで見つけたいおすすめの家電系アイテム3選",
+   "summary_ja": "ダイソーの店舗に行ったらぜひ探してみてほしい、便利な家電系のアイテム3選を紹介している記事。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "c5a1590cb2b50646",
+   "url": "https://news.yahoo.co.jp/expert/articles/4ad9fddc5b3f507d6a57d1afc10dde5b0dac32c1",
+   "title_original": "【ダイソー】考えた人センスいい！おしゃれなだけでなく便利さも備わっている（なないろの扉） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02750501/title-1792827035337.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T08:09:43+00:00",
+   "title_ja": "ダイソーでおしゃれと便利さを備えたアイテム",
+   "summary_ja": "ダイソーで見つけた、おしゃれなデザイン性と実用的な便利さをどちらも兼ね備えた優れた商品の紹介。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "1e213d4a0c1c7e2f",
+   "url": "https://note.com/citta_yoko/n/nb7e42ce298bc",
+   "title_original": "付箋好きの秋の戦利品。手帳にぴったりな付箋を探して【付箋レビュー2026秋】",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/327892779/rectangle_large_type_2_ecf2f33d1b5da45aea2202284172dae2.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T08:00:03+00:00",
+   "title_ja": "セリアで探す手帳にぴったりの付箋レビュー",
+   "summary_ja": "手帳や文具好きに欠かせない付箋について、サイズや書き味、粘着性を実際に試してみた感想を紹介。定番品が少ない中で、手帳に合う良い付箋を探し求めて購入したアイテムの使用感をレビューしている。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "付箋"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "bbfbe026c70a3e33",
+   "url": "https://news.infoseek.co.jp/article/itmedia_nlab_4064219",
+   "title_original": "「フロントガラスの奥まできれいになる」 3COINSの“車掃除モップ”が大好評 「180度回転するのでとても使いやすい」「もう一つ買っておけばよかった」｜Infoseekニュース",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/itmedia_nlab/itmedia_nlab_4064219_0-enlarge.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T07:45:00+00:00",
+   "title_ja": "3COINSの車掃除モップが便利と話題",
+   "summary_ja": "3COINSで販売されている車掃除モップが好評を集めている。フロントガラスの奥まで綺麗に掃除でき、180度回転するためとても使いやすいと愛用者から高く評価されているお役立ちアイテム。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "車掃除モップ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "31f9103853c337eb",
+   "url": "https://note.com/naoki3692/n/nf7b54e2ee26f",
+   "title_original": "カメラのインナーバッグ、ポーチ難民【セリア 丸椅子カバーを試す】",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/327868557/rectangle_large_type_2_1b19db6275bbedc3aacbd3143b7126b3.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T07:41:28+00:00",
+   "title_ja": "セリアの丸椅子カバーを別の用途で試してみた",
+   "summary_ja": "カメラのインナーバッグやポーチ選びに悩んでいた投稿者が、セリアの丸椅子カバーを代用として試してみた様子を紹介している。意外なアイテムの活用方法を模索するブログ記事。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "丸椅子カバー"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "10b71036e53ea524",
+   "url": "https://trilltrill.jp/articles/5128628",
+   "title_original": "【セリア】またまた大当たりでした……。とっても便利なキッチングッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5128628/featured-image.b17988c941075b090d3152c30c170f00?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T07:34:30+00:00",
+   "title_ja": "セリアで見つけた便利なキッチングッズ3選",
+   "summary_ja": "セリアで販売されている、毎日の調理や台所仕事で大活躍する便利なキッチングッズを3つ厳選して紹介。使い勝手の良いアイテムを集めて、暮らしを快適にするおすすめのグッズを取り上げている。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [],
+   "importance": 4
+  },
+  {
+   "id": "b9b6e44efda5d6c1",
+   "url": "https://note.com/noneverydaylife/n/n555d8d4eb22c",
+   "title_original": "最近買った3COINS購入品7点。アクセサリーからセルフケアグッズまで",
+   "source": "note #3COINS",
+   "image": "https://assets.st-note.com/production/uploads/images/327882455/rectangle_large_type_2_ee8ee1536aafef338a647cfe206bfea9.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T07:25:38+00:00",
+   "title_ja": "3COINSで買ったアクセサリーなど7点",
+   "summary_ja": "3COINSで最近購入したバラエティ豊かな7点を紹介。身につけて楽しめるアクセサリーから、日々の疲れを癒やすセルフケアグッズまで、生活を彩るさまざまなアイテムをまとめて買い揃えた記録。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "アクセサリー",
+    "セルフケアグッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "188504bf12ba4f31",
+   "url": "https://hochi.news/articles/20261023-YHK1T51000.html?genre=life",
+   "title_original": "一見普通の『ティッシュボックス』 でも反対を見ると…「その発想はなかった！」「まさに一石二鳥」",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/subsite/yohakuto/2026/10/23/20261023-YHK1I51000-C.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T07:00:00+00:00",
+   "title_ja": "一見普通のティッシュボックスに隠された秘密の機能とは",
+   "summary_ja": "反対側を見ると便利な機能がついている、驚きのアイデアが詰まったティッシュボックスの活用法を紹介。日常のちょっとした不便を解消する使い方の工夫です。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ティッシュボックス"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "0e37fd6586e3ff0e",
+   "url": "https://grapee.jp/2358233",
+   "title_original": "【ダイソー】部屋の仕切りは『440円』で作れる！ つっぱり棒を活用して5分で完成した",
+   "source": "grapee.jp",
+   "image": "https://grapee.jp/wp-content/uploads/2026/10/G04613_main06.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T05:02:44+00:00",
+   "title_ja": "ダイソーのつっぱり棒で440円の部屋の仕切りを作る方法",
+   "summary_ja": "ダイソーのつっぱり棒を活用して、440円で簡単に部屋の仕切りを作る方法。わずか5分で完成する手軽な模様替えの工夫として参考になります。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "つっぱり棒"
+   ],
+   "importance": 4
+  },
   {
    "id": "eda6b9b9fb306285",
    "url": "https://article.auone.jp/347a82a4-72b0-4534-816e-ef2c6e4b5c31",
@@ -185,6 +492,40 @@
     "ティッシュケース"
    ],
    "importance": 3
+  },
+  {
+   "id": "dc256d0a0283265d",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/happycamper/trend/happycamper-0c06dc3136acf066fd5516c7cfb7ed57",
+   "title_original": "【ダイソー】100均の「まな板シート」がズボラの味方すぎた！3種比較レビュー",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/happycamper/m_happycamper-0c06dc3136acf066fd5516c7cfb7ed57.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T03:00:00+00:00",
+   "title_ja": "ダイソーのまな板シート3種の比較と便利な使い方",
+   "summary_ja": "ダイソーで販売されているまな板シート3種類を比較し、その便利な使い心地を紹介。調理の手間を減らしてくれる家事の強い味方です。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "まな板シート"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "01c088ddad657a79",
+   "url": "https://rocketnews24.com/2026/10/24/2833607",
+   "title_original": "予算3000円でどこまで楽しめる？ セリアの100円商品だけで自宅ハロウィンパーティーを開催してみた!!",
+   "source": "ロケットニュース24",
+   "image": "https://rocketnews24.com/wp-content/uploads/sites/2/2026/10/seria-halloween001.jpg?w=1200&h=630&crop=1",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:55:40+00:00",
+   "title_ja": "セリアで3000円ハロウィンパーティー実践",
+   "summary_ja": "セリアの100円商品だけで、予算3000円の自宅ハロウィンパーティーを実際に開催した様子をレポート。装飾や小物の活用方法が紹介されている。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [],
+   "importance": 4
   },
   {
    "id": "1079b4f1eaebd3e6",
@@ -220,6 +561,56 @@
    "things": [
     "充電器45W"
    ],
+   "importance": 4
+  },
+  {
+   "id": "20c131fff2cf141d",
+   "url": "https://hochi.news/articles/pub_mic_249663.html",
+   "title_original": "ペラペラなのに優秀！茹でて放置するだけ！洗い物も楽になる100均の便利な袋",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249663/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:00:00+00:00",
+   "title_ja": "茹でて放置できる100均の便利袋紹介",
+   "summary_ja": "薄くて軽いだけど、茹でて放置できる便利な100均の袋を紹介。洗い物が減り、調理後の片付けが楽になる点が評価されている。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "f1d1bdb2fd83fb21",
+   "url": "https://hochi.news/articles/pub_mic_249706.html",
+   "title_original": "100均で思わず即買い！「まさかと思ったけど…そこ動くの！？」全種集めたくなるキーホルダー",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249706/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:00:00+00:00",
+   "title_ja": "100円キーホルダー全種が欲しくなる理由",
+   "summary_ja": "100円ショップで販売されているキーホルダーが、意外な動きやデザインで話題に。全種を集めたくなる魅力がレポートされている。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "キーホルダー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "912139d320d71696",
+   "url": "https://hochi.news/articles/pub_mic_249586.html",
+   "title_original": "100均で買っといて助かった！「悩みが一発で解消！」「ないと不安になる」トラベルグッズ3選",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249586/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:00:00+00:00",
+   "title_ja": "100円で買える旅行グッズ3選を紹介",
+   "summary_ja": "100円ショップで手に入る旅行用グッズ3選を紹介。悩みを一発で解消し、ないと不安になるアイテムとして評価されている。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [],
    "importance": 4
   },
   {
@@ -346,6 +737,24 @@
    "axis": "use",
    "things": [
     "ペンキ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "7123f163442d1eda",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4058958",
+   "title_original": "100均の罠、山の清流に一晩沈める→翌日、入っていた“大量のサワガニ”に「楽しすぎる」「こんなにいるとは」（1/3） | その他生き物 ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792492576_cover-scaled.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T23:45:00+00:00",
+   "title_ja": "ダイソーの罠で山の清流にサワガニ大量捕獲",
+   "summary_ja": "100円ショップで手に入る罠を山の清流に一晩沈めると、翌日大量のサワガニが捕獲されたと報じられた。自然観察や釣りの簡易道具として活用できる例です。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "罠"
    ],
    "importance": 3
   },
@@ -540,6 +949,24 @@
    "category": "掃除・洗濯",
    "axis": "new",
    "things": [],
+   "importance": 3
+  },
+  {
+   "id": "3e0252b5c75d05e2",
+   "url": "https://nlab.itmedia.co.jp/research/articles/4066319/amp",
+   "title_original": "「もう3回以上購入してます」 3COINSの“ロールふきん”が大好評 「厚手でしっかりしています」「汚くなったらすぐに捨てられて衛生的」 | ライフ ねとらぼリサーチ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792568760_1740555255_1719455961_d8e8780b074a873a2b8a686b2726b8f8.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T11:35:00+00:00",
+   "title_ja": "3COINSのロールふきんが好評、厚手で衛生的に使える",
+   "summary_ja": "3COINSのロールふきんは厚手でしっかりした作り。汚れたらすぐに切って捨てられるため衛生的と好評で、キッチンや掃除での使い勝手が評価されています。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "ロールふきん"
+   ],
    "importance": 3
   },
   {
