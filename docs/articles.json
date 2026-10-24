@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T19:39:45.828856+09:00",
+ "updated_at": "2026-10-25T00:41:55.625069+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,27 +27,27 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-24T19:40:23.652490+09:00",
+  "generated_at": "2026-10-25T00:43:12.399761+09:00",
   "days": 3,
-  "period": "10月23日〜10月24日",
+  "period": "10月24日〜10月24日",
   "count": 45,
-  "new_count": 10,
-  "use_count": 35,
-  "overview": "ダイソーやセリア、3COINSなどの100円ショップやプチプラショップで購入した商品を、収納や掃除、DIYなどのさまざまな用途で活用する工夫が多数紹介されています。",
-  "new": "ダイソーのちいかわアクスタや惑星の発掘玩具、3COINSのアクセサリーなどの新作が登場しています。",
-  "use": "ダイソーのつっぱり棒を使った部屋の仕切り作りや、洗濯機の過炭酸ナトリウム掃除など実用的な工夫が多く語られています。",
+  "new_count": 11,
+  "use_count": 34,
+  "overview": "ダイソーやセリア、3COINSの商品について、収納やDIYなどの具体的な活用術を紹介する記事が多数を占める一方、充電器や発掘玩具などの新作情報も注目を集めている。",
+  "new": "ダイソーのUSB-C直挿し充電できる単3電池や惑星の発掘玩具、3COINSとサンリオのコラボなどが新商品として紹介されている。",
+  "use": "セリアの水筒の底カバーを本来とは違う方法で使う裏ワザや、ダイソーのつっぱり棒や靴収納ボックスを使った収納・DIY術などが語られている。",
   "points": [
    {
-    "title": "ダイソーのつっぱり棒",
-    "body": "ダイソーのつっぱり棒を活用して440円で簡単に部屋の仕切りを作る方法。わずか5分で完成する手軽な模様替えの工夫として紹介されています。"
+    "title": "旅先の石をDIY",
+    "body": "ダイソーのマグネットや超強力マグネットを使い、旅行先で拾った石をおしゃれなインテリアやマグネットへ作り替えるDIY術が紹介されている。"
    },
    {
-    "title": "洗濯機の過炭酸ナトリウム掃除",
-    "body": "購入から9年が経過した洗濯機にダイソーの過炭酸ナトリウムを投入し、洗濯槽を掃除して驚きの汚れが取れる結果になった実用的な使い道です。"
+    "title": "洗濯槽の汚れを掃除",
+    "body": "ダイソーの過炭酸ナトリウムを使い、購入から9年が経過した洗濯機を掃除したところ、驚くほどの汚れが取れた実用的なメンテナンス方法が話題となっている。"
    },
    {
-    "title": "ダイソーの惑星発掘玩具",
-    "body": "ダイソーから新たに発売された、水星や金星、地球や火星などをモチーフにした惑星の発掘玩具。そのままでも飾って楽しめるデザインが特徴です。"
+    "title": "つっぱり棒で間仕切り",
+    "body": "ダイソーのつっぱり棒を活用し、わずか5分で440円という低コストで部屋の簡単な仕切りを作る模様替えの工夫が取り上げられている。"
    }
   ],
   "keywords": [
@@ -55,7 +55,7 @@
    "セリア",
    "3COINS",
    "収納",
-   "掃除"
+   "アイデア"
   ]
  },
  "things": [
@@ -126,6 +126,7 @@
   "All About ニュース",
   "Dellows News",
   "Excite エキサイト",
+  "Gizmodo",
   "Infoseek",
   "LIMO | くらしとお金の経済メディア",
   "My-Room",
@@ -160,6 +161,7 @@
   "ニコニコニュース",
   "マイナビニュース",
   "マナの時間",
+  "ヨッパン・100均紹介",
   "ヨムーノ",
   "ライブドアニュース",
   "ロケットニュース24",
@@ -170,8 +172,185 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 173,
+ "count": 186,
  "items": [
+  {
+   "id": "0fb63deca84bef21",
+   "url": "https://note.com/tankano_matuki/n/nc5d711932e20",
+   "title_original": "霜降",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/328082948/rectangle_large_type_2_af66c064936ffabf4d4af92a17d65e18.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T14:35:56+00:00",
+   "title_ja": "セリアの電子メモボードの使用感と家族のやり取り",
+   "summary_ja": "セリアで購入した名刺サイズの電子メモボードについて、付属のペンが短く画面が小さいため使いにくいという感想が綴られています。家族が名前や天気予報の言葉などを書いて遊ぶ様子が紹介されています。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "電子メモボード",
+    "ペン"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "c97f98ea75c3d061",
+   "url": "https://www.gizmodo.jp/article/2610-daiso-type-c-rechargeable-battery-review",
+   "title_original": "USB-C直挿し充電できる単3電池、ダイソーから登場。アウトドアの必需品だ",
+   "source": "Gizmodo",
+   "image": "https://media.loom-app.com/gizmodo/dist/images/2026/04/09/260408_daiso_01.jpg?w=1200&h=630",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T14:00:00+00:00",
+   "title_ja": "ダイソーからUSB-C直挿し充電できる単3電池が登場",
+   "summary_ja": "ダイソーからUSB-C端子を直接挿して充電できる単3電池が新たに発売されました。ケーブルを使わずに充電できる仕様となっており、アウトドアでの利用などに便利なアイテムとして紹介されています。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [
+    "単3電池",
+    "USB-C電池"
+   ],
+   "importance": 5
+  },
+  {
+   "id": "84438ff9b02dfef5",
+   "url": "https://note.com/frogman_86/n/ne8f53eb7bc4e",
+   "title_original": "今日見つけたボードゲームの話。",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328046383/rectangle_large_type_2_279f9594a76c09c401faa3b2098d57dc.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T13:57:15+00:00",
+   "title_ja": "ダイソーのオンラインショップで見つけたボードゲーム特集",
+   "summary_ja": "ダイソーのオンラインショップでボードゲームの特集ページが公開されています。自宅の片付けでダイソーのコンテナを活用したというエピソードとともに、手軽に楽しめるアナログゲームのラインナップが紹介されています。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "コンテナ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "9367a95d9819085a",
+   "url": "https://note.com/like_magpie7420/n/n93d04a0fe39e",
+   "title_original": "Seriaでモンチッチ💓",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/328049185/rectangle_large_type_2_ba46d6d58de12fb060d9acac51ef117d.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T13:09:28+00:00",
+   "title_ja": "セリアで可愛いパステルカラーのモンチッチを発見",
+   "summary_ja": "セリアにて、キャンディが入っていそうな三角の袋に入ったモンチッチを購入。パステルカラーのモンチッチも販売されている様子。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "モンチッチ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "b96ae9221d1cd683",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/ftnews/trend/ftnews-1d8ba5b25a7f2fcfd6edc5c2c29718cb96c72b1a",
+   "title_original": "「ごちゃごちゃの棚」→【セリア】110円グッズ10個で整理したら「こんなにスッキリするとは！」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-1d8ba5b25a7f2fcfd6edc5c2c29718cb96c72b1a.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T11:30:00+00:00",
+   "title_ja": "セリアの110円グッズを活用した棚の整理術",
+   "summary_ja": "セリアの110円グッズを10個使い、ごちゃごちゃしていた棚をすっきりと整理することに成功した。使い勝手の良い収納アイデア。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "858eae1b8ef2e23a",
+   "url": "https://www.walkerplus.com/article/1229047/image13765905.html",
+   "title_original": "＜画像2 / 5＞“スリコ×サンリオ”12月14日より販売開始！発売日には事前抽選入場・整理券が必須!?",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1229047/13765904_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T11:22:39+00:00",
+   "title_ja": "スリコとサンリオのコラボ商品を12月14日から販売",
+   "summary_ja": "3COINSとサンリオのコラボ商品が12月14日より販売開始。発売日は事前抽選入場や整理券が必須となる場合があるため注意が必要。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [],
+   "importance": 4
+  },
+  {
+   "id": "788774f31e7cb372",
+   "url": "https://www.youtube.com/shorts/xApNdfGfMyo",
+   "title_original": "【100均】新商品速報‼️新作のスピーカーも凄かった…👏🏻😳✨ #100均 #ダイソー #ダイソー新商品 #ダイソー購入品 #スピーカー #音楽 #shorts",
+   "source": "はるチャンネル【100均】",
+   "image": "https://i1.ytimg.com/vi/xApNdfGfMyo/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-24T11:00:39+00:00",
+   "title_ja": "ダイソーの新商品情報と注目のスピーカーを紹介",
+   "summary_ja": "ダイソーで販売されている新商品のスピーカーなどを動画で紹介している。お店で気になるアイテムを探す際の参考になる情報。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [
+    "スピーカー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "b10224e0ac791fc1",
+   "url": "https://www.youtube.com/watch?v=lged_VocqVg",
+   "title_original": "【100均】ダイソー&セリア｜すごい勢いで売れた名品！！廃盤になってからじゃ遅い！",
+   "source": "すきなもんちゅーぶ",
+   "image": "https://i1.ytimg.com/vi/lged_VocqVg/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-24T11:00:31+00:00",
+   "title_ja": "ダイソーとセリアの売れ筋名品を使った収納アイデア",
+   "summary_ja": "整理収納アドバイザーの資格を活かし、ダイソーとセリアで人気を集める名品を使ったアイデア収納や暮らしの知恵を紹介している。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "fe6b996defab1fd7",
+   "url": "https://www.youtube.com/watch?v=GW__TUJOjtg",
+   "title_original": "【100均】セリアの「じゃない」使い方！普通じゃないけど凄く便利！／Seria",
+   "source": "ヨッパン・100均紹介",
+   "image": "https://i4.ytimg.com/vi/GW__TUJOjtg/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-24T10:52:26+00:00",
+   "title_ja": "セリアの商品を使った意外で便利な裏ワザ8選",
+   "summary_ja": "セリアで購入できる水筒の底カバーやフィルムシートブラシ用ホルダーなどの商品を、本来の用途とは違う便利な方法で活用するアイデアを8個紹介しています。価格はすべて110円です。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "水筒の底カバー",
+    "フィルムシートブラシ用ホルダー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "6034ed0e3a1d1336",
+   "url": "https://news.yahoo.co.jp/articles/ec8f3850d69770a58d2faab6dd2fe122f9a3686a",
+   "title_original": "【100均DIY】ダイソーのマグネットが… 旅先で拾った石を「可愛い飾り」にするアイデアに注目（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00142802-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T10:35:50+00:00",
+   "title_ja": "ダイソーのマグネットで旅先の石をおしゃれに飾る",
+   "summary_ja": "ダイソーのマグネットを使った、旅先で拾った石を可愛いインテリアとして飾るためのDIYアイデアが注目を集めています。身近な100円ショップのアイテムを手軽に活用する方法です。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "マグネット"
+   ],
+   "importance": 3
+  },
   {
    "id": "ab64786aee57d226",
    "url": "https://limo.media/articles/-/142802",
@@ -456,6 +635,22 @@
     "ティッシュボックス"
    ],
    "importance": 3
+  },
+  {
+   "id": "45d3493d575937e9",
+   "url": "https://news.yahoo.co.jp/articles/17beccce07518dbc21571dd4eabc46c0b1bde64b",
+   "title_original": "ベランダで3キロ超えのスイカが実った！土なし、100均グッズでここまでできる！？（レタスクラブ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-01450555-lettucec-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T06:00:00+00:00",
+   "title_ja": "100均グッズと土なしでベランダスイカ栽培に挑戦",
+   "summary_ja": "土を使わずに100円ショップのグッズを活用して、ベランダで3キログラムを超えるスイカを育てた栽培アイデアを紹介しています。身近なアイテムで本格的な栽培を楽しめる内容です。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [],
+   "importance": 4
   },
   {
    "id": "0e37fd6586e3ff0e",
@@ -1645,6 +1840,24 @@
     "毛糸",
     "ナスカン",
     "リップケース"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "3546be0978fb1eac",
+   "url": "https://news.livedoor.com/article/image_detail/32635710/?img_id=57152212",
+   "title_original": "【画像】貼らないってどういうこと？「今までの苦労は一体…？」失敗しにくい100均の便利なフィルム 1/11",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/2/a/2a794_1650_9595e8dc_76578a6b.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-22T23:00:00+00:00",
+   "title_ja": "失敗しにくい貼らないタイプの便利な100均フィルム",
+   "summary_ja": "今までの苦労を軽減する、失敗しにくい貼らないタイプの100円ショップの便利なフィルムを紹介している。スマホなどの液晶保護関連アイテムとして活用できる。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "フィルム"
    ],
    "importance": 3
   },
@@ -3270,6 +3483,22 @@
    "things": [
     "3連キーホルダー"
    ],
+   "importance": 3
+  },
+  {
+   "id": "a85df989cc64b858",
+   "url": "https://trilltrill.jp/articles/5098588",
+   "title_original": "【ダイソー】ただの黒い板じゃない！パカッと折るだけで「こんなに便利なの！？」110円で手放せなくなりそう",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5098588/featured-image.6fe23193d6604c420f111df38e7ecbec?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-12T07:00:00+00:00",
+   "title_ja": "ダイソーの110円の黒い板状の便利グッズ",
+   "summary_ja": "ダイソーで110円で販売されている、パカッと折るだけで便利に使える黒い板状のアイテム。具体的な使い方や手放せなくなるほどの活用方法を紹介している。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
    "importance": 3
   },
   {
