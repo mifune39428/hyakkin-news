@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T06:14:18.616465+09:00",
+ "updated_at": "2026-10-24T13:04:14.894624+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,46 +27,46 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-24T06:14:31.593952+09:00",
+  "generated_at": "2026-10-24T13:04:48.997586+09:00",
   "days": 3,
   "period": "10月23日〜10月24日",
   "count": 45,
-  "new_count": 17,
-  "use_count": 28,
-  "overview": "ダイソーやセリアなどの100円ショップにおける、新商品の紹介やアイテムの便利な活用法を紹介する記事が45件集まりました。",
-  "new": "ダイソーのセサミストリートクリスマスラッピングや、キャンドゥのおじゃる丸コラボなどの新作アイテムが注目を集めています。",
-  "use": "セリアのメモ帳やダイソーのブックエンドなど、身近なアイテムを工夫して日常や収納に役立てる使い方が紹介されています。",
+  "new_count": 14,
+  "use_count": 31,
+  "overview": "ダイソーやセリアなどの100円ショップの商品について、バッグの整理や洗濯槽の掃除といった具体的な活用法や、クリスマスやコラボなどの新作情報を紹介する記事が集まっています。",
+  "new": "ダイソーやセリアなどの新商品として、クリスマスアイテムやキャラクターコラボ、毛糸や文房具などのラインナップが紹介されています。",
+  "use": "ダイソーの靴収納ボックスを裏返したり、ブックスタンドをキッチンで使うなど、身近なアイテムを別の用途で便利に使う工夫が多く紹介されています。",
   "points": [
    {
-    "title": "ダイソーの便利グッズ",
-    "body": "ダイソーで購入できるノートPCスタンドや調味料ストッカー、かもいダブルフックなど、日々の作業や収納を快適にするアイテムの使い心地が紹介されています。"
+    "title": "ダイソーの洗濯掃除",
+    "body": "ダイソーの過炭酸ナトリウムを使い始めて9年目の洗濯機に入れて回したところ、驚きの汚れが取れる結果となり洗濯槽の掃除に役立つと話題になっています。"
    },
    {
-    "title": "キャラクターの新作",
-    "body": "キャンドゥのおじゃる丸コラボグッズやパペットスンスンのクリアファイル、ダイソーのセサミストリートクリスマスラッピングなどが新登場しています。"
+    "title": "セリアのバッグリメイク",
+    "body": "セリアのナイトキャップを使い、ポーチ2個と組み合わせて華やかなギャザーバッグへと変身させるプチプラのハンドメイド方法が紹介されています。"
    },
    {
-    "title": "手作り・リメイク術",
-    "body": "セリアのナイトキャップやダイソーのタオルをリメイクしたり、100均の毛糸でリップケースを作るといったハンドメイドのアイデアが語られています。"
-   },
-   {
-    "title": "文房具と収納の工夫",
-    "body": "セリアの丸シールを使ったメッセージカードや、ダイソーのブックスタンドやメッシュバッグを使ったキッチンや洗面所の片づけ術が取り上げられています。"
+    "title": "ダイソーのブックエンド",
+    "body": "ダイソーのブックエンドを活用して愛猫用の食事台を手作りしたり、キッチンで小物の収納に使うなど、本来とは違う場所での便利な活用法が語られています。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
-   "キャンドゥ",
    "3COINS",
-   "新作",
-   "使い方"
+   "キャンドゥ",
+   "クリスマス",
+   "活用法"
   ]
  },
  "things": [
   {
    "name": "ポーチ",
    "count": 5
+  },
+  {
+   "name": "毛糸",
+   "count": 4
   },
   {
    "name": "アクセサリー",
@@ -78,10 +78,6 @@
   },
   {
    "name": "文房具",
-   "count": 3
-  },
-  {
-   "name": "毛糸",
    "count": 3
   },
   {
@@ -97,6 +93,10 @@
    "count": 2
   },
   {
+   "name": "クリスマスアイテム",
+   "count": 2
+  },
+  {
    "name": "ケース",
    "count": 2
   },
@@ -106,6 +106,10 @@
   },
   {
    "name": "文具",
+   "count": 2
+  },
+  {
+   "name": "過炭酸ナトリウム",
    "count": 2
   },
   {
@@ -162,8 +166,330 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 131,
+ "count": 149,
  "items": [
+  {
+   "id": "eda6b9b9fb306285",
+   "url": "https://article.auone.jp/347a82a4-72b0-4534-816e-ef2c6e4b5c31",
+   "title_original": "バッグの中でティッシュがぐしゃぐしゃに！薄いケースですっきり持ち歩こう",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/24/72360_w1280.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T03:56:11+00:00",
+   "title_ja": "セリアのティッシュケースでバッグの中をすっきり収納",
+   "summary_ja": "バッグの中で崩れやすいポケットティッシュを、薄型のケースですっきり持ち歩くための活用情報です。かさばりがちな小物をスマートに整理整頓したいときに向いています。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ティッシュケース"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "1079b4f1eaebd3e6",
+   "url": "https://article.auone.jp/d65e19c2-6316-45ba-92f9-36e4c77672fa",
+   "title_original": "【セリア】ウエストの「ちょっときつい」を解決！110円の「ウエスト延長バンド」が便利",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/24/https___news_jp_i_1486549338560741915_w1280.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:16:20+00:00",
+   "title_ja": "セリアのウエスト延長バンドでサイズ調整",
+   "summary_ja": "セリアで買える110円のウエスト延長バンドを使って、少しきついと感じる衣類のウエストを快適に調整できます。手軽にサイズ感を直せる便利な使い方のアイデアです。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "ウエスト延長バンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "1409a960cf5c48c1",
+   "url": "https://note.com/sub_tre/n/nc3ad61133bf1",
+   "title_original": "ダイソー 充電器45W レビュー｜1,100円の実力とiPhoneでの実測値",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/img/1792501307-vaZp8lzWbuNCUR54YcthPSmk.jpg",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T02:14:37+00:00",
+   "title_ja": "ダイソーの1,100円充電器45Wのレビュー",
+   "summary_ja": "ダイソーで販売されている1,100円の45W充電器の実力を検証したレビュー記事です。iPhoneなどの機器で実際に測定した充電時のデータをまとめています。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "充電器45W"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "8b6cd68b28ee334c",
+   "url": "https://grapee.jp/lifehack/100yen-shop/2357375",
+   "title_original": "100均の『綿棒ケース』は収納アイテムとして優秀！ ワンプッシュで手に取れて便利【活用法3選】",
+   "source": "grapee.jp",
+   "image": "https://grapee.jp/wp-content/uploads/2026/10/G05806_main01.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T01:49:50+00:00",
+   "title_ja": "ダイソーなどの綿棒ケースの活用法3選",
+   "summary_ja": "100均の綿棒ケースをワンプッシュで取り出せる収納アイテムとして使う方法です。小物整理に役立つ3つの活用法で、バッグ内や引き出し内をすっきりと整えられます。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "綿棒ケース"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "d37d16c48ee09de2",
+   "url": "https://news.yahoo.co.jp/articles/d47c99832804fb197c7fbdb2121bb96333aa9dc2",
+   "title_original": "「早く買えば良かった」「2色とも購入」3COINSの“仕分けポーチ”でバッグのごちゃごちゃを解消できた！「軽くて良い！」「ポケットがないバッグで大活躍」《購入レビュー》（ダイヤモンド・オンライン）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00401620-diamond-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T01:18:17+00:00",
+   "title_ja": "3COINSの仕分けポーチでバッグの中を整理",
+   "summary_ja": "3COINSの仕分けポーチを使って、バッグの中の細かい荷物をすっきりと解消したレビューです。軽くて使いやすく、ポケットのないバッグでも大活躍すると話題です。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "仕分けポーチ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "e337a5f71663dfa3",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4059075/amp",
+   "title_original": "ダイソーの靴収納ボックスを裏返すと…… 109万回再生された“じゃない使い方”に「これ、天才」「いいアイデア」「絶対やります」（1/3） | ライフハック ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792474524_itm_it_261024_b_c.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T01:15:00+00:00",
+   "title_ja": "ダイソーの靴収納ボックスを使った裏技的な活用法",
+   "summary_ja": "ダイソーの靴収納ボックスを裏返して使う意外なアイデアが、SNSで話題を集めている。収納グッズのユニークな活用方法として参考になる便利なライフハック。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "靴収納ボックス"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "a6410f0094b52fb7",
+   "url": "https://news.nicovideo.jp/watch/nw19913400?news_ref=dic_topics_topic",
+   "title_original": "買って9年目の洗濯機→ダイソーの過炭酸ナトリウムを入れて回したら…… 「うげぇ」思わず絶句する光景に「私もやってみます",
+   "source": "ニコニコニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T01:00:41+00:00",
+   "title_ja": "ダイソーの過炭酸ナトリウムで洗濯機を掃除する方法",
+   "summary_ja": "使い始めて9年目の洗濯機にダイソーの過炭酸ナトリウムを入れて回したところ、驚きの汚れが取れる結果となった。洗濯槽の掃除やメンテナンスに役立つ実用的な使い道。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "過炭酸ナトリウム"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "084fd5c54f9fc739",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4059194/amp",
+   "title_original": "購入9年目の洗濯機に、ダイソーの「過炭酸ナトリウム」を投入→目からウロコの結果に「参考になりました」「私もやってみます」（1/2） | ライフハック ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792375185_20260218125828-181.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T01:00:00+00:00",
+   "title_ja": "購入9年目の洗濯機をダイソーの過炭酸ナトリウムで掃除",
+   "summary_ja": "購入から9年が経過した洗濯機にダイソーの過炭酸ナトリウムを投入したところ、目からウロコの結果が得られたと話題になっている。手軽に試せる洗濯槽の掃除方法として参考になる。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "過炭酸ナトリウム"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "fa955dc82e5f5fee",
+   "url": "https://note.com/joyous_dietes580/n/n121944d64b07",
+   "title_original": "【手作り】100均の毛糸で肩カバーを編む",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/327763821/rectangle_large_type_2_6c38fb1f33d58e3155bdad8ba6267efc.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T00:45:53+00:00",
+   "title_ja": "セリアの毛糸を使った手作りの肩カバー",
+   "summary_ja": "セリアの毛糸を活用して、手作りの肩カバーを編む方法を紹介している。身の回りのアイテムを自分で工夫して作る、節約にも役立つ手芸のアイデア。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "毛糸",
+    "肩カバー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "d0047345b2b31b5c",
+   "url": "https://news.yahoo.co.jp/articles/7545fbcc8f4a79f31e967e6888538e9031a7c8b0?page=2",
+   "title_original": "【100均DIY】500円の中古おもちゃのお家が「ブルー屋根のおしゃれな家」に変身！ダイソーのペンキで外壁リフォームして印象ガラリ（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00142800-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T23:50:55+00:00",
+   "title_ja": "ダイソーのペンキを使ったおもちゃの家のリフォーム",
+   "summary_ja": "ダイソーのペンキを使って500円の中古おもちゃの家の外壁を塗り替え、おしゃれなブルー屋根の家に変身させるDIYの様子を紹介。ペンキを活用したリメイクの工夫が分かる。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "ペンキ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "a4f19e8ce30fc139",
+   "url": "https://hochi.news/articles/pub_mic_249761.html",
+   "title_original": "100均で何気なく買ったら優秀だった！「実は意外と機能的！」「ただのお皿かと思ったのに…」",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249761/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T23:00:00+00:00",
+   "title_ja": "ダイソーなどの100均で見つけた機能的なお皿",
+   "summary_ja": "100円ショップで何気なく買ったお皿が、実は意外と機能的で優秀だったというレビュー。ただのお皿に見えて便利な使い道があるアイテムを紹介。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "お皿"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "1431e120df3c2726",
+   "url": "https://hochi.news/articles/pub_mic_249684.html",
+   "title_original": "100均が本気出しすぎ！「普通は500円じゃ買えない！」専門店レベルのアウトドアグッズ3選",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249684/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T23:00:00+00:00",
+   "title_ja": "ダイソーなどの100均で買えるアウトドアグッズ3選",
+   "summary_ja": "100円ショップで購入できる、専門店レベルのクオリティを持つアウトドアグッズ3選を紹介。通常なら500円では買えないような優れたキャンプ用品などの新情報。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "アウトドアグッズ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "1ef5bec2b39984de",
+   "url": "https://hochi.news/articles/pub_mic_249555.html",
+   "title_original": "100均で買ったら沼！「トッピングどころかそのまま食べれるわ…」一度食べたら止まらない食材",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249555/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T23:00:00+00:00",
+   "title_ja": "100円ショップで見つけたそのまま食べられる食材の魅力",
+   "summary_ja": "一度食べたら止まらないと話題の、100円ショップで買える食材についての紹介記事。トッピングだけでなくそのまま食べても美味しいと評判のアイテム。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "db06edcbb706d589",
+   "url": "https://hochi.news/articles/pub_mic_249664.html",
+   "title_original": "参りました…100均で「700円って高すぎ！」って思ったら大間違い！多機能な優秀家電",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249664/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T23:00:00+00:00",
+   "title_ja": "ダイソーの700円家電は価格以上の多機能で優秀",
+   "summary_ja": "100円ショップの700円という価格設定に対して最初は高いと感じるものの、使ってみると多機能で非常に優秀だと分かる家電製品の紹介。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "a4350bf0293cfaab",
+   "url": "https://note.com/abbey2631/n/n2c9dffaf69d2",
+   "title_original": "セリアのハロウィン型で米粉のかぼちゃクッキー(ふだんレシピ)",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/img/1792672829-iAhljwKYGNfZOJIF93Lz2RXp.png",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-23T22:04:49+00:00",
+   "title_ja": "セリアのハロウィン型で作る米粉のかぼちゃクッキー",
+   "summary_ja": "セリアで購入した110円のハロウィン型を活用した米粉クッキーの作り方。かぼちゃとおばけの2種類の型には顔と文字のスタンプも付いており、可愛いお菓子作りに役立つ。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ハロウィン型",
+    "クッキー型",
+    "スタンプ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "2aa494e5500dc568",
+   "url": "https://news.yahoo.co.jp/expert/articles/3188a5cf8605fe86d8bbc95221b2f77f769ac576",
+   "title_original": "【ダイソー】クリスマスアイテムを早めにゲット！今年は一段と可愛くなってる！（なないろの扉） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02750015/title-1792763315360.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T21:31:06+00:00",
+   "title_ja": "ダイソーの可愛いクリスマスアイテムを早めに紹介",
+   "summary_ja": "ダイソーで販売されているクリスマスアイテムの紹介。今年のシーズン商品は一段と可愛くなっており、早めのチェックがおすすめのラインナップ。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "クリスマスアイテム"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "46294b32379ede26",
+   "url": "https://note.com/ai_anone/n/n24b3b60dd848",
+   "title_original": "アイアンカバーの代用は100均＆靴下でOK？サビ・傷を防ぐ選び方と手入れ方法",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/327385580/rectangle_large_type_2_af56fa333f6ec7255b89821b26cd03bc.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-23T21:27:57+00:00",
+   "title_ja": "100円ショップのアイテムと靴下でアイアンカバーを代用",
+   "summary_ja": "高価なゴルフ用アイアンカバーの代わりに、100円ショップのアイテムや厚手ソックスを活用して費用を数百円に抑える方法。サビや傷を防ぐための選び方と手入れのコツ。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "アイアンカバー",
+    "靴下"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "99fd9250bb571ca1",
+   "url": "https://news.yahoo.co.jp/expert/articles/f5ce1cf28073ff9a67dff903da71af365975ef83",
+   "title_original": "【ダイソー】やっぱりこれだよね！今年もお世話になります！【100均】（akaneko715） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/akaneko/02738612/title-1791615453031.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T21:10:39+00:00",
+   "title_ja": "ダイソーの定番商品が再び注目",
+   "summary_ja": "ダイソーの定番商品が再び注目を集め、2023年も多くの利用者が購入・活用しています。価格は100円で、日常のちょっとした工夫に便利です。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
   {
    "id": "e2f2c1d773906f3e",
    "url": "https://note.com/tsubaki_nikki/n/nb0229b90628b",
