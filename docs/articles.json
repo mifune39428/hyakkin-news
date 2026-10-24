@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T00:41:55.625069+09:00",
+ "updated_at": "2026-10-25T05:31:00.310925+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,27 +27,31 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-25T00:43:12.399761+09:00",
+  "generated_at": "2026-10-25T05:31:51.387073+09:00",
   "days": 3,
-  "period": "10月24日〜10月24日",
+  "period": "10月24日〜10月25日",
   "count": 45,
-  "new_count": 11,
-  "use_count": 34,
-  "overview": "ダイソーやセリア、3COINSの商品について、収納やDIYなどの具体的な活用術を紹介する記事が多数を占める一方、充電器や発掘玩具などの新作情報も注目を集めている。",
-  "new": "ダイソーのUSB-C直挿し充電できる単3電池や惑星の発掘玩具、3COINSとサンリオのコラボなどが新商品として紹介されている。",
-  "use": "セリアの水筒の底カバーを本来とは違う方法で使う裏ワザや、ダイソーのつっぱり棒や靴収納ボックスを使った収納・DIY術などが語られている。",
+  "new_count": 12,
+  "use_count": 33,
+  "overview": "100円ショップの45件の記事から、ダイソーやセリアなどの新作グッズ情報や、収納・インテリアでの具体的な活用アイデアが多数紹介されています。",
+  "new": "ダイソーのUSB-C直挿し充電できる単3電池やちいかわのアクリルスタンド、セリアのモンチッチなどが新商品として話題です。",
+  "use": "セリアの丸椅子カバーをバッグのインナー代わりに使ったり、ダイソーのつっぱり棒で部屋を仕切るなど、意外な活用法が目立ちます。",
   "points": [
    {
-    "title": "旅先の石をDIY",
-    "body": "ダイソーのマグネットや超強力マグネットを使い、旅行先で拾った石をおしゃれなインテリアやマグネットへ作り替えるDIY術が紹介されている。"
+    "title": "充電できる単3電池",
+    "body": "ダイソーから発売された、ケーブルを使わずにUSB-C端子を直接挿して充電できる単3電池が紹介されています。アウトドアなどの利用に便利な仕様となっています。"
    },
    {
-    "title": "洗濯槽の汚れを掃除",
-    "body": "ダイソーの過炭酸ナトリウムを使い、購入から9年が経過した洗濯機を掃除したところ、驚くほどの汚れが取れた実用的なメンテナンス方法が話題となっている。"
+    "title": "惑星の発掘玩具",
+    "body": "ダイソーで新登場した、水星や金星などをモチーフにした惑星の中身がわかる発掘玩具です。そのまま飾って楽しめるデザインが特徴として紹介されています。"
    },
    {
-    "title": "つっぱり棒で間仕切り",
-    "body": "ダイソーのつっぱり棒を活用し、わずか5分で440円という低コストで部屋の簡単な仕切りを作る模様替えの工夫が取り上げられている。"
+    "title": "440円の部屋の仕切り",
+    "body": "ダイソーのつっぱり棒を活用して、440円で簡単に部屋の仕切りを作る方法です。わずか5分で完成する手軽な模様替えの工夫として紹介されています。"
+   },
+   {
+    "title": "靴収納の裏技活用法",
+    "body": "ダイソーの靴収納ボックスを裏返して使う意外なアイデアです。SNSでも話題を集めている収納グッズのユニークな活用方法として参考になります。"
    }
   ],
   "keywords": [
@@ -80,6 +84,10 @@
    "count": 3
   },
   {
+   "name": "過炭酸ナトリウム",
+   "count": 3
+  },
+  {
    "name": "ぬいぐるみ",
    "count": 2
   },
@@ -108,11 +116,11 @@
    "count": 2
   },
   {
-   "name": "文具",
+   "name": "ロールふきん",
    "count": 2
   },
   {
-   "name": "過炭酸ナトリウム",
+   "name": "文具",
    "count": 2
   },
   {
@@ -168,12 +176,70 @@
   "千葉テレビ放送",
   "千葉テレビ放送株式会社",
   "地域ニュースサイト号外NET",
+  "山陽新聞",
   "流通スーパーニュース",
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 186,
+ "count": 193,
  "items": [
+  {
+   "id": "8895322a36d43863",
+   "url": "https://note.com/korinko1130/n/na453927802e0",
+   "title_original": "いたずらしちゃうぞ",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328121797/rectangle_large_type_2_35beb0b7445f7e8737b3585b5829d543.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T18:20:28+00:00",
+   "title_ja": "ダイソーのハロウィングッズが多数入荷",
+   "summary_ja": "ダイソーではハロウィンシーズンに合わせ、かぼちゃやおばけの飾りに加えて、子供向けの魔女コスチューム（とんがり帽子、マント、ステッキ）が販売されている。店頭で手軽に購入でき、ハロウィンの装飾や仮装に最適だ。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "魔女コスチューム",
+    "とんがり帽子",
+    "マント",
+    "ステッキ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "257e1f5cdd50cd88",
+   "url": "https://note.com/nyanmomowagashi/n/n1c616529ca42",
+   "title_original": "植物の世話をした話",
+   "source": "note #ダイソー",
+   "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/96d23a9ff0c41ed4475be0efd0c7beb06bea20ba.png",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T17:44:43+00:00",
+   "title_ja": "ダイソーの花の種で簡単ガーデニング",
+   "summary_ja": "ダイソーで販売されている花の種を春と秋に購入し、土に撒いて水やりだけで育てるというシンプルなガーデニング方法を紹介している。初心者でも手軽に始められる。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "花の種"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "51cad131d131bfd4",
+   "url": "https://note.com/lucky_iris8593/n/nde6ff9b0b607",
+   "title_original": "【100均で解決】洗濯機の「見えない黒カビ・嫌なニオイ」を過炭酸ナトリウムで一発リセットする方法",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/328109102/rectangle_large_type_2_f3661a6876d2e95a4222e251b4637e5f.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-24T16:17:34+00:00",
+   "title_ja": "100均の過炭酸ナトリウムで洗濯機黒カビ除去",
+   "summary_ja": "100円ショップで手に入る過炭酸ナトリウムを洗濯機の槽裏に付着した黒カビや嫌なニオイの原因に直接投入し、数分で汚れを除去できる簡単リセット方法を解説している。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "過炭酸ナトリウム"
+   ],
+   "importance": 4
+  },
   {
    "id": "0fb63deca84bef21",
    "url": "https://note.com/tankano_matuki/n/nc5d711932e20",
@@ -427,6 +493,22 @@
    "importance": 3
   },
   {
+   "id": "7491c6669e9b100b",
+   "url": "https://www.sanyonews.jp/photo/detail?article_id=1976031",
+   "title_original": "長崎市内の新居、近未来な外観で災害対策 室内の明るさ対策に100円ショップ活用【住人十色】",
+   "source": "山陽新聞",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T09:57:23+00:00",
+   "title_ja": "長崎市新居で100円ショップ活用の室内明るさ対策",
+   "summary_ja": "長崎市の新築住宅では、室内の明るさ確保のために100円ショップで購入できる照明器具や反射シートなどを活用し、災害時の避難経路確保や省エネを図っている。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
    "id": "04783f4888fc174a",
    "url": "https://grapee.jp/2358402",
    "title_original": "ビーズ状のフチがかわいい『セリアのコースター』 コップ以外に使う方法で「おしゃれな雰囲気になった」",
@@ -462,6 +544,24 @@
     "色彩雫"
    ],
    "importance": 1
+  },
+  {
+   "id": "928ae52541256e58",
+   "url": "https://news.nicovideo.jp/watch/nw19914393?news_ref=watch_50_nw19169981",
+   "title_original": "セリアで見つけた110円の『てるてる坊主』 雨の日に役立つ思わぬ活用法に「手間が省ける」",
+   "source": "ニコニコニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T08:48:24+00:00",
+   "title_ja": "セリアの110円『てるてる坊主』活用法",
+   "summary_ja": "セリアで110円で買えるてるてる坊主を雨の日の室内干しや洗濯物の乾燥時間短縮に利用する方法を紹介。手軽に設置でき、雨天でも手間を省けると好評だ。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "てるてる坊主"
+   ],
+   "importance": 3
   },
   {
    "id": "d658e643cf688804",
@@ -755,6 +855,24 @@
    "axis": "use",
    "things": [
     "充電器45W"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "418a80379b80b33f",
+   "url": "https://news.infoseek.co.jp/topics/itmedia_mobile_20261024012",
+   "title_original": "ダイソーで1100円の「USB Type-C to HDMIケーブル」でスマホの画面をテレビに映すとどうなる？ 対応機種なら試してみる価値あり",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/itmedia_mobile/itmedia_mobile_20261024012_0.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:05:00+00:00",
+   "title_ja": "ダイソーの1100円USBケーブルで画面出力",
+   "summary_ja": "ダイソーで1100円のUSB Type-C to HDMIケーブルを使用し、対応機種のスマホ画面をテレビに映す検証記事。対応機種であれば試す価値がある便利アイテムの活用法。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "USB Type-C to HDMIケーブル"
    ],
    "importance": 4
   },
@@ -1145,6 +1263,24 @@
    "axis": "new",
    "things": [],
    "importance": 3
+  },
+  {
+   "id": "9ef40b454454c08b",
+   "url": "https://news.nicovideo.jp/watch/nw19911712?news_ref=top_newComments",
+   "title_original": "「もう3回以上購入してます」 3COINSの“ロールふきん”が大好評 「厚手でしっかりしています」「汚くなったらすぐに",
+   "source": "ニコニコニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T11:36:44+00:00",
+   "title_ja": "3COINSのロールふきんが好評",
+   "summary_ja": "3COINSのロールふきんが厚手でしっかりしており使いやすいと大好評。汚れたらすぐに使えるため何度もリピートされている人気の掃除・キッチンアイテム。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "ロールふきん"
+   ],
+   "importance": 4
   },
   {
    "id": "3e0252b5c75d05e2",
