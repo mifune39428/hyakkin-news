@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T20:03:34.995173+09:00",
+ "updated_at": "2026-10-26T00:52:32.033909+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,45 +27,44 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-25T20:04:58.015517+09:00",
+  "generated_at": "2026-10-26T00:53:09.404710+09:00",
   "days": 3,
-  "period": "10月24日〜10月25日",
+  "period": "10月25日〜10月26日",
   "count": 45,
-  "new_count": 16,
-  "use_count": 29,
-  "overview": "100円ショップの新作アイテムや、日常の収納やキッチンなどで便利に使いこなす具体的なアイデアが多数紹介されています。",
-  "new": "ダイソーのUSB-C直挿し充電できる単3電池や、セリアのクリスマス向けラバースタンプなど高機能な新商品が注目されています。",
-  "use": "セリアのミニブックエンドをキッチン整理に使ったり、ダイソーのヨガポールをフットレストに代用する工夫が語られています。",
+  "new_count": 14,
+  "use_count": 31,
+  "overview": "100円ショップのアイテムを使った収納やDIY、日常を便利にする使い方から、秋冬の新作情報まで幅広く紹介されています。",
+  "new": "ダイソーやセリアなどの新作では、季節のイベント雑貨や実用的なペットボトルカバーなどが登場しています。",
+  "use": "ワイヤーネットを使ったラック作りや、食器用キャップ式カバーなどの便利な活用法が詳しく語られています。",
   "points": [
    {
-    "title": "充電式の電動毛玉取り",
-    "body": "ダイソーの新商品であるディスプレイUSB電動毛玉取りは、サイズが大きく持ちやすい形状で、充電式かつバッテリー残量が確認できる利便性を備えています。"
+    "title": "ダイソーの500円毛玉取り",
+    "body": "ダイソーの新商品であるディスプレイUSB電動毛玉取りを紹介しています。サイズが大きく持ちやすい形状で、充電式かつバッテリー残量が確認できる利便性を備えています。"
    },
    {
-    "title": "前ポケット付きのカバー",
-    "body": "キャンドゥで330円で販売されているペットボトルカバーは前ポケットにスマートフォンを収納でき、バッグを持たずに手ぶらで外出や公園遊びができると紹介されています。"
+    "title": "セリアのカプセルシールキット",
+    "body": "セリアに新登場したカプセルシールキットは、様々なシールをカプセルに入れ自分だけのデザインが作れる商品。100円で手軽にカスタマイズでき、シール好きに注目されている。"
    },
    {
-    "title": "USB直挿しの単3電池",
-    "body": "ダイソーから新たに発売された単3電池は、USB-C端子を直接挿して充電できる仕様となっており、ケーブルを使わずに充電できるためアウトドア等で便利です。"
-   },
-   {
-    "title": "キッチンでのブックエンド活用",
-    "body": "セリアで販売されているミニブックエンドを、本来の使い方に囚われずにキッチンでの整理整頓に活用し、日々のちょっとした不便を解消するアイデアが紹介されています。"
+    "title": "キャンドゥのペットボトルカバー",
+    "body": "キャンドゥで販売されている330円のペットボトルカバーを紹介している。前ポケットにスマートフォンも収納できるため、バッグを持たずに手ぶらで外出や公園遊びができて快適になる。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
-   "キャンドゥ",
    "3COINS",
-   "アイデア",
+   "キャンドゥ",
    "収納"
   ]
  },
  "things": [
   {
    "name": "ポーチ",
+   "count": 5
+  },
+  {
+   "name": "毛糸",
    "count": 5
   },
   {
@@ -77,8 +76,8 @@
    "count": 4
   },
   {
-   "name": "毛糸",
-   "count": 4
+   "name": "つっぱり棒",
+   "count": 3
   },
   {
    "name": "バッグ",
@@ -98,10 +97,6 @@
   },
   {
    "name": "LEDキャンドル",
-   "count": 2
-  },
-  {
-   "name": "つっぱり棒",
    "count": 2
   },
   {
@@ -185,6 +180,7 @@
   "TSURINEWS",
   "Unisba Media",
   "Yahoo!ニュース",
+  "YouTube",
   "au Webポータル",
   "eeo",
   "grapee.jp",
@@ -225,8 +221,82 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 231,
+ "count": 243,
  "items": [
+  {
+   "id": "8b60b2e5baa53f65",
+   "url": "https://note.com/nao_kanzaki7039/n/n7115e72dba5f",
+   "title_original": "【目指せ】ブラインドドールに使えるアウトフィットは100均にあるのか【快適ドールライフ】",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/328087532/rectangle_large_type_2_0dfdb14b696dc69c741844a1164b8280.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T15:35:38+00:00",
+   "title_ja": "ダイソーのディスプレイスタンドをドール用に活用する",
+   "summary_ja": "ダイソーのディスプレイスタンドがブラインドドールに使えることが判明し、ドール用品として活用されている話題です。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ディスプレイスタンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "6872748fb39d745d",
+   "url": "https://note.com/vast_lion4538/n/n172195ddafad",
+   "title_original": "あのバッグをもう一度！ ダイソー材料で作るハンドメイド日記①",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328473255/rectangle_large_type_2_ebbd723a1117029c4f8d4c4a834e7f10.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T13:54:45+00:00",
+   "title_ja": "ダイソーの毛糸で作るショルダーバッグのハンドメイド",
+   "summary_ja": "編み物初心者がダイソーの毛糸とあみつけネットを使って、ショルダーバッグを手作りした体験談です。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "毛糸",
+    "あみつけネット",
+    "ショルダーバッグ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "e78e958977aafc15",
+   "url": "https://note.com/dapper_echium197/n/n9cc5f1cc8433",
+   "title_original": "フォームローラーはダイソーの500円で十分？ 使い始めて2日、思った以上によかった話",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328451880/rectangle_large_type_2_fc965262cac8637a8261bb716573dfad.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T13:05:24+00:00",
+   "title_ja": "ダイソーの500円フォームローラー、実際に使ってみた感想",
+   "summary_ja": "ダイソーで500円のフォームローラーを購入し、2日間使用。肩や背中のコリが軽くなり、寝つきも改善されたと実感。高価なものと比べても満足できる性能だった。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "フォームローラー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "3eb1e8fb5c69f30f",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/ftnews/trend/ftnews-015acf3cd5461e16586d199d8c29ff0f5dee91c7",
+   "title_original": "【セリア】でイイの発見！『おくれ毛キープクリーム』使ってみると →「持っておくと重宝しそう」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-015acf3cd5461e16586d199d8c29ff0f5dee91c7.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T11:02:00+00:00",
+   "title_ja": "セリアの『おくれ毛キープクリーム』を試してみた感想",
+   "summary_ja": "セリアのヘアケア商品『おくれ毛キープクリーム』を実際に使用し、髪の持ちが良くなる効果を確認。手軽に使える点が重宝できると評価した。",
+   "category": "コスメ・美容",
+   "axis": "use",
+   "things": [
+    "おくれ毛キープクリーム"
+   ],
+   "importance": 3
+  },
   {
    "id": "33480e49399dd5bd",
    "url": "https://note.com/safe_daphne7819/n/n8b4d4b48a3dc",
@@ -303,6 +373,24 @@
    "importance": 4
   },
   {
+   "id": "a57a9c3739783709",
+   "url": "https://www.sanyonews.jp/article/1962365",
+   "title_original": "「これはシール沼が加速」「100均で自分好みのシャカシャカシール!?」セリアに登場した“カプセルシールキット”は可能性が無限大",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/3/1/d/3/31d3c8c648e3c1111e7cc1e1f340f003_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T09:53:27+00:00",
+   "title_ja": "セリアの『カプセルシールキット』が登場、シール好きに注目",
+   "summary_ja": "セリアに新登場した『カプセルシールキット』は、様々なシールをカプセルに入れ自分だけのデザインが作れる商品。100円で手軽にカスタマイズでき、シール好きに注目されている。",
+   "category": "文具・手帳",
+   "axis": "new",
+   "things": [
+    "カプセルシールキット"
+   ],
+   "importance": 3
+  },
+  {
    "id": "08de8a004e3ecfd8",
    "url": "https://note.com/oharatasuke/n/n7f0203e05a4c",
    "title_original": "550円でフットレスト",
@@ -355,6 +443,25 @@
     "小えびカシューナッツ"
    ],
    "importance": 2
+  },
+  {
+   "id": "eeea63a1d045581d",
+   "url": "https://news.yahoo.co.jp/articles/d89fb269fba0f3432c2b50fd03c15ed5b3ad01cc/images/000",
+   "title_original": "100均ダイソーの「ワイヤーネット」で洗濯ラックをDIY “床に置きっぱなしだった服とバッグの山”の景色が一変した (LIMO)",
+   "source": "Yahoo!ニュース",
+   "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnaoNlvzPoFL6j-Um3PHoAPhyEn5zhVU0yQvQ2rHuoXCk5MtjxCesgtkKV5F9vP9IjOXpqZWZa__OiC3CIVFLA-MMASB4pW2wgiu_xlN9-3GHNcJZY-GphivgIp35UGC4hA==",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T09:25:49+00:00",
+   "title_ja": "ダイソーのワイヤーネットで作る洗濯ラックDIY術",
+   "summary_ja": "ダイソーのワイヤーネットを活用して洗濯ラックをDIYするアイデア。床に置きっぱなしになっていた服やバッグをすっきりと収納し、部屋の景色を一変させる便利な活用法。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ワイヤーネット",
+    "ラック"
+   ],
+   "importance": 4
   },
   {
    "id": "d6a7d23c1eefad56",
@@ -461,6 +568,42 @@
    "axis": "use",
    "things": [],
    "importance": 3
+  },
+  {
+   "id": "d6daa768ffcac5af",
+   "url": "https://www.chiba-tv.com/plus/detail/2026102155957",
+   "title_original": "玄関の『ドア上』につっぱり棒を置くと便利！ 収納が簡単に増やせる100均活用ワザ【3選】",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1486981696203244753/origin_1.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T06:54:33+00:00",
+   "title_ja": "玄関のドア上につっぱり棒を置く収納活用ワザ",
+   "summary_ja": "玄関のドア上につっぱり棒を設置して収納スペースを簡単に増やす100均活用ワザ。手軽に実践できる便利な収納アイデアを3選で紹介。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "つっぱり棒"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "5c502333fd091a5c",
+   "url": "https://news.infoseek.co.jp/article/itmedia_nlab_4064220",
+   "title_original": "「すっごい新鮮でおしゃれ」 3COINSの“映えるヨガマット”が大好評 「しっかりした素材で大きさもちょうどいい」「インテリアとしてもしっくりきます」｜Infoseekニュース",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/itmedia_nlab/itmedia_nlab_4064220_0-enlarge.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T06:45:00+00:00",
+   "title_ja": "3COINSのおしゃれで使いやすいヨガマット",
+   "summary_ja": "3COINSから登場した、しっかりした素材とちょうど良い大きさのヨガマット。インテリアにもしっくりとなじむ、新鮮でおしゃれなアイテムとして好評を集めている。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "ヨガマット"
+   ],
+   "importance": 4
   },
   {
    "id": "7b2c07fcfaa864e2",
@@ -808,6 +951,24 @@
    "importance": 3
   },
   {
+   "id": "adfca7a52dfcac45",
+   "url": "https://news.yahoo.co.jp/articles/f1d5a78f432ea5e176f34f82737deb090d2e8090",
+   "title_original": "棚板をぱたんと閉じれば薄い板に変身、片手で抱えて車に積んだら出かけた先で思わぬ活躍（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-00142572-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T21:10:50+00:00",
+   "title_ja": "LIMOの折りたたみ棚板、車で持ち運び便利に",
+   "summary_ja": "LIMOの棚板は閉じると薄い板に変形し、片手で抱えて車に積めるため、外出先での収納や作業に便利に活用できます。その軽量設計とコンパクトさから、キャンプや買い物、急な荷物整理など、さまざまなシーンで活躍します。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "棚板"
+   ],
+   "importance": 3
+  },
+  {
    "id": "ebe0b1600a96bd60",
    "url": "https://limo.media/articles/-/142572",
    "title_original": "【100均DIY】持ち運びに便利！セリアの国産ヒノキ材で作る「折り畳み小物棚」",
@@ -1040,6 +1201,25 @@
    "category": "キャラクター・コラボ",
    "axis": "new",
    "things": [],
+   "importance": 4
+  },
+  {
+   "id": "e30198b60ec7d565",
+   "url": "https://youtu.be/eAFA2FJvtEU?si=hnadPe1oElokJZm7",
+   "title_original": "【100均】最近話題のNEW『ダイソー観葉植物』をついにゲットしました！【ソテツ】",
+   "source": "YouTube",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T11:02:00+00:00",
+   "title_ja": "ダイソーの新観葉植物が登場",
+   "summary_ja": "ダイソーで新たに販売された観葉植物が入荷し、実際に手に取ってレビューされています。価格は記載されていませんが、手軽にインテリアを彩るアイテムとして注目されています。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "観葉植物",
+    "ソテツ"
+   ],
    "importance": 4
   },
   {
@@ -1925,6 +2105,24 @@
    "things": [
     "アイアンカバー",
     "靴下"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "7ee2b1338d02cfa8",
+   "url": "https://yomuno.jp/posts/143415",
+   "title_original": "【3COINS】ズボラさん大歓喜！中の人が激推しする「くしゃくしゃ収納OK」な手のひらサイズバッグ",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/143415/header_image/large-7af3078331ac35b40dd9b17197c1e5b4.jpeg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-23T21:15:40+00:00",
+   "title_ja": "3COINSの手のひらサイズバッグが新登場",
+   "summary_ja": "3COINSで販売中の手のひらサイズバッグは、くしゃくしゃになっても収納できる設計が特徴で、ズボラな人でも手軽に持ち運び可能です。新商品として注目されています。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "手のひらサイズバッグ"
    ],
    "importance": 3
   },
@@ -3942,6 +4140,24 @@
     "調理器"
    ],
    "importance": 3
+  },
+  {
+   "id": "bee00611921b8348",
+   "url": "https://news.livedoor.com/topics/detail/32607875",
+   "title_original": "「前髪死守勢はダイソーへ」キティの鏡付きコームがSNSで話題に (2026年10月20日掲載)",
+   "source": "ライブドアニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-19T22:40:00+00:00",
+   "title_ja": "ダイソーのキティ鏡付きコームがSNSで話題に",
+   "summary_ja": "ダイソーで販売中のサンリオ・キティデザインの鏡付きヘアコームが、前髪を整える便利アイテムとしてSNSで注目を集めている。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "キティ鏡付きコーム"
+   ],
+   "importance": 4
   },
   {
    "id": "5ca0ff02ca946960",
