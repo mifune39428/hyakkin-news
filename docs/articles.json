@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T05:31:00.310925+09:00",
+ "updated_at": "2026-10-25T13:05:58.561785+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,31 +27,31 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-25T05:31:51.387073+09:00",
+  "generated_at": "2026-10-25T13:07:27.413449+09:00",
   "days": 3,
   "period": "10月24日〜10月25日",
   "count": 45,
-  "new_count": 12,
-  "use_count": 33,
-  "overview": "100円ショップの45件の記事から、ダイソーやセリアなどの新作グッズ情報や、収納・インテリアでの具体的な活用アイデアが多数紹介されています。",
-  "new": "ダイソーのUSB-C直挿し充電できる単3電池やちいかわのアクリルスタンド、セリアのモンチッチなどが新商品として話題です。",
-  "use": "セリアの丸椅子カバーをバッグのインナー代わりに使ったり、ダイソーのつっぱり棒で部屋を仕切るなど、意外な活用法が目立ちます。",
+  "new_count": 14,
+  "use_count": 31,
+  "overview": "ダイソーやセリアなどの100円ショップアイテムをめぐり、手帳や収納、インテリアでの具体的な活用アイデアや新作の発売情報が多数報じられています。",
+  "new": "ダイソーのUSB-C直挿し充電できる単3電池や惑星の発掘玩具、キャンドゥのポケット付きペットボトルカバーなどが続々と登場しています。",
+  "use": "セリアのシューズスタンドやブックエンドを使った整理術、ブリキ缶のハンギングなど、本来の用途を超えた意外な活用法が紹介されています。",
   "points": [
    {
-    "title": "充電できる単3電池",
-    "body": "ダイソーから発売された、ケーブルを使わずにUSB-C端子を直接挿して充電できる単3電池が紹介されています。アウトドアなどの利用に便利な仕様となっています。"
+    "title": "USB-C充電できる電池",
+    "body": "ダイソーからケーブルを使わずにUSB-C端子を直接挿して充電できる単3電池が新たに発売され、アウトドアでの利用などに便利なアイテムとして紹介されています。"
    },
    {
-    "title": "惑星の発掘玩具",
-    "body": "ダイソーで新登場した、水星や金星などをモチーフにした惑星の中身がわかる発掘玩具です。そのまま飾って楽しめるデザインが特徴として紹介されています。"
+    "title": "意外な代用や裏ワザ活用",
+    "body": "セリアの商品を本来の用途とは違う方法で使う裏ワザが紹介されており、丸椅子カバーをカメラのポーチやインナーバッグの代用として試す工夫も見られます。"
    },
    {
-    "title": "440円の部屋の仕切り",
-    "body": "ダイソーのつっぱり棒を活用して、440円で簡単に部屋の仕切りを作る方法です。わずか5分で完成する手軽な模様替えの工夫として紹介されています。"
+    "title": "旅行の思い出を飾るDIY",
+    "body": "ダイソーのマグネットや超強力マグネットを使い、旅行先で拾った石をお土産のマグネットやおしゃれなインテリアとしてフレームに飾るDIY術が注目されています。"
    },
    {
-    "title": "靴収納の裏技活用法",
-    "body": "ダイソーの靴収納ボックスを裏返して使う意外なアイデアです。SNSでも話題を集めている収納グッズのユニークな活用方法として参考になります。"
+    "title": "便利なシューズスタンド",
+    "body": "セリアのシューズスタンドを使って靴を立てて置くことで、玄関の収納スペースを無駄なく活用できるほか、濡れた靴を効率よく干す用途にも役立ちます。"
    }
   ],
   "keywords": [
@@ -59,7 +59,7 @@
    "セリア",
    "3COINS",
    "収納",
-   "アイデア"
+   "インテリア"
   ]
  },
  "things": [
@@ -76,7 +76,15 @@
    "count": 4
   },
   {
+   "name": "ケース",
+   "count": 3
+  },
+  {
    "name": "バッグ",
+   "count": 3
+  },
+  {
+   "name": "文具",
    "count": 3
   },
   {
@@ -86,6 +94,10 @@
   {
    "name": "過炭酸ナトリウム",
    "count": 3
+  },
+  {
+   "name": "つっぱり棒",
+   "count": 2
   },
   {
    "name": "ぬいぐるみ",
@@ -100,6 +112,10 @@
    "count": 2
   },
   {
+   "name": "キーホルダー",
+   "count": 2
+  },
+  {
    "name": "クッキー缶",
    "count": 2
   },
@@ -108,7 +124,7 @@
    "count": 2
   },
   {
-   "name": "ケース",
+   "name": "スタンプ",
    "count": 2
   },
   {
@@ -116,15 +132,23 @@
    "count": 2
   },
   {
+   "name": "ナイトキャップ",
+   "count": 2
+  },
+  {
    "name": "ロールふきん",
    "count": 2
   },
   {
-   "name": "文具",
+   "name": "付箋",
    "count": 2
   },
   {
    "name": "雑貨",
+   "count": 2
+  },
+  {
+   "name": "靴下",
    "count": 2
   }
  ],
@@ -169,6 +193,7 @@
   "ニコニコニュース",
   "マイナビニュース",
   "マナの時間",
+  "モデルプレス",
   "ヨッパン・100均紹介",
   "ヨムーノ",
   "ライブドアニュース",
@@ -176,13 +201,307 @@
   "千葉テレビ放送",
   "千葉テレビ放送株式会社",
   "地域ニュースサイト号外NET",
+  "女子SPA!",
   "山陽新聞",
   "流通スーパーニュース",
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 193,
+ "count": 210,
  "items": [
+  {
+   "id": "0e569707f82d0e0f",
+   "url": "https://note.com/marubuh/n/n130379b2ebb9",
+   "title_original": "かわいい黒猫ちゃん手帳に予定を埋める",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328239754/rectangle_large_type_2_367470a5d849cfb4def25810893aa73a.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T03:58:36+00:00",
+   "title_ja": "ダイソーの黒猫柄手帳とクリップを活用したボールペンのセット方法",
+   "summary_ja": "ダイソーで黒猫デザインの来年用手帳とジェットストリームのボールペンを購入した報告です。手帳にダイソーの金色クリップを取り付け、ボールペンを引っかけて持ち運ぶ活用アイデアを紹介しています。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "手帳",
+    "ボールペン",
+    "クリップ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "6f32672b18871775",
+   "url": "https://news.yahoo.co.jp/expert/articles/31df27f46d49fe92862832a4f939fd5de003d0cc",
+   "title_original": "【キャンドゥ購入品】手帳に使える付箋＆大人かわいい童話モチーフの文具をご紹介！（maimai） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/maimaicp/02746496/title-1792545484323.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T02:01:30+00:00",
+   "title_ja": "キャンドゥの手帳に使える付箋と童話モチーフの大人かわいい文具",
+   "summary_ja": "キャンドゥで購入した手帳作りに役立つ付箋や、大人かわいい童話モチーフの文房具を紹介。手帳のデコレーションや日常のメモに使えるおすすめの文具アイテムを取り上げています。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "付箋",
+    "文具"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "e1638fdccaab8fbb",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/ftnews/trend/ftnews-ece8ac2558ec329e4c7fc1e3bc815678b65a1611",
+   "title_original": "バッグ変えるたび、中身入れ替えるの面倒！→【3COINS新作】このひと手間をなくせる『優秀アイテム』",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-ece8ac2558ec329e4c7fc1e3bc815678b65a1611.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T02:00:00+00:00",
+   "title_ja": "3COINSの新作アイテムでバッグの荷物入れ替えを快適に",
+   "summary_ja": "3COINSから発売された新作アイテムを紹介。バッグを変えるたびに発生する荷物の入れ替え作業を快適にし、毎日の持ち運びを便利にしてくれるおすすめの便利グッズです。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "0a4b2d64381490a7",
+   "url": "https://diamond.jp/articles/-/401782",
+   "title_original": "まとめ買いして大正解…！セリアの「めちゃかわトートバッグ」ありそうでなかったデザインに感動した！《購入レビュー》",
+   "source": "ダイヤモンド・オンライン",
+   "image": "https://dol.ismcdn.jp/mwimgs/b/7/-/img_b74a6f529ca746034d617cf85b4440b7119305.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T01:06:00+00:00",
+   "title_ja": "セリアのデザイン性に優れたトートバッグの購入レビュー",
+   "summary_ja": "セリアで販売されているデザイン性の高いトートバッグの購入レビュー。ありそうでなかった魅力的な見た目と使い勝手の良さから、まとめ買いしたくなるアイテムとして紹介しています。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "トートバッグ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "17514523335ae02c",
+   "url": "https://note.com/deep_daisy4744/n/ne140419c1f8a",
+   "title_original": "ウツボカズラをDAISOのブリキ缶でハンギングしてみた",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328151172/rectangle_large_type_2_9ecd75bb6bc6123f4a55582b2f8a9761.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T00:55:42+00:00",
+   "title_ja": "ダイソーのブリキ缶を使ったウツボカズラのハンギング",
+   "summary_ja": "ダイソーのブリキ缶を活用して、冬に備えて室内に取り込んだウツボカズラをハンギングで飾る工夫を紹介している。観葉植物をインテリアとして楽しむ方法。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ブリキ缶",
+    "ウツボカズラ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "6c32e47f4ce62662",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4060601",
+   "title_original": "100均の靴下をハサミで切って…… 目からウロコな完成品に「かわいいですね」「うちの子のために作ってあげたい」（1/3） | ハンドメイド ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792549474_resized_image.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T00:29:01+00:00",
+   "title_ja": "セリアなどの100均靴下をリメイクするハンドメイド術",
+   "summary_ja": "100均の靴下をハサミで切って作るハンドメイドのアイデアを紹介している。子ども用に可愛らしい完成品が作れるとSNSなどでも注目を集めている。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "靴下"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "080550d8cc969e23",
+   "url": "https://joshi-spa.jp/1433510",
+   "title_original": "バッグ持たずに手ぶら外出！キャンドゥ330円のペットボトルカバー、“前ポケット”にスマホも入り公園遊びも快適",
+   "source": "女子SPA!",
+   "image": "https://joshi-spa.jp/wp-content/uploads/2026/10/fuka_cando_2610_05.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T23:46:52+00:00",
+   "title_ja": "キャンドゥの330円ペットボトルカバーは前ポケット付き",
+   "summary_ja": "キャンドゥで販売されている330円のペットボトルカバーを紹介している。前ポケットにスマートフォンも収納できるため、バッグを持たずに手ぶらで外出や公園遊びができて快適になる。",
+   "category": "キッチン",
+   "axis": "new",
+   "things": [
+    "ペットボトルカバー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "f9adaec720a1259f",
+   "url": "https://mdpr.jp/other/4865181",
+   "title_original": "100均の本気を見た！700円って…つい値札を2度見！買わなきゃ損なハイスペ電気小物3選",
+   "source": "モデルプレス",
+   "image": "https://img-mdpr.freetls.fastly.net/article/7G7G/nm/7G7GIToTg_bGMS4Zv9XXdu5tzGpNPST0suUAzGzqzoo.jpg?width=700&disable=upscale&auto=webp&quality=80",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T23:41:43+00:00",
+   "title_ja": "700円のハイスペックな電気小物3選を100均で発見",
+   "summary_ja": "100均で見つけた700円のハイスペックな電気小物3選を紹介している。思わず値札を二度見してしまうような高機能なアイテムが揃っている。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [
+    "電気小物"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "b49ef4b882d9187d",
+   "url": "https://mdpr.jp/other/detail/4865178",
+   "title_original": "押すだけで楽ちん！「3日坊主から卒業できる！」アイデア次第で幅広く使える100均スタンプ",
+   "source": "モデルプレス",
+   "image": "https://img-mdpr.freetls.fastly.net/article/tRml/nm/tRmldLnke3Pw-4wFuvl64CJeALnaz04YAGHIHLI3a9c.jpg?width=700&disable=upscale&auto=webp&quality=80",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T23:00:00+00:00",
+   "title_ja": "アイデア次第で幅広く使える便利な100均スタンプ",
+   "summary_ja": "押すだけで簡単に使える100均のスタンプを紹介している。アイデア次第で様々な用途に幅広く活用でき、3日坊主の人でも習慣化に役立てられる便利グッズ。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "スタンプ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "178ef201f99008dc",
+   "url": "https://hochi.news/articles/pub_mic_249668.html",
+   "title_original": "100均で買えるって信じられない！「コレ200円って価格バグ！」専門店も震えるキーホルダー",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/25/pub_mic_249668/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T23:00:00+00:00",
+   "title_ja": "100均で購入できる200円のキーホルダーが注目",
+   "summary_ja": "100円ショップで販売されている200円のキーホルダーが話題を集めています。クオリティが高く、価格以上の満足感を得られるアイテムとして評価されています。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "キーホルダー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "e5b514f94b806c06",
+   "url": "https://hochi.news/articles/pub_mic_249691.html",
+   "title_original": "思わず値札を3度見！「機能性も見た目も良すぎ！」300円以上の価値を感じる100均ケース",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/25/pub_mic_249691/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T23:00:00+00:00",
+   "title_ja": "100均の収納ケースが機能性とデザイン性で話題",
+   "summary_ja": "100円ショップで購入できるケースが、見た目の良さと機能性を兼ね備えていると評価されています。手頃な価格でありながら満足度の高い使い勝手を実現しています。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ケース"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "92e6eff5928a6693",
+   "url": "https://www.chiba-tv.com/plus/detail/amp/2026102154544",
+   "title_original": "【セリア】の『ミニブックエンド』が便利なキッチンアイテムに早変わり！あのイライラを解消♡",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1486859424714000163/origin_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T22:48:38+00:00",
+   "title_ja": "セリアのミニブックエンドをキッチン整理に活用",
+   "summary_ja": "セリアで販売されているミニブックエンドは、キッチンでの整理整頓に役立つ便利なアイテムです。本来の使い方に囚われず工夫することで、日々のちょっとした不便を解消できます。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "ミニブックエンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "afdc7948a5785768",
+   "url": "https://news.yahoo.co.jp/articles/beb2bf77c2e3b4878e32fd739d5487bd6335c7d3",
+   "title_original": "韓国ダイソー、5000ウォンのニットも登場…衣料品1200種類、売上高倍増（KOREA WAVE）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-03659213-clc_korea-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T22:42:16+00:00",
+   "title_ja": "韓国のダイソーで5000ウォンのニットなど衣料品が展開",
+   "summary_ja": "韓国のダイソーにおいて、5000ウォンのニットをはじめとする衣料品ラインナップが1200種類まで拡充されています。低価格で多様な衣料品が揃い、売上を大きく伸ばしています。",
+   "category": "お店・ブランド",
+   "axis": "new",
+   "things": [
+    "ニット",
+    "衣料品"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "bc6fe3563e5142f0",
+   "url": "https://article.auone.jp/d8288bda-f256-49cb-b308-cc923de9385d",
+   "title_original": "【セリア】靴を立てると収納スペースがすっきり！濡れた靴も干せる『シューズスタンド』",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/24/https___news_jp_i_1486855817223488301_w450.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T22:34:10+00:00",
+   "title_ja": "セリアのシューズスタンドで靴の収納と乾燥を効率化",
+   "summary_ja": "セリアのシューズスタンドは、靴を立てて置くことで収納スペースを無駄なく活用できる商品です。玄関周りをすっきり整理できるほか、濡れた靴を干す用途にも活用できます。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "シューズスタンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "ebe0b1600a96bd60",
+   "url": "https://limo.media/articles/-/142572",
+   "title_original": "【100均DIY】持ち運びに便利！セリアの国産ヒノキ材で作る「折り畳み小物棚」",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/8/3/1200w/img_83f08867452d683dc49fceda09bb5037748545.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T21:07:00+00:00",
+   "title_ja": "セリアの国産ヒノキ材で作る折りたたみ小物棚のDIY手法",
+   "summary_ja": "セリアで手に入る国産ヒノキ材を活用し、持ち運びに便利な折りたたみ式の小物棚をDIYする方法を紹介しています。コンパクトに収納できるため、車に積んで外出先で使う際にも役立ちます。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "国産ヒノキ材"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "a890a763d0c2f964",
+   "url": "https://yomuno.jp/posts/143489",
+   "title_original": "3COINSのシルクアイテム3選！手袋・ナイトキャップ・シュシュを元美容師が本音でレビュー",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/143489/header_image/large-89ab9e64cd0fe872a21eea9391f4b39e.jpeg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T21:04:35+00:00",
+   "title_ja": "3COINSのシルク製手袋やナイトキャップなどの使用感レビュー",
+   "summary_ja": "3COINSで展開されているシルク素材のアイテムから、手袋、ナイトキャップ、シュシュの3点を元美容師がレビューしています。それぞれの実際の使い心地や特徴について客観的に解説しています。",
+   "category": "コスメ・美容",
+   "axis": "use",
+   "things": [
+    "手袋",
+    "ナイトキャップ",
+    "シュシュ"
+   ],
+   "importance": 3
+  },
   {
    "id": "8895322a36d43863",
    "url": "https://note.com/korinko1130/n/na453927802e0",
@@ -697,6 +1016,24 @@
    "category": "キッチン",
    "axis": "use",
    "things": [],
+   "importance": 4
+  },
+  {
+   "id": "ac4dbdf8c49f496c",
+   "url": "https://www.sanyonews.jp/article/1905771?kw=2025",
+   "title_original": "ダイソー「つっぱり棒」アイテムを使った活用術が130万回再生 キッチンのデッドスペースにストック置き場が誕生",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/9/f/3/5/9f3553f1345fa94d1b7bdd03387abad4_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T07:29:17+00:00",
+   "title_ja": "ダイソーのつっぱり棒でキッチンの隙間に収納を作るアイデア",
+   "summary_ja": "ダイソーのつっぱり棒アイテムを活用し、キッチンのデッドスペースにストック置き場を作る収納アイデアを紹介しています。身近なグッズを使ってデッドスペースを有効活用する工夫が分かります。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "つっぱり棒"
+   ],
    "importance": 4
   },
   {
