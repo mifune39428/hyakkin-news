@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T00:52:32.033909+09:00",
+ "updated_at": "2026-10-26T05:39:04.518275+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,44 +27,44 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-26T00:53:09.404710+09:00",
+  "generated_at": "2026-10-26T05:39:22.921315+09:00",
   "days": 3,
   "period": "10月25日〜10月26日",
   "count": 45,
-  "new_count": 14,
-  "use_count": 31,
-  "overview": "100円ショップのアイテムを使った収納やDIY、日常を便利にする使い方から、秋冬の新作情報まで幅広く紹介されています。",
-  "new": "ダイソーやセリアなどの新作では、季節のイベント雑貨や実用的なペットボトルカバーなどが登場しています。",
-  "use": "ワイヤーネットを使ったラック作りや、食器用キャップ式カバーなどの便利な活用法が詳しく語られています。",
+  "new_count": 11,
+  "use_count": 34,
+  "overview": "ダイソーやセリアなどの100円ショップで買える新作グッズの紹介や、日常の収納・インテリアでの具体的な活用アイデアが多数報じられています。",
+  "new": "ダイソーの電動毛玉取りやセリアのカプセルシールキットなど、デザイン性や実用性を兼ね備えた新商品が注目を集めています。",
+  "use": "ワイヤーネットやタオル掛けを本来の用途とは違う場所で使う工夫や、手帳・推し活グッズのカスタム術が多く紹介されています。",
   "points": [
    {
-    "title": "ダイソーの500円毛玉取り",
-    "body": "ダイソーの新商品であるディスプレイUSB電動毛玉取りを紹介しています。サイズが大きく持ちやすい形状で、充電式かつバッテリー残量が確認できる利便性を備えています。"
+    "title": "ディスプレイUSB電動毛玉取り",
+    "body": "ダイソーの新商品であるディスプレイUSB電動毛玉取りは、サイズが大きく持ちやすい形状で、充電式かつバッテリー残量が確認できる利便性を備えています。"
    },
    {
-    "title": "セリアのカプセルシールキット",
-    "body": "セリアに新登場したカプセルシールキットは、様々なシールをカプセルに入れ自分だけのデザインが作れる商品。100円で手軽にカスタマイズでき、シール好きに注目されている。"
+    "title": "カプセルシールキット",
+    "body": "セリアに新登場したカプセルシールキットは、様々なシールをカプセルに入れ自分だけのデザインが作れる商品で、100円で手軽にカスタマイズできます。"
    },
    {
-    "title": "キャンドゥのペットボトルカバー",
-    "body": "キャンドゥで販売されている330円のペットボトルカバーを紹介している。前ポケットにスマートフォンも収納できるため、バッグを持たずに手ぶらで外出や公園遊びができて快適になる。"
+    "title": "前ポケット付きペットボトルカバー",
+    "body": "キャンドゥで販売されている330円のペットボトルカバーは、前ポケットにスマートフォンも収納できるため、バッグを持たずに手ぶらで外出できます。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
-   "3COINS",
    "キャンドゥ",
+   "3COINS",
    "収納"
   ]
  },
  "things": [
   {
-   "name": "ポーチ",
-   "count": 5
+   "name": "毛糸",
+   "count": 6
   },
   {
-   "name": "毛糸",
+   "name": "ポーチ",
    "count": 5
   },
   {
@@ -221,8 +221,24 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 243,
+ "count": 250,
  "items": [
+  {
+   "id": "463e418d0d442790",
+   "url": "https://yomuno.jp/posts/143528",
+   "title_original": "【100均】セリア・ダイソーで買える！小学生の「リビング学習＆学校準備」神グッズ3選",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/143528/header_image/large-c8d6cbd416d2007a9bc0579b190cd145.jpeg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T20:02:50+00:00",
+   "title_ja": "セリアとダイソーで買える小学生向け学習・準備グッズ",
+   "summary_ja": "セリアとダイソーで購入できる、小学生のリビング学習や学校の準備に役立つアイテム3選を紹介する記事。子どもがいる家庭の学習環境を整えるのに便利な商品が取り上げられている。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
   {
    "id": "8b60b2e5baa53f65",
    "url": "https://note.com/nao_kanzaki7039/n/n7115e72dba5f",
@@ -262,6 +278,24 @@
    "importance": 3
   },
   {
+   "id": "6d052b998b18ddb5",
+   "url": "https://note.com/yutty_note/n/nf693c33c1697",
+   "title_original": "サウナイキタイの小銭入れを自分仕様にプチカスタム",
+   "source": "note #3COINS",
+   "image": "https://assets.st-note.com/production/uploads/images/325781212/rectangle_large_type_2_ad23bf0899111af3b3ddb8e95c9b516f.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T13:19:17+00:00",
+   "title_ja": "サウナイキタイの小銭入れを自分仕様にカスタム",
+   "summary_ja": "3COINSで購入したサウナイキタイの小銭入れを、使いきれていない状態から自分の使い勝手に合わせてプチカスタムする過程を記録した記事。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "小銭入れ"
+   ],
+   "importance": 2
+  },
+  {
    "id": "e78e958977aafc15",
    "url": "https://note.com/dapper_echium197/n/n9cc5f1cc8433",
    "title_original": "フォームローラーはダイソーの500円で十分？ 使い始めて2日、思った以上によかった話",
@@ -278,6 +312,42 @@
     "フォームローラー"
    ],
    "importance": 3
+  },
+  {
+   "id": "918b6368d6e7881a",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-f61fba7a8de05419c4f4850945ed5197452dfa74?page=2",
+   "title_original": "「正直、少し高いかも」→【3COINS】1,100円『ワイパー』を使ったら「買い替えてよかった！」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-f61fba7a8de05419c4f4850945ed5197452dfa74.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T12:45:00+00:00",
+   "title_ja": "3COINSの1,100円ワイパーの使用感レビュー",
+   "summary_ja": "3COINSの1,100円のワイパーを実際に使ってみたところ、買い替えてよかったと実感できる使い心地だったという使用感の紹介記事。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "ワイパー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "fbcd000f1a8c4e75",
+   "url": "https://note.com/suntasora/n/nf8e597d0e2ad",
+   "title_original": "【編み物】始めました",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/328431569/rectangle_large_type_2_93060694b1dd1f3e6e597a9c6bc790d2.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T12:15:39+00:00",
+   "title_ja": "セリアの毛糸を使った編み物の様子",
+   "summary_ja": "セリアの毛糸の残りを使い切るため、また練習のために、この冬も編み物を楽しんでいる様子がつづられているブログ記事。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "毛糸"
+   ],
+   "importance": 2
   },
   {
    "id": "3eb1e8fb5c69f30f",
@@ -464,6 +534,22 @@
    "importance": 4
   },
   {
+   "id": "63ea3331aa7864e7",
+   "url": "https://trilltrill.jp/articles/5130820",
+   "title_original": "【セリア】便利で使いやすい！ぜひ使ってほしいおすすめ文房具3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5130820/featured-image.829416d81014fbca7059d5771d2714c0?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T09:12:16+00:00",
+   "title_ja": "セリアのおすすめ便利文房具3選",
+   "summary_ja": "セリアで買える、便利で使いやすいためぜひ使ってみてほしいおすすめの文房具を3点紹介しているニュース記事。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
    "id": "d6a7d23c1eefad56",
    "url": "https://www.youtube.com/watch?v=LeRIubF74EI",
    "title_original": "【紙もの購入品】 新商品❣️セリアさんで早くもクリスマス商品を購入して来ました〜✨✨ラバースタンプが今回も可愛い💕 【185】",
@@ -532,6 +618,24 @@
    "things": [
     "ウォールラックボックス",
     "LEDキャンドル"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "0e6fcd0831691770",
+   "url": "https://grapee.jp/lifehack/storage-solutions/2357490",
+   "title_original": "トイレの壁際に『カラーチェーン』を垂らすと？ 試した結果に「やって正解！」",
+   "source": "grapee.jp",
+   "image": "https://grapee.jp/wp-content/uploads/2026/10/colly_21220thumb.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T07:45:11+00:00",
+   "title_ja": "ダイソーなどのカラーチェーンをトイレの壁際に垂らす活用法",
+   "summary_ja": "トイレの壁際にカラーチェーンを垂らしてみた結果、役立つと話題になった使い方の紹介。具体的な製品情報はないが、トイレ空間での意外な工夫として参考にできるアイデアとなっている。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "カラーチェーン"
    ],
    "importance": 3
   },
@@ -624,6 +728,24 @@
    "importance": 3
   },
   {
+   "id": "54355f7f3a2f4881",
+   "url": "https://www.chiba-tv.com/plus/detail/2026102155710",
+   "title_original": "100均『タオル掛け』にタオルはかけません 意外な活用法で「キッチンが快適」【4選】",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1486951495290226378/origin_1.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T04:55:29+00:00",
+   "title_ja": "100均のタオル掛けをタオル以外に使う快適なキッチン活用法4選",
+   "summary_ja": "100均のタオル掛けを本来の用途とは違う方法で使い、キッチンを快適にする4つの活用法を紹介。意外なアイデアで収納や作業スペースを便利に使える工夫がまとめられている。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "タオル掛け"
+   ],
+   "importance": 4
+  },
+  {
    "id": "0e569707f82d0e0f",
    "url": "https://note.com/marubuh/n/n130379b2ebb9",
    "title_original": "かわいい黒猫ちゃん手帳に予定を埋める",
@@ -679,6 +801,24 @@
     "文具"
    ],
    "importance": 3
+  },
+  {
+   "id": "e8e81aab7a5d1897",
+   "url": "https://article.auone.jp/391282e3-cea6-43c4-880a-ad7b9d88a28b",
+   "title_original": "100均で買い替えて大成功！「手持ちの商品と比較したら驚き…！」使いやすく進化したプチ家電",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/25/https___michill_jp_lifestyle_249491_w1200.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T02:00:00+00:00",
+   "title_ja": "100均で買い替えて大成功した進化したプチ家電の比較",
+   "summary_ja": "手持ちのアイテムから100均のプチ家電へ買い替えたところ、使いやすさが大きく向上して大成功だったというレビュー。進化した機能や使い心地の違いについて伝えている。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "プチ家電"
+   ],
+   "importance": 4
   },
   {
    "id": "9ca5effe4b038c4b",
@@ -4120,24 +4260,6 @@
    "axis": "use",
    "things": [
     "プレイポッドワイヤレスイヤホン"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "653be3f117a3911c",
-   "url": "https://note.com/croxy/n/n452da0e863c6",
-   "title_original": "3行日記 「トレジョのバター付サーモン」",
-   "source": "note #3COINS",
-   "image": "https://assets.st-note.com/img/1792463624-B0Sxukm4HlJeQb6L9Y2RtCid.jpg",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-20T02:37:21+00:00",
-   "title_ja": "3COINSの調理器でサーモンを簡単に調理",
-   "summary_ja": "3COINSの調理器を使って、バター付きサーモンを電子レンジで加熱する簡単な調理法を紹介しています。醤油をかけるだけで手軽に美味しい一品が作れる、便利で熱い活用法です。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "調理器"
    ],
    "importance": 3
   },
