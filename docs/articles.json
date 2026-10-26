@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T05:39:04.518275+09:00",
+ "updated_at": "2026-10-26T13:10:08.460233+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,35 +27,34 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-26T05:39:22.921315+09:00",
+  "generated_at": "2026-10-26T13:12:00.688378+09:00",
   "days": 3,
   "period": "10月25日〜10月26日",
   "count": 45,
-  "new_count": 11,
-  "use_count": 34,
-  "overview": "ダイソーやセリアなどの100円ショップで買える新作グッズの紹介や、日常の収納・インテリアでの具体的な活用アイデアが多数報じられています。",
-  "new": "ダイソーの電動毛玉取りやセリアのカプセルシールキットなど、デザイン性や実用性を兼ね備えた新商品が注目を集めています。",
-  "use": "ワイヤーネットやタオル掛けを本来の用途とは違う場所で使う工夫や、手帳・推し活グッズのカスタム術が多く紹介されています。",
+  "new_count": 10,
+  "use_count": 35,
+  "overview": "ダイソーやセリア、3COINSなどの100円ショップアイテムをめぐり、ハロウィンなどの季節のディスプレイや、家事・収納を快適にする多彩な活用術が紹介されています。",
+  "new": "セリアやダイソーから、ハロウィン雑貨をはじめ、カプセルシールキットやUSB電動毛玉取りなどの新作が続々と登場しています。",
+  "use": "ワイヤーネットを使った洗濯ラックのDIYや、ディスプレイスタンドのドール用活用など、身近なグッズを工夫して便利に使うアイデアが多数見られます。",
   "points": [
    {
-    "title": "ディスプレイUSB電動毛玉取り",
-    "body": "ダイソーの新商品であるディスプレイUSB電動毛玉取りは、サイズが大きく持ちやすい形状で、充電式かつバッテリー残量が確認できる利便性を備えています。"
+    "title": "ハロウィンを彩る飾り付け",
+    "body": "セリアのウォールラックボックスとLEDキャンドルを組み合わせ、ハロウィン向けのインテリアディスプレイや不気味に光る飾りを手軽に作るDIY手法が紹介されています。"
    },
    {
-    "title": "カプセルシールキット",
-    "body": "セリアに新登場したカプセルシールキットは、様々なシールをカプセルに入れ自分だけのデザインが作れる商品で、100円で手軽にカスタマイズできます。"
+    "title": "ヨガポールやローラーの活用",
+    "body": "ダイソーの550円のヨガポールをデスクワークのフットレストとして代用するアイデアや、500円のフォームローラーでコリが軽くなったという使用感が報告されています。"
    },
    {
-    "title": "前ポケット付きペットボトルカバー",
-    "body": "キャンドゥで販売されている330円のペットボトルカバーは、前ポケットにスマートフォンも収納できるため、バッグを持たずに手ぶらで外出できます。"
+    "title": "毛糸を使ったハンドメイド",
+    "body": "ダイソーの毛糸とあみつけネットで作るショルダーバッグの手作り体験や、セリアの毛糸の残りを使って編み物を楽しむ様子がつづられています。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
-   "キャンドゥ",
    "3COINS",
-   "収納"
+   "ハロウィン"
   ]
  },
  "things": [
@@ -100,6 +99,10 @@
    "count": 2
   },
   {
+   "name": "USB Type-C to HDMIケーブル",
+   "count": 2
+  },
+  {
    "name": "ぬいぐるみ",
    "count": 2
   },
@@ -132,11 +135,19 @@
    "count": 2
   },
   {
+   "name": "ティッシュケース",
+   "count": 2
+  },
+  {
    "name": "デジタルクロック",
    "count": 2
   },
   {
    "name": "ナイトキャップ",
+   "count": 2
+  },
+  {
+   "name": "ハロウィン型",
    "count": 2
   },
   {
@@ -171,6 +182,7 @@
   "Dellows News",
   "Excite エキサイト",
   "Gizmodo",
+  "ITmedia",
   "Infoseek",
   "LIMO | くらしとお金の経済メディア",
   "My-Room",
@@ -221,8 +233,206 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 250,
+ "count": 267,
  "items": [
+  {
+   "id": "125afa0ca9a1d740",
+   "url": "https://article.auone.jp/0c534c87-e362-40a1-b9be-8ee2d9ab3aa1",
+   "title_original": "お出かけの小さな困りごとに！帽子やティッシュを持ち歩きやすくする道具",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/26/72182_w1280.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T03:44:11+00:00",
+   "title_ja": "帽子やティッシュを持ち歩きやすくする100均グッズ",
+   "summary_ja": "お出かけ時の小さな困りごとを解決してくれる、帽子やティッシュを持ち歩きやすくする100均の便利グッズを紹介しています。毎日の外出がより快適になる工夫が詰まったアイテムです。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "帽子ホルダー",
+    "ティッシュケース"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "51fe04a23db3056e",
+   "url": "https://news.yahoo.co.jp/articles/c271932fe474070dc655980aae8c2223a4d4eb9a",
+   "title_original": "ペットキャリーの置き場所に悩む人必見！【3COINS】「折りたたみペットリュック」は5500円で通院や避難に備える（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00142964-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T02:46:02+00:00",
+   "title_ja": "【3COINS】折りたたみペットリュック",
+   "summary_ja": "3COINSから5500円で販売されている、折りたたみペットリュックを紹介しています。ペットキャリーの置き場所に悩んでいる人や、通院・避難時の備えを探している人に役立つアイテムです。",
+   "category": "その他",
+   "axis": "new",
+   "things": [
+    "折りたたみペットリュック"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "06daf1cca99920eb",
+   "url": "https://note.com/dapper_stilt6966/n/n343e39b14c03",
+   "title_original": "【100円】ダイソーの種で、スナップエンドウを袋栽培してみる（種まき編）",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/324932796/rectangle_large_type_2_1050af21382894d960937cf7dbd30649.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-26T02:43:50+00:00",
+   "title_ja": "【ダイソー】種を使ったスナップエンドウの袋栽培",
+   "summary_ja": "ダイソーの種と不織布プランターを使用して、スナップエンドウの袋栽培に挑戦しているブログ記事です。実際に種まきから育てる過程の作業を紹介しています。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "種",
+    "不織布プランター"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "11b790496f532478",
+   "url": "https://hochi.news/articles/pub_mic_249662.html",
+   "title_original": "買わなきゃ損だよ～！使い心地が一気にアップ！メガネユーザー大歓喜の100均便利グッズ3選",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/26/pub_mic_249662/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T02:00:00+00:00",
+   "title_ja": "メガネユーザー必見の100均便利グッズ3選",
+   "summary_ja": "使い心地が一気にアップする、メガネユーザーにおすすめの100均便利グッズ3選を紹介しています。日々のメガネ生活の不便を解消してくれる役立つアイテムです。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "メガネグッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "96b313dbb4ecca97",
+   "url": "https://hochi.news/articles/pub_mic_249676.html",
+   "title_original": "「よくあるヤツじゃん」って思ったら全然違う！かゆい所に手が届く100均の便利グッズ",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/26/pub_mic_249676/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T02:00:00+00:00",
+   "title_ja": "かゆい所に手が届く100均の便利なアイデアグッズ",
+   "summary_ja": "一見するとよくあるアイテムに見えて、実は仕様が大きく異なる100均の便利なグッズを紹介しています。細かな工夫で使い勝手が向上している注目のアイテムです。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "ca28a04898f6017b",
+   "url": "https://news.yahoo.co.jp/articles/af09f98179ca87dd67db30efd9372b06bc53e3e3",
+   "title_original": "セリアで買った“脚付きグラス”→逆さまにして重ねると…… まさかの完成品に「発想が天才すぎる」「100均の材料だけとは思えない」（ねとらぼ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-10173866-it_nlab-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T01:30:00+00:00",
+   "title_ja": "セリアの脚付きグラスを逆さまに重ねる活用法",
+   "summary_ja": "セリアで購入した脚付きグラスを逆さまに重ねると、まさに完成品のような形になると話題に。100円ショップの材料だけでここまでの発想が評価され、SNSでも称賛された。シンプルなデザインながらインテリアとして映える点が好評だ。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "脚付きグラス"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "0806fe1257d903bd",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/ftnews/trend/ftnews-c2b802a35e3089b540a34d90539de73fd89b5520",
+   "title_original": "“100均”とは思えないクオリティ！【ダイソー】また可愛いのが出た『サンリオ雑貨』",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-c2b802a35e3089b540a34d90539de73fd89b5520.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T00:05:00+00:00",
+   "title_ja": "ダイソーの新サンリオ雑貨が登場",
+   "summary_ja": "ダイソーで新たに発売されたサンリオ雑貨が、100円ショップらしくない高品質と可愛さで注目を集めている。価格は100円で、キャラクター好きにおすすめだ。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "サンリオ雑貨"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "c4cb5934c1e7dcad",
+   "url": "https://note.com/ina_jp/n/nb061554f6f41",
+   "title_original": "3COINSの犬の新作、買う前に｜「犬が使う物」と「犬モチーフ雑貨」を分ける3つの確認",
+   "source": "note #3COINS",
+   "image": "https://assets.st-note.com/production/uploads/images/328496852/rectangle_large_type_2_d815977857a30deec3c705cb7e5cca5c.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T23:11:21+00:00",
+   "title_ja": "3COINSの犬向け新作を選ぶポイントと商品ラインナップ",
+   "summary_ja": "3COINSは10月23・24日に犬向け新作を発売する。ラテックストイやおやつポーチ、散歩バッグ、プードルモチーフバッグなどが並び、購入前に『犬が使う物』と『犬モチーフ雑貨』を分ける3つの確認ポイントを紹介している。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "ラテックストイ",
+    "おやつポーチ",
+    "散歩バッグ",
+    "プードルモチーフバッグ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "a40e54afd309d036",
+   "url": "https://note.com/abbey2631/n/nd3d31a1c21cc",
+   "title_original": "秋のお菓子｜リッチバターのかぼちゃクッキー(おめかしレシピ)",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/328288041/rectangle_large_type_2_95da9b8b0440590490b0e50fb1cef372.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-25T22:51:48+00:00",
+   "title_ja": "セリアのハロウィン型で作るリッチバターかぼちゃクッキー",
+   "summary_ja": "セリアのハロウィン型を使い、米粉とカボチャをベースにリッチバターで仕上げた大人向けかぼちゃクッキーのレシピを紹介。子ども向けの甘さとは一線を画し、少しリッチな配合で秋のティータイムに最適だ。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "ハロウィン型",
+    "かぼちゃクッキー"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "6395e3f8aae703d3",
+   "url": "https://news.yahoo.co.jp/expert/articles/5eff30868282dcd31f951935e95f07d0a73be8e1",
+   "title_original": "【セリア】やっと買えた…。110円とは思えない可愛さにひと目惚れ！（ユニ子＊100均スリコ大好き） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/yunikohyakkinsuriko/02751563/title-1792967251965.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T22:36:44+00:00",
+   "title_ja": "セリアで購入できる110円のかわいいアイテム",
+   "summary_ja": "セリアで販売されている110円のアイテムの紹介です。110円とは思えないほどかわいらしいデザインが魅力で、店頭で見つけてひと目惚れして購入するほど魅力的な商品となっています。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 2
+  },
+  {
+   "id": "d5381306d7d1c63e",
+   "url": "https://news.yahoo.co.jp/expert/articles/ee1d8a2d75d8ddb8c0878a6f3c527ddcee18bb3b",
+   "title_original": "【ダイソー】あるようで無かった！これもあるとめちゃ便利【100均】（akaneko715） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/akaneko/02743565/title-1792062408691.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T21:34:52+00:00",
+   "title_ja": "ダイソーで見つかる日常で役立つ便利なアイテム",
+   "summary_ja": "ダイソーで販売されている便利グッズの紹介です。これまでありそうでなかった工夫が施されたアイテムで、日常の困りごとを解決し、持っていると日々の生活がより快適になります。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 2
+  },
   {
    "id": "463e418d0d442790",
    "url": "https://yomuno.jp/posts/143528",
@@ -348,6 +558,22 @@
     "毛糸"
    ],
    "importance": 2
+  },
+  {
+   "id": "c86e6377d523b1d8",
+   "url": "https://trilltrill.jp/articles/5131222",
+   "title_original": "【セリア】買えた人、ラッキーかも。便利で驚いたアイデアグッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5131222/featured-image.1b5137c200990accdb97f8aa0ffa8193?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T12:14:33+00:00",
+   "title_ja": "セリアの便利アイデアグッズ3選",
+   "summary_ja": "セリアで購入できる便利なアイデアグッズを3点ピックアップ。日常での使い勝手が抜群で、驚きの活用法が紹介されています。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
   },
   {
    "id": "3eb1e8fb5c69f30f",
@@ -568,6 +794,24 @@
    "importance": 3
   },
   {
+   "id": "9531f6925770c13f",
+   "url": "https://topics.smt.docomo.ne.jp/article/grapee/trend/grapee-2358646",
+   "title_original": "100均の傘たて、洗濯機で『横』に貼るだけ 掃除や洗濯がラクになるアイディア【3選】",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/grapee/m_grapee-2358646.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T08:09:00+00:00",
+   "title_ja": "100円傘たてを洗濯機で横貼り活用法",
+   "summary_ja": "100円ショップの傘たてを洗濯機に横向きで貼り付けるだけで、掃除や洗濯の手間が軽減できるアイデアを3つ解説します。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "傘たて"
+   ],
+   "importance": 3
+  },
+  {
    "id": "653861ab77663d6f",
    "url": "https://note.com/grape_field228/n/n7355cb5e50f1",
    "title_original": "「誰とも話したくない夜」に試してほしい。100均グッズでつくる「自宅ひとりカフェ」の始め方",
@@ -582,6 +826,24 @@
    "axis": "use",
    "things": [],
    "importance": 3
+  },
+  {
+   "id": "1bf3e9691a09c36e",
+   "url": "https://mognavi.jp/assessment/11359843",
+   "title_original": "【高評価】「カロリー202kcal 脂質11.8g ... - セリア・ロイル チロルチョコ」のクチコミ・評価 - ちゃっぴちゃんさん",
+   "source": "もぐナビ",
+   "image": "https://img1.esimg.jp/resize/320x320/image/food/03/51/61/3645300.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T07:51:36+00:00",
+   "title_ja": "セリア・ロイル チロルチョコの評価まとめ",
+   "summary_ja": "セリアのロイル チロルチョコのカロリーや脂質情報とともに、利用者からの高評価レビューをまとめました。味や食感の感想も掲載。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "ロイル チロルチョコ"
+   ],
+   "importance": 2
   },
   {
    "id": "e8ced7e66533e6a2",
@@ -638,6 +900,24 @@
     "カラーチェーン"
    ],
    "importance": 3
+  },
+  {
+   "id": "1223f510aba02e8a",
+   "url": "https://www.walkerplus.com/article/51438/image278787.html",
+   "title_original": "＜画像4 / 12＞新作続々！ダイソーのハロウィングッズで賢く盛り上がる",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/51438/278783_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T07:43:30+00:00",
+   "title_ja": "ダイソー新作ハロウィングッズ特集",
+   "summary_ja": "ダイソーから続々と登場したハロウィングッズを紹介。季節感を演出できる商品が多数あり、賢く楽しむコツも解説しています。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "ハロウィングッズ"
+   ],
+   "importance": 4
   },
   {
    "id": "8e037610615b574e",
@@ -1927,6 +2207,24 @@
     "USB Type-C to HDMIケーブル"
    ],
    "importance": 4
+  },
+  {
+   "id": "ee4a03146a49e5ea",
+   "url": "https://www.itmedia.co.jp/mobile/articles/2610/24/news012.html",
+   "title_original": "ダイソーで1100円の「USB Type-C to HDMIケーブル」でスマホの画面をテレビに映すとどうなる？ 対応機種なら試してみる価値あり：格安雑貨店のガジェットを試す - ITmedia Mobile",
+   "source": "ITmedia",
+   "image": "https://image.itmedia.co.jp/mobile/articles/2610/24/cover_news012.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-24T02:00:00+00:00",
+   "title_ja": "ダイソーの1100円USB Type-C to HDMIケーブルの使い方",
+   "summary_ja": "ダイソーで1100円で販売されているUSB Type-C to HDMIケーブルは、対応機種のスマホをテレビに接続して画面ミラーリングが可能です。手軽に大画面で動画やスライドを共有でき、コスパの高いガジェットとして評価されています。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "USB Type-C to HDMIケーブル"
+   ],
+   "importance": 3
   },
   {
    "id": "20c131fff2cf141d",
@@ -4337,6 +4635,22 @@
     "シリコーン鍋敷き",
     "ペーパータオル 吊り下げタイプ"
    ],
+   "importance": 3
+  },
+  {
+   "id": "64a5c782975e5403",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4049521",
+   "title_original": "「もうこれ1枚で解決」100均で買ったキャンプ用品→“じゃない使い方”をすると…… 目からウロコの“便利アイテム”に「絶対買う!!」（1/2） | ライフハック ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792121993_1791804316_825323282_17891282616682062_6621442638760095897_n-1024x739ddd.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-18T01:11:30+00:00",
+   "title_ja": "100円ショップのキャンプ用品、意外な活用法",
+   "summary_ja": "100円ショップで手に入るキャンプ用品を、通常とは違う使い方で活用する方法を紹介。手軽に便利アイテムに変身し、キャンプが快適になるポイントを解説。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
    "importance": 3
   },
   {
