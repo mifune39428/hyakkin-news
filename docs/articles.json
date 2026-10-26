@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T13:10:08.460233+09:00",
+ "updated_at": "2026-10-26T21:36:46.026018+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,34 +27,35 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-26T13:12:00.688378+09:00",
+  "generated_at": "2026-10-26T21:41:32.685763+09:00",
   "days": 3,
   "period": "10月25日〜10月26日",
   "count": 45,
   "new_count": 10,
   "use_count": 35,
-  "overview": "ダイソーやセリア、3COINSなどの100円ショップアイテムをめぐり、ハロウィンなどの季節のディスプレイや、家事・収納を快適にする多彩な活用術が紹介されています。",
-  "new": "セリアやダイソーから、ハロウィン雑貨をはじめ、カプセルシールキットやUSB電動毛玉取りなどの新作が続々と登場しています。",
-  "use": "ワイヤーネットを使った洗濯ラックのDIYや、ディスプレイスタンドのドール用活用など、身近なグッズを工夫して便利に使うアイデアが多数見られます。",
+  "overview": "ダイソー、セリア、3COINSなどの新商品や、ハンドメイドや収納など具体的な活用法を取り上げた記事が多数集まっています。",
+  "new": "ダイソーのクッピーラムネコラボ文具やサンリオ雑貨、3COINSのキャリーケースドリンクホルダーなどの新商品が続々と登場しています。",
+  "use": "セリアの毛糸を使った編み物や、ダイソーのミニチュア椅子をシンク横に置くアイデアなど、日常を快適にする工夫が紹介されています。",
   "points": [
    {
-    "title": "ハロウィンを彩る飾り付け",
-    "body": "セリアのウォールラックボックスとLEDキャンドルを組み合わせ、ハロウィン向けのインテリアディスプレイや不気味に光る飾りを手軽に作るDIY手法が紹介されています。"
+    "title": "パペットスンスンのお薬手帳",
+    "body": "100円ショップに人気キャラクター「パペットスンスン」のお薬手帳が110円で新登場しました。キャラクター好きなら要チェックのアイテムです。"
    },
    {
-    "title": "ヨガポールやローラーの活用",
-    "body": "ダイソーの550円のヨガポールをデスクワークのフットレストとして代用するアイデアや、500円のフォームローラーでコリが軽くなったという使用感が報告されています。"
+    "title": "セリアの脚付きグラス活用法",
+    "body": "セリアで購入した脚付きグラスを逆さまに重ねると完成品のような形になると話題になり、SNSでも称賛されています。"
    },
    {
-    "title": "毛糸を使ったハンドメイド",
-    "body": "ダイソーの毛糸とあみつけネットで作るショルダーバッグの手作り体験や、セリアの毛糸の残りを使って編み物を楽しむ様子がつづられています。"
+    "title": "ダイソーのフォームローラー",
+    "body": "ダイソーで500円のフォームローラーを実際に使用し、肩や背中のコリが軽くなり寝つきも改善されたと実感されています。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "3COINS",
-   "ハロウィン"
+   "新商品",
+   "文房具"
   ]
  },
  "things": [
@@ -76,6 +77,10 @@
   },
   {
    "name": "つっぱり棒",
+   "count": 3
+  },
+  {
+   "name": "キッチングッズ",
    "count": 3
   },
   {
@@ -112,10 +117,6 @@
   },
   {
    "name": "カレー",
-   "count": 2
-  },
-  {
-   "name": "キッチングッズ",
    "count": 2
   },
   {
@@ -160,6 +161,10 @@
   },
   {
    "name": "付箋",
+   "count": 2
+  },
+  {
+   "name": "便利グッズ",
    "count": 2
   },
   {
@@ -230,11 +235,406 @@
   "女子SPA!",
   "山陽新聞",
   "流通スーパーニュース",
+  "電ファミニコゲーマー",
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 267,
+ "count": 290,
  "items": [
+  {
+   "id": "ed3c5f982641746d",
+   "url": "https://note.com/glossy_finch7647/n/n042b31d9e72f",
+   "title_original": "ようやく首がすわりました",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/328807732/rectangle_large_type_2_7b8f668d621570bdb7da2feedc75504b.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-26T12:33:28+00:00",
+   "title_ja": "ダイソーのネックピローが快適！買ってよかった使用感をレビュー",
+   "summary_ja": "ダイソーで購入したネックピローの使用感を紹介します。首をしっかり支えてくれるアイテムで、もっと早く買えばよかったと感じるほど快適に使えます。移動時やリラックスタイムの首の負担軽減に役立ちます。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "ネックピロー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "fee3e6c2e351fef7",
+   "url": "https://note.com/gay_minnow2729/n/nedf8b40e3f47",
+   "title_original": "気が紛れるためにパラコードを編んでみる",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/328828412/rectangle_large_type_2_e6664eec014e845c8ad13aae45747c70.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-26T11:57:51+00:00",
+   "title_ja": "セリアの材料で楽しむパラコード編みのハンドメイド",
+   "summary_ja": "セリアで揃えた材料を活用してパラコード編みに挑戦した体験談です。動画を見ながら手軽に作ることができ、気分転換や趣味としても楽しめるハンドメイドの工夫を紹介します。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "パラコード"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "ae4756d235001769",
+   "url": "https://news.yahoo.co.jp/expert/articles/2843335bdf500b459972ebbfa3559b1c21028e0c",
+   "title_original": "【100均】パペットスンスンのお薬手帳が110円で買えちゃうなんて！他の新商品も要チェック！（さきモカ） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/sakimoka/02751839/title-1792989238183.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T11:35:18+00:00",
+   "title_ja": "100均にパペットスンスンのお薬手帳が110円で新登場",
+   "summary_ja": "100円ショップに人気キャラクター「パペットスンスン」のお薬手帳が110円で新登場しました。他にも魅力的な新商品が揃っており、キャラクター好きなら要チェックのアイテムです。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "お薬手帳"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "917c7fec09aff1f0",
+   "url": "https://trilltrill.jp/articles/5134493",
+   "title_original": "【ダイソー】行ったらまず探してみて！わざわざ買いに行きたい文房具3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5134493/featured-image.0b16d9ed601d7130bd3c65b524427af5?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T11:13:55+00:00",
+   "title_ja": "ダイソーでチェックしたいおすすめ文房具3選",
+   "summary_ja": "ダイソーで探し求めてでも買いたくなるおすすめの文房具3選を紹介します。お店に行った際にぜひ探してみたい、日常使いや勉強・仕事で便利に使える文房具が揃っています。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "2325933dc7a96f08",
+   "url": "https://www.youtube.com/shorts/6tuvVNh2uM8",
+   "title_original": "【セリア】ディッシュスタンド",
+   "source": "きのっこ",
+   "image": "https://i3.ytimg.com/vi/6tuvVNh2uM8/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-26T11:00:29+00:00",
+   "title_ja": "セリアのディッシュスタンド",
+   "summary_ja": "セリアで販売されているディッシュスタンドです。食器をすっきりと立てて収納するのに役立つ便利なアイテムとなっています。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [
+    "ディッシュスタンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "8e5584c8cc026d0a",
+   "url": "https://www.youtube.com/shorts/MEM1H_mceFM",
+   "title_original": "【100均】新商品速報‼️ダイソーの小物が優秀すぎる👏 #100均 #ダイソー #ダイソー新商品 #ダイソー購入品 #shorts",
+   "source": "はるチャンネル【100均】",
+   "image": "https://i2.ytimg.com/vi/MEM1H_mceFM/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-26T11:00:11+00:00",
+   "title_ja": "ダイソーの優秀な小物新商品を紹介",
+   "summary_ja": "ダイソーで登場した新商品の小物について紹介しています。便利なアイテムや気になる商品がピックアップされています。",
+   "category": "その他",
+   "axis": "new",
+   "things": [
+    "小物"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "ecab636583868601",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-ede94239d555967f058f959b18dafd7e6af69f49",
+   "title_original": "「バッグに付けたコレ、実は、、！」【ダイソー】330円『新作チャーム』に「可愛いだけじゃない！」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-ede94239d555967f058f959b18dafd7e6af69f49.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T11:00:00+00:00",
+   "title_ja": "ダイソーの330円新作チャーム",
+   "summary_ja": "ダイソーで330円で販売されている新作のチャームです。可愛いだけでなく、バッグに付けて楽しめるアイテムとして注目を集めています。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "チャーム"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "29993c23164e6a60",
+   "url": "https://www.youtube.com/watch?v=BcGCJyQ3GrQ",
+   "title_original": "【ダイソー購入品】使いやすいマウスパッドいろいろ！それぞれ比較！！",
+   "source": "100円ショップの気になる一品（ヒャッキニ）",
+   "image": "https://i3.ytimg.com/vi/BcGCJyQ3GrQ/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-26T10:00:26+00:00",
+   "title_ja": "ダイソーのマウスパッドを種類別に比較",
+   "summary_ja": "ダイソーで購入できる六角型、花型、キャラクターなどの様々なマウスパッドを比較しています。それぞれの使いやすさをチェックできます。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "マウスパッド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "57a236909b900211",
+   "url": "https://news.nicovideo.jp/watch/nw19919729?news_ref=watch_50_nw18997880",
+   "title_original": "ダイソーで見つけた『ミニチュア椅子』 シンク横に設置する活用法が正解だった！",
+   "source": "ニコニコニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T09:18:15+00:00",
+   "title_ja": "ダイソーのミニチュア椅子をシンク横に設置する活用法",
+   "summary_ja": "ダイソーで見つけたミニチュア椅子をシンク横に設置する活用法を紹介しています。ちょっとした小物の置き場所として便利に使えるアイデアです。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "ミニチュア椅子"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "fc209be1b458f670",
+   "url": "https://article.auone.jp/7706940b-1eab-410d-83e6-5ed346845485",
+   "title_original": "「沸騰してるとこ丸見えで面白い！料理楽しい！」3COINSの“ガラス鍋”に反響。「食育によさそう」の声も",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/26/https___news_allabout_co_jp_articles_o_132058__w640.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T09:00:00+00:00",
+   "title_ja": "3COINSのガラス鍋が調理中の中身が見えて楽しいと話題",
+   "summary_ja": "3COINSのガラス鍋が、調理中の様子が丸見えで楽しく料理できると反響を集めています。食育によさそうという声もあがっています。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "ガラス鍋"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "8c2d97ba5ba4458a",
+   "url": "https://limo.media/articles/-/142452",
+   "title_original": "【100均DIY】セリアの丸棒が…「ウォールフック」に変身！穴に竹ひごを通して並べる手作りフックがすごい",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/5/3/1200w/img_534faedc8ce1232718408c75ac10f1cc89608.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T08:47:00+00:00",
+   "title_ja": "セリアの丸棒と竹ひごで作るウォールフックのDIY",
+   "summary_ja": "セリアの丸棒と竹ひごを使って、手作りのウォールフックを作るアイデアを紹介しています。穴に竹ひごを通して並べることで、おしゃれな収納アイテムに変身します。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "丸棒",
+    "竹ひご",
+    "ウォールフック"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "2cfe4c842ca26353",
+   "url": "https://trilltrill.jp/articles/5134102",
+   "title_original": "【ダイソー】とにかく便利でした！有能でびっくりするアイデアグッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5134102/featured-image.602341bda44f5652737db78842dc986f?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T08:35:23+00:00",
+   "title_ja": "ダイソーの便利で有能なアイデアグッズ3選",
+   "summary_ja": "ダイソーで購入できる、使ってみて非常に便利だった有能なアイデアグッズを3つ厳選して紹介しています。日常のちょっとした不便を解消するアイテムが集まっています。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "アイデアグッズ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "564899602482a695",
+   "url": "https://trilltrill.jp/articles/5134022",
+   "title_original": "【ダイソー】に行ったらまずチェック！優秀で便利に使える文房具3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5134022/featured-image.f40de22620cc25b1b562a3c17f2d8eda?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T08:09:14+00:00",
+   "title_ja": "ダイソーのおすすめ便利文房具3選",
+   "summary_ja": "ダイソーで見つかる、使い勝手が良いと評判の文房具を3点紹介します。価格は100円前後で、日常の書き物や整理に便利です。持ち運びやデスク周りの整理に活用でき、コスパが高い点が魅力です。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "768aecd8699dbc07",
+   "url": "https://news.yahoo.co.jp/articles/78695f44dede8d969ea30b614939aec41cf2eb3a",
+   "title_original": "【3COINS】手荷物だらけの旅行が一変する「キャリーケースドリンクホルダー」550円でスマホやティッシュもまとめて収納（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00142881-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T07:45:56+00:00",
+   "title_ja": "3COINSのキャリーケースドリンクホルダーが550円で登場",
+   "summary_ja": "3COINSから新商品として、旅行時の手荷物に便利なキャリーケースドリンクホルダーが発売されました。550円でスマホやティッシュなどをまとめて収納でき、持ち運びが楽になります。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [
+    "キャリーケースドリンクホルダー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "e6bfbf6b57ec05c7",
+   "url": "https://news.nicovideo.jp/watch/nw19919252?news_ref=search_search",
+   "title_original": "「柄違いで2個買いました」 3COINSの“カラビナ付きポーチ”が大好評 「迷子になりそうな小物をまとめておける」「一",
+   "source": "ニコニコニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T07:45:43+00:00",
+   "title_ja": "3COINSのカラビナ付きポーチが大好評",
+   "summary_ja": "3COINSのカラビナ付きポーチは、紛失しやすい小物をまとめて収納できると好評です。2個セットで柄違いを選べ、持ち運びや整理に便利です。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "カラビナ付きポーチ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "0654237d15e7df5c",
+   "url": "https://trilltrill.jp/articles/5133799",
+   "title_original": "【ダイソー】行ったらすぐ探してみて！大当たりだったキッチングッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5133799/featured-image.3386a24ad5e3ea2bc41eb1c23210c2de?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T07:11:33+00:00",
+   "title_ja": "ダイソーで見つけた使い勝手の良いキッチングッズ3選",
+   "summary_ja": "ダイソーで販売されている、キッチンで役立つ便利なグッズ3選を紹介している。お店に行った際にすぐ探して試したい実用的なアイテムが集まっている。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "キッチングッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "102004a0269cb349",
+   "url": "https://hochi.news/articles/20261023-YHK1T51001.html?genre=life",
+   "title_original": "【食洗器・レンジ対応】便利すぎる2way仕様の『計量カップ』 平置きだと1カップ、斜めに置くと？",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/subsite/yohakuto/2026/10/23/20261023-YHK1I51007-C.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T07:00:00+00:00",
+   "title_ja": "ダイソーの食洗器とレンジ対応の2way計量カップ",
+   "summary_ja": "食洗器や電子レンジに対応しているダイソーの便利な計量カップを紹介している。平置きだと1カップ、斜めに置くことでも使える仕様になっている。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "計量カップ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "b7c32449fe4a90bc",
+   "url": "https://news.denfaminicogamer.jp/news/261026t",
+   "title_original": "「ラーメン名店カード」10月よりDAISOで発売",
+   "source": "電ファミニコゲーマー",
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HVhfv-MaYAAfUAx.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T06:20:00+00:00",
+   "title_ja": "ダイソーで10月よりラーメン名店カードが発売",
+   "summary_ja": "全国のダイソー店舗にて、10月よりラーメン名店カードが新たに発売される。コレクションやファン必見のアイテムとなっている。",
+   "category": "その他",
+   "axis": "new",
+   "things": [
+    "ラーメン名店カード"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "532d6c10054b0bd2",
+   "url": "https://hochi.news/articles/20261014-YHK1T51017.html?genre=life",
+   "title_original": "「あったらいいな」が叶う！【セリア】110円と思えない♡『便利グッズ』",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/subsite/yohakuto/2026/10/14/20261014-YHK1I51085-C.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T06:00:00+00:00",
+   "title_ja": "セリアで見つかる110円の便利なアイデアグッズ",
+   "summary_ja": "セリアにて、110円という手頃な価格でありながら高い実用性を持つ便利なグッズを紹介している。日々の暮らしのちょっとした困りごとを解決してくれる。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "便利グッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "0b114f7d122e8510",
+   "url": "https://news.nicovideo.jp/watch/nw19918767?news_ref=watch_50_nw19019897",
+   "title_original": "セリアで見つけた『ミニボウル』が便利すぎ！ 電子レンジで温められるので？",
+   "source": "ニコニコニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T05:36:20+00:00",
+   "title_ja": "セリアで買える電子レンジ対応のミニボウル",
+   "summary_ja": "セリアで見つけた使い勝手の良いミニボウルを紹介している。電子レンジでの温めに対応しており、調理や食事の際に手軽に使うことができる。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "ミニボウル"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "d4ceddf11aee03f3",
+   "url": "https://collabo-cafe.com/events/collabo/kuppy-ramune-goods-daiso-dagashiya-bungu-2026",
+   "title_original": "クッピーラムネ × ダイソー 駄菓子屋文具 10月下旬より発売!",
+   "source": "コラボカフェ",
+   "image": "https://collabo-cafe.com/wp-content/uploads/kuppy-ramune-goods-daiso-dagashiya-bungu-2026-eyecatch.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T05:12:31+00:00",
+   "title_ja": "ダイソー、クッピーラムネとの駄菓子屋文具を10月下旬発売",
+   "summary_ja": "ダイソーがクッピーラムネとコラボし、駄菓子屋デザインの文具を10月下旬から販売開始する。文具はノートやペンなど、懐かしい駄菓子のイラストが施され、100円ショップらしい価格で提供される。",
+   "category": "文具・手帳",
+   "axis": "new",
+   "things": [
+    "駄菓子屋文具"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "3ed42b8a6ee45c64",
+   "url": "http://www.excite.co.jp/news/article/ExnewsRoomclip_94282",
+   "title_original": "【みんなが選んだ！】グリーンのある暮らしがもっと楽しくなる！Standard Productsの植木鉢5選",
+   "source": "Excite エキサイト",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T05:00:00+00:00",
+   "title_ja": "Standard Productsのおすすめ植木鉢5選",
+   "summary_ja": "Standard Productsで取り扱う植木鉢5種をピックアップ。シンプルなデザインから個性的な形状まで、緑を取り入れた暮らしを彩るアイテムとしておすすめする。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "植木鉢"
+   ],
+   "importance": 3
+  },
   {
    "id": "125afa0ca9a1d740",
    "url": "https://article.auone.jp/0c534c87-e362-40a1-b9be-8ee2d9ab3aa1",
@@ -381,6 +781,22 @@
     "プードルモチーフバッグ"
    ],
    "importance": 3
+  },
+  {
+   "id": "b3bd9db3811a14a7",
+   "url": "https://mdpr.jp/other/detail/4865682",
+   "title_original": "えっこれ本当に100均！？「200円はコスパ高すぎ！」見た目も使い心地も抜群な本格グッズ",
+   "source": "モデルプレス",
+   "image": "https://img-mdpr.freetls.fastly.net/article/HRIj/nm/HRIjra_YZa2nLoXO4G2Tm0CbBvVITXFB7Q4K57ntlS8.jpg?width=700&disable=upscale&auto=webp&quality=80",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T23:00:00+00:00",
+   "title_ja": "200円商品がコスパ抜群と話題の本格グッズ",
+   "summary_ja": "200円で購入できる本格的なグッズが、見た目のデザイン性と使用感の両方で高評価。100円ショップの中でもコスパ最強とされ、さまざまなシーンで活躍できる。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 2
   },
   {
    "id": "a40e54afd309d036",
