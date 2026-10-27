@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T07:30:45.605102+09:00",
+ "updated_at": "2026-10-27T13:29:21.391675+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,39 +27,39 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-27T07:32:31.185126+09:00",
+  "generated_at": "2026-10-27T13:30:15.268792+09:00",
   "days": 3,
   "period": "10月26日〜10月27日",
   "count": 45,
   "new_count": 13,
   "use_count": 32,
-  "overview": "ダイソーやセリアなどの100円ショップや3COINSにおける、新作アイテムの紹介や手芸・収納などの具体的な活用法を伝える記事が集まっています。",
-  "new": "ダイソーのチャームやクッピーラムネコラボ文具、3COINSのバッグやドリンクホルダーなどの新商品が注目されています。",
-  "use": "セリアの毛糸を使った編み物や、ダイソーの便利グッズを用いた生活の困りごと解消術などが数多く紹介されています。",
+  "overview": "ダイソー、セリア、3COINSなどの新作バッグやキャラクターグッズ、小物スタンドや毛糸を使った具体的な活用術が多数紹介されている。",
+  "new": "ダイソーや3COINSからは大容量バッグやチャーム、パペットスンスンのお薬手帳などの新作が登場している。",
+  "use": "セリアの毛糸を使ったバッグ作りや、3COINSのアイテムを使ったパッキング術など日々の暮らしを快適にする工夫が語られている。",
   "points": [
    {
-    "title": "毛糸を活用した手芸",
-    "body": "セリアやダイソーの毛糸を使い、かぎ針編みで余り糸を消費したり、お花シュシュやA4サイズのバッグを手作りする楽しさが紹介されています。"
+    "title": "ダイソーの土踏まず用インソール",
+    "body": "ダイソーで購入できる土踏まず用のインソールは、硬めのシリコンで作られており、カカトから土踏まずまでを覆う立体的な形状でしっかりとフィットするのが特徴です。"
    },
    {
-    "title": "便利な収納グッズ",
-    "body": "セリアのディッシュスタンドや丸棒と竹ひごで作るウォールフック、3COINSのカラビナ付きポーチなど小物をまとめる実例が挙げられています。"
+    "title": "セリアの漫画用スタンドの活用",
+    "body": "セリアの漫画用スタンドを本来の漫画置き場としてではなく、別の用途に活用して見やすさと取り出しやすさをアップさせる便利な使い方が紹介されています。"
    },
    {
-    "title": "キッチン・調理の工夫",
-    "body": "セリアのスライサーでキャベツの千切りが快適になり、ダイソーの2way計量カップや電子レンジ対応ミニボウルなどが日常の調理を支えています。"
+    "title": "3COINSのガラス鍋の調理",
+    "body": "3COINSのガラス鍋が調理中の様子が丸見えで楽しく料理できると反響を集めており、食育によさそうという声もあがっています。"
    },
    {
-    "title": "お出かけ・旅行の対策",
-    "body": "ダイソーのネックピローやセームタオル、3COINSのキャリーケースドリンクホルダーなど移動や外出を快適にするアイテムが取り上げられています。"
+    "title": "セリアの毛糸でつくるA4バッグ",
+    "body": "セリアで販売されているアモンド毛糸とUVコットン毛糸を組み合わせ、A4サイズの布バッグを編む手順を紹介。100円で手軽におしゃれな小物が作れます。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "3COINS",
-   "毛糸",
-   "収納"
+   "新作",
+   "毛糸"
   ]
  },
  "things": [
@@ -73,6 +73,10 @@
   },
   {
    "name": "アクセサリー",
+   "count": 4
+  },
+  {
+   "name": "キーホルダー",
    "count": 4
   },
   {
@@ -92,7 +96,7 @@
    "count": 3
   },
   {
-   "name": "キーホルダー",
+   "name": "ティッシュケース",
    "count": 3
   },
   {
@@ -137,10 +141,6 @@
   },
   {
    "name": "スタンプ",
-   "count": 2
-  },
-  {
-   "name": "ティッシュケース",
    "count": 2
   },
   {
@@ -243,8 +243,271 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 303,
+ "count": 317,
  "items": [
+  {
+   "id": "a311f22e88cd2557",
+   "url": "https://note.com/mahinari_tomoko/n/n0922b543d10e",
+   "title_original": "土踏まずを埋める",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/329040766/rectangle_large_type_2_7e3aaa1b32ebfb5ade94b54ab3297ba3.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-27T04:04:00+00:00",
+   "title_ja": "ダイソーの土踏まず用シリコンインソール",
+   "summary_ja": "ダイソーで購入した土踏まず用のインソール。硬めのシリコンで作られており、カカトから土踏まずまでを覆う立体的な形状でしっかりとフィットするのが特徴です。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "インソール"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "411a78de7cb5d994",
+   "url": "https://note.com/moral_mango5368/n/nea80ad8eeab0",
+   "title_original": "プレイマットは「敷く」から「飾る」へ！額縁に入れてアートとして楽しむ提案",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/313971207/rectangle_large_type_2_86c5e3a047b45e6be79b394455f09988.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-27T03:14:17+00:00",
+   "title_ja": "プレイマットを額縁に入れて飾るダイソーの活用法",
+   "summary_ja": "プレイマットを床に敷くだけでなく、額縁に入れてアートとして部屋に飾るアイデア。お気に入りのデザインをインテリアとして楽しむためのおしゃれな活用方法です。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "プレイマット",
+    "額縁"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "b75408ff961743a3",
+   "url": "https://hochi.news/articles/pub_mic_249358.html",
+   "title_original": "100均のこれつけとくと便利！小さいけど頼りになる！いざというとき役立つキーホルダー3選",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/27/pub_mic_249358/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T02:00:00+00:00",
+   "title_ja": "いざというときに役立つダイソーなどの便利キーホルダー",
+   "summary_ja": "100円ショップで手に入る、小さくてもいざというときに頼りになる便利なキーホルダー3選。日常の備えとして持っておくと役立つアイテムを紹介しています。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "キーホルダー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "fcaa75ee8b0adad2",
+   "url": "https://hochi.news/articles/pub_mic_249588.html",
+   "title_original": "100均が本気出しすぎ！「これが数百円で出せるの凄い…！」デザイン性抜群なプチ家電3選",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/27/pub_mic_249588/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T02:00:00+00:00",
+   "title_ja": "デザイン性に優れた100円ショップのプチ家電3選",
+   "summary_ja": "100円ショップで買える、デザイン性が抜群に優れたプチ家電3選。数百円とは思えないほどのクオリティの高さが魅力の注目アイテムを紹介しています。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [],
+   "importance": 4
+  },
+  {
+   "id": "87f13d2192378d5e",
+   "url": "https://hochi.news/articles/pub_mic_249710.html",
+   "title_original": "黙ってれば100均ってバレないかも…？200円って驚き！デザインが大優勝なキャラグッズ",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/27/pub_mic_249710/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T02:00:00+00:00",
+   "title_ja": "100円ショップの200円キャラクターグッズ",
+   "summary_ja": "デザインが優れたキャラクターグッズが販売されている。価格は200円で、100円ショップのアイテムとは思えないクオリティの高さが魅力である。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "キャラクターグッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "1bfa04f443f553a8",
+   "url": "https://hochi.news/articles/pub_mic_249964.html",
+   "title_original": "もう100均以外で買えないよ…日本製×薬用なのに100円！ドラストも冷や汗級の高コスパ商品",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/27/pub_mic_249964/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T02:00:00+00:00",
+   "title_ja": "100円ショップの日本製薬用ハンドクリーム",
+   "summary_ja": "価格が110円の日本製薬用商品が登場している。ドラッグストア顔負けの高いコストパフォーマンスが特徴で、手軽に薬用ケアができるアイテムとして注目を集めている。",
+   "category": "コスメ・美容",
+   "axis": "new",
+   "things": [
+    "薬用商品"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "2b017f224c18d375",
+   "url": "https://hochi.news/articles/pub_mic_249997.html",
+   "title_original": "100均のこれが大正解！「小物が埋もれない！」「スッキリ片付く！」使いやすすぎるスタンド",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/27/pub_mic_249997/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T02:00:00+00:00",
+   "title_ja": "100円ショップの小物がすっきり片付くスタンド",
+   "summary_ja": "小物が埋もれずにきれいに片付く便利なスタンド。使い勝手が良く、デスク周りや小物の整理整頓に役立つアイテムとして高く評価されている。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "スタンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "4c9b03b9d6b4dced",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/allaboutnews/life/allaboutnews-166138",
+   "title_original": "「これめっちゃいいなー！」3COINSの“引き出し式キーホルダーケース”に反響。大容量なのに省スペース",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/allaboutnews/m_allaboutnews-166138.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T01:55:00+00:00",
+   "title_ja": "3COINSの引き出し式キーホルダーケース",
+   "summary_ja": "省スペースでありながら大容量の収納ができる引き出し式のキーホルダーケース。便利なデザインと使いやすさで多くの反響を集めている。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [
+    "引き出し式キーホルダーケース"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "89b383b3e5cbc711",
+   "url": "https://www.chiba-tv.com/plus/detail/2026102162508",
+   "title_original": "「広げる前はこんなに小さいのに…！」いざという時に便利な100均グッズ",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487616631380264264/origin_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T00:57:53+00:00",
+   "title_ja": "コンパクトに携帯できていざという時に役立つ100均グッズ",
+   "summary_ja": "広げる前は小さくコンパクトでありながら、いざという時にしっかりと役立つ便利な100均グッズを紹介しています。持ち運びに便利なサイズ感が魅力のアイテムです。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "5c7dafcf230d268d",
+   "url": "https://www.chiba-tv.com/plus/detail/2026102162510",
+   "title_original": "100均で買ったら大当たり！「この構造秀逸だわ…」壁に後付けできるぷち家具",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487616629955593752/origin_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T00:57:53+00:00",
+   "title_ja": "壁に後付けできる優秀な構造の100均ぷち家具",
+   "summary_ja": "100円ショップで購入できる、壁に後付けして使えるアイデアが詰まった便利なぷち家具を取り上げています。構造が非常に秀逸で買って損はない当たりアイテムです。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "家具"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "0bdec01086f910c1",
+   "url": "https://www.chiba-tv.com/plus/detail/2026102162506",
+   "title_original": "これってまさか…！100均が大人世代狙い撃ちしてきてる！懐かしの平成レトログッズ",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487616632975426579/origin_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T00:57:51+00:00",
+   "title_ja": "大人世代の心を掴む懐かしの平成レトロな100均グッズ",
+   "summary_ja": "大人世代をターゲットにした、懐かしさを感じる平成レトロデザインのグッズが100円ショップに登場しています。当時の思い出を誘う注目のアイテムです。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "2ffd94992d7b140e",
+   "url": "https://note.com/holy_snake4458/n/n73bca10da69b",
+   "title_original": "箱ティッシュの「素置き」が終わる｜ケース8選",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/328979240/rectangle_large_type_2_aaf27d4f1a01bb8392ce920203421c14.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-27T00:32:07+00:00",
+   "title_ja": "100均のケースを活用した箱ティッシュの収納術",
+   "summary_ja": "ソフトパックティッシュの普及に伴い変化する、100円ショップなどのケースを使った箱ティッシュの置き方や収納術を解説しています。生活感を抑えてきれいに見せるための選び方や工夫を紹介しています。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ティッシュケース"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "7d9c356ef70c9251",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/ftnews/trend/ftnews-a8bec77f65c66ef73cb05ca3f436875406b805ea",
+   "title_original": "『漫画用スタンド』に漫画は置きません！【セリア】じゃない使い方で「見やすい！取りやすい！」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-a8bec77f65c66ef73cb05ca3f436875406b805ea.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T00:00:00+00:00",
+   "title_ja": "セリアの漫画用スタンドを別の用途で便利に使う方法",
+   "summary_ja": "セリアの漫画用スタンドを本来の漫画置き場としてではなく、別の用途に活用して見やすさと取り出しやすさをアップさせる便利な使い方を紹介しています。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "漫画用スタンド"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "de51fbfaceda3b0f",
+   "url": "https://news.yahoo.co.jp/articles/85a701770f06110daedbe51d07e0bc3824c74fe3",
+   "title_original": "ダイソーの“110円ネット”→ママの手でおしゃれ雑貨に大変身「娘に作りたいっ」「アイディアとセンスが凄い」（ねとらぼ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261027-10174010-it_nlab-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T23:48:45+00:00",
+   "title_ja": "ダイソーのネットを使ったおしゃれ雑貨のリメイク術",
+   "summary_ja": "ダイソーのネットを活用したアレンジ方法が話題となっている。ママのセンスが光るおしゃれな雑貨への変身ぶりが注目を集め、子育て世代を中心に支持を集めている。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ネット"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "8508f0dbd61f07ce",
+   "url": "https://note.com/hanaglobal/n/n31d81b7d7500",
+   "title_original": "【元旅行会社ママ直伝】LCC子連れ旅パッキング術！「行きは預けない」リュック×スーツケース＋3COINSの神技",
+   "source": "note #3COINS",
+   "image": "https://assets.st-note.com/production/uploads/images/328960873/rectangle_large_type_2_1e6a0f58d7c3c4c787d91c83acc5472e.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-26T23:29:36+00:00",
+   "title_ja": "3COINSを活用した子連れ旅のパッキング術",
+   "summary_ja": "元旅行会社のママが実践する、LCCの航空機利用時における子連れ旅行のパッキング術。荷物をコンパクトにまとめて手荷物だけで移動するための工夫として、3COINSのアイテム活用法を紹介している。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
   {
    "id": "11aeedd71366c759",
    "url": "https://note.com/deep_arnica1965/n/na2e172bdb716",
@@ -1124,6 +1387,24 @@
    "axis": "use",
    "things": [],
    "importance": 2
+  },
+  {
+   "id": "b36f3cf1596b152a",
+   "url": "https://www.roomie.jp/2026/10/1914832",
+   "title_original": "山崎実業のこの「排水口ネットホルダー」が大正解。夜のキッチンリセットから、ゴミ受け洗いの手間がなくなった",
+   "source": "ROOMIE（ルーミー）",
+   "image": "https://media.loom-app.com/roomie/dist/images/2026/10/261024_uekaranet_eye.png?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-25T21:30:43+00:00",
+   "title_ja": "山崎実業の排水口ネットホルダーでキッチン掃除が楽に",
+   "summary_ja": "山崎実業の排水口ネットホルダーは、シンクの排水口に装着するだけでゴミが絡まらず、洗い流しが不要になる便利アイテムです。夜のキッチンリセットが楽になり、掃除の手間が大幅に削減されます。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "排水口ネットホルダー"
+   ],
+   "importance": 3
   },
   {
    "id": "463e418d0d442790",
@@ -3411,24 +3692,6 @@
    "importance": 2
   },
   {
-   "id": "ce14ea2810d2783c",
-   "url": "https://note.com/yk256k/n/n809ad7754ee1",
-   "title_original": "手帳会議2027 ③｜MACO手帳とダイソー手帳に決めました！ 【購入品紹介】",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/327167784/rectangle_large_type_2_0ff412de974c64820a66fb8a52c30690.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-23T11:04:00+00:00",
-   "title_ja": "ダイソーのサンリオ手帳などを選んだ来年の手帳会議の購入品紹介",
-   "summary_ja": "来年の手帳会議が完結し、ダイソーのサンリオ手帳とMACO手帳に決めた購入品を紹介している記事です。新しい手帳の準備や商品選びの参考に役立ちます。",
-   "category": "文具・手帳",
-   "axis": "new",
-   "things": [
-    "サンリオ手帳"
-   ],
-   "importance": 3
-  },
-  {
    "id": "ef43658d597941df",
    "url": "https://news.allabout.co.jp/articles/o/131956",
    "title_original": "「やば！めっちゃいいコレ」キャンドゥの“クリアジッパーバッグ 内服薬柄”に反響。「薬局のお薬袋そっくり」の声",
@@ -3463,24 +3726,6 @@
     "キッチングッズ"
    ],
    "importance": 3
-  },
-  {
-   "id": "1524541623531755",
-   "url": "https://note.com/rich_chimp441/n/n04f9e5f3be00",
-   "title_original": "100均のパズル",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/production/uploads/images/327588557/rectangle_large_type_2_18dc13d11f79a9c88a9e3208ab66df09.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-23T10:47:49+00:00",
-   "title_ja": "100円ショップのパズル商品の減少とパズル好きの悩み",
-   "summary_ja": "100円ショップでパズル好きが様々な商品を買ってきた経験や、最近売り場のパズル商品が少なくなっていると感じる様子がつづられています。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "パズル"
-   ],
-   "importance": 2
   },
   {
    "id": "7fb32b9911d4e750",
