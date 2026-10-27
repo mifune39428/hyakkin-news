@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T02:47:53.996720+09:00",
+ "updated_at": "2026-10-28T06:59:52.416331+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,34 +27,34 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-28T02:48:49.137744+09:00",
+  "generated_at": "2026-10-28T07:00:19.916394+09:00",
   "days": 3,
-  "period": "10月27日〜10月27日",
+  "period": "10月27日〜10月28日",
   "count": 45,
-  "new_count": 20,
-  "use_count": 25,
-  "overview": "ダイソー、セリア、3COINS、Standard Productsなどの新作雑貨や便利な活用アイデアに関する45件の記事が集まりました。収納グッズの整理術や季節のインテリア、調理ツールのレビューなどが幅広く紹介されています。",
-  "new": "ダイソーのガラケー型ミラーや3COINSの挟めるフライ返しなど、日常を便利にするデザイン性の高い新作アイテムが多数登場しています。",
-  "use": "Standard Productsのポーチをカメラ用に活用したり、セリアのミニチュア買い物カゴで引き出しを整理するなど、小物の賢い使い方が紹介されています。",
+  "new_count": 16,
+  "use_count": 29,
+  "overview": "100円ショップや3COINSなどの新作アイテムや、収納・インテリアでの具体的な活用アイデアを紹介する記事が集まっています。",
+  "new": "3COINSの挟めるフライ返しやダイソーのガラケー型ミラーなど、料理や日常で役立つ新作の話題が取り上げられています。",
+  "use": "ダイソーのすのこを使ったポットスタンドのDIYや、セリアのミニチュア買い物カゴによる引き出し整理など小物の活用法が目立ちます。",
   "points": [
    {
     "title": "挟めるフライ返し",
-    "body": "3COINSで話題の330円の挟めるフライ返しは、食材をしっかり挟んで裏返せる機能的な設計です。ハンバーグなどの料理が型崩れせずきれいに作れると評判になっています。"
+    "body": "3COINSの330円の挟めるフライ返しは、食材をしっかり挟んで裏返せる機能的な設計で、ハンバーグなどの料理が型崩れせずきれいに作れると話題になっています。"
    },
    {
     "title": "ガラケー型ミラー",
-    "body": "ダイソーから発売されたガラケーの形をしたレトロでかわいいコンパクトミラーです。折りたたみ式で開閉を楽しめるだけでなく、持ち運びや日常使いに便利なアイテムとして注目されています。"
+    "body": "ダイソーから発売されたガラケーの形をしたレトロでかわいいコンパクトミラーは、折りたたみ式で開閉を楽しめ、持ち運びや日常使いで便利に使えます。"
    },
    {
     "title": "ミニチュア買い物カゴ",
-    "body": "セリアのミニチュア買い物カゴを活用して、散らかりがちな引き出しを整理整頓するアイデアが紹介されています。細かな小物をまとめて仕切るのに役立つと注目されています。"
+    "body": "セリアのミニチュア買い物カゴを活用し、散らかりがちな引き出しの中で細かな小物をまとめて仕切ることで、すっきりと整理整頓するアイデアが紹介されています。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "3COINS",
-   "収納"
+   "キャンドゥ"
   ]
  },
  "things": [
@@ -112,6 +112,10 @@
   },
   {
    "name": "過炭酸ナトリウム",
+   "count": 3
+  },
+  {
+   "name": "靴下",
    "count": 3
   },
   {
@@ -205,10 +209,6 @@
   {
    "name": "雑貨",
    "count": 2
-  },
-  {
-   "name": "靴下",
-   "count": 2
   }
  ],
  "sources": [
@@ -274,8 +274,94 @@
   "電撃オンライン",
   "ｄメニューニュース"
  ],
- "count": 357,
+ "count": 363,
  "items": [
+  {
+   "id": "21b7daa29d33b8d6",
+   "url": "https://note.com/mofine16/n/nc1f72928c36b",
+   "title_original": "これもドールハウスだよ",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/329309814/rectangle_large_type_2_00ce74ef3d2d3a7c27cd67fffa11da50.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-27T21:55:44+00:00",
+   "title_ja": "セリア ドールハウスで和洋写真撮影",
+   "summary_ja": "セリアで販売されているドールハウスセットを使い、和室と洋室の風景撮影を楽しむ方法を紹介。写真のバリエーションが広がります。100円で手に入る手軽さも魅力です。ぜひ試してみてください。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ドールハウスセット"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "89c694aa8edf78ea",
+   "url": "https://news.yahoo.co.jp/expert/articles/4ab33906be261d96d63b177a007fe6e25fe4fceb",
+   "title_original": "【セリア】きれいに見せたい人必見！心地が良くスッキリ小顔見せがいい（なないろの扉） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02751950/title-1792991844571.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T21:34:18+00:00",
+   "title_ja": "セリア なないろの扉で小顔効果",
+   "summary_ja": "セリアの『なないろの扉』は、心地よくスッキリとした見た目で小顔効果が期待できるアイテムとして紹介されています。実際の使用感や価格は記事本文をご確認ください。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "なないろの扉"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "aa9836c81afe0763",
+   "url": "https://yomuno.jp/posts/143693",
+   "title_original": "【ダイソー】元美容師が厳選！110円から買える高見えヘアアクセサリーおすすめ6選｜大人女子の秋冬ヘアアレンジに",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/143693/header_image/large-9f9a871d6358b113489504b9890fa534.jpeg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T21:00:46+00:00",
+   "title_ja": "ダイソー 110円からの高見えヘアアクセサリー6選",
+   "summary_ja": "元美容師が厳選した、ダイソーで110円から購入できるヘアアクセサリー6点を紹介。大人女子の秋冬ヘアアレンジにぴったりで、コスパ抜群のアイテムです。手軽におしゃれを楽しめるので、ぜひチェックしてみてください。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "8ce9b8f9ee35610d",
+   "url": "https://yomuno.jp/posts/143591",
+   "title_original": "【3COINS】愛犬との毎日が快適に！スリコのおすすめ「ペット用神グッズ」3選",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/143591/header_image/large-4a49c7bb8b001632fec9eb5aed5c0c04.jpeg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T20:00:21+00:00",
+   "title_ja": "3COINS ペット用神グッズ3選",
+   "summary_ja": "3COINSで販売されているスリコのペット用品3点をピックアップ。愛犬との毎日を快適にする便利なアイテムとして紹介されています。価格や詳細は記事をご覧ください。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "5969922c068b67a0",
+   "url": "https://note.com/_kotorisuki_/n/ne9acd92b4a3a",
+   "title_original": "【保存版】100円ショップで試せる！ペットの便利ワザ3選",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/329292146/rectangle_large_type_2_2ac46b437d031f7d2fd18f8cc1d7e282.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-27T19:19:54+00:00",
+   "title_ja": "ダイソーやセリアで試せるペットの便利ワザ3選",
+   "summary_ja": "ダイソー、セリア、キャンドゥなどの100円ショップのアイテムを使って、ペットのお世話を手軽に試せる便利ワザを3つ紹介しています。専用グッズの代わりに活用でき、費用を抑えてペットに合うか試せるのが魅力です。価格は110円からの商品が中心です。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "抜け毛取りクリーナー"
+   ],
+   "importance": 3
+  },
   {
    "id": "a0a4318da5d93d5d",
    "url": "https://note.com/bennriguzzupapa/n/n76813235bf57",
@@ -293,6 +379,24 @@
     "防犯ソーラーライト 100LED"
    ],
    "importance": 4
+  },
+  {
+   "id": "d87718375c62295e",
+   "url": "https://note.com/nice_zebra9647/n/n274dece4e967",
+   "title_original": "1年間で84足の靴下を履いた話。8400円で買えたものが色々あった！",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/329249273/rectangle_large_type_2_a36c99b257c22ab7a97ba9ef1a4f98fa.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-27T14:23:18+00:00",
+   "title_ja": "100円ショップの靴下をまとめ買いする習慣",
+   "summary_ja": "ランニングで消耗する靴下を、毎月末に100円ショップで7足まとめ買いして使い切る習慣について紹介しています。破れる前提で消耗品と割り切り、手軽に調達して回すことで日々のランニング生活に役立てています。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "靴下"
+   ],
+   "importance": 2
   },
   {
    "id": "7828c46a39d6106c",
@@ -870,6 +974,27 @@
    "importance": 2
   },
   {
+   "id": "1234392fd1b11f30",
+   "url": "https://limo.media/articles/-/142624",
+   "title_original": "【100均DIY】すのこが「はしご型のポットスタンド」に変身！蝶番と麻紐で作る飾り棚がおしゃれ",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/a/f/1200w/img_af7bb515d2fb4d837b784050e2c852a5129020.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-27T06:47:00+00:00",
+   "title_ja": "ダイソーのすのこを使ったはしご型ポットスタンドのDIY",
+   "summary_ja": "すのこや蝶番、麻紐を活用しておしゃれなはしご型のポットスタンドや飾り棚を作るDIY方法です。部屋のインテリアとして観葉植物などを飾るのに便利に活用できます。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "すのこ",
+    "ポットスタンド",
+    "蝶番",
+    "麻紐"
+   ],
+   "importance": 3
+  },
+  {
    "id": "610288f0ff0b7a09",
    "url": "https://nlab.itmedia.co.jp/fav/articles/4056465",
    "title_original": "550円以下でシンプルおしゃれ！ ダイソー系列【スタンダードプロダクツ】で「買ってよかったバッグ」3選【2026年10月版】（1/2） | バッグ・クーラーボックス Fav-Log by ITmedia",
@@ -1309,6 +1434,25 @@
     "バッグ"
    ],
    "importance": 3
+  },
+  {
+   "id": "fccc74b9ff6bb110",
+   "url": "https://news.dellows.jp/757784/?from=related-reading-list",
+   "title_original": "大創産業の猫用爪とぎとスキンケアが2026年度グッドデザイン賞を受賞",
+   "source": "Dellows News",
+   "image": "https://news.dellows.jp/wp-content/uploads/2026/10/757784_1.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-26T17:29:58+00:00",
+   "title_ja": "ダイソーの猫用爪とぎとスキンケアがグッドデザイン賞を受賞",
+   "summary_ja": "大創産業が展開する猫用爪とぎとスキンケア商品が、2026年度のグッドデザイン賞を受賞したというニュースです。ダイソーの商品のデザイン性や品質が評価されました。",
+   "category": "お店・ブランド",
+   "axis": "new",
+   "things": [
+    "猫用爪とぎ",
+    "スキンケア"
+   ],
+   "importance": 4
   },
   {
    "id": "c56ce4089080a277",
@@ -4318,24 +4462,6 @@
    "importance": 3
   },
   {
-   "id": "4bef4dbf03bce580",
-   "url": "https://note.com/gui_note91/n/n36dd3a98aaf5",
-   "title_original": "ハートを散らして。",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/327660154/rectangle_large_type_2_1734ed05909ef7c7fc5c4626fdf4c0f8.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-23T14:07:00+00:00",
-   "title_ja": "ダイソーの薄型ミラーを小さなポーチ用に活用",
-   "summary_ja": "小さくて薄いミラーを探していた筆者が、ダイソーで見つけたミラーを小さなポーチに入れてお出かけ用に活用しているブログ記事です。最低限のアイテムを持ち歩く際に役立っています。",
-   "category": "コスメ・美容",
-   "axis": "use",
-   "things": [
-    "ミラー"
-   ],
-   "importance": 3
-  },
-  {
    "id": "1a3ec6134066d59e",
    "url": "https://www.youtube.com/shorts/L5hztSAazLI",
    "title_original": "【100均】新商品速報‼️過去一すごい!!便利なダイソー新商品♡ #100均 #ダイソー #ダイソー新商品 #ダイソー購入品 #洗濯 #便利 #shorts",
@@ -4404,22 +4530,6 @@
     "丸シール"
    ],
    "importance": 3
-  },
-  {
-   "id": "0cded9d38084e7fb",
-   "url": "https://note.com/r2mtksrn/n/n66fc64edd6b1",
-   "title_original": "我が家のちょっと変わった「当番表」",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/production/uploads/images/327596073/rectangle_large_type_2_a6b3663575c9dc24b535de8b96571752.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-23T11:19:33+00:00",
-   "title_ja": "100円ショップのアイテムを使った我が家の変わった当番表",
-   "summary_ja": "100円ショップのアイテムを活用した、少し変わった当番表について紹介しているブログ記事です。日々の暮らしの中での工夫や使い道を知ることができます。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 2
   },
   {
    "id": "ef43658d597941df",
