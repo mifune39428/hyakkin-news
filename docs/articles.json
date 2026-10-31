@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T02:12:56.921188+09:00",
+ "updated_at": "2026-11-01T06:15:32.212987+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,41 +27,41 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-11-01T02:15:16.456387+09:00",
+  "generated_at": "2026-11-01T06:16:06.911908+09:00",
   "days": 3,
   "period": "10月31日〜11月1日",
   "count": 45,
   "new_count": 12,
   "use_count": 33,
-  "overview": "ダイソーやセリアなどの100円ショップの最新グッズや、収納・インテリアでの具体的な活用アイデアが多数紹介されています。",
-  "new": "セリアの浮かせる収納グッズや、ダイソーの伸縮ほうき、カレンダー、セサミストリートのクリスマスラッピングなどが登場しています。",
-  "use": "透明ケースやキルト綿、ブックエンドなどを活用し、小物の整理やインテリアボードを手作りするアイデアが紹介されています。",
+  "overview": "ダイソーやセリアなどの100均グッズを使った収納術やリメイク方法のほか、便利な新作雑貨の紹介など、日々の生活を快適にするアイデアが多数取り上げられている。",
+  "new": "セリアやダイソーから、浮かせる収納グッズや秋色シール、カレンダーなどの新商品が続々と登場している。",
+  "use": "ブックエンドや透明ケースを活用した収納術や、意外な日用品の便利リメイク術が多くの記事で紹介されている。",
   "points": [
    {
-    "title": "キルト綿のふわふわボード",
-    "body": "100均のキルト綿と布を黒いフレームに挟み込むだけで作れる、季節のディスプレイを引き立てるふわふわなギンガムボードのDIYテクニックが紹介されています。"
+    "title": "ブックエンド収納棚",
+    "body": "ダイソーのブックエンド同士をマグネットでくっつけるだけで、わずか1分で実用的な収納棚が完成する便利な活用テクニックが紹介されている。"
    },
    {
-    "title": "ブックエンドとマグネット収納",
-    "body": "セリアなどのブックエンド同士をマグネットでくっつけるだけで、わずか1分で実用的な収納棚が完成し、手軽に収納スペースを増やす活用法が語られています。"
+    "title": "透明ケースで文房具整理",
+    "body": "100円ショップの透明ケースを使うことで、使った物を元に戻すのが苦手な子供でもスムーズに文房具を片付けられる収納の工夫が紹介されている。"
    },
    {
-    "title": "ダイソーのLEDキャンドル",
-    "body": "ダイソーの炎のようにゆらぐLEDキャンドルを電子工作でモバイルバッテリーにつなぎ、10日間連続で点灯させる工夫が紹介されています。"
+    "title": "ミニチュアビールケース",
+    "body": "ダイソーで見つかるミニチュアサイズのビールケースが、細かい雑貨をすっきりと整理して収納するのに便利だと話題になっている。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "収納",
-   "インテリア",
+   "便利グッズ",
    "リメイク"
   ]
  },
  "things": [
   {
-   "name": "つっぱり棒",
-   "count": 4
+   "name": "毛糸",
+   "count": 5
   },
   {
    "name": "キーホルダー",
@@ -80,11 +80,11 @@
    "count": 4
   },
   {
-   "name": "毛糸",
-   "count": 4
+   "name": "LEDキャンドル",
+   "count": 3
   },
   {
-   "name": "LEDキャンドル",
+   "name": "つっぱり棒",
    "count": 3
   },
   {
@@ -144,7 +144,15 @@
    "count": 2
   },
   {
+   "name": "トートバッグ",
+   "count": 2
+  },
+  {
    "name": "パッカブルショルダーバッグ",
+   "count": 2
+  },
+  {
+   "name": "フック",
    "count": 2
   },
   {
@@ -209,14 +217,6 @@
   },
   {
    "name": "皿",
-   "count": 2
-  },
-  {
-   "name": "調理グッズ",
-   "count": 2
-  },
-  {
-   "name": "車掃除モップ",
    "count": 2
   }
  ],
@@ -286,8 +286,43 @@
   "매일경제",
   "ｄメニューニュース"
  ],
- "count": 401,
+ "count": 400,
  "items": [
+  {
+   "id": "25b5916ae9980f52",
+   "url": "https://note.com/marushiki/n/nba179e237046",
+   "title_original": "【超要約】同人イベントのサークル設営完全攻略！100均で作る立体ひな壇・目立つお品書き＆便利グッズまとめ",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/330740035/rectangle_large_type_2_35882b46f6b5fe7b75346ad71b65add6.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-31T21:12:05+00:00",
+   "title_ja": "セリア等の100均グッズで作る同人イベント設営術",
+   "summary_ja": "同人イベントのサークル設営に使える100均グッズの情報をまとめたノート。立体ひな壇や目立つお品書きの作り方など、忙しい人向けに便利グッズを活用した設営の工夫を紹介している。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "立体ひな壇",
+    "お品書き"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "a06e31aadceb52bd",
+   "url": "https://yomuno.jp/posts/142708",
+   "title_original": "【よっしゃ〜〜！セリアで買えた～！！】「全部110円でいいの！？」手に取って大大大正解「懐かしい(泣)」母も娘も大興奮6選",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/142708/header_image/large-225c6adea72c7ac2c5cf716498827ff3.jpeg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T20:01:42+00:00",
+   "title_ja": "セリアの全部110円で買える大興奮のアイテム6選",
+   "summary_ja": "セリアで購入できるすべて110円のアイテムを紹介する記事。手に取って大正解だった懐かしさを感じる商品など、母娘で楽しめる魅力的な雑貨が6点取り上げられている。",
+   "category": "その他",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
   {
    "id": "04af71ea1b313426",
    "url": "https://note.com/holy_slug864/n/n8d3fd4819408",
@@ -537,6 +572,24 @@
     "フレーム"
    ],
    "importance": 3
+  },
+  {
+   "id": "ed5bc15f801efa0a",
+   "url": "https://note.com/albali_var7/n/naa764a5a3f3c",
+   "title_original": "これならば、惜しくない。／安いイヤホンの話",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/330596532/rectangle_large_type_2_614b0c7f1feef742c51f04e4cc6f4252.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-31T11:10:03+00:00",
+   "title_ja": "ダイソーなどの安いイヤホンを使ってみた感想",
+   "summary_ja": "深夜のアルバイトの暇つぶしのためにダイソーなどの安いイヤホンを購入して使った体験談。買い替えても惜しくない手頃な価格帯のイヤホンについて、日々の生活の中での使い心地を語っている。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "イヤホン"
+   ],
+   "importance": 2
   },
   {
    "id": "becabbfb6d3ddc8d",
@@ -838,6 +891,24 @@
    "importance": 3
   },
   {
+   "id": "2017c5eb82b6d71d",
+   "url": "https://news.yahoo.co.jp/articles/f6d23fde59627f8bdc71ed297bce80245864933a",
+   "title_original": "【3COINS】ペット専用のこたつが可愛すぎ！リバーシブル天板＆布団付き4180円で冬のぬくぬくハウスが一部店舗限定（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00144504-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T04:45:57+00:00",
+   "title_ja": "3COINSでペット専用のこたつが一部店舗限定で登場",
+   "summary_ja": "3COINSからペット専用のこたつが4180円で一部店舗限定にて登場しました。リバーシブル天板と布団付きの冬をぬくぬく過ごせるペット用ハウスです。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "こたつ"
+   ],
+   "importance": 4
+  },
+  {
    "id": "7658a6b3e877fe99",
    "url": "https://grapee.jp/2356205",
    "title_original": "100均で見つけた『ミニチュアのビールケース』が便利 小物収納として大活躍",
@@ -958,6 +1029,25 @@
    "axis": "use",
    "things": [
     "モバイルバッテリー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "75cc1b01cb7be168",
+   "url": "https://news.yahoo.co.jp/expert/articles/f2f4b3d0ff44a16ddf2784ed8c0cea772a68897f",
+   "title_original": "【無印良品週間】無印のゴミ箱は100均フックで浮かせてみて！無印グッズをもっと便利に使うひと手間5選",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/raifuhakkumamo/02753930/title-1793381113242.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T02:03:48+00:00",
+   "title_ja": "無印良品のゴミ箱を100均フックで浮かせて便利に使う方法",
+   "summary_ja": "無印良品のゴミ箱を100円ショップのフックを使って浮かせて収納するひと手間を取り上げています。無印良品グッズをより便利に活用する工夫です。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "フック",
+    "ゴミ箱"
    ],
    "importance": 4
   },
@@ -1117,6 +1207,25 @@
    "axis": "new",
    "things": [],
    "importance": 4
+  },
+  {
+   "id": "35f8b49e3b6b438e",
+   "url": "https://news.yahoo.co.jp/articles/7778cd46589ed3a2b01746e1327f0720d225f2a5",
+   "title_original": "100均セリアの毛糸6玉で編む“キラキラ透かし編みトート”の動画が約2万回再生 さり気ないラメ感が大人可愛い（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00143774-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T00:31:10+00:00",
+   "title_ja": "セリアの毛糸を使ったキラキラ透かし編みトートの動画",
+   "summary_ja": "セリアの毛糸6玉で編むキラキラ透かし編みトートの動画が紹介されています。さり気ないラメ感がある大人可愛いバッグが作れる内容として、約2万回再生されるなど話題を集めています。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "毛糸",
+    "トートバッグ"
+   ],
+   "importance": 3
   },
   {
    "id": "9e4c72d42f7eab6a",
@@ -6190,58 +6299,6 @@
    "importance": 3
   },
   {
-   "id": "d45f37ceccc36b52",
-   "url": "https://note.com/elma_hibi/n/nd39ad0fe757b",
-   "title_original": "子どもの衣替えは大変！我が家の収納方法と秋冬服の準備",
-   "source": "note #3COINS",
-   "image": "https://assets.st-note.com/production/uploads/images/328462501/rectangle_large_type_2_b3955036e44da0521c4c87cb277ae6f8.png?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-25T13:31:27+00:00",
-   "title_ja": "子どもの衣替えをスムーズに進める我が家の収納方法",
-   "summary_ja": "肌寒い季節に向けた子どもの衣替えについて、しまっていた秋冬服を引っ張り出して準備を進める我が家の収納方法や工夫を紹介しています。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "6d052b998b18ddb5",
-   "url": "https://note.com/yutty_note/n/nf693c33c1697",
-   "title_original": "サウナイキタイの小銭入れを自分仕様にプチカスタム",
-   "source": "note #3COINS",
-   "image": "https://assets.st-note.com/production/uploads/images/325781212/rectangle_large_type_2_ad23bf0899111af3b3ddb8e95c9b516f.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-25T13:19:17+00:00",
-   "title_ja": "サウナイキタイの小銭入れを自分仕様にカスタム",
-   "summary_ja": "3COINSで購入したサウナイキタイの小銭入れを、使いきれていない状態から自分の使い勝手に合わせてプチカスタムする過程を記録した記事。",
-   "category": "ファッション・小物",
-   "axis": "use",
-   "things": [
-    "小銭入れ"
-   ],
-   "importance": 2
-  },
-  {
-   "id": "e78e958977aafc15",
-   "url": "https://note.com/dapper_echium197/n/n9cc5f1cc8433",
-   "title_original": "フォームローラーはダイソーの500円で十分？ 使い始めて2日、思った以上によかった話",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/328451880/rectangle_large_type_2_fc965262cac8637a8261bb716573dfad.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-25T13:05:24+00:00",
-   "title_ja": "ダイソーの500円フォームローラー、実際に使ってみた感想",
-   "summary_ja": "ダイソーで500円のフォームローラーを購入し、2日間使用。肩や背中のコリが軽くなり、寝つきも改善されたと実感。高価なものと比べても満足できる性能だった。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "フォームローラー"
-   ],
-   "importance": 3
-  },
-  {
    "id": "918b6368d6e7881a",
    "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-f61fba7a8de05419c4f4850945ed5197452dfa74?page=2",
    "title_original": "「正直、少し高いかも」→【3COINS】1,100円『ワイパー』を使ったら「買い替えてよかった！」",
@@ -7380,76 +7437,6 @@
    "axis": "use",
    "things": [
     "つっぱり棒"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "188504bf12ba4f31",
-   "url": "https://hochi.news/articles/20261023-YHK1T51000.html?genre=life",
-   "title_original": "一見普通の『ティッシュボックス』 でも反対を見ると…「その発想はなかった！」「まさに一石二鳥」",
-   "source": "スポーツ報知",
-   "image": "https://hochi.news/images/subsite/yohakuto/2026/10/23/20261023-YHK1I51000-C.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T07:00:00+00:00",
-   "title_ja": "一見普通のティッシュボックスに隠された秘密の機能とは",
-   "summary_ja": "反対側を見ると便利な機能がついている、驚きのアイデアが詰まったティッシュボックスの活用法を紹介。日常のちょっとした不便を解消する使い方の工夫です。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "ティッシュボックス"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "45d3493d575937e9",
-   "url": "https://news.yahoo.co.jp/articles/17beccce07518dbc21571dd4eabc46c0b1bde64b",
-   "title_original": "ベランダで3キロ超えのスイカが実った！土なし、100均グッズでここまでできる！？（レタスクラブ）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-01450555-lettucec-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T06:00:00+00:00",
-   "title_ja": "100均グッズと土なしでベランダスイカ栽培に挑戦",
-   "summary_ja": "土を使わずに100円ショップのグッズを活用して、ベランダで3キログラムを超えるスイカを育てた栽培アイデアを紹介しています。身近なアイテムで本格的な栽培を楽しめる内容です。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [],
-   "importance": 4
-  },
-  {
-   "id": "0e37fd6586e3ff0e",
-   "url": "https://grapee.jp/2358233",
-   "title_original": "【ダイソー】部屋の仕切りは『440円』で作れる！ つっぱり棒を活用して5分で完成した",
-   "source": "grapee.jp",
-   "image": "https://grapee.jp/wp-content/uploads/2026/10/G04613_main06.webp",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T05:02:44+00:00",
-   "title_ja": "ダイソーのつっぱり棒で440円の部屋の仕切りを作る方法",
-   "summary_ja": "ダイソーのつっぱり棒を活用して、440円で簡単に部屋の仕切りを作る方法。わずか5分で完成する手軽な模様替えの工夫として参考になります。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [
-    "つっぱり棒"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "418a80379b80b33f",
-   "url": "https://news.infoseek.co.jp/topics/itmedia_mobile_20261024012",
-   "title_original": "ダイソーで1100円の「USB Type-C to HDMIケーブル」でスマホの画面をテレビに映すとどうなる？ 対応機種なら試してみる価値あり",
-   "source": "Infoseek",
-   "image": "https://media.image.infoseek.co.jp/isnews/photos/itmedia_mobile/itmedia_mobile_20261024012_0.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T02:05:00+00:00",
-   "title_ja": "ダイソーの1100円USBケーブルで画面出力",
-   "summary_ja": "ダイソーで1100円のUSB Type-C to HDMIケーブルを使用し、対応機種のスマホ画面をテレビに映す検証記事。対応機種であれば試す価値がある便利アイテムの活用法。",
-   "category": "スマホ・ガジェット",
-   "axis": "use",
-   "things": [
-    "USB Type-C to HDMIケーブル"
    ],
    "importance": 4
   }
