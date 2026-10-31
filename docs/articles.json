@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T13:57:02.206480+09:00",
+ "updated_at": "2026-10-31T20:58:40.250530+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,32 +27,32 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-10-31T13:57:40.633410+09:00",
+  "generated_at": "2026-10-31T20:59:55.735449+09:00",
   "days": 3,
   "period": "10月30日〜10月31日",
   "count": 45,
-  "new_count": 10,
-  "use_count": 35,
-  "overview": "ダイソーやセリア、3COINSなどの100円ショップについて、収納グッズやリメイク術、キャラクター新作など多彩な活用法が紹介されています。",
-  "new": "セリアやダイソーから、キャラクターグッズやペットボトルホルダー付きヘッドホンフックなどの新商品や再入荷情報が注目されています。",
-  "use": "小物の整理術や手軽なリメイク、パソコンケース作りなど、身近なアイテムを便利に使いこなす工夫が数多く紹介されています。",
+  "new_count": 11,
+  "use_count": 34,
+  "overview": "ダイソーやセリアなどの新商品情報や、収納、掃除、インテリアといった日常での具体的な活用術を取り上げた記事が集まっています。",
+  "new": "セリアのピングーグッズやレトロ柄グラス、ダイソーの伸縮ほうきやモバイルバッテリーなど注目の新商品が紹介されています。",
+  "use": "セリアのキルト綿を使ったふわふわボードのDIYや、ダイソーのカードボックス等の収納術、バッグにつけるキーホルダーの活用法などが語られています。",
   "points": [
    {
-    "title": "セリアのキャラクター新作",
-    "body": "セリアでは「ピングー」の全品110円のグッズをはじめ、ほっぺちゃんやおぱんちゅうさぎ、ズートピアなどのキャラクターグッズ新作が登場して話題を集めています。"
+    "title": "キルト綿のDIY",
+    "body": "100均のキルト綿と布を黒いフレームに入れて挟むだけで作れる、ふわふわな質感のギンガムボードのDIYテクニックが紹介されています。季節の飾り付けを引き立てるインテリアに活用できます。"
    },
    {
-    "title": "ダイソーの収納と便利グッズ",
-    "body": "ダイソーのミニチュアビールケースや大きなバケツ、黒板セットなどが、小物収納や洗面台以外での洗濯、冷蔵庫横のメモ書きなど多様な用途で活躍しています。"
+    "title": "収納ボックス活用術",
+    "body": "ダイソーのトランク型カードボックスや組み立てシューズボックス、ミニチュアビールケースなど、本来の用途にとらわれず細かい雑貨や小物をすっきりと整理する収納術が取り上げられています。"
    },
    {
-    "title": "スリコとセリアのバッグ活用",
-    "body": "3COINSの軽いショルダーバッグやスーツケースカバーに加え、セリアの仕分けミニポーチなど、お出かけや通院、旅行に便利なアイテムが紹介されています。"
+    "title": "便利なバッグとポーチ",
+    "body": "3COINSの軽いショルダーバッグを通院バッグや小物整理に使うレビューや、セリアのアイテムで巾着袋を片手で開くポーチへリメイクする手法が紹介されています。"
    }
   ],
   "keywords": [
-   "ダイソー",
    "セリア",
+   "ダイソー",
    "3COINS",
    "収納",
    "新商品"
@@ -84,6 +84,10 @@
    "count": 4
   },
   {
+   "name": "アイデアグッズ",
+   "count": 3
+  },
+  {
    "name": "キャラクターグッズ",
    "count": 3
   },
@@ -108,10 +112,6 @@
    "count": 2
   },
   {
-   "name": "アイデアグッズ",
-   "count": 2
-  },
-  {
    "name": "ウォールラックボックス",
    "count": 2
   },
@@ -128,6 +128,10 @@
    "count": 2
   },
   {
+   "name": "キルト綿",
+   "count": 2
+  },
+  {
    "name": "ケース",
    "count": 2
   },
@@ -136,7 +140,15 @@
    "count": 2
   },
   {
+   "name": "デジタル時計",
+   "count": 2
+  },
+  {
    "name": "パッカブルショルダーバッグ",
+   "count": 2
+  },
+  {
+   "name": "フレーム",
    "count": 2
   },
   {
@@ -156,6 +168,10 @@
    "count": 2
   },
   {
+   "name": "ヨガマット",
+   "count": 2
+  },
+  {
    "name": "ラック",
    "count": 2
   },
@@ -165,10 +181,6 @@
   },
   {
    "name": "リボン",
-   "count": 2
-  },
-  {
-   "name": "ロールふきん",
    "count": 2
   },
   {
@@ -205,18 +217,6 @@
   },
   {
    "name": "綿棒ケース",
-   "count": 2
-  },
-  {
-   "name": "車掃除モップ",
-   "count": 2
-  },
-  {
-   "name": "造花",
-   "count": 2
-  },
-  {
-   "name": "過炭酸ナトリウム",
    "count": 2
   }
  ],
@@ -265,7 +265,6 @@
   "スポーツ報知",
   "ダイヤモンド・オンライン",
   "ニコニコニュース",
-  "マイナビニュース",
   "マナの時間",
   "モデルプレス",
   "ヨッパン・100均紹介",
@@ -286,8 +285,286 @@
   "매일경제",
   "ｄメニューニュース"
  ],
- "count": 402,
+ "count": 401,
  "items": [
+  {
+   "id": "3a8c21c74d42c2b3",
+   "url": "https://news.yahoo.co.jp/articles/89f307ae90a5526d6824b8d18b46c17301b41188",
+   "title_original": "【100均DIY】フレームに布と100均のキルト綿を入れるだけ！黒いフレームが「ふわふわのギンガムボード」に変身 季節の飾りを引き立てる（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00143387-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T11:31:05+00:00",
+   "title_ja": "100均のキルト綿を活用したふわふわ飾りボードのDIY",
+   "summary_ja": "黒いフレームに布と100均のキルト綿を挟むだけで作れる、ふわふわな質感のギンガムボードのDIYテクニックです。季節のディスプレイや室内装飾品を引き立てるインテリアグッズとして活用できます。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "キルト綿",
+    "フレーム"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "3831007f460de1c6",
+   "url": "https://www.youtube.com/shorts/uxmLMaZIl78",
+   "title_original": "【100均】新商品速報‼️ついに出た！セリアに神商品登場‼️ #100均 #セリア #セリア新商品 #セリア購入品 #便利 #浮かせる収納 #shorts",
+   "source": "はるチャンネル【100均】",
+   "image": "https://i2.ytimg.com/vi/uxmLMaZIl78/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-31T11:30:04+00:00",
+   "title_ja": "セリアから浮かせる収納ができる便利な新商品が登場",
+   "summary_ja": "セリアから壁面などを活用できる浮かせる収納用の新商品が登場しました。デッドスペースを有効活用して小物をすっきりと整理整頓できる、使い勝手のよい収納アイテムです。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "048a7ba96f7c6fd8",
+   "url": "https://limo.media/articles/-/143387",
+   "title_original": "【100均DIY】黒いフレームが「ふわふわのギンガムボード」に変身 キルト綿を入れて季節の飾りを引き立てる！ 室内装飾品への年間支出はどれくらい？ 人気DIYer取材協力のもと注目のDIYテクニックを紹介。 | 概要 | LIMO | くらしとお金の経済メディア",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/4/6/1200w/img_46ec026b786bb1367f735ef7362798eb74657.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T11:28:00+00:00",
+   "title_ja": "100均のキルト綿で作るインテリア用ふわふわボードの工夫",
+   "summary_ja": "100均のキルト綿と布を黒いフレームに入れて作る、ふわふわとしたギンガムボードの作り方を紹介しています。季節の飾り付けを引き立てる室内装飾のアイデアとして役立ちます。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "キルト綿",
+    "フレーム"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "8fc94671e3101b28",
+   "url": "https://www.youtube.com/watch?v=TBtPhBk5B_I",
+   "title_original": "【100均】ダイソー&セリア｜やばい！新作ラッシュ！なるほど使いでスッキリ！",
+   "source": "すきなもんちゅーぶ",
+   "image": "https://i1.ytimg.com/vi/TBtPhBk5B_I/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-31T11:00:24+00:00",
+   "title_ja": "ダイソーとセリアの新作雑貨やガジェットをチェック",
+   "summary_ja": "ダイソーとセリアで販売されている新商品の数々を紹介しています。ケーブルホルダーや330円のキッチンタイマー、デジタル時計、ミニLEDツリーなどが登場します。価格は110円から330円です。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [
+    "ケーブルホルダー 手巻きタイプ",
+    "キッチンタイマー",
+    "デジタル時計",
+    "ミニLEDツリー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "b7d85d75cb25ca90",
+   "url": "https://news.yahoo.co.jp/articles/5dd1c9a3c246144fcb4ccacfe1be3edebc4bb177",
+   "title_original": "【ダイソー】1100円ドール→“ハロウィーン魔女”に変身させたら……「うわあああ可愛いー！！！」 驚きの姿に「やばすぎっ！」「これはすごい」（ねとらぼ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-10174665-it_nlab-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T10:25:00+00:00",
+   "title_ja": "1100円のドールをハロウィーン魔女に変身させるアレンジ",
+   "summary_ja": "ダイソーで販売されている1100円のドールをハロウィーンの魔女風にアレンジした話題を紹介しています。手を加えることで可愛らしく変身させた様子が注目を集めています。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ドール"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "88cd187d889e55b5",
+   "url": "https://www.youtube.com/watch?v=shd8hAR9zXw",
+   "title_original": "【ダイソー購入品】神収納!?色々使える収納ボックス2選！！",
+   "source": "100円ショップの気になる一品（ヒャッキニ）",
+   "image": "https://i4.ytimg.com/vi/shd8hAR9zXw/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-10-31T10:00:28+00:00",
+   "title_ja": "ダイソーの便利な収納ボックス2選の紹介と活用法",
+   "summary_ja": "ダイソーで購入できるトランク型カードボックスと組み立てシューズボックスの2点を紹介しています。本来の使い方にとらわれず、様々な用途に使える便利な収納ボックスとして活用できます。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "トランク型カードボックス",
+    "組み立てシューズボックス"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "7dccbd4f9b936cf5",
+   "url": "https://enuchi.jp/amp/14571/aderia-retro-tsuyoiko-glass-202610",
+   "title_original": "アデリアレトロの子ども用グラスが登場！1,210円の「つよいこグラス」に猫や梨の昭和レトロ柄",
+   "source": "えんウチ",
+   "image": "https://image.enuchi.jp/upload/20261030/images/thumb_aderia_tsuyoiko_202610.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T10:00:00+00:00",
+   "title_ja": "セリアでアデリアレトロの猫や梨柄子ども用グラスが登場",
+   "summary_ja": "昭和レトロ柄が人気の「つよいこグラス」から子ども用グラスが登場しました。猫や梨のデザインが施されており、価格は1,210円で販売されています。",
+   "category": "キッチン",
+   "axis": "new",
+   "things": [
+    "つよいこグラス"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "0e2cd3d11d2fbd03",
+   "url": "https://www.chiba-tv.com/plus/detail/2026102178211",
+   "title_original": "冷蔵庫の横にダイソー『黒板セット』を貼ったら便利！ 買い忘れを防ぐ快適アイディア",
+   "source": "千葉テレビ放送株式会社",
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1489201311136990573/origin_1.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T09:54:38+00:00",
+   "title_ja": "ダイソーの黒板セットを冷蔵庫に貼る買い忘れ防止術",
+   "summary_ja": "冷蔵庫の横にダイソーの「黒板セット」を貼り付けることで、買い忘れを防ぐことができる便利な活用アイディアです。日々の買い物メモや家族への伝言に役立ちます。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "黒板セット"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "d0691c46b89f6fc6",
+   "url": "https://limo.media/articles/-/144541",
+   "title_original": "エアコン掃除の悩みを3COINSが解決！330円の「エアコンカバー」がとにかく便利！虫やホコリ対策に",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/6/8/1200w/img_68d751c90d3ee4db1706037077915279220346.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T09:30:00+00:00",
+   "title_ja": "3COINSのエアコンカバーで虫やホコリ対策をしよう",
+   "summary_ja": "3COINSで330円で販売されているエアコンカバーは、エアコン掃除の悩みを解決する便利アイテムです。使っていない時期の虫やホコリの侵入をしっかり防げます。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [
+    "エアコンカバー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "54eabc119885edf2",
+   "url": "https://grapee.jp/2356168",
+   "title_original": "100均で見つけた『ミニチュアのラック』が便利 小物＆文房具収納として大活躍",
+   "source": "grapee.jp",
+   "image": "https://grapee.jp/wp-content/uploads/2026/10/G05743_main02.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T09:02:31+00:00",
+   "title_ja": "100均のミニチュアラックを使った小物や文房具の収納術",
+   "summary_ja": "100均で見つけたミニチュアのラックを活用して、散らかりがちな小物や文房具をすっきりと収納するアイディアです。デスク周りの整理整頓に大活躍します。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ミニチュアのラック"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "d354d1045c219c72",
+   "url": "https://news.infoseek.co.jp/article/iza_QDXMM4B3RRHPDFJQU4RHOEJXHI",
+   "title_original": "無印良品の完全ワイヤレスイヤホン「MUJI-ME1」使ってみた ダイソー「TWS009」とスペック＆実機徹底比較",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/iza/iza_QDXMM4B3RRHPDFJQU4RHOEJXHI_0-enlarge.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T09:00:00+00:00",
+   "title_ja": "無印良品のイヤホンとダイソーのTWS009を徹底比較",
+   "summary_ja": "無印良品の完全ワイヤレスイヤホン「MUJI-ME1」と、ダイソーの「TWS009」のスペックや実機を徹底的に比較しています。それぞれの使い心地や機能の違いが分かります。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "完全ワイヤレスイヤホン",
+    "TWS009"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "720752f105274822",
+   "url": "https://trilltrill.jp/articles/5149805",
+   "title_original": "【ダイソー】行くなら探してみて！使ってみたくなるアイデアグッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5149805/featured-image.ec21548af37d75367d2bbdcf19541b28?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T08:35:17+00:00",
+   "title_ja": "ダイソーの使ってみたくなるアイデアグッズ3選",
+   "summary_ja": "ダイソーで販売されている、毎日の暮らしに役立つ注目のアイデアグッズ3選を紹介する記事。具体的な使い心地や便利な特徴がチェックできる内容になっている。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "アイデアグッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "5622468dcd1db96a",
+   "url": "https://enuchi.jp/14568/daiso-new-items-20261031",
+   "title_original": "【ダイソー】今週の新商品6選！220円の「金塊」や550円の伸縮ほうきも",
+   "source": "えんウチ",
+   "image": "https://image.enuchi.jp/upload/20261030/images/thumb_daiso_20261031.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T08:30:00+00:00",
+   "title_ja": "ダイソーの今週の新商品6選と価格情報",
+   "summary_ja": "ダイソーから今週発売された注目の新商品6選を紹介。220円の金塊や550円の伸縮ほうきなど、ユニークで便利なアイテムがラインナップされている。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "金塊",
+    "伸縮ほうき"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "8591c21dfd59c516",
+   "url": "https://note.com/zuishin77/n/n9cf23f3233e9",
+   "title_original": "【日常】ついに揃った5色の戦闘フィギュアと6つの武器ミニチュア",
+   "source": "note #100均",
+   "image": "https://assets.st-note.com/production/uploads/images/329979467/rectangle_large_type_2_c6955cd82f488a0f4f1d1224bfb28042.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-31T07:36:17+00:00",
+   "title_ja": "セリアとキャンドゥのミニチュアフィギュア紹介",
+   "summary_ja": "セリアで購入した5色の戦闘フィギュアと、セリアやキャンドゥで見かけた6つの武器ミニチュアをすべて組み立てて揃えた日常の記録。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "戦闘フィギュア",
+    "武器ミニチュア"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "d1c3644656ea6ffc",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/favlog/trend/favlog-4049981",
+   "title_original": "「カードも紙幣も入る！」3COINSの550円「コインホルダー付小銭ケース」がショルダーひも付きで便利だった",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/favlog/m_favlog-4049981.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T06:05:00+00:00",
+   "title_ja": "3COINSの550円コインホルダー付小銭ケース",
+   "summary_ja": "3COINSで販売されている550円のコインホルダー付小銭ケースを紹介。カードや紙幣が入り、便利なショルダーひも付きで使いやすいと評価されている。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "コインホルダー付小銭ケース",
+    "ショルダーひも"
+   ],
+   "importance": 4
+  },
   {
    "id": "7658a6b3e877fe99",
    "url": "https://grapee.jp/2356205",
@@ -376,6 +653,25 @@
    "importance": 3
   },
   {
+   "id": "ec518f6bb29e4844",
+   "url": "https://www.walkerplus.com/article/1180629/image12661290.html",
+   "title_original": "画像12 / 12＞セリアの「ピングーグッズ」はレトロさがたまらない…。ステーショナリー、ラッピング用品もぜ～んぶ110円！",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1180629/12661280_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T02:12:07+00:00",
+   "title_ja": "セリアからレトロで可愛いピングーグッズが登場",
+   "summary_ja": "セリアで発売されているピングーグッズを紹介。ステーショナリーやラッピング用品など、すべてのアイテムが110円で手に入ります。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ステーショナリー",
+    "ラッピング用品"
+   ],
+   "importance": 4
+  },
+  {
    "id": "884d848b14d81ef4",
    "url": "https://news.yahoo.co.jp/articles/916aa67b542950088e406f26a047d0e1fb966c5a",
    "title_original": "ダイソーで1100円の「PD対応20Wモバイルバッテリー」を試す 手頃な価格でそこそこ高速にスマホを充電可能（ITmedia Mobile）",
@@ -394,11 +690,29 @@
    "importance": 4
   },
   {
+   "id": "a92f992ff5b4e7cb",
+   "url": "https://hochi.news/articles/pub_mic_250362.html",
+   "title_original": "こういうのが欲しかった！おしゃれに飾れて推し活が捗る♡便利な100均マグネットスタンド",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/31/pub_mic_250362/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-31T02:00:00+00:00",
+   "title_ja": "推し活がはかどる100均のおしゃれなマグネットスタンド",
+   "summary_ja": "推し活をおしゃれに楽しく演出できる便利なマグネットスタンドの紹介。お気に入りのアイテムをきれいに飾りながら収納できます。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "マグネットスタンド"
+   ],
+   "importance": 3
+  },
+  {
    "id": "b02cc522677ee546",
    "url": "https://mdpr.jp/other/detail/4868633",
    "title_original": "300円ってやりすぎ！「もう服屋さんで買えないよ…！」シンプル便利な100均黒バッグ",
    "source": "モデルプレス",
-   "image": "",
+   "image": "https://img-mdpr.freetls.fastly.net/article/U1HX/nm/U1HX3EmMg08mSTrN8AGtKgvG6swl-oi-QglKxiYo7I0.jpg?width=700&disable=upscale&auto=webp&quality=80",
    "media": "news",
    "region": "国内",
    "published": "2026-10-31T02:00:00+00:00",
@@ -568,6 +882,25 @@
     "キーホルダー"
    ],
    "importance": 3
+  },
+  {
+   "id": "4b0c45e0fb50951a",
+   "url": "https://note.com/jazzy_condor4238/n/n9a09bbbb500b",
+   "title_original": "「眠れるダンベル、再び」",
+   "source": "note #3COINS",
+   "image": "https://assets.st-note.com/production/uploads/images/330373443/rectangle_large_type_2_177d40ae3994c1301a6e3b4f2980a398.jpg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-10-30T22:44:41+00:00",
+   "title_ja": "3COINSのダンベルとヨガマットで始める筋トレ",
+   "summary_ja": "3COINSで購入したダンベルやヨガマットを使った筋トレの体験談。ストレッチ用としてヨガマットが日常的に活躍しています。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "ダンベル",
+    "ヨガマット"
+   ],
+   "importance": 2
   },
   {
    "id": "78736e74f6bccaba",
@@ -5906,22 +6239,6 @@
    "importance": 3
   },
   {
-   "id": "653861ab77663d6f",
-   "url": "https://note.com/grape_field228/n/n7355cb5e50f1",
-   "title_original": "「誰とも話したくない夜」に試してほしい。100均グッズでつくる「自宅ひとりカフェ」の始め方",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/production/uploads/images/328331176/rectangle_large_type_2_9cb1b8e28be4dbdd55da4b6da2afae90.png?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-25T07:56:57+00:00",
-   "title_ja": "100均グッズを活用して自宅で手軽にひとりカフェを楽しむ方法",
-   "summary_ja": "疲れた夜や静かに過ごしたい時に、100均グッズを活用して自宅で簡単に「ひとりカフェ」空間を作るアイデアです。外に出かける気力がない時でも、手軽に手に入るアイテムでリラックスできる自分だけの世界を演出します。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
    "id": "1bf3e9691a09c36e",
    "url": "https://mognavi.jp/assessment/11359843",
    "title_original": "【高評価】「カロリー202kcal 脂質11.8g ... - セリア・ロイル チロルチョコ」のクチコミ・評価 - ちゃっぴちゃんさん",
@@ -6014,24 +6331,6 @@
    "importance": 4
   },
   {
-   "id": "8e037610615b574e",
-   "url": "https://note.com/major_hawk3281/n/nfe62fa706153",
-   "title_original": "探偵・まさよし・100均・大、大、大好き 第1回「ダイソーで待望の再入荷！『食器用キャップ式カバー』が即売り切れる理由を裏読み」",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/production/uploads/images/328323139/rectangle_large_type_2_e5f92600f02606548ff1198bc79bf911.png?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-25T07:20:20+00:00",
-   "title_ja": "ダイソーで再入荷された話題の「食器用キャップ式カバー」を紹介",
-   "summary_ja": "ダイソーで再入荷した人気商品「食器用キャップ式カバー」を取り上げた記事です。家事を日常的にこなす筆者が、店舗で即売り切れとなる理由や便利さ、家事の時短につながる魅力を自身の視点から解説しています。",
-   "category": "キッチン",
-   "axis": "new",
-   "things": [
-    "食器用キャップ式カバー"
-   ],
-   "importance": 3
-  },
-  {
    "id": "2d5557a23a831ed9",
    "url": "https://trilltrill.jp/articles/5130643",
    "title_original": "【ダイソー】めちゃめちゃ便利です。生活が豊かになるキッチングッズ3選",
@@ -6118,26 +6417,6 @@
     "タオル掛け"
    ],
    "importance": 4
-  },
-  {
-   "id": "0e569707f82d0e0f",
-   "url": "https://note.com/marubuh/n/n130379b2ebb9",
-   "title_original": "かわいい黒猫ちゃん手帳に予定を埋める",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/328239754/rectangle_large_type_2_367470a5d849cfb4def25810893aa73a.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-25T03:58:36+00:00",
-   "title_ja": "ダイソーの黒猫柄手帳とクリップを活用したボールペンのセット方法",
-   "summary_ja": "ダイソーで黒猫デザインの来年用手帳とジェットストリームのボールペンを購入した報告です。手帳にダイソーの金色クリップを取り付け、ボールペンを引っかけて持ち運ぶ活用アイデアを紹介しています。",
-   "category": "文具・手帳",
-   "axis": "use",
-   "things": [
-    "手帳",
-    "ボールペン",
-    "クリップ"
-   ],
-   "importance": 3
   },
   {
    "id": "d683745173adbc8a",
@@ -7146,166 +7425,6 @@
    "importance": 3
   },
   {
-   "id": "d37d16c48ee09de2",
-   "url": "https://news.yahoo.co.jp/articles/d47c99832804fb197c7fbdb2121bb96333aa9dc2",
-   "title_original": "「早く買えば良かった」「2色とも購入」3COINSの“仕分けポーチ”でバッグのごちゃごちゃを解消できた！「軽くて良い！」「ポケットがないバッグで大活躍」《購入レビュー》（ダイヤモンド・オンライン）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00401620-diamond-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T01:18:17+00:00",
-   "title_ja": "3COINSの仕分けポーチでバッグの中を整理",
-   "summary_ja": "3COINSの仕分けポーチを使って、バッグの中の細かい荷物をすっきりと解消したレビューです。軽くて使いやすく、ポケットのないバッグでも大活躍すると話題です。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [
-    "仕分けポーチ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "e337a5f71663dfa3",
-   "url": "https://nlab.itmedia.co.jp/cont/articles/4059075/amp",
-   "title_original": "ダイソーの靴収納ボックスを裏返すと…… 109万回再生された“じゃない使い方”に「これ、天才」「いいアイデア」「絶対やります」（1/3） | ライフハック ねとらぼ",
-   "source": "ねとらぼ",
-   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792474524_itm_it_261024_b_c.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T01:15:00+00:00",
-   "title_ja": "ダイソーの靴収納ボックスを使った裏技的な活用法",
-   "summary_ja": "ダイソーの靴収納ボックスを裏返して使う意外なアイデアが、SNSで話題を集めている。収納グッズのユニークな活用方法として参考になる便利なライフハック。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [
-    "靴収納ボックス"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "a6410f0094b52fb7",
-   "url": "https://news.nicovideo.jp/watch/nw19913400?news_ref=dic_topics_topic",
-   "title_original": "買って9年目の洗濯機→ダイソーの過炭酸ナトリウムを入れて回したら…… 「うげぇ」思わず絶句する光景に「私もやってみます",
-   "source": "ニコニコニュース",
-   "image": "",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T01:00:41+00:00",
-   "title_ja": "ダイソーの過炭酸ナトリウムで洗濯機を掃除する方法",
-   "summary_ja": "使い始めて9年目の洗濯機にダイソーの過炭酸ナトリウムを入れて回したところ、驚きの汚れが取れる結果となった。洗濯槽の掃除やメンテナンスに役立つ実用的な使い道。",
-   "category": "掃除・洗濯",
-   "axis": "use",
-   "things": [
-    "過炭酸ナトリウム"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "084fd5c54f9fc739",
-   "url": "https://nlab.itmedia.co.jp/cont/articles/4059194/amp",
-   "title_original": "購入9年目の洗濯機に、ダイソーの「過炭酸ナトリウム」を投入→目からウロコの結果に「参考になりました」「私もやってみます」（1/2） | ライフハック ねとらぼ",
-   "source": "ねとらぼ",
-   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792375185_20260218125828-181.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-24T01:00:00+00:00",
-   "title_ja": "購入9年目の洗濯機をダイソーの過炭酸ナトリウムで掃除",
-   "summary_ja": "購入から9年が経過した洗濯機にダイソーの過炭酸ナトリウムを投入したところ、目からウロコの結果が得られたと話題になっている。手軽に試せる洗濯槽の掃除方法として参考になる。",
-   "category": "掃除・洗濯",
-   "axis": "use",
-   "things": [
-    "過炭酸ナトリウム"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "d0047345b2b31b5c",
-   "url": "https://news.yahoo.co.jp/articles/7545fbcc8f4a79f31e967e6888538e9031a7c8b0?page=2",
-   "title_original": "【100均DIY】500円の中古おもちゃのお家が「ブルー屋根のおしゃれな家」に変身！ダイソーのペンキで外壁リフォームして印象ガラリ（LIMO）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00142800-toushin-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T23:50:55+00:00",
-   "title_ja": "ダイソーのペンキを使ったおもちゃの家のリフォーム",
-   "summary_ja": "ダイソーのペンキを使って500円の中古おもちゃの家の外壁を塗り替え、おしゃれなブルー屋根の家に変身させるDIYの様子を紹介。ペンキを活用したリメイクの工夫が分かる。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "ペンキ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "7123f163442d1eda",
-   "url": "https://nlab.itmedia.co.jp/cont/articles/4058958",
-   "title_original": "100均の罠、山の清流に一晩沈める→翌日、入っていた“大量のサワガニ”に「楽しすぎる」「こんなにいるとは」（1/3） | その他生き物 ねとらぼ",
-   "source": "ねとらぼ",
-   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792492576_cover-scaled.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T23:45:00+00:00",
-   "title_ja": "ダイソーの罠で山の清流にサワガニ大量捕獲",
-   "summary_ja": "100円ショップで手に入る罠を山の清流に一晩沈めると、翌日大量のサワガニが捕獲されたと報じられた。自然観察や釣りの簡易道具として活用できる例です。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "罠"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "a4f19e8ce30fc139",
-   "url": "https://hochi.news/articles/pub_mic_249761.html",
-   "title_original": "100均で何気なく買ったら優秀だった！「実は意外と機能的！」「ただのお皿かと思ったのに…」",
-   "source": "スポーツ報知",
-   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249761/cover.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T23:00:00+00:00",
-   "title_ja": "ダイソーなどの100均で見つけた機能的なお皿",
-   "summary_ja": "100円ショップで何気なく買ったお皿が、実は意外と機能的で優秀だったというレビュー。ただのお皿に見えて便利な使い道があるアイテムを紹介。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "お皿"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "1431e120df3c2726",
-   "url": "https://hochi.news/articles/pub_mic_249684.html",
-   "title_original": "100均が本気出しすぎ！「普通は500円じゃ買えない！」専門店レベルのアウトドアグッズ3選",
-   "source": "スポーツ報知",
-   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249684/cover.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T23:00:00+00:00",
-   "title_ja": "ダイソーなどの100均で買えるアウトドアグッズ3選",
-   "summary_ja": "100円ショップで購入できる、専門店レベルのクオリティを持つアウトドアグッズ3選を紹介。通常なら500円では買えないような優れたキャンプ用品などの新情報。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "アウトドアグッズ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "1ef5bec2b39984de",
-   "url": "https://hochi.news/articles/pub_mic_249555.html",
-   "title_original": "100均で買ったら沼！「トッピングどころかそのまま食べれるわ…」一度食べたら止まらない食材",
-   "source": "スポーツ報知",
-   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/24/pub_mic_249555/cover.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T23:00:00+00:00",
-   "title_ja": "100円ショップで見つけたそのまま食べられる食材の魅力",
-   "summary_ja": "一度食べたら止まらないと話題の、100円ショップで買える食材についての紹介記事。トッピングだけでなくそのまま食べても美味しいと評判のアイテム。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
    "id": "db06edcbb706d589",
    "url": "https://hochi.news/articles/pub_mic_249664.html",
    "title_original": "参りました…100均で「700円って高すぎ！」って思ったら大間違い！多機能な優秀家電",
@@ -7320,130 +7439,6 @@
    "axis": "new",
    "things": [],
    "importance": 3
-  },
-  {
-   "id": "2aa494e5500dc568",
-   "url": "https://news.yahoo.co.jp/expert/articles/3188a5cf8605fe86d8bbc95221b2f77f769ac576",
-   "title_original": "【ダイソー】クリスマスアイテムを早めにゲット！今年は一段と可愛くなってる！（なないろの扉） - エキスパート",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02750015/title-1792763315360.jpeg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T21:31:06+00:00",
-   "title_ja": "ダイソーの可愛いクリスマスアイテムを早めに紹介",
-   "summary_ja": "ダイソーで販売されているクリスマスアイテムの紹介。今年のシーズン商品は一段と可愛くなっており、早めのチェックがおすすめのラインナップ。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "クリスマスアイテム"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "7ee2b1338d02cfa8",
-   "url": "https://yomuno.jp/posts/143415",
-   "title_original": "【3COINS】ズボラさん大歓喜！中の人が激推しする「くしゃくしゃ収納OK」な手のひらサイズバッグ",
-   "source": "ヨムーノ",
-   "image": "https://image.yomuno.jp/store/article/143415/header_image/large-7af3078331ac35b40dd9b17197c1e5b4.jpeg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T21:15:40+00:00",
-   "title_ja": "3COINSの手のひらサイズバッグが新登場",
-   "summary_ja": "3COINSで販売中の手のひらサイズバッグは、くしゃくしゃになっても収納できる設計が特徴で、ズボラな人でも手軽に持ち運び可能です。新商品として注目されています。",
-   "category": "ファッション・小物",
-   "axis": "new",
-   "things": [
-    "手のひらサイズバッグ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "99fd9250bb571ca1",
-   "url": "https://news.yahoo.co.jp/expert/articles/f5ce1cf28073ff9a67dff903da71af365975ef83",
-   "title_original": "【ダイソー】やっぱりこれだよね！今年もお世話になります！【100均】（akaneko715） - エキスパート",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/akaneko/02738612/title-1791615453031.jpeg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T21:10:39+00:00",
-   "title_ja": "ダイソーの定番商品が再び注目",
-   "summary_ja": "ダイソーの定番商品が再び注目を集め、2023年も多くの利用者が購入・活用しています。価格は100円で、日常のちょっとした工夫に便利です。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "1a3ec6134066d59e",
-   "url": "https://www.youtube.com/shorts/L5hztSAazLI",
-   "title_original": "【100均】新商品速報‼️過去一すごい!!便利なダイソー新商品♡ #100均 #ダイソー #ダイソー新商品 #ダイソー購入品 #洗濯 #便利 #shorts",
-   "source": "はるチャンネル【100均】",
-   "image": "https://i1.ytimg.com/vi/L5hztSAazLI/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-23T12:00:22+00:00",
-   "title_ja": "ダイソーの便利な洗濯関連の新商品を紹介",
-   "summary_ja": "ダイソーで販売されている洗濯に役立つ便利な新商品を紹介している動画。詳細な商品の情報は記載されていない。",
-   "category": "掃除・洗濯",
-   "axis": "new",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "9ef40b454454c08b",
-   "url": "https://news.nicovideo.jp/watch/nw19911712?news_ref=top_newComments",
-   "title_original": "「もう3回以上購入してます」 3COINSの“ロールふきん”が大好評 「厚手でしっかりしています」「汚くなったらすぐに",
-   "source": "ニコニコニュース",
-   "image": "",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T11:36:44+00:00",
-   "title_ja": "3COINSのロールふきんが好評",
-   "summary_ja": "3COINSのロールふきんが厚手でしっかりしており使いやすいと大好評。汚れたらすぐに使えるため何度もリピートされている人気の掃除・キッチンアイテム。",
-   "category": "掃除・洗濯",
-   "axis": "use",
-   "things": [
-    "ロールふきん"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "7fb32b9911d4e750",
-   "url": "https://www.youtube.com/watch?v=krfCO1rmG3s",
-   "title_original": "【ダイソー購入品】ドライブが超快適になる優秀カーグッズ３選！？",
-   "source": "100円ショップの気になる一品（ヒャッキニ）",
-   "image": "https://i4.ytimg.com/vi/krfCO1rmG3s/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-23T10:00:16+00:00",
-   "title_ja": "ダイソーで購入したドライブが快適になる優秀カーグッズ3選",
-   "summary_ja": "ダイソーで購入できる、ドライブを快適にしてくれる車用マルチホルダーなどのカーグッズを紹介している動画です。車内での便利なアイテムを探している時に役立ちます。",
-   "category": "スマホ・ガジェット",
-   "axis": "new",
-   "things": [
-    "車用マルチホルダー",
-    "USBケーブルチェッカー",
-    "サーモグラフィーカメラ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "96c1bd6b2f55b93c",
-   "url": "https://news.mynavi.jp/article/20261023-5180475",
-   "title_original": "【ダイソー】330円の貼り付け式ノートPCスタンドを試す - 貼る位置は一発勝負",
-   "source": "マイナビニュース",
-   "image": "https://news.mynavi.jp/article/20261023-5180475/ogp_images/ogp.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-23T08:23:05+00:00",
-   "title_ja": "ダイソーの330円貼り付け式ノートPCスタンドの使用感",
-   "summary_ja": "ダイソーで330円で販売されている貼り付け式のノートパソコンスタンドを実際に試したレビューです。作業しやすい角度をつけるための便利な使い方や、取り付ける際の位置決めのコツを紹介しています。",
-   "category": "スマホ・ガジェット",
-   "axis": "use",
-   "things": [
-    "ノートPCスタンド"
-   ],
-   "importance": 4
   }
  ]
 }
