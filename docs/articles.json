@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T09:48:11.932476+09:00",
+ "updated_at": "2026-11-03T22:55:37.416491+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,31 +27,31 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-11-03T09:51:01.320544+09:00",
+  "generated_at": "2026-11-03T22:55:42.897856+09:00",
   "days": 3,
   "period": "11月2日〜11月3日",
   "count": 45,
-  "new_count": 14,
-  "use_count": 31,
-  "overview": "ダイソー、セリア、キャンドゥ、3COINSなどの新作グッズ情報や、便利な使い方を紹介する記事が多く集まっています。",
-  "new": "キャンドゥのズートピア新グッズやセリアのサンリオ新商品をはじめ、各店の便利な新作雑貨やコスメの発売情報が紹介されています。",
-  "use": "100均の毛糸やブックエンド、インソールなどを使った手作りアイデアや、家事や収納での具体的な活用法が語られています。",
+  "new_count": 16,
+  "use_count": 29,
+  "overview": "ダイソー、セリア、キャンドゥ、3COINSなどの新作グッズやキャラクターコラボ情報に加え、家事や収納、お出かけで役立つ具体的な活用法が多数紹介されています。",
+  "new": "キャンドゥのズートピアグッズやセリアのサンリオ新商品、ダイソーの洗濯ネットやセリアの回転洗濯ピンチなどが紹介されています。",
+  "use": "ダイソーのブックエンドやセリアのキッチン用品を使った家事の工夫、3COINSのキーケースやバッグなどのお出かけ実例が語られています。",
   "points": [
    {
-    "title": "ズートピア新グッズ",
-    "body": "キャンドゥからディズニー映画『ズートピア』のコラボグッズが多数登場し、ブラインドメモ帳やドーナツポーチ付きエコバッグなどが販売されています。"
+    "title": "キャンドゥのズートピア",
+    "body": "キャンドゥからディズニー映画ズートピアの新シリーズが登場し、ブラインドメモ帳やドーナツポーチ付きエコバッグなどのポップなアイテムが50点販売されています。"
    },
    {
-    "title": "便利なスマホホルダー",
-    "body": "ダイソーの車用スマホホルダー4種類を比較する記事や、Standard Productsの新作など、車内でのスマホ固定に役立つアイテムが紹介されています。イエロー"
+    "title": "セリアの洗濯と収納",
+    "body": "セリアで販売中のくるくる回る洗濯ピンチが110円で登場し、回転式で洗濯物をしっかり固定して衣類のずれを防ぐ便利グッズとして紹介されています。"
    },
    {
-    "title": "キッチンの整理術",
-    "body": "ダイソーの110円ブックエンドをキッチンに2個置いてすっきり片付ける方法や、伸縮するステンレス皿立てを活用した食器収納が紹介されています。"
+    "title": "ダイソーのキッチン活用",
+    "body": "ダイソーの110円ブックエンドをキッチンに2個置いてすっきり片付ける方法や、マルチクッカーでレンジ調理をするオムレツの作り方が取り上げられています。"
    },
    {
-    "title": "手作りファッション",
-    "body": "ダイソーの毛糸を使って親子でお揃いの2wayビスチェを編む方法が紹介され、手作りファッションとして注目を集めています。"
+    "title": "3COINSのお出かけ雑貨",
+    "body": "3COINSの鞄につけられるボトルホルダーや、カードや診察券が10枚入るミニ財布がわりにもなるキーケースなど、便利なアイテムが注目を集めています。"
    }
   ],
   "keywords": [
@@ -220,7 +220,7 @@
    "count": 2
   },
   {
-   "name": "植物",
+   "name": "汁なしカップ麺",
    "count": 2
   }
  ],
@@ -287,6 +287,95 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "e6d1c259f0667d04",
+   "url": "https://note.com/minaiti/n/nd16961f57036",
+   "title_original": "窓にダイソーの磨りガラス風フィルム貼ったら快適レベル上がった",
+   "source": "note #ダイソー",
+   "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/2fbe3680d08215cc6c8294dcbe1ba2f784f8d098.png",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-03T13:28:27+00:00",
+   "title_ja": "ダイソーの抗菌ガラス目かくしシートで窓の快適性を上げる",
+   "summary_ja": "ダイソーの抗菌ガラス目かくしシート（フロスト）を窓に貼ることで、快適な居住空間に改善したというレビュー記事。値段は330円。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "抗菌ガラス目かくしシート（フロスト）"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "24aeca6a4b7165c5",
+   "url": "https://www.youtube.com/shorts/iOGHScXfJX8",
+   "title_original": "【100均】新商品速報‼️知らなきゃ損！セリア新作神グッズ！ #100均 #セリア #セリア新商品 #セリア購入品 #便利 #shorts",
+   "source": "はるチャンネル【100均】",
+   "image": "https://i2.ytimg.com/vi/iOGHScXfJX8/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-11-03T11:00:28+00:00",
+   "title_ja": "セリアの新商品情報を紹介する動画",
+   "summary_ja": "セリアの新商品を紹介している。収納アイテムや旅行に便利なグッズなど、気になるアイテムを取り上げている。",
+   "category": "その他",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "e68541b66dcf50a1",
+   "url": "https://www.youtube.com/watch?v=0ffcBYQDblo",
+   "title_original": "【100均】ダイソー&セリア｜すごい勢いで売れた名品！本当に買って大正解！【キャンドゥ】",
+   "source": "すきなもんちゅーぶ",
+   "image": "https://i1.ytimg.com/vi/0ffcBYQDblo/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-11-03T11:00:10+00:00",
+   "title_ja": "ダイソーやセリアの人気名品と収納アイデア",
+   "summary_ja": "ダイソーやセリアで話題となった名品を紹介している。整理収納アドバイザーの資格を活かしたアイデア収納を解説している。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "69c615c7eaf30d00",
+   "url": "https://www.youtube.com/watch?v=onbp0VK8nZM",
+   "title_original": "【100均】ダイソー すごいの出てた!!便利すぎる!!＋人気雑誌の付録が人気!!【DAISO】",
+   "source": "My-Room",
+   "image": "https://i4.ytimg.com/vi/onbp0VK8nZM/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-11-03T11:00:01+00:00",
+   "title_ja": "ダイソーの便利グッズや新商品の数々",
+   "summary_ja": "ダイソーで販売されている旅する洗濯ネット巾着型S、オイルスプレー（300円）、折り畳み式物干しラック（300円）などの便利グッズを紹介している。",
+   "category": "キッチン",
+   "axis": "new",
+   "things": [
+    "旅する洗濯ネット 巾着型S",
+    "ファイルクリップ 2穴",
+    "オイルスプレー",
+    "吸盤キッチンポケット K/T リボン"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "857bd23d28054cb4",
+   "url": "https://www.youtube.com/watch?v=Oxo6R3djAOw",
+   "title_original": "【ダイソー新商品】プチブロックのクリスマスシリーズ（サンタ・雪だるま・ツリー）を全部作ってみた！！可愛すぎ！",
+   "source": "100円ショップの気になる一品（ヒャッキニ）",
+   "image": "https://i4.ytimg.com/vi/Oxo6R3djAOw/hqdefault.jpg",
+   "media": "youtube",
+   "region": "国内",
+   "published": "2026-11-03T10:00:23+00:00",
+   "title_ja": "ダイソーのクリスマス仕様プチブロック",
+   "summary_ja": "ダイソーのプチブロックからクリスマスシリーズのサンタ＆トナカイ、雪だるま、クリスマスツリーを作って紹介している。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "プチブロック"
+   ],
+   "importance": 4
+  },
   {
    "id": "0ea9bc74b338fbd5",
    "url": "https://news.yahoo.co.jp/articles/6851af92574184bca607e1d161da4196628d22b7",
@@ -6264,22 +6353,6 @@
    "importance": 3
   },
   {
-   "id": "23febe2d2eb2b7a7",
-   "url": "https://note.com/fit_flea4603/n/n36ac921afac1",
-   "title_original": "【2家族でお出かけ】子供たちが大はしゃぎ！油山福岡で遊んで分かった「おすすめエリア」と買って正解だった持ち物・神裏ワザ",
-   "source": "note #ダイソー",
-   "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/12f3a0e94e7f1d782e65d51c7bb340cf674b6af3.png",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-27T11:18:43+00:00",
-   "title_ja": "ダイソーのアイテムを活用した子連れお出かけの持ち物と裏ワザを紹介",
-   "summary_ja": "2家族での公園お出かけ時に役立った持ち物や、ダイソーなどの100円ショップで揃うアイテムを活用した裏ワザを紹介しています。子連れのお出かけをストレスなく快適に楽しむための工夫や使い道をまとめた体験レポです。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 2
-  },
-  {
    "id": "67c35e682dc6ec9d",
    "url": "https://news.yahoo.co.jp/expert/articles/3d90702a114cf6da0289f9dae06a730900d7bf72",
    "title_original": "【セリア】ハシゴして買った話題の商品！コリをほぐせてすごく良い！【100均】（My-Room） - エキスパート",
@@ -6419,24 +6492,6 @@
    "axis": "use",
    "things": [],
    "importance": 3
-  },
-  {
-   "id": "1d98f734def8781f",
-   "url": "https://note.com/fuyusaki_s/n/n384e4cb23d8d",
-   "title_original": "セリアでものすごく可愛いけど絶妙にいらない皿",
-   "source": "note #セリア",
-   "image": "https://assets.st-note.com/production/uploads/images/329156621/rectangle_large_type_2_726b5ea9d19de1875c65b5ec1b808522.png?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-27T09:58:02+00:00",
-   "title_ja": "セリアで見つけた可愛いデザインの皿",
-   "summary_ja": "セリアで購入できる苺リボン柄の可愛いお皿を紹介。サイズは醤油皿ほどですが、平らで縁がないため醤油を入れるとこぼれてしまう個性的な使い勝手のアイテムです。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "皿"
-   ],
-   "importance": 2
   },
   {
    "id": "41e9888c336ac801",
@@ -6763,24 +6818,6 @@
    "axis": "use",
    "things": [
     "バッグ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "abfe273caeb238eb",
-   "url": "https://note.com/minamulberry/n/n99ae7f386a9e",
-   "title_original": "2026/10/27 DAISO GREEN",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/img/1793080075-43camYn0OSwjMyX1r6okJufA.jpg",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-27T05:53:10+00:00",
-   "title_ja": "ダイソーの植物ブランドDAISO GREEN",
-   "summary_ja": "ダイソーで展開されている植物を取り扱うブランド、DAISO GREENについて紹介しています。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "植物"
    ],
    "importance": 3
   },
@@ -7405,40 +7442,6 @@
    "axis": "use",
    "things": [
     "アイデアグッズ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "564899602482a695",
-   "url": "https://trilltrill.jp/articles/5134022",
-   "title_original": "【ダイソー】に行ったらまずチェック！優秀で便利に使える文房具3選",
-   "source": "TRILL",
-   "image": "https://media.trilltrill.jp/articles/5134022/featured-image.f40de22620cc25b1b562a3c17f2d8eda?w=1200",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-26T08:09:14+00:00",
-   "title_ja": "ダイソーのおすすめ便利文房具3選",
-   "summary_ja": "ダイソーで見つかる、使い勝手が良いと評判の文房具を3点紹介します。価格は100円前後で、日常の書き物や整理に便利です。持ち運びやデスク周りの整理に活用でき、コスパが高い点が魅力です。",
-   "category": "文具・手帳",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "768aecd8699dbc07",
-   "url": "https://news.yahoo.co.jp/articles/78695f44dede8d969ea30b614939aec41cf2eb3a",
-   "title_original": "【3COINS】手荷物だらけの旅行が一変する「キャリーケースドリンクホルダー」550円でスマホやティッシュもまとめて収納（LIMO）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00142881-toushin-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-26T07:45:56+00:00",
-   "title_ja": "3COINSのキャリーケースドリンクホルダーが550円で登場",
-   "summary_ja": "3COINSから新商品として、旅行時の手荷物に便利なキャリーケースドリンクホルダーが発売されました。550円でスマホやティッシュなどをまとめて収納でき、持ち運びが楽になります。",
-   "category": "収納・整理",
-   "axis": "new",
-   "things": [
-    "キャリーケースドリンクホルダー"
    ],
    "importance": 4
   }
