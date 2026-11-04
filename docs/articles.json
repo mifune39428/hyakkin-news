@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T23:07:14.855339+09:00",
+ "updated_at": "2026-11-05T08:27:44.566484+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,27 +27,27 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-11-04T23:11:31.244118+09:00",
+  "generated_at": "2026-11-05T08:30:20.127929+09:00",
   "days": 3,
-  "period": "11月3日〜11月4日",
+  "period": "11月4日〜11月5日",
   "count": 45,
-  "new_count": 17,
-  "use_count": 28,
-  "overview": "ダイソーやセリアなどの100円ショップにおける、新作アイテムの発売情報や日常での便利な活用法に関する記事が集まっています。",
-  "new": "キャンドゥのズートピア雑貨やダイソーのハム太郎グッズといったキャラクターコラボや新商品の登場が報じられています。",
-  "use": "ダイソーのペン立てやセリアのワイヤーバスケットを用いた収納術、お弁当作りや毛玉ケアなどの具体的な活用法が紹介されています。",
+  "new_count": 15,
+  "use_count": 30,
+  "overview": "ダイソー、セリア、キャンドゥなどの新作グッズ情報や、手帳や収納、インテリアでの具体的な活用アイデアが多数紹介されています。",
+  "new": "キャンドゥのズートピアコラボやセリアのクリスマス雑貨、ダイソーのモバイルバッテリーなどの新作登場が話題です。",
+  "use": "バッグの中の整理や手帳の効率化、毛糸を使った小物作りなど、日常を便利でおしゃれにする工夫が詳しく語られています。",
   "points": [
    {
-    "title": "ズートピアの限定グッズ",
-    "body": "キャンドゥからディズニー映画ズートピアの限定グッズ全50品番が順次発売され、ドーナツポーチ付きエコバッグなどが登場しています。"
+    "title": "ズートピアのコラボグッズ",
+    "body": "キャンドゥから映画ズートピアをモチーフにした全50品のコラボ商品が発売され、ドーナツ型ポーチ付きエコバッグやメモ帳などのポップな雑貨が話題となっています。"
    },
    {
-    "title": "回転式ペン立ての活用",
-    "body": "ダイソーの回転式ペン立ては、文房具の収納だけでなく、推し活グッズのペンライトやキッチンの調味料入れとしても活用できると注目されています。"
+    "title": "回転式ペン立ての多用途な収納",
+    "body": "ダイソーの回転式ペン立ては、文房具の収納だけでなく、推し活グッズのペンライトやキッチンの調味料入れなど、多様な用途で活用できる便利アイテムとして注目されています。"
    },
    {
-    "title": "名画デザインのバッグ",
-    "body": "セリアで販売されているモネやゴッホといった名画をデザインしたバッグは、美術館のお土産のようにおしゃれなデザインが魅力として取り上げられています。"
+    "title": "カード型コインホルダーの便利さ",
+    "body": "キャンドゥで販売されているカード型コインホルダーは、小銭をコンパクトに整理できて探す手間が省けると反響を呼び、店舗を巡って探す人がいるほどの人気商品です。"
    }
   ],
   "keywords": [
@@ -60,6 +60,10 @@
  },
  "things": [
   {
+   "name": "毛糸",
+   "count": 6
+  },
+  {
    "name": "キーホルダー",
    "count": 5
   },
@@ -68,16 +72,8 @@
    "count": 5
   },
   {
-   "name": "毛糸",
-   "count": 5
-  },
-  {
    "name": "デジタル時計",
    "count": 4
-  },
-  {
-   "name": "アイデアグッズ",
-   "count": 3
   },
   {
    "name": "エコバッグ",
@@ -89,10 +85,6 @@
   },
   {
    "name": "バッグ",
-   "count": 3
-  },
-  {
-   "name": "挟めるフライ返し",
    "count": 3
   },
   {
@@ -108,7 +100,15 @@
    "count": 2
   },
   {
+   "name": "アイデアグッズ",
+   "count": 2
+  },
+  {
    "name": "アクスタ",
+   "count": 2
+  },
+  {
+   "name": "アドベントカレンダー",
    "count": 2
   },
   {
@@ -153,10 +153,6 @@
   },
   {
    "name": "パラコード",
-   "count": 2
-  },
-  {
-   "name": "フィルム",
    "count": 2
   },
   {
@@ -212,6 +208,10 @@
    "count": 2
   },
   {
+   "name": "挟めるフライ返し",
+   "count": 2
+  },
+  {
    "name": "新鮮野菜スタンド",
    "count": 2
   },
@@ -224,8 +224,8 @@
   "100円ショップの気になる一品（ヒャッキニ）",
   "All About ニュース",
   "Ameba News [アメーバニュース]",
+  "AppBank",
   "BuzzFeed",
-  "CanCam.jp",
   "Excite エキサイト",
   "Howl.Link",
   "Infoseek",
@@ -234,6 +234,8 @@
   "LIMO | くらしとお金の経済メディア",
   "MonoMax web",
   "My-Room",
+  "Oggi.jp",
+  "PR TIMES",
   "ROOMIE（ルーミー）",
   "TRILL",
   "TRILL【トリル】",
@@ -250,7 +252,6 @@
   "おもち100均マニア",
   "きこの100均パトロール",
   "きのっこ",
-  "ぐんぐるブログ",
   "すきなもんちゅーぶ",
   "とも【100均紹介】",
   "にじめん",
@@ -258,14 +259,16 @@
   "はるチャンネル【100均】",
   "ぴあエンタメ情報",
   "まんまるなライフ",
+  "もぐナビ",
   "ウォーカープラス",
+  "キャラクター情報サイト",
   "クランクイン！",
   "ケータイ Watch",
+  "コラボカフェ",
   "スポーツ報知",
   "ダイヤモンド・オンライン",
   "ナタリー",
   "ニコニコニュース",
-  "マイベスト",
   "モデルプレス",
   "ヨッパン・100均紹介",
   "ヨムーノ",
@@ -287,6 +290,122 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "49cb5278d22cad84",
+   "url": "https://note.com/tomorrow56/n/n594c1f0d49ee",
+   "title_original": "【100均ガジェット分解】 (86)ダイソーの「急速充電PD20W モバイルバッテリー」",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/331823491/rectangle_large_type_2_fac00cb072acf3a0463877957afa4874.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-04T23:15:44+00:00",
+   "title_ja": "ダイソーの急速充電PD20Wモバイルバッテリーの分解記事",
+   "summary_ja": "月刊I/O 2026年5月号の記事をベースに追記・修正した、ダイソーの急速充電PD20W モバイルバッテリーの分解に関するブログ記事。",
+   "category": "スマホ・ガジェット",
+   "axis": "new",
+   "things": [
+    "急速充電PD20W モバイルバッテリー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "b2e3dec275a61668",
+   "url": "https://article.auone.jp/18f4753e-1d22-4efb-8403-9e955152fba0",
+   "title_original": "これぞ進化版。【セリア】ゼッタイに2つ欲しくなる優秀グッズを発見！1個でも便利だけど、2個あるともっと便利でした",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/11/04/https___news_jp_i_1490841954144256115_w450.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T22:33:40+00:00",
+   "title_ja": "セリアの2つ揃えるとさらに便利に使える優秀グッズ",
+   "summary_ja": "セリアで見つけた、1個でも便利に使えるが2つ揃えることでさらに魅力を発揮する進化版の優秀グッズについて紹介している。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "fb77263004b06c9b",
+   "url": "https://note.com/sukechan4382/n/n2a7b57d58af3",
+   "title_original": "ほぼDAISOアレンジメント💕✨",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/332337414/rectangle_large_type_2_8f9d7b7f94e7915f54f25aad423edf9b.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-04T22:14:27+00:00",
+   "title_ja": "ダイソーのアイテムで作るハロウィン向けアレンジメント",
+   "summary_ja": "ダイソーの商品をほぼそのまま活用して制作した、ハロウィン向けのフラワーアレンジメントについてのブログ記事。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [],
+   "importance": 2
+  },
+  {
+   "id": "dd71612ba9d3735d",
+   "url": "https://news.yahoo.co.jp/expert/articles/f990edab6037970c531615e36926fead8bb087ab",
+   "title_original": "【セリア】肌触りが各段に違う！心地よくてリピ買い決定の100均アイテム（なないろの扉） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02758448/title-1793748877585.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T21:33:31+00:00",
+   "title_ja": "セリアで見つけた肌触りが抜群のリピ買い決定アイテム",
+   "summary_ja": "セリアのアイテムの中で、肌触りが格段に良く、心地よさから思わずリピート買いしたくなるおすすめの商品を紹介している記事。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "9433081a34cada2e",
+   "url": "https://www.appbank.net/2026/11/05/goods-books/3154930.php",
+   "title_original": "MOTTERU、楽天お買い物マラソンで100点を最大約50％オフ！ 11月4日20:00から",
+   "source": "AppBank",
+   "image": "https://www.appbank.net/wp-content/uploads/2026/11/20261104_204202_046_01.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T21:13:32+00:00",
+   "title_ja": "MOTTERU、楽天マラソンで最大約50％オフ",
+   "summary_ja": "MOTTERUは楽天お買い物マラソンに合わせ、100点を対象に最大約50％オフのセールを実施。対象は日用品やキッチン雑貨など幅広く、開始は11月4日20時から。この機会にお得に揃えよう。",
+   "category": "お店・ブランド",
+   "axis": "new",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "e7050f1f6d0edd27",
+   "url": "https://note.com/quirky_llama8973/n/n9589851ab2c4",
+   "title_original": "赤い松ぼっくりにひと目惚れ❤️セリアの素材でクリスマスツリーの形に積み上げて可愛くアレンジ",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/332289124/rectangle_large_type_2_f740cf78f957993baf843109bde7fece.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-04T15:17:08+00:00",
+   "title_ja": "セリア素材で赤い松ぼっくりをツリー風にアレンジ",
+   "summary_ja": "セリアで手に入る赤い松ぼっくり素材を重ね、クリスマスツリーの形に組み立てるDIY。手軽に季節感を演出でき、飾り付けのコツや配置例も紹介。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "赤い松ぼっくり"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "bce77362f8286f96",
+   "url": "https://note.com/tukiyono_serena/n/n7f2a04e6328a",
+   "title_original": "Seriaのアイテムだけでスタポンを楽しむ｜手帳時間を効率的にするアイテム",
+   "source": "note #セリア",
+   "image": "https://assets.st-note.com/production/uploads/images/332280964/rectangle_large_type_2_71d79f8f82101a8fcbf1953c3ed0988a.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-04T14:58:39+00:00",
+   "title_ja": "セリアだけで手帳活用を効率化",
+   "summary_ja": "セリアで揃う文具や小物だけを使い、手帳のレイアウトやタスク管理を工夫して効率的に活用する方法を紹介。シールやポケット、ペンの具体的な組み合わせ例も掲載。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
   {
    "id": "35ce0e019a033319",
    "url": "https://note.com/merry_zinnia4494/n/n063b59e8ad3f",
@@ -354,6 +473,24 @@
     "PD対応USB-Cケーブル"
    ],
    "importance": 3
+  },
+  {
+   "id": "fe8af31f12eb72e7",
+   "url": "https://charalab.com/145072",
+   "title_original": "「ズートピア」カラフルでポップなデザインの商品シリーズが「キャンドゥ」に初登場！",
+   "source": "キャラクター情報サイト",
+   "image": "https://charalab.com/images/2026/11/261102_zootopia_-2.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T12:04:49+00:00",
+   "title_ja": "キャンドゥで「ズートピア」のポップなグッズが初登場",
+   "summary_ja": "キャンドゥに映画「ズートピア」のデザインを採用したカラフルでポップな商品シリーズが初めて登場した。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ズートピアグッズ"
+   ],
+   "importance": 4
   },
   {
    "id": "600d122abe7c6ccc",
@@ -501,6 +638,25 @@
    "importance": 4
   },
   {
+   "id": "41a3b29a4269e63f",
+   "url": "https://www.k-trendtimes.com/articles/261104-9ry7",
+   "title_original": "韓国ダイソー「ポムポムプリン30周年」限定グッズ登場！アクセサリーケース＆ランダムポーチ全12種",
+   "source": "K-TREND TIMES",
+   "image": "https://cdn.sanity.io/images/3pe6cvt2/production/9c612b79751831b7cdfe6ce115b1f892eb4ea8c6-1639x2048.jpg?rect=0,594,1639,860&w=1200&h=630&q=80&auto=format",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T10:25:43+00:00",
+   "title_ja": "韓国ダイソーでポムポムプリン30周年限定グッズが登場",
+   "summary_ja": "韓国ダイソーからポムポムプリンの30周年を記念した限定グッズが登場。アクセサリーケースやランダムポーチなど全12種が展開されている。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "アクセサリーケース",
+    "ランダムポーチ"
+   ],
+   "importance": 4
+  },
+  {
    "id": "17b2892ffac149a6",
    "url": "https://www.youtube.com/watch?v=ocTMiHWlDlk",
    "title_original": "ダイソー・セリア・ワッツで見つけた便利グッズ！便利に使える！？",
@@ -576,6 +732,26 @@
    "importance": 3
   },
   {
+   "id": "ffb95532624f271d",
+   "url": "https://enuchi.jp/14591/seria-christmas-interior-2026",
+   "title_original": "【セリア】クリスマスのインテリア雑貨まとめ！南半球サンタのオブジェやLEDファイバー卓上ツリー、アドベントカレンダーも",
+   "source": "えんウチ",
+   "image": "https://image.enuchi.jp/upload/20261104/images/thumb_seria_xmas2026.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T09:00:00+00:00",
+   "title_ja": "セリアのクリスマスのインテリア雑貨まとめ",
+   "summary_ja": "セリアで販売されているクリスマスのインテリア雑貨。南半球サンタのオブジェやLEDファイバー卓上ツリー、アドベントカレンダーなどが揃っている。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "サンタのオブジェ",
+    "LEDファイバー卓上ツリー",
+    "アドベントカレンダー"
+   ],
+   "importance": 4
+  },
+  {
    "id": "19ba4c068afb911d",
    "url": "https://diamond.jp/articles/-/402538",
    "title_original": "全種類買って大正解…！セリアの「美術館のお土産みたいなバッグ」モネやゴッホの名画がオシャレすぎる！《購入レビュー》",
@@ -592,6 +768,44 @@
     "バッグ"
    ],
    "importance": 4
+  },
+  {
+   "id": "9b229963f10306ee",
+   "url": "https://enuchi.jp/14590/3coins-christmas-interior-20261106",
+   "title_original": "【2026年クリスマス】3COINSの新作インテリア雑貨7選！550円のサンタイヌから2,750円のアドベントカレンダーまで",
+   "source": "えんウチ",
+   "image": "https://image.enuchi.jp/upload/20261104/images/thumb_3coins_xmas2026.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T08:54:13+00:00",
+   "title_ja": "3COINSのクリスマスインテリア雑貨7選",
+   "summary_ja": "3COINSから、550円のサンタイヌから2750円のアドベントカレンダーまで、クリスマス向けの新作インテリア雑貨が7種類登場しました。季節の飾り付けを楽しめるアイテムが揃っています。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "サンタイヌ",
+    "アドベントカレンダー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "80ba2dcdbbd23f04",
+   "url": "https://grapee.jp/lifehack/storage-solutions/2365267",
+   "title_original": "セリアで見つけた『手のひらサイズのブロック』 3つの穴に造花を挿してトイレに置いた結果…",
+   "source": "grapee.jp",
+   "image": "https://grapee.jp/wp-content/uploads/2026/11/colly_21252_1thumb.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T08:45:34+00:00",
+   "title_ja": "セリアの手のひらサイズブロックの活用法",
+   "summary_ja": "セリアで見つかる手のひらサイズのブロックを使ったアイデアです。3つの穴に造花を挿してトイレに飾ることで、手軽におしゃれなインテリア空間を演出できます。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ブロック",
+    "造花"
+   ],
+   "importance": 3
   },
   {
    "id": "8cc1e41de65d6599",
@@ -645,6 +859,60 @@
    "axis": "new",
    "things": [],
    "importance": 3
+  },
+  {
+   "id": "173d44cdd356f02e",
+   "url": "https://news.yahoo.co.jp/articles/7042505e878cb305788091db50d9077d8a675bc0/images/000",
+   "title_original": "【100均】ダイソーの毛糸「メランジトリコ」3玉で編む“基本のミトン”が反響「ミトンを編むため今日ダイソーに行ってきました」の声",
+   "source": "Yahoo!ニュース",
+   "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26k7TRHX4-dU_a8nrQbX-UrULdH700PmGTxH55CxDIyAWLEsGDR_Fn2r0-69hQF3ZILJwXgjwnww3lDzYplVTNd-Um9_E_j_5_CWHeMTbLaJf",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T08:20:56+00:00",
+   "title_ja": "ダイソーの毛糸で編むミトンの作り方",
+   "summary_ja": "ダイソーの毛糸「メランジトリコ」を3玉使って、基本のミトンを編む方法が反響を呼んでいます。実際に毛糸を購入してミトン作りに挑戦する人が続出している話題の活用法です。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "毛糸",
+    "メランジトリコ",
+    "ミトン"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "2a48c40166e4790f",
+   "url": "https://collabo-cafe.com/events/collabo/zootopia-goods-cando-2026/?amp=1",
+   "title_original": "ズートピア × キャンドゥ 全50品 11月5日より発売!",
+   "source": "コラボカフェ",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T08:16:02+00:00",
+   "title_ja": "キャンドゥでズートピアのコラボ全50品が発売",
+   "summary_ja": "キャンドゥにて、映画ズートピアとコラボレーションした全50品の商品が11月5日より発売されます。作中のキャラクターをモチーフにした豊富なラインナップが店頭に並びます。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [],
+   "importance": 4
+  },
+  {
+   "id": "87ace61264581e74",
+   "url": "https://news.livedoor.com/article/detail/32730620",
+   "title_original": "ゆず店長が解説！3COINSフォトプリンター新作レビューと知っておくべき長期保存の落とし穴",
+   "source": "ライブドアニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T08:01:00+00:00",
+   "title_ja": "3COINSのフォトプリンター新作レビュー",
+   "summary_ja": "3COINSのフォトプリンター新作について、特徴やレビュー、知っておくべき長期保存の落とし穴をゆず店長が解説しています。購入を検討する際に役立つ実践的な内容です。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "フォトプリンター"
+   ],
+   "importance": 4
   },
   {
    "id": "3f85a0c0be1b21d4",
@@ -805,6 +1073,25 @@
    "importance": 4
   },
   {
+   "id": "8795502b51444ef0",
+   "url": "https://news.yahoo.co.jp/articles/21d0afdd672231fa57f741fefbb63b8705604e74",
+   "title_original": "伊藤かずえ、100均・キャンドゥの生地で手作りした“カラフル小物”が素敵⇨「凄くかわいい」「器用ですね」の声（ハフポスト日本版）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00010004-huffpost-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T02:03:49+00:00",
+   "title_ja": "キャンドゥの生地で作るカラフル小物",
+   "summary_ja": "伊藤かずえさんがキャンドゥの生地を使い、手作りのカラフルな小物を制作。SNSで『凄くかわいい』と好評で、100円で手軽にファッションを楽しめる。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "キャンドゥの生地",
+    "カラフル小物"
+   ],
+   "importance": 3
+  },
+  {
    "id": "b0076046e2f3be0b",
    "url": "https://note.com/tsukattemitalog/n/n3d90405bb3d8",
    "title_original": "【２枚セット】ダイソーにおしゃれなくすみカラーのメガネ拭きあり。売り場はここをチェック",
@@ -944,6 +1231,24 @@
    "axis": "new",
    "things": [],
    "importance": 3
+  },
+  {
+   "id": "7968d024818555ba",
+   "url": "https://mognavi.jp/product/1399853",
+   "title_original": "セリア・ロイル コーヒー大好きな白くま（セリア・ロイル）クチコミ2件・評価5.0/7点",
+   "source": "もぐナビ",
+   "image": "https://mognavi.jp/image/food/02/84/64/3664902_original.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-03T17:14:46+00:00",
+   "title_ja": "セリア・ロイル『白くま』が好評",
+   "summary_ja": "セリア・ロイルのキャラクター商品『白くま』が、コーヒー好きという設定で2件の口コミを得て、5.0/7点の評価を受けている。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "白くま"
+   ],
+   "importance": 2
   },
   {
    "id": "4fdbf525987ad961",
@@ -2621,6 +2926,22 @@
     "洗濯バサミバスケット"
    ],
    "importance": 3
+  },
+  {
+   "id": "2ba5b68868d6bfd4",
+   "url": "https://prtimes.jp/main/html/rd/p/000000064.000039955.html",
+   "title_original": "～大創産業、お客様への感謝を込めた創業50周年企画～ DAISO全店で日用品増量キャンペーン第5弾を開始",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/39955/64/39955-64-b52f9f64dc11159238aaab7451854c14-1400x600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-01T07:00:00+00:00",
+   "title_ja": "ダイソーが創業50周年企画として日用品増量キャンペーン第5弾を開始",
+   "summary_ja": "ダイソーがお客様への感謝を込めた創業50周年企画として、全国の店舗で日用品増量キャンペーンの第5弾を開始しました。",
+   "category": "お店・ブランド",
+   "axis": "new",
+   "things": [],
+   "importance": 4
   },
   {
    "id": "bd735136917631ef",
@@ -6774,24 +7095,6 @@
    "importance": 2
   },
   {
-   "id": "0f37966115dd8e33",
-   "url": "https://note.com/lirina0605/n/n7e6613d0d764",
-   "title_original": "【衝撃】15年間愛用したハサミが壊れた。実はこれ、100均なんです……",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/production/uploads/images/329282290/rectangle_large_type_2_7170ae0973c5c320e44d40b2e1148601.png?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-28T03:06:29+00:00",
-   "title_ja": "100均で買ったハサミを15年間愛用できた耐久性と使い心地",
-   "summary_ja": "100円ショップで購入したハサミを15年間にわたり愛用してきた体験談です。長年壊れずに作業を支え続けた100均文具の高い耐久性とコスパの良さが語られています。",
-   "category": "文具・手帳",
-   "axis": "use",
-   "things": [
-    "ハサミ"
-   ],
-   "importance": 2
-  },
-  {
    "id": "4051bd97a60be40e",
    "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-6e2f9835a222c2bbb87511265b655349d7a5bf7e",
    "title_original": "『小さいくるくる』が絶妙に便利！【ダイソー】家中の浮かせる収納に使える『便利グッズ』",
@@ -6865,23 +7168,22 @@
    "importance": 3
   },
   {
-   "id": "f06e1cc41e6b70ec",
-   "url": "https://note.com/margrete1397/n/n55ec6fee58ea",
-   "title_original": "【モンチッチ】チムたんのネックポーチとセリアのモンチッチのインテリアミニフィギュアをもらった",
-   "source": "note #セリア",
-   "image": "https://assets.st-note.com/production/uploads/images/329371656/rectangle_large_type_2_73f9fc93ccf6c0a1eec6567a5891121c.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
+   "id": "af26bc219a5986a9",
+   "url": "https://oggi.jp/7962425",
+   "title_original": "揚げ物LOVERは買って損なし！ほったらかしで一品がうれしい、ブラウンの新ノンフライヤー",
+   "source": "Oggi.jp",
+   "image": "https://oggi.jp/wp-content/uploads/2026/10/48A5902-1200.jpg",
+   "media": "news",
    "region": "国内",
-   "published": "2026-10-28T02:04:28+00:00",
-   "title_ja": "【セリア】モンチッチのインテリアミニフィギュアと小物",
-   "summary_ja": "セリアで購入できるモンチッチのインテリアミニフィギュアを紹介しています。チムたんのネックポーチと合わせて可愛く飾れるアイテムです。",
-   "category": "キャラクター・コラボ",
+   "published": "2026-10-28T02:01:16+00:00",
+   "title_ja": "ブラウンの新ノンフライヤーが登場",
+   "summary_ja": "揚げ物好きにおすすめの、ブラウン製新ノンフライヤーが発売。ほったらかしでも一品作れ、買って損なしと評価されている。",
+   "category": "キッチン",
    "axis": "new",
    "things": [
-    "インテリアミニフィギュア",
-    "ネックポーチ"
+    "ブラウン ノンフライヤー"
    ],
-   "importance": 3
+   "importance": 4
   },
   {
    "id": "23be33cdf0a02ca6",
@@ -6990,25 +7292,6 @@
    "importance": 3
   },
   {
-   "id": "cc0812853a36d0d0",
-   "url": "https://note.com/asanagi_km/n/n2d8f186d3d86",
-   "title_original": "ベビーカーのフックの選び方｜100均との違いとおすすめ4つ",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/329350864/rectangle_large_type_2_bd27aab8be7b0ebe65d9e49eb5d808e7.png?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-28T00:41:19+00:00",
-   "title_ja": "ベビーカーフックの選び方と100均商品との違い",
-   "summary_ja": "ベビーカーの荷物が増えたときに役立つフックの選び方を解説し、100円ショップの商品との違いやおすすめの4つを紹介しています。",
-   "category": "ファッション・小物",
-   "axis": "use",
-   "things": [
-    "ベビーカーフック",
-    "マザーズバッグ"
-   ],
-   "importance": 3
-  },
-  {
    "id": "b29d106bcd83a8d4",
    "url": "https://news.yahoo.co.jp/expert/articles/dfbc4481a384e0b04793f7c1a496989168a935cc",
    "title_original": "【セリア】やっと買えた！ずっと気になっていた110円のアイテムが楽しい（ユニ子＊100均スリコ大好き） - エキスパート",
@@ -7079,24 +7362,6 @@
    "importance": 4
   },
   {
-   "id": "21b7daa29d33b8d6",
-   "url": "https://note.com/mofine16/n/nc1f72928c36b",
-   "title_original": "これもドールハウスだよ",
-   "source": "note #セリア",
-   "image": "https://assets.st-note.com/production/uploads/images/329309814/rectangle_large_type_2_00ce74ef3d2d3a7c27cd67fffa11da50.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-27T21:55:44+00:00",
-   "title_ja": "セリア ドールハウスで和洋写真撮影",
-   "summary_ja": "セリアで販売されているドールハウスセットを使い、和室と洋室の風景撮影を楽しむ方法を紹介。写真のバリエーションが広がります。100円で手に入る手軽さも魅力です。ぜひ試してみてください。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "ドールハウスセット"
-   ],
-   "importance": 2
-  },
-  {
    "id": "89c694aa8edf78ea",
    "url": "https://news.yahoo.co.jp/expert/articles/4ab33906be261d96d63b177a007fe6e25fe4fceb",
    "title_original": "【セリア】きれいに見せたい人必見！心地が良くスッキリ小顔見せがいい（なないろの扉） - エキスパート",
@@ -7162,275 +7427,6 @@
    "things": [
     "チェック柄ヘアアクセ"
    ],
-   "importance": 3
-  },
-  {
-   "id": "5969922c068b67a0",
-   "url": "https://note.com/_kotorisuki_/n/ne9acd92b4a3a",
-   "title_original": "【保存版】100円ショップで試せる！ペットの便利ワザ3選",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/329292146/rectangle_large_type_2_2ac46b437d031f7d2fd18f8cc1d7e282.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-27T19:19:54+00:00",
-   "title_ja": "ダイソーやセリアで試せるペットの便利ワザ3選",
-   "summary_ja": "ダイソー、セリア、キャンドゥなどの100円ショップのアイテムを使って、ペットのお世話を手軽に試せる便利ワザを3つ紹介しています。専用グッズの代わりに活用でき、費用を抑えてペットに合うか試せるのが魅力です。価格は110円からの商品が中心です。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "抜け毛取りクリーナー"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "ea63dfc2067cf1a4",
-   "url": "https://my-best.com/24061",
-   "title_original": "iPhone13フィルムのおすすめ人気ランキング【2026年10月】",
-   "source": "マイベスト",
-   "image": "https://img.my-best.com/contents/9cfc4afbdd3e4a9722029a41a6f3c5ea.jpeg?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=d1c0d033d4371da8eec84cb8b0e0d70e",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T15:00:00+00:00",
-   "title_ja": "マイベストが選ぶiPhone13フィルムランキング",
-   "summary_ja": "マイベストによるiPhone13フィルムのおすすめ人気ランキングを紹介しています。家電量販店やネット通販のほか、100円ショップの製品も選択肢に入る場合があります。",
-   "category": "スマホ・ガジェット",
-   "axis": "use",
-   "things": [
-    "フィルム"
-   ],
-   "importance": 2
-  },
-  {
-   "id": "cb10f96ce4bad7ea",
-   "url": "https://my-best.com/24514",
-   "title_original": "サラサラのスマホフィルムのおすすめ人気ランキング【2026年10月】",
-   "source": "マイベスト",
-   "image": "https://img.my-best.com/contents/27051e6a793969c9eba480da1ddf4227.jpeg?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=f669eb73e6785a4e90112bf8d21fa86a",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T15:00:00+00:00",
-   "title_ja": "マイベストのサラサラスマホフィルムランキング",
-   "summary_ja": "指すべりが良く操作しやすいサラサラ仕様のスマホフィルムのおすすめ人気ランキングをまとめています。日々の操作を快適にするアイテム選びの参考に役立ちます。",
-   "category": "スマホ・ガジェット",
-   "axis": "use",
-   "things": [
-    "フィルム"
-   ],
-   "importance": 2
-  },
-  {
-   "id": "d66d8386f9ffc160",
-   "url": "https://www.gummaumaimono.info/entry/2026/10/27/231349",
-   "title_original": "【ダイソー新商品】ラーメン名店カード全168店｜群馬・富山・千葉の収録店は？",
-   "source": "ぐんぐるブログ",
-   "image": "https://cdn.image.st-hatena.com/image/scale/bb8043d07f2b39797950452a899fca2b12f1b8ca/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fg%2Fgumma_umaimono%2F20261027%2F20261027231317.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T14:13:49+00:00",
-   "title_ja": "ダイソーからラーメン名店カードが登場",
-   "summary_ja": "ダイソーの新商品として、全168店のラーメン名店カードが登場しました。群馬や富山、千葉などの収録店が含まれています。",
-   "category": "その他",
-   "axis": "new",
-   "things": [
-    "ラーメン名店カード"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "1776e921ef47611c",
-   "url": "https://topics.smt.docomo.ne.jp/amp/article/ftnews/trend/ftnews-42ea8dcb881b95475d44b257ac66812742e7928b",
-   "title_original": "『錠剤』がまさかのクリーナーに！【ダイソー】110円で買える『便利なお掃除アイテム』",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-42ea8dcb881b95475d44b257ac66812742e7928b.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T13:05:00+00:00",
-   "title_ja": "ダイソーの110円で買える錠剤型お掃除クリーナー",
-   "summary_ja": "ダイソーで110円で購入できる、錠剤型のお掃除アイテムについて紹介しています。手軽に使える便利なクリーナーです。",
-   "category": "掃除・洗濯",
-   "axis": "new",
-   "things": [
-    "クリーナー"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "c718a5b1d2c92039",
-   "url": "https://news.yahoo.co.jp/articles/d35e002d7937736c6ad58c6c5eb3d79f061ca550",
-   "title_original": "「小さいこたつ」に「形が変わるベッドハウス」も！3COINS〈新作ペットアイテム〉が全部かわいい。愛猫＆愛犬の冬支度にぴったりです（LIMO）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261027-00143612-toushin-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T12:31:06+00:00",
-   "title_ja": "3COINSの冬支度にぴったりな新作ペットアイテム",
-   "summary_ja": "3COINSから、小さいこたつや形が変わるベッドハウスなどの新作ペットアイテムが登場しました。愛犬や愛猫の冬支度におすすめのかわいい商品です。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "小さいこたつ",
-    "ベッドハウス"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "7340d4aca2e0f369",
-   "url": "https://news.yahoo.co.jp/articles/e839e5d8647dfa938ed8ee00c0b3b5e99036e72b",
-   "title_original": "【100均DIY】ダイソーの羊毛で海の石を包んで作る ふわふわのアロマ石に注目（LIMO）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261027-00143371-toushin-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T12:16:06+00:00",
-   "title_ja": "ダイソーの羊毛で作るふわふわアロマ石のDIY",
-   "summary_ja": "ダイソーの羊毛を使い、海の石を包んでふわふわのアロマ石を作るDIYのアイデアを紹介しています。手軽に楽しめる手作りの工夫です。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "羊毛",
-    "アロマ石"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "67c35e682dc6ec9d",
-   "url": "https://news.yahoo.co.jp/expert/articles/3d90702a114cf6da0289f9dae06a730900d7bf72",
-   "title_original": "【セリア】ハシゴして買った話題の商品！コリをほぐせてすごく良い！【100均】（My-Room） - エキスパート",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/mairumu/02752301/title-1793028272830.jpeg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T11:15:22+00:00",
-   "title_ja": "セリアで見つけた体のコリをほぐせる注目のヘルスケアグッズ",
-   "summary_ja": "セリアで販売されている、身体のコリをほぐすのに役立つ話題のアイテムを紹介。実際に店舗で購入して使ってみた使用感や、日々のリフレッシュに役立つ使い心地について分かりやすくレビューしています。",
-   "category": "コスメ・美容",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "b888cd8600f33aba",
-   "url": "https://news.yahoo.co.jp/articles/af856f554bfd968ddb0985f0448b04d0ed09442b",
-   "title_original": "“人には見せられない”冷蔵庫、100均アイテムで整理すると…… 見違える結果に「見ててとてもスッキリな気分」「やる気スイッチ入りました」（ねとらぼ）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261027-10173250-it_nlab-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T11:15:00+00:00",
-   "title_ja": "ダイソーなどの100均アイテムを活用した冷蔵庫の整理収納",
-   "summary_ja": "100円ショップのアイテムを使って冷蔵庫の中をすっきりと整理整頓する様子が紹介されており、見ていて気持ちよく片付けのモチベーションが上がる内容となっている。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "f711058ef934e9cd",
-   "url": "https://www.youtube.com/watch?v=aKyPvwYq-ZY",
-   "title_original": "【100均】セリア すごいの出てた!!これは便利すぎる!!＋キャンドゥの人気商品!!【Seria】",
-   "source": "My-Room",
-   "image": "https://i2.ytimg.com/vi/aKyPvwYq-ZY/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-27T11:00:39+00:00",
-   "title_ja": "セリアとキャンドゥの便利な新作・人気雑貨アイテム7選",
-   "summary_ja": "セリアとキャンドゥの注目アイテムを紹介。セリアの「つけ置き洗いバッグS」や「レジ袋ストッカー」、キャンドゥの200円商品「ボトルハンドルGY」など、家事や日常で活躍する便利な雑貨を取り上げています。",
-   "category": "その他",
-   "axis": "new",
-   "things": [
-    "つけ置き洗いバッグS",
-    "ひんやりリフレッシュローラー",
-    "レジ袋ストッカー",
-    "ボトルハンドルGY"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "e7bf84d137c4eb03",
-   "url": "https://news.allabout.co.jp/articles/o/132225",
-   "title_original": "「不器用にはありがたい」3COINSの“挟めるフライ返し”に反響。「ハンバーグ作りに革命」の声",
-   "source": "All About ニュース",
-   "image": "",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T11:00:00+00:00",
-   "title_ja": "3COINSのハンバーグ調理にも便利な挟めるフライ返しが話題",
-   "summary_ja": "3COINSで話題を集めている「挟めるフライ返し」を紹介。食材をしっかり挟んで裏返せる機能的な設計で、ハンバーグなどの料理が型崩れせずきれいに作れると読者の間で評判になっています。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "挟めるフライ返し"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "ad729f6331528bed",
-   "url": "https://cancam.jp/archives/1767551",
-   "title_original": "100均の「お風呂で使えるスマホケース」って実際どう？半年ガチで愛用しているアイテムをぶっちゃけレビュー！",
-   "source": "CanCam.jp",
-   "image": "https://cancam.jp/wp-content/uploads/2026/10/14/S__45989904.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T10:15:00+00:00",
-   "title_ja": "100円ショップのお風呂で使えるスマホケースを半年愛用したレビュー",
-   "summary_ja": "100円ショップで手に入る「お風呂で使えるスマホケース」を半年間実際に使った感想をレビュー。バスタイム中にスマホを活用したい人に向けて、使いやすさや防水性のリアルな使い心地を解説しています。",
-   "category": "スマホ・ガジェット",
-   "axis": "use",
-   "things": [
-    "お風呂で使えるスマホケース"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "b0ce9816a0c5a8e5",
-   "url": "https://trilltrill.jp/articles/5136623",
-   "title_original": "【セリア】めちゃめちゃ有能だよ。とにかく使えるアイデアグッズ3選",
-   "source": "TRILL",
-   "image": "https://media.trilltrill.jp/articles/5136623/featured-image.96c2ecdaf6a36f89256fcf062a8cc962?w=1200",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T10:09:34+00:00",
-   "title_ja": "セリアのアイデアグッズ3選",
-   "summary_ja": "セリアで購入できる、日々の暮らしに役立つ優秀なアイデアグッズ3選を紹介する記事。具体的な使い勝手の良さや便利な活用方法について分かりやすく解説されています。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "アイデアグッズ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "58003cddae238f6e",
-   "url": "https://www.youtube.com/watch?v=8YS10qMSKX4",
-   "title_original": "【スタンダードプロダクツ購入品】デスクワークやアウトドアに便利！1650円で買えるUSBブランケットが想像以上にあったかい！？肩掛けにもなる！？",
-   "source": "100円ショップの気になる一品（ヒャッキニ）",
-   "image": "https://i1.ytimg.com/vi/8YS10qMSKX4/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-27T10:00:38+00:00",
-   "title_ja": "Standard ProductsのUSBブランケット",
-   "summary_ja": "Standard Productsで販売されている1650円のUSBブランケットを紹介。冬のデスクワークやアウトドアでの寒さ対策に便利で、肩掛けとしても使えるアイテムです。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "USBブランケット"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "cb0e575d516303e4",
-   "url": "https://topics.smt.docomo.ne.jp/article/osharetecho/trend/osharetecho-111106",
-   "title_original": "イケア・スリーコインズ・スタンダードプロダクツで作るおしゃれな暮らし",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/osharetecho/m_osharetecho-111106.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T10:00:00+00:00",
-   "title_ja": "スリーコインズやスタンダードプロダクツで作るおしゃれな暮らし",
-   "summary_ja": "スリーコインズやStandard Productsのアイテムを取り入れて、おしゃれな暮らしを実現するための工夫やアイデアを紹介している。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [],
    "importance": 3
   }
  ]
