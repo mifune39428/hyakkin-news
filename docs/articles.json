@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T23:30:50.607172+09:00",
+ "updated_at": "2026-11-06T08:29:14.510644+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,36 +27,32 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-11-05T23:40:08.897859+09:00",
+  "generated_at": "2026-11-06T08:30:45.253675+09:00",
   "days": 3,
-  "period": "11月4日〜11月5日",
+  "period": "11月5日〜11月6日",
   "count": 45,
-  "new_count": 14,
-  "use_count": 31,
-  "overview": "100円ショップの最新グッズや、日常の収納・インテリアでの具体的な活用アイデアが多数紹介されています。",
-  "new": "キャンドゥのズートピアグッズやセリアのSnow Manジュエルシールなどのキャラクター新作が登場しています。",
-  "use": "ダイソーのつっぱり棒を使った洗面台下収納やセリアの壁掛けフックでのヘルメット収納など、手軽な活用法が紹介されています。",
+  "new_count": 17,
+  "use_count": 28,
+  "overview": "100円ショップの最新情報として、ダイソーやセリア、キャンドゥなどの新作キャラクターグッズや、身近なアイテムを使った便利な収納・DIY術が多く紹介されている。",
+  "new": "ダイソーのサンリオグッズやセリアのSnow Manジュエルシール、キャンドゥのズートピアなどコラボ新作が注目を集めている。",
+  "use": "ダイソーのつっぱり棒や帽子ハンガーなどを使った、限られたスペースを有効活用する収納やインテリアの工夫が目立つ。",
   "points": [
    {
-    "title": "キャンドゥのズートピア",
-    "body": "キャンドゥから映画ズートピアのグッズが初登場し、もふもふしたしっぽのファーキーホルダーなどポップなアイテムが展開されています。"
+    "title": "サンリオやディズニー新作",
+    "body": "ダイソーのサンリオグッズや裏面まで可愛いアイテム、セリアのディズニーチップ＆デール、キャンドゥのズートピアなどキャラクターの新作が登場している。"
    },
    {
-    "title": "セリアのSnow Man",
-    "body": "セリアからSnow Manのジュエルシール新作が登場し、可愛いデザインがファンの間で注目を集めています。"
+    "title": "ダイソーの収納とDIY",
+    "body": "ダイソーのつっぱり棒を使った洗面台下の収納術や、帽子ハンガー、サニタリーバッグを活用した手軽な整理方法が紹介されている。"
    },
    {
-    "title": "ダイソーのつっぱり棒収納",
-    "body": "ダイソーのつっぱり棒を洗面台の下に通すだけで簡単に収納スペースを増やせる、デッドスペースの活用法が紹介されています。"
-   },
-   {
-    "title": "セリアのヘルメット収納",
-    "body": "余った板にセリアの壁掛けフックを取り付けることで、子どものヘルメットや鍵を掛けられる2段の壁掛け収納が完成します。"
+    "title": "セリアのインテリア雑貨",
+    "body": "セリアの仕切り板とフォトフレームで作るピアススタンドや、タイルシールを貼るフックのリメイク術などが取り上げられている。"
    }
   ],
   "keywords": [
-   "セリア",
    "ダイソー",
+   "セリア",
    "キャンドゥ",
    "3COINS",
    "収納"
@@ -112,11 +108,11 @@
    "count": 2
   },
   {
-   "name": "アイアンバー",
+   "name": "アイデアグッズ",
    "count": 2
   },
   {
-   "name": "アイデアグッズ",
+   "name": "アクリルスタンド",
    "count": 2
   },
   {
@@ -192,10 +188,6 @@
    "count": 2
   },
   {
-   "name": "リボン",
-   "count": 2
-  },
-  {
    "name": "便利アイテム",
    "count": 2
   },
@@ -221,6 +213,10 @@
   },
   {
    "name": "新鮮野菜スタンド",
+   "count": 2
+  },
+  {
+   "name": "汁なしカップ麺",
    "count": 2
   }
  ],
@@ -297,6 +293,95 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "fcc065a7c26f3e81",
+   "url": "https://article.auone.jp/af96507e-2ff3-452e-89fa-fa0a8dd87553",
+   "title_original": "【セリア】ナゾの形状がミソ。挟むだけで…「あら、快適♡」ニッチだけど手放せなくなるかも〜",
+   "source": "au Webポータル",
+   "image": "https://portal.auone.jp/media/thumbnails/2026/11/05/https___news_jp_i_1491205144334238517_w450.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T22:36:51+00:00",
+   "title_ja": "セリアの挟むだけで快適に使えるニッチな便利グッズ",
+   "summary_ja": "セリアで販売されている、ナゾの形状が特徴的な挟むだけで快適に使えるアイテムの紹介。ニッチな形状ながら、一度使うと手放せなくなる便利な使い心地が魅力のグッズとなっている。",
+   "category": "その他",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
+   "id": "1ddc15ce2993b53e",
+   "url": "https://note.com/world_trip_meet/n/n7365a81bbad4",
+   "title_original": "ショアジギング初心者とメタルジグ｜40gを中心に投げる私の選び方",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/332161009/rectangle_large_type_2_db8856382e876724a96ee2a1503214e6.png?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-05T22:35:04+00:00",
+   "title_ja": "ダイソーのメタルジグとメーカー品の違いと選び方",
+   "summary_ja": "2025年9月にショアジギングを始めた初心者が、ダイソーのメタルジグとメーカー品のデザインや機能の違いについて解説。40gを中心とした重さの選び方や、実際に使っている経験談を紹介している。",
+   "category": "その他",
+   "axis": "use",
+   "things": [
+    "メタルジグ"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "b28f61c51059d63e",
+   "url": "https://news.yahoo.co.jp/expert/articles/01ae517041832b87b677392f3dde6cfbb9401420",
+   "title_original": "【ダイソー】年々可愛くなっていく！裏面までキュートなサンリオアイテム（なないろの扉） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02759423/title-1793865160357.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T22:00:56+00:00",
+   "title_ja": "ダイソーの裏面まで可愛いサンリオの新作アイテム",
+   "summary_ja": "ダイソーから、年々可愛さがアップしているサンリオのアイテムが登場。裏面までキュートなデザインにこだわった、ファン必見の可愛らしいサンリオグッズの魅力が詰まった紹介となっている。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "サンリオアイテム"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "be81c1de92cd733a",
+   "url": "https://news.yahoo.co.jp/articles/b4c1e30cd5122982d1c130f0957ffb06e6709a16",
+   "title_original": "【ベランダ菜園】「野菜を育てたいけど場所がない」その問題、100均アイテムで解決！ダイソーのウォールポケットとキッチンゴミ袋で作る「空中菜園」（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00143915-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T21:59:38+00:00",
+   "title_ja": "ダイソーのアイテムで作るベランダの空中菜園活用法",
+   "summary_ja": "場所がないベランダでも野菜を育てたい悩みを、ダイソーのウォールポケットとキッチンゴミ袋を使って解決。限られたスペースを有効活用できる、手軽な空中菜園の作り方と便利な使い方を紹介している。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "ウォールポケット",
+    "キッチンゴミ袋"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "d02f37ed6ac0034a",
+   "url": "https://trilltrill.jp/articles/5162268",
+   "title_original": "【ダイソー】サニタリーボックスを置かない派必見！自立する「サニタリーバッグ」が便利すぎた◎",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5162268/featured-image.741a3a0d01285f88d91888694d60f4ae?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T14:35:00+00:00",
+   "title_ja": "ダイソーの自立サニタリーバッグが便利",
+   "summary_ja": "ダイソーの自立サニタリーバッグは、箱を置かずに立てて収納でき、持ち運びや整理が楽になると評価されている。そのコンパクトさと使い勝手の良さから、日常の収納アイテムとしておすすめされている。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "サニタリーバッグ"
+   ],
+   "importance": 3
+  },
   {
    "id": "04aef1a3ca4e2fdb",
    "url": "https://note.com/k_nico/n/nfe9195a75ea4",
@@ -406,6 +491,25 @@
    "importance": 3
   },
   {
+   "id": "a328eea039e5ed0d",
+   "url": "https://www.walkerplus.com/article/134593/image752115.html",
+   "title_original": "＜画像6 / 12＞アンキパンやどこでもドアも！3COINS限定ドラえもんグッズ初登場",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/134593/752095_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T11:05:20+00:00",
+   "title_ja": "3COINS限定ドラえもんグッズが初登場",
+   "summary_ja": "3COINSでドラえもんの限定グッズが初登場し、アンキパンやどこでもドアなどのデザイン商品が販売された。キャラクター好きに注目のラインナップだ。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "アンキパン",
+    "どこでもドア"
+   ],
+   "importance": 4
+  },
+  {
    "id": "a5601d7aa5b304fb",
    "url": "https://www.youtube.com/watch?v=nVR145AvgmQ",
    "title_original": "【100均】新商品速報‼️ 売り切れ必至！今回もすごい新商品が続々登場✨高見えクリスマスグッズ＆便利グッズこれは早い者勝ち！",
@@ -492,6 +596,26 @@
    "axis": "use",
    "things": [
     "吸盤付きデジタルバスクロック"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "c2bea506ed4feb45",
+   "url": "https://enuchi.jp/14598/seria-chipanddale-202611",
+   "title_original": "【セリア】ディズニー「チップ＆デール」グッズ7選！アクリルスタンドやもこもこワッペン、ブラインドのふわふわシールも",
+   "source": "えんウチ",
+   "image": "https://image.enuchi.jp/upload/20261105/images/thumb_seria_chipanddale.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T10:00:00+00:00",
+   "title_ja": "セリアのディズニー『チップ＆デール』グッズ7選",
+   "summary_ja": "セリアで販売されているディズニー『チップ＆デール』のアクリルスタンド、もこもこワッペン、ブラインド用ふわふわシールなど7点が紹介された。コレクターやインテリア好きにおすすめだ。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "アクリルスタンド",
+    "もこもこワッペン",
+    "ブラインドシール"
    ],
    "importance": 3
   },
@@ -811,6 +935,25 @@
     "調味料"
    ],
    "importance": 3
+  },
+  {
+   "id": "0edd98a3b4743e3f",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/allaboutnews/life/allaboutnews-166794",
+   "title_original": "「めちゃ可愛い」ダイソーの「カラーウッドツリー」がめじるしアクセサリーにぴったりと話題。SNSでバズり中",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/allaboutnews/m_allaboutnews-166794.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T01:55:00+00:00",
+   "title_ja": "ダイソーの「カラーウッドツリー」がアクセサリーに活躍",
+   "summary_ja": "ダイソーの「カラーウッドツリー」が可愛いと話題になっており、めじるしアクセサリーにぴったりのアイテムとしてSNSでバズっているという紹介記事。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "カラーウッドツリー",
+    "めじるしアクセサリー"
+   ],
+   "importance": 4
   },
   {
    "id": "94f4622bb04e2ab9",
@@ -7057,22 +7200,6 @@
    "importance": 3
   },
   {
-   "id": "d84eb47df27d77e8",
-   "url": "https://note.com/anms/n/ncf450e69112d",
-   "title_original": "値札は変えても、価値は守るセリアとDollar Treeに学ぶ逆張り経営",
-   "source": "note #セリア",
-   "image": "https://assets.st-note.com/production/uploads/images/329619035/rectangle_large_type_2_044de76e722806942db680ef9addef82.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-28T16:15:15+00:00",
-   "title_ja": "セリアとDollar Treeの価格戦略に学ぶ",
-   "summary_ja": "セリアは税抜き100円を守り、Dollar Treeは価格帯を拡大し、顧客の納得感を重視する経営方針を比較し、逆張り経営の示唆を紹介している。",
-   "category": "お店・ブランド",
-   "axis": "new",
-   "things": [],
-   "importance": 2
-  },
-  {
    "id": "dd4570b8233e0847",
    "url": "http://www.excite.co.jp/news/article/k_tai_watch_1488194994529518140",
    "title_original": "[本日の一品]百均で買える45WのUSB充電器、実は馴染みのあるメーカー製だった",
@@ -7088,22 +7215,6 @@
    "things": [
     "45W USB充電器"
    ],
-   "importance": 3
-  },
-  {
-   "id": "9ba4beffa4f4bcc5",
-   "url": "https://note.com/teagogo5_/n/n5ae91d4fe920",
-   "title_original": "【ガーデニング】100均ガーデニンググッズでオシャレな冬の一鉢",
-   "source": "note #ダイソー",
-   "image": "https://assets.st-note.com/production/uploads/images/329586622/rectangle_large_type_2_4adaec39b7d917ea5e0b6c72dfeb02b1.jpg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-10-28T14:07:07+00:00",
-   "title_ja": "100均ガーデニンググッズで作る冬の一鉢",
-   "summary_ja": "100円ショップのガーデニング用品を活用し、冬でもおしゃれに植物を飾る実践的な一鉢作りの方法を紹介している。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [],
    "importance": 3
   },
   {
@@ -7339,117 +7450,6 @@
    "axis": "new",
    "things": [
     "キッチン小物収納ポケット"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "d9642453cdbd7cdc",
-   "url": "https://www.youtube.com/shorts/23aIs3eZ2PQ",
-   "title_original": "【100均】新商品速報‼️お弁当作りにもピッタリ！簡単に可愛くできちゃうダイソー新商品♡ #100均 #ダイソー #お弁当 #料理 #short",
-   "source": "はるチャンネル【100均】",
-   "image": "https://i3.ytimg.com/vi/23aIs3eZ2PQ/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-28T11:00:08+00:00",
-   "title_ja": "ダイソーの新商品はお弁当作りを可愛くする便利グッズ",
-   "summary_ja": "ダイソーの新しい商品の中から、お弁当作りが簡単に可愛く仕上がるアイテムを紹介しています。毎日の調理や食事の準備を楽しくしてくれる便利なグッズです。",
-   "category": "キッチン",
-   "axis": "new",
-   "things": [
-    "お弁当グッズ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "88aaf1e0557f507f",
-   "url": "https://www.youtube.com/watch?v=brUFGHPJxqE",
-   "title_original": "【100均】ダイソー&セリア｜すごい勢いで売れた名品！これは買って大正解でした！",
-   "source": "すきなもんちゅーぶ",
-   "image": "https://i3.ytimg.com/vi/brUFGHPJxqE/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-28T11:00:02+00:00",
-   "title_ja": "ダイソー・セリアの人気収納アイテム活用法",
-   "summary_ja": "動画では、ダイソーとセリアの売れ筋商品を中心に、整理収納アドバイザーが実践的な収納アイデアを紹介。100円ショップの品で手軽に片付けを改善できるポイントが解説されている。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "b649517739271870",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102170242",
-   "title_original": "100均のアイアンバーで『箱ティッシュ』を浮かせて収納！ デッドスペースを有効活用できた",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1488125476806821814/origin_1.webp",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T10:39:27+00:00",
-   "title_ja": "100均アイアンバーで箱ティッシュを浮かせ収納",
-   "summary_ja": "100円ショップで手に入るアイアンバーを使い、箱ティッシュを壁に浮かせて収納する方法を紹介。デッドスペースを有効活用できる実用的なアイデアとして注目されている。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [
-    "アイアンバー",
-    "箱ティッシュ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "5f4cfcc2edfc2ecc",
-   "url": "https://news.yahoo.co.jp/articles/555dfaeab4984eb0fb6e64197cc68da52c888ea6",
-   "title_original": "約1万2000回再生、ダイソーのナプキンと透明袋でお菓子を包み、リボンを結ぶハロウィンのラッピングに注目（LIMO）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00143411-toushin-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T10:05:58+00:00",
-   "title_ja": "ダイソーのアイテムを使ったハロウィンラッピング",
-   "summary_ja": "ダイソーのナプキンと透明袋にお菓子を包み、リボンを結ぶハロウィンのラッピング方法が注目を集めています。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "ナプキン",
-    "透明袋",
-    "リボン"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "3447a25b376d25ad",
-   "url": "https://www.youtube.com/watch?v=1az0PSU2WsQ",
-   "title_original": "【ダイソー新商品】ガチで使える！優秀すぎる工具・便利グッズ3選!!",
-   "source": "100円ショップの気になる一品（ヒャッキニ）",
-   "image": "https://i2.ytimg.com/vi/1az0PSU2WsQ/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-28T10:00:28+00:00",
-   "title_ja": "ダイソー新商品・便利工具3選を紹介",
-   "summary_ja": "動画では、ダイソーの新作としてマグネットリストバンド、ラチェットツールセット、布製セーフティコードの3点を紹介。日常の小さな修理や作業に便利で、100円で手に入る実用的な工具だ。",
-   "category": "その他",
-   "axis": "new",
-   "things": [
-    "マグネットリストバンド",
-    "ラチェットツールセット",
-    "布製セーフティコード"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "7411f57e93360ece",
-   "url": "https://nlab.itmedia.co.jp/fav/articles/4069363",
-   "title_original": "【3COINS】660円で旅行のサブバッグに便利！ 「パッカブルショルダーバッグ」を本音レビュー シワになりやすいかも……（1/2） | バッグ・クーラーボックス Fav-Log by ITmedia",
-   "source": "ねとらぼ",
-   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1793175329_3COINS2.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T09:40:00+00:00",
-   "title_ja": "3COINSの660円パッカブルショルダーバッグをレビュー",
-   "summary_ja": "3COINSで660円で販売されているパッカブルショルダーバッグは旅行のサブバッグとして便利だが、シワになりやすい点が指摘された。",
-   "category": "収納・整理",
-   "axis": "use",
-   "things": [
-    "パッカブルショルダーバッグ"
    ],
    "importance": 3
   }
