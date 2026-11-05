@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T08:27:44.566484+09:00",
+ "updated_at": "2026-11-05T14:59:52.043395+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,34 +27,35 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-11-05T08:30:20.127929+09:00",
+  "generated_at": "2026-11-05T15:01:07.681299+09:00",
   "days": 3,
   "period": "11月4日〜11月5日",
   "count": 45,
-  "new_count": 15,
-  "use_count": 30,
-  "overview": "ダイソー、セリア、キャンドゥなどの新作グッズ情報や、手帳や収納、インテリアでの具体的な活用アイデアが多数紹介されています。",
-  "new": "キャンドゥのズートピアコラボやセリアのクリスマス雑貨、ダイソーのモバイルバッテリーなどの新作登場が話題です。",
-  "use": "バッグの中の整理や手帳の効率化、毛糸を使った小物作りなど、日常を便利でおしゃれにする工夫が詳しく語られています。",
+  "new_count": 17,
+  "use_count": 28,
+  "overview": "100円ショップの最新情報として、キャラクターの新作グッズや便利な収納・生活雑貨の活用法が多数紹介されています。",
+  "new": "キャラクターの新作やクリスマス雑貨のほか、充電器やボトルキャップの落下を防ぐカバーなどが登場しています。",
+  "use": "つっぱり棒やペン立てを活用した収納術や、毛糸での小物作り、バッグやポーチの便利な使い方が紹介されています。",
   "points": [
    {
-    "title": "ズートピアのコラボグッズ",
-    "body": "キャンドゥから映画ズートピアをモチーフにした全50品のコラボ商品が発売され、ドーナツ型ポーチ付きエコバッグやメモ帳などのポップな雑貨が話題となっています。"
+    "title": "ズートピアのグッズ",
+    "body": "キャンドゥからディズニー映画『ズートピア』のグッズが初登場し、ファーキーホルダーやエコバッグなどが展開されています。"
    },
    {
-    "title": "回転式ペン立ての多用途な収納",
-    "body": "ダイソーの回転式ペン立ては、文房具の収納だけでなく、推し活グッズのペンライトやキッチンの調味料入れなど、多様な用途で活用できる便利アイテムとして注目されています。"
+    "title": "回転式ペン立ての活用",
+    "body": "ダイソーの回転式ペン立ては、文房具だけでなく推し活用のペンライトやキッチンの調味料入れとしても活用できます。"
    },
    {
-    "title": "カード型コインホルダーの便利さ",
-    "body": "キャンドゥで販売されているカード型コインホルダーは、小銭をコンパクトに整理できて探す手間が省けると反響を呼び、店舗を巡って探す人がいるほどの人気商品です。"
+    "title": "名画デザインのバッグ",
+    "body": "セリアで販売されているモネやゴッホといった名画をデザインしたバッグは、美術館のお土産のようにおしゃれと評判です。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "キャンドゥ",
-   "ズートピア",
+   "3COINS",
+   "新作",
    "収納"
   ]
  },
@@ -76,7 +77,19 @@
    "count": 4
   },
   {
+   "name": "バッグ",
+   "count": 4
+  },
+  {
+   "name": "調理グッズ",
+   "count": 4
+  },
+  {
    "name": "エコバッグ",
+   "count": 3
+  },
+  {
+   "name": "キッチングッズ",
    "count": 3
   },
   {
@@ -84,16 +97,12 @@
    "count": 3
   },
   {
-   "name": "バッグ",
-   "count": 3
-  },
-  {
    "name": "薬味ホルダー",
    "count": 3
   },
   {
-   "name": "調理グッズ",
-   "count": 3
+   "name": "つっぱり棒",
+   "count": 2
   },
   {
    "name": "アイアンバー",
@@ -108,15 +117,15 @@
    "count": 2
   },
   {
+   "name": "アクリル毛糸",
+   "count": 2
+  },
+  {
    "name": "アドベントカレンダー",
    "count": 2
   },
   {
    "name": "カップヌードル",
-   "count": 2
-  },
-  {
-   "name": "キッチングッズ",
    "count": 2
   },
   {
@@ -156,10 +165,6 @@
    "count": 2
   },
   {
-   "name": "フォトフレーム",
-   "count": 2
-  },
-  {
    "name": "フック",
    "count": 2
   },
@@ -169,10 +174,6 @@
   },
   {
    "name": "ブックエンド",
-   "count": 2
-  },
-  {
-   "name": "ポータブルゴミ箱",
    "count": 2
   },
   {
@@ -232,9 +233,9 @@
   "K-TREND TIMES",
   "LEE",
   "LIMO | くらしとお金の経済メディア",
+  "MAQUIA",
   "MonoMax web",
   "My-Room",
-  "Oggi.jp",
   "PR TIMES",
   "ROOMIE（ルーミー）",
   "TRILL",
@@ -269,6 +270,7 @@
   "ダイヤモンド・オンライン",
   "ナタリー",
   "ニコニコニュース",
+  "マイベスト",
   "モデルプレス",
   "ヨッパン・100均紹介",
   "ヨムーノ",
@@ -290,6 +292,207 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "d55e7fec3154a807",
+   "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_501432",
+   "title_original": "【ディズニー】『ズートピア』もふもふしっぽのファーキーホルダーがカワイイ…！ カラフルでポップなグッズシリーズがキャンドゥに初登場",
+   "source": "Excite エキサイト",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T05:22:54+00:00",
+   "title_ja": "キャンドゥからディズニー『ズートピア』のグッズが初登場",
+   "summary_ja": "キャンドゥに映画『ズートピア』のグッズシリーズが初登場しました。もふもふしたしっぽのファーキーホルダーなど、カラフルでポップなアイテムが展開されています。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ファーキーホルダー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "248d77ebf0bfe098",
+   "url": "https://article.auone.jp/c0dd88a0-12f1-4b44-8bb4-517d83cf0d1a",
+   "title_original": "「回して癒やされています！」3COINSの“回るディスプレイラック”が推し活に便利。ぬいぐるみキーホルダーをくるっと見せて収納",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/11/05/https___news_allabout_co_jp_articles_o_132764__w640.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T04:20:00+00:00",
+   "title_ja": "3COINSの回るディスプレイラックでぬいぐるみ収納",
+   "summary_ja": "3COINSの回るディスプレイラックは、ぬいぐるみキーホルダーをくるっと回転させながら見せて収納できる便利なアイテムです。推し活のディスプレイとして活躍します。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "回るディスプレイラック",
+    "ぬいぐるみキーホルダー"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "fe2c3774ccf91b4b",
+   "url": "https://news.yahoo.co.jp/articles/bbef28c8fa471d0e85c3c46789cc9a6eb44b20bc",
+   "title_original": "【100均】ダイソーの“アクリル毛糸”2色で編む「ちょうちょのストラップ」が反響！シェルピンク1玉で7個分の計算に（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00143759-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T03:20:57+00:00",
+   "title_ja": "ダイソーのアクリル毛糸2色で編むちょうちょのストラップ",
+   "summary_ja": "ダイソーのアクリル毛糸を2色使い、シェルピンク1玉で7個分のちょうちょのストラップを編むアイデアが反響を呼んでいます。手軽に可愛い小物が作れる活用法です。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "アクリル毛糸",
+    "ちょうちょのストラップ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "66189c1c20c721a5",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-534d6e7a899bea68b2dada33ccf0ac43c47c09d6",
+   "title_original": "かわいくて実用的！【ダイソー】大人も使いたくなる『サンリオグッズ』",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-534d6e7a899bea68b2dada33ccf0ac43c47c09d6.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T03:05:00+00:00",
+   "title_ja": "ダイソーの大人向けサンリオグッズが新登場",
+   "summary_ja": "ダイソーで大人も使いたくなるサンリオグッズが販売開始。可愛さと実用性を兼ね備えた商品が揃い、日常に彩りを加える。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "サンリオグッズ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "636277a4e7be8a79",
+   "url": "https://news.yahoo.co.jp/expert/articles/936c078fea8d01e2fb386c47cea8dc6945a59043",
+   "title_original": "【セリア】Snow Manファンの間で話題！去年も大バズり『ジュエルシール』新作が可愛すぎる【人気】（もみ） - エキスパート",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/momi/02755046/title-1793339825486.jpeg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T03:01:14+00:00",
+   "title_ja": "セリアのSnow Manジュエルシール新作が話題に",
+   "summary_ja": "セリアからSnow Manコラボのジュエルシール新作が登場。デザインが可愛く、ファンの間で注目を集めている。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ジュエルシール"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "7d702f40d8215db8",
+   "url": "https://hochi.news/articles/20261025-YHK1T51016.html?genre=life",
+   "title_original": "「想像以上に便利」もう上着は手で持たない！【3COINS】の『マルチホルダー』",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/subsite/yohakuto/2026/10/25/20261025-YHK1I51079-C.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T03:00:00+00:00",
+   "title_ja": "3COINSのマルチホルダーで上着が楽に",
+   "summary_ja": "3COINSのマルチホルダーは上着を手で持たずに収納できる便利アイテム。コンパクトで持ち運びも楽。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [
+    "マルチホルダー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "c303d978b9831d14",
+   "url": "https://news.livedoor.com/article/detail/32736896",
+   "title_original": "100均で極小サイズ発見！「正直入らないけど便利なのよ！」いざというときに助かるケース",
+   "source": "ライブドアニュース",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T02:00:00+00:00",
+   "title_ja": "100均で見つけた極小サイズの便利なケース",
+   "summary_ja": "いざというときに役立つ極小サイズのケース。サイズは入らないこともあるが、それ以上に便利に使えるアイテム。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ケース"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "6f374318fa74a2e4",
+   "url": "https://mdpr.jp/other/detail/4871323",
+   "title_original": "コレよくできてるわ！「ずっとストレスだった…」悩みを解消する100均キッチングッズ3選",
+   "source": "モデルプレス",
+   "image": "https://img-mdpr.freetls.fastly.net/article/YA3e/nm/YA3eySncFvTA969NzUaCqkfholyDvX5EWOl-GazjwXc.jpg?width=700&disable=upscale&auto=webp&quality=80",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T02:00:00+00:00",
+   "title_ja": "ダイソーなどの100均で買えるキッチングッズ3選",
+   "summary_ja": "日々の調理や片付けで感じていたストレスを解消してくれる、よくできた便利なキッチングッズを3つ紹介。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "キッチングッズ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "ca870b342a032e1c",
+   "url": "http://www.excite.co.jp/news/article/Michill_michill_250545",
+   "title_original": "100均で買えるの？！「スーパーで取り扱いがなくて困ってた…」1度食べたらハマる調味料",
+   "source": "Excite エキサイト",
+   "image": "",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T02:00:00+00:00",
+   "title_ja": "100均で買えるハマる味わいの調味料",
+   "summary_ja": "スーパーで取り扱いがなくて困っていた調味料が100均で購入可能。一度食べたらハマる魅力的なアイテム。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "調味料"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "94f4622bb04e2ab9",
+   "url": "https://maquia.hpplus.jp/blog/eito_maquia/123380",
+   "title_original": "Standard Productsおすすめアイテム！ディフューザーから最新収納まで暮らしをおしゃれにアップデート",
+   "source": "MAQUIA",
+   "image": "http://img-maquia.hpplus.jp/ogp/image/b9/b9b73cf8-6454-4396-bea5-8277cb560cd9-1200x630.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T01:00:00+00:00",
+   "title_ja": "Standard Productsのおしゃれなディフューザーと最新収納",
+   "summary_ja": "Standard Productsのおすすめアイテムを紹介。ディフューザーや最新の収納グッズで暮らしをおしゃれにアップデート。",
+   "category": "収納・整理",
+   "axis": "new",
+   "things": [
+    "ディフューザー",
+    "収納グッズ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "c31d70d36c74bb3d",
+   "url": "https://topics.smt.docomo.ne.jp/article/allaboutnews/life/allaboutnews-166793",
+   "title_original": "「ほんと可愛い…癒やされる…」キャンドゥの新作「ハムスターズカフェ」シリーズに反響。一部品薄の声も",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/allaboutnews/m_allaboutnews-166793.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-05T00:20:00+00:00",
+   "title_ja": "キャンドゥの新作「ハムスターズカフェ」シリーズ",
+   "summary_ja": "キャンドゥから新作の「ハムスターズカフェ」シリーズが登場し、可愛いとSNSで話題を集めています。一部では品薄になっているとの声も上がっており、注目度の高いアイテムとなっています。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "ハムスターズカフェシリーズ"
+   ],
+   "importance": 4
+  },
   {
    "id": "49cb5278d22cad84",
    "url": "https://note.com/tomorrow56/n/n594c1f0d49ee",
@@ -339,6 +542,24 @@
    "axis": "use",
    "things": [],
    "importance": 2
+  },
+  {
+   "id": "c87b1cac6b63e6cc",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4082836",
+   "title_original": "ダイソーの「つっぱり棒」→洗面台の下に通すだけで…… 目からウロコのアイデアに「おおーいいじゃん！」（1/2） | ライフハック ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/11/1793683121_index.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T22:00:00+00:00",
+   "title_ja": "ダイソーのつっぱり棒を使った洗面台下の収納術",
+   "summary_ja": "ダイソーのつっぱり棒を洗面台の下に通すだけで、簡単に収納スペースを増やせる便利なアイデアです。デッドスペースを有効活用できると話題になっています。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "つっぱり棒"
+   ],
+   "importance": 4
   },
   {
    "id": "dd71612ba9d3735d",
@@ -405,6 +626,24 @@
    "axis": "use",
    "things": [],
    "importance": 3
+  },
+  {
+   "id": "d8d0436dea9357fe",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-18fd5889e07bf348e0a9ab5744c29a2466f71ac7?page=2",
+   "title_original": "【ダイソーの330円バッグ】が優秀！「ポケットが11個もある」「本当に整頓しやすい」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-18fd5889e07bf348e0a9ab5744c29a2466f71ac7.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T14:00:00+00:00",
+   "title_ja": "ダイソーの330円バッグはポケットが11個で整理しやすい",
+   "summary_ja": "ダイソーで販売されている330円のバッグが、11個ものポケットを備えていて非常に優秀です。小物をすっきりと整頓できると評判を集めています。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "バッグ"
+   ],
+   "importance": 4
   },
   {
    "id": "35ce0e019a033319",
@@ -1503,6 +1742,42 @@
    "importance": 3
   },
   {
+   "id": "fd4c1dae8c8b12db",
+   "url": "https://topics.smt.docomo.ne.jp/article/grapee/trend/grapee-2364449?page=2",
+   "title_original": "ダイソー『インテリアツリー』のじゃない使い方 洗面台が片づく収納術とは",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/grapee/m_grapee-2364449.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-03T08:45:00+00:00",
+   "title_ja": "ダイソー『インテリアツリー』で洗面台をすっきり収納",
+   "summary_ja": "ダイソーのインテリアツリーを洗面台に活用し、タオルや小物を掛けることで収納スペースを有効に使う方法を紹介している。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "インテリアツリー"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "dc6d75de0094a239",
+   "url": "https://trilltrill.jp/articles/5156666",
+   "title_original": "【ダイソー】大当たりの予感です……。見つけたら買っておきたい調理グッズ3選",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5156666/featured-image.e97aaad6286f6699a6e999996c888ef3?w=1200",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-03T08:34:53+00:00",
+   "title_ja": "ダイソーの調理グッズ3選、店舗で見つけたい注目商品",
+   "summary_ja": "ダイソーで見つけたら買っておきたい調理グッズ3選を紹介する記事。調理を快適にしてくれる便利なアイテムが揃っており、店頭での大当たりの予感を感じさせる話題のグッズとなっている。",
+   "category": "キッチン",
+   "axis": "new",
+   "things": [
+    "調理グッズ"
+   ],
+   "importance": 3
+  },
+  {
    "id": "8cf01e2820c899c8",
    "url": "https://news.infoseek.co.jp/article/20261103bgmania20262703880",
    "title_original": "スリコの便利キッチングッズ3選！挟めるフライ返しや油はねガードが優秀♡",
@@ -1625,6 +1900,24 @@
     "収納アイテム"
    ],
    "importance": 4
+  },
+  {
+   "id": "9d24ffd22abbaad7",
+   "url": "https://hochi.news/articles/pub_mic_250562.html",
+   "title_original": "「他所では数百円じゃ買えない！」100均の高機能な電気小物3選",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/11/03/pub_mic_250562/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-03T02:00:00+00:00",
+   "title_ja": "他所では買えないダイソーなどの高機能な電気小物3選",
+   "summary_ja": "100円ショップで手に入る、他店では数百円以上しそうな高機能な電気小物を3つ紹介している。価格以上の便利な機能を備えた、日常使いに役立つアイテムが取り上げられている。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "電気小物"
+   ],
+   "importance": 3
   },
   {
    "id": "858eae1b8ef2e23a",
@@ -2629,6 +2922,25 @@
     "収納箱"
    ],
    "importance": 2
+  },
+  {
+   "id": "204b3cd6236554a4",
+   "url": "https://my-best.com/12236",
+   "title_original": "iPhone用二股ケーブルのおすすめ人気ランキング【充電とイヤホン接続を同時にできる！2026年11月】",
+   "source": "マイベスト",
+   "image": "https://img.my-best.com/contents/36d614b2278c5278d4c640e78257172a.jpeg?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=232759ada438b390af617e8d0f8423c8",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-01T15:00:00+00:00",
+   "title_ja": "iPhone用二股ケーブルのおすすめ人気ランキング",
+   "summary_ja": "充電とイヤホン接続を同時にできるiPhone用二股ケーブルのおすすめ人気ランキングを紹介している。スマートフォンやガジェットをより便利に使うための周辺機器の選び方を解説している。",
+   "category": "スマホ・ガジェット",
+   "axis": "use",
+   "things": [
+    "iPhone用二股ケーブル",
+    "ケーブル"
+   ],
+   "importance": 3
   },
   {
    "id": "48ac1b049d96f6c4",
@@ -5250,6 +5562,25 @@
    "importance": 4
   },
   {
+   "id": "1d6fd59966ffebb3",
+   "url": "https://nlab.itmedia.co.jp/cont/articles/4070233",
+   "title_original": "ダイソーの紫ビーズをワイヤーに通すと→秋にぴったりなぶどうモチーフが完成「かわいいですね」「ナイスなアイデア」（1/3） | ハンドメイド ねとらぼ",
+   "source": "ねとらぼ",
+   "image": "https://research.image.itmedia.co.jp/wp-content/uploads/2026/10/1792986358_eyecatch2.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-10-30T01:05:00+00:00",
+   "title_ja": "ダイソーのビーズで作るぶどうモチーフの小物",
+   "summary_ja": "ダイソーの紫ビーズをワイヤーに通して手作りする、秋にぴったりのぶどうモチーフの作り方を紹介しています。手軽に可愛い小物が作れると話題のアイデアです。",
+   "category": "インテリア・季節",
+   "axis": "use",
+   "things": [
+    "紫ビーズ",
+    "ワイヤー"
+   ],
+   "importance": 4
+  },
+  {
    "id": "31553c4137d4a42f",
    "url": "https://news.yahoo.co.jp/articles/2cf7eab14aef5b2542f4762ca640629206af3d8f",
    "title_original": "波打つカッティングがかわいい！3COINSの「アクリルブックスタンド」は本やCDをおしゃれに飾れる。イエローとブルーの2色",
@@ -7110,322 +7441,6 @@
    "things": [
     "小さいくるくる",
     "便利グッズ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "d59fdc434b98a61f",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102167804",
-   "title_original": "100均のこれ何だと思う～？雰囲気作りにもディスプレイにも！300円なのが不思議なミニ家電",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1488009187289663425/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T02:57:50+00:00",
-   "title_ja": "雰囲気作りやディスプレイに使える300円のミニ家電",
-   "summary_ja": "100円ショップで見つけた300円のミニ家電は、お部屋の雰囲気作りやディスプレイに最適です。価格以上の本格的な見た目を楽しめます。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "ミニ家電"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "18372c7d9d2dc20f",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102167797",
-   "title_original": "100均で見つけて後悔…「専門店で高いの買っちゃった！」お手頃なのに本格的な手芸用品3選",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1488009195514578692/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T02:57:49+00:00",
-   "title_ja": "【100均】本格的な手芸用品3選！専門店よりお得なアイテム",
-   "summary_ja": "100円ショップで買えるお手頃価格で本格的な手芸用品の3選を紹介しています。専門店で高いものを買わずに済む便利なアイテムです。",
-   "category": "ファッション・小物",
-   "axis": "use",
-   "things": [
-    "手芸用品"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "fb4f582d2ed82d00",
-   "url": "https://news.yahoo.co.jp/articles/6b10863e06dfb876d097334a77e1344e52e878ff/images/000",
-   "title_original": "3COINS、「ポータブルゴミ箱」販売中！ カラビナ付きで便利 (GAME Watch)",
-   "source": "Yahoo!ニュース",
-   "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnWiv4tOPB8Cb2ReMISfUDNvavQNa8L0hg7mlcfRTXXrXqbG0TqNFgCqkmUOEUbO8EgCsp1vDPIdNgZgM3azHXvSUPgd9fwty7MyF0jJmatf0",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T02:41:00+00:00",
-   "title_ja": "3COINSのポータブルゴミ箱",
-   "summary_ja": "3COINSでポータブルゴミ箱が販売されています。カラビナ付きで持ち運びに便利になっており、お出かけやアウトドアの際に出るゴミをすっきりとまとめることができます。",
-   "category": "掃除・洗濯",
-   "axis": "new",
-   "things": [
-    "ポータブルゴミ箱"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "af26bc219a5986a9",
-   "url": "https://oggi.jp/7962425",
-   "title_original": "揚げ物LOVERは買って損なし！ほったらかしで一品がうれしい、ブラウンの新ノンフライヤー",
-   "source": "Oggi.jp",
-   "image": "https://oggi.jp/wp-content/uploads/2026/10/48A5902-1200.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T02:01:16+00:00",
-   "title_ja": "ブラウンの新ノンフライヤーが登場",
-   "summary_ja": "揚げ物好きにおすすめの、ブラウン製新ノンフライヤーが発売。ほったらかしでも一品作れ、買って損なしと評価されている。",
-   "category": "キッチン",
-   "axis": "new",
-   "things": [
-    "ブラウン ノンフライヤー"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "23be33cdf0a02ca6",
-   "url": "https://mdpr.jp/other/detail/4866861",
-   "title_original": "100均にスゴイ新作でた！ただのフォトフレーム…と思ったら大間違い！高見えインテリア",
-   "source": "モデルプレス",
-   "image": "https://img-mdpr.freetls.fastly.net/article/Xh-l/nm/Xh-lB1g7OJrqunaAkeGDfYMUUAMVBrE8LsV5f1JLkgM.jpg?width=700&disable=upscale&auto=webp&quality=80",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T02:00:00+00:00",
-   "title_ja": "100均で登場した高見えするインテリア向け新作フォトフレーム",
-   "summary_ja": "100円ショップから注目の新作フォトフレームが登場しました。ただ写真を飾るだけでなく、お部屋を華やかに彩る高見えインテリアとして活用できる便利なアイテムです。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "フォトフレーム"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "d2b4976bbc809a0a",
-   "url": "https://topics.smt.docomo.ne.jp/amp/article/happycamper/trend/happycamper-1e6179071ce0869f317878d9201388ad",
-   "title_original": "卵のフリして調味料！？100均の卵型ボトルがエッグケースにシンデレラフィット",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/happycamper/m_happycamper-1e6179071ce0869f317878d9201388ad.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T01:00:00+00:00",
-   "title_ja": "100均の卵型調味料ボトルがエッグケースに収納できる活用術",
-   "summary_ja": "100円ショップで買える卵型の調味料ボトルを紹介します。見た目が卵に似ているだけでなく、エッグケースにジャストサイズで収まるため、持ち運びや収納にとても便利です。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "調味料ボトル"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "f295588f35d3978e",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102167090",
-   "title_original": "100均の名作だよ！「ホムセンじゃ満足できん…」「1袋で1.8Lって神コスパ！」",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487978974352459029/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T00:57:50+00:00",
-   "title_ja": "ホームセンターを超えるコスパを誇る100均の1.8L大容量商品",
-   "summary_ja": "100円ショップで販売されている1袋で1.8L容量のアイテムが注目を集めています。ホームセンターの商品と比較しても引けを取らない高いコストパフォーマンスが魅力です。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "5b883005dac83d76",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102167087",
-   "title_original": "100均で売ってて飛びついた！「便利すぎて感激…！」使った瞬間楽になるサポートグッズ3選",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487978972086912431/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T00:57:49+00:00",
-   "title_ja": "100均で見つけた使った瞬間楽になるサポートグッズ3選",
-   "summary_ja": "100円ショップで見つけた、使った瞬間により快適になる便利なサポートグッズを3つ紹介しています。日々のちょっとした不便を解消してくれるアイテムです。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "サポートグッズ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "90d4dfc6162bfcd6",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102167085",
-   "title_original": "ペットがいなくても買いだわ…100均の多機能な黒バッグが優秀だった！",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487978984470562683/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T00:57:49+00:00",
-   "title_ja": "ペットがいなくても便利に使える100均の多機能な黒バッグ",
-   "summary_ja": "ペット用のアイテムとしてだけでなく、普段使いとしても非常に優秀な100円ショップの多機能な黒バッグを紹介しています。",
-   "category": "ファッション・小物",
-   "axis": "use",
-   "things": [
-    "黒バッグ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "87dd60ee09734eb8",
-   "url": "https://www.chiba-tv.com/plus/detail/2026102167084",
-   "title_original": "100均のこれ良すぎてみんなに教えたい！毎回開けたときのイライラを解消！冷蔵庫の救世主3選",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487978982167857151/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-28T00:57:49+00:00",
-   "title_ja": "冷蔵庫の開けたときのイライラを解消する100均のグッズ3選",
-   "summary_ja": "冷蔵庫を開けるときのプチストレスを解消してくれる、100円ショップの優れたアイテムを3つ厳選して紹介しています。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "冷蔵庫グッズ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "b29d106bcd83a8d4",
-   "url": "https://news.yahoo.co.jp/expert/articles/dfbc4481a384e0b04793f7c1a496989168a935cc",
-   "title_original": "【セリア】やっと買えた！ずっと気になっていた110円のアイテムが楽しい（ユニ子＊100均スリコ大好き） - エキスパート",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/yunikohyakkinsuriko/02753174/title-1793140927654.jpeg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T23:03:03+00:00",
-   "title_ja": "セリアで購入した110円のアイテムを紹介",
-   "summary_ja": "セリアでずっと気になっていて、やっと購入できた110円のアイテムの楽しさを紹介しています。具体的な商品名は記載されていませんが、実際に使ってみた感想が伝えられています。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "b5c8c47043a81ee6",
-   "url": "https://news.nicovideo.jp/watch/nw19926383?news_ref=search_search",
-   "title_original": "「めっちゃカッコいい」 ダイソーの“新作腕時計”に「日常生活防水で550円」「表示が大きく、ライトも明るい」「世代的に刺さる」の声",
-   "source": "ニコニコニュース",
-   "image": "",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T23:00:40+00:00",
-   "title_ja": "ダイソーの新作腕時計は550円で多機能",
-   "summary_ja": "ダイソーから発売された新作の腕時計が550円で話題です。日常生活防水機能を備え、表示が大きくて明るいライトが付いている点が、多くの人の世代に刺さると好評を得ています。",
-   "category": "ファッション・小物",
-   "axis": "new",
-   "things": [
-    "腕時計"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "ee500554fc58754c",
-   "url": "https://hochi.news/articles/pub_mic_250084.html",
-   "title_original": "控えめに言って神！「2滴たらすだけなのに…！」効果に驚いた100均のエチケットグッズ",
-   "source": "スポーツ報知",
-   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/10/28/pub_mic_250084/cover.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T23:00:00+00:00",
-   "title_ja": "100均のエチケットグッズは2滴たらすだけで効果的",
-   "summary_ja": "100均で購入できるエチケットグッズの紹介です。数滴たらすだけで確かな効果を実感できる優れもので、日常のエチケット対策に役立つ便利なアイテムとして注目されています。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "エチケットグッズ"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "c84f40b49d24d862",
-   "url": "https://www.chiba-tv.com/plus/detail/amp/2026102166626",
-   "title_original": "【セリア】車の中だけで使うの、もったいない！スライド式の『超コンパクトお掃除アイテム』が想像以上に便利でした♡",
-   "source": "千葉テレビ放送株式会社",
-   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1487942775587161116/origin_1.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T22:33:38+00:00",
-   "title_ja": "セリアの超コンパクトお掃除アイテムはスライド式",
-   "summary_ja": "セリアで販売されているスライド式の超コンパクトなお掃除アイテムです。車内だけでなく、さまざまな場所の掃除に活用できる想像以上に便利なグッズとして紹介されています。",
-   "category": "掃除・洗濯",
-   "axis": "use",
-   "things": [
-    "お掃除アイテム"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "89c694aa8edf78ea",
-   "url": "https://news.yahoo.co.jp/expert/articles/4ab33906be261d96d63b177a007fe6e25fe4fceb",
-   "title_original": "【セリア】きれいに見せたい人必見！心地が良くスッキリ小顔見せがいい（なないろの扉） - エキスパート",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/nanaironotobira/02751950/title-1792991844571.jpeg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T21:34:18+00:00",
-   "title_ja": "セリア なないろの扉で小顔効果",
-   "summary_ja": "セリアの『なないろの扉』は、心地よくスッキリとした見た目で小顔効果が期待できるアイテムとして紹介されています。実際の使用感や価格は記事本文をご確認ください。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "なないろの扉"
-   ],
-   "importance": 2
-  },
-  {
-   "id": "aa9836c81afe0763",
-   "url": "https://yomuno.jp/posts/143693",
-   "title_original": "【ダイソー】元美容師が厳選！110円から買える高見えヘアアクセサリーおすすめ6選｜大人女子の秋冬ヘアアレンジに",
-   "source": "ヨムーノ",
-   "image": "https://image.yomuno.jp/store/article/143693/header_image/large-9f9a871d6358b113489504b9890fa534.jpeg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T21:00:46+00:00",
-   "title_ja": "ダイソー 110円からの高見えヘアアクセサリー6選",
-   "summary_ja": "元美容師が厳選した、ダイソーで110円から購入できるヘアアクセサリー6点を紹介。大人女子の秋冬ヘアアレンジにぴったりで、コスパ抜群のアイテムです。手軽におしゃれを楽しめるので、ぜひチェックしてみてください。",
-   "category": "ファッション・小物",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "8ce9b8f9ee35610d",
-   "url": "https://yomuno.jp/posts/143591",
-   "title_original": "【3COINS】愛犬との毎日が快適に！スリコのおすすめ「ペット用神グッズ」3選",
-   "source": "ヨムーノ",
-   "image": "https://image.yomuno.jp/store/article/143591/header_image/large-4a49c7bb8b001632fec9eb5aed5c0c04.jpeg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T20:00:21+00:00",
-   "title_ja": "3COINS ペット用神グッズ3選",
-   "summary_ja": "3COINSで販売されているスリコのペット用品3点をピックアップ。愛犬との毎日を快適にする便利なアイテムとして紹介されています。価格や詳細は記事をご覧ください。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "7272afae47115601",
-   "url": "https://trilltrill.jp/articles/5135855",
-   "title_original": "まだ夏と同じヘアアクセ使ってる →【3COINS】秋冬モードにシフト！『チェック柄ヘアアクセ』",
-   "source": "TRILL【トリル】",
-   "image": "https://media.trilltrill.jp/articles/5135855/featured-image.a149da20dfe131925bbb4b39b92082ca?w=1200",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-27T19:35:00+00:00",
-   "title_ja": "3COINSのチェック柄ヘアアクセ",
-   "summary_ja": "3COINSから秋冬の装いに合わせやすいチェック柄のヘアアクセサリーが新登場。夏から秋冬へのヘアスタイルチェンジに役立つアイテムです。",
-   "category": "ファッション・小物",
-   "axis": "new",
-   "things": [
-    "チェック柄ヘアアクセ"
    ],
    "importance": 3
   }
