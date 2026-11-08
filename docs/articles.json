@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T22:03:09.817479+09:00",
+ "updated_at": "2026-11-09T06:52:36.593415+09:00",
  "categories": [
   "収納・整理",
   "キッチン",
@@ -27,38 +27,42 @@
   "国内"
  ],
  "digest": {
-  "generated_at": "2026-11-08T22:03:42.392149+09:00",
+  "generated_at": "2026-11-09T06:53:02.467804+09:00",
   "days": 3,
   "period": "11月8日〜11月8日",
   "count": 45,
-  "new_count": 11,
-  "use_count": 34,
-  "overview": "ダイソーやセリアなどの100円ショップや3COINSにおける、便利グッズの活用法や最新商品の特徴を紹介する45件の記事が集まっています。",
-  "new": "ダイソーのスマホケースやセリアのキャラクターグッズ、工具売り場の作業サポート品などの最新商品が取り上げられています。",
-  "use": "ダイソーやセリアの収納ケースや便利アイテムを使った、すき間を活用する具体的な整理術や日常の工夫が語られています。",
+  "new_count": 13,
+  "use_count": 32,
+  "overview": "100円ショップのアイテムを使った収納術や新作のコラボ雑貨、便利な活用法を紹介する記事が多く集まっています。",
+  "new": "ダイソーやセリアなどの新作として、キャラクターコラボグッズやスマホケース、便利家電小物が登場しています。",
+  "use": "身の回りの小物をすっきりと整理する収納アイデアや、日常生活のちょっとした不便を解消する活用法が紹介されています。",
   "points": [
    {
-    "title": "ダイソーとセリアの収納",
-    "body": "ダイソーのバスケットやセリアのケースを組み合わせ、棚や引き出しのすき間を埋める収納アイデアが紹介されています。"
-   },
-   {
-    "title": "3COINSのエコバッグ",
-    "body": "3COINSで販売されている、買った物を傾かないまま持って帰ることができる便利なエコバッグの購入レビューが話題です。"
+    "title": "ダイソーのカード",
+    "body": "ダイソーで全国168店舗のラーメン名店がデザインされたラーメン名店カードが110円で登場し、1パック5枚入りで必ず1枚キラカードが封入されています。"
    },
    {
     "title": "セリアのキャラクター雑貨",
-    "body": "セリアで販売されている、ちいかわのクリアカードやピングーのキッチン用品などの最新グッズ情報が取り上げられています。"
+    "body": "セリアでちいかわのクリアカードやハチワレソフビインテリアマスコット、レトロでかわいいピングーグッズのステーショナリーなどが販売されています。"
+   },
+   {
+    "title": "100均のすき間収納",
+    "body": "ダイソーやセリアのケースを組み合わせて棚や引き出しの隙間を埋める収納アイデアや、バスケットとIKEAトレイを合わせた収納が紹介されています。"
    }
   ],
   "keywords": [
    "ダイソー",
    "セリア",
    "3COINS",
-   "収納グッズ",
+   "収納",
    "便利グッズ"
   ]
  },
  "things": [
+  {
+   "name": "キーホルダー",
+   "count": 6
+  },
   {
    "name": "バッグ",
    "count": 6
@@ -72,15 +76,15 @@
    "count": 5
   },
   {
-   "name": "キーホルダー",
-   "count": 5
-  },
-  {
    "name": "収納グッズ",
    "count": 5
   },
   {
    "name": "フック",
+   "count": 4
+  },
+  {
+   "name": "便利グッズ",
    "count": 4
   },
   {
@@ -96,19 +100,7 @@
    "count": 3
   },
   {
-   "name": "フレーム",
-   "count": 3
-  },
-  {
-   "name": "便利グッズ",
-   "count": 3
-  },
-  {
    "name": "薬味ホルダー",
-   "count": 3
-  },
-  {
-   "name": "調理グッズ",
    "count": 3
   },
   {
@@ -124,15 +116,11 @@
    "count": 2
   },
   {
-   "name": "カレンダー",
-   "count": 2
-  },
-  {
    "name": "キッチングッズ",
    "count": 2
   },
   {
-   "name": "キルト綿",
+   "name": "ケース",
    "count": 2
   },
   {
@@ -164,6 +152,10 @@
    "count": 2
   },
   {
+   "name": "ノート",
+   "count": 2
+  },
+  {
    "name": "ハンカチスタンド",
    "count": 2
   },
@@ -181,6 +173,10 @@
   },
   {
    "name": "ポーチ",
+   "count": 2
+  },
+  {
+   "name": "ミニバッグ",
    "count": 2
   },
   {
@@ -217,6 +213,10 @@
   },
   {
    "name": "新作コスメ",
+   "count": 2
+  },
+  {
+   "name": "新鮮野菜スタンド",
    "count": 2
   }
  ],
@@ -287,8 +287,62 @@
   "産経ニュース",
   "ｄメニューニュース"
  ],
- "count": 400,
+ "count": 401,
  "items": [
+  {
+   "id": "15a0dfda409ed17d",
+   "url": "https://note.com/plus_tc/n/n14ccf3d3dd3f",
+   "title_original": "#07 ラーメン名店カード｜110円のパックが開く、新しいラーメンの届き方",
+   "source": "note #ダイソー",
+   "image": "https://assets.st-note.com/production/uploads/images/333832224/rectangle_large_type_2_0963bb39011faa1df2673f1f6360e72b.jpeg?fit=bounds&quality=85&width=1280",
+   "media": "blog",
+   "region": "国内",
+   "published": "2026-11-08T14:33:32+00:00",
+   "title_ja": "ダイソーからラーメン名店カードが110円で発売",
+   "summary_ja": "ダイソーで全国168店舗のラーメン名店がデザインされたラーメン名店カードが登場しました。1パック5枚入りで110円、必ず1枚キラカードが封入されています。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ラーメン名店カード"
+   ],
+   "importance": 5
+  },
+  {
+   "id": "bbfd0d19bc4e4fc4",
+   "url": "https://news.yahoo.co.jp/articles/a8a4fec9f2acde4858169fa557d0cf0d19069463",
+   "title_original": "【3COINS】まるで人間用ミニチュア！4180円の「ペット用こたつ」はワンちゃんが潜り込みおうちの主役になる可愛さ（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00144650-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T13:45:57+00:00",
+   "title_ja": "3COINSのペット用こたつが登場",
+   "summary_ja": "3COINSでペット用こたつが4180円で発売されました。ペットが潜り込める可愛らしいデザインが特徴です。",
+   "category": "インテリア・季節",
+   "axis": "new",
+   "things": [
+    "ペット用こたつ"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "d45409b4d87b2bb3",
+   "url": "https://limo.media/articles/-/145371",
+   "title_original": "シルバニアみたいなシール！ダイソーに『フロッキー加工のパンダシールセット』が登場。ふわふわの触り心地で110円",
+   "source": "LIMO | くらしとお金の経済メディア",
+   "image": "https://limo.ismcdn.jp/mwimgs/1/2/1200w/img_12db646fea1c8ed5ff80a8823f181c6589252.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T13:30:00+00:00",
+   "title_ja": "ダイソーのふわふわなパンダシールセット",
+   "summary_ja": "ダイソーから、フロッキー加工が施されたふわふわの触り心地が特徴のパンダシールセットが登場。価格は110円です。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "パンダシールセット"
+   ],
+   "importance": 4
+  },
   {
    "id": "2d6721e900577620",
    "url": "https://note.com/tasty_ixia5436/n/n85d262d673b6",
@@ -589,6 +643,45 @@
    "importance": 3
   },
   {
+   "id": "7ba698bfa0488824",
+   "url": "https://news.yahoo.co.jp/articles/1d69bb7dc37aaae5dc1444e5fcc223349489dce1",
+   "title_original": "ダイソーの段染め毛糸3玉で編むミニバッグ 毛糸代330円の動画が約1万4000回再生（LIMO）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00144771-toushin-000-1-view.jpg?exp=10800",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T09:10:51+00:00",
+   "title_ja": "ダイソーの毛糸3玉で作るミニバッグ",
+   "summary_ja": "ダイソーの段染め毛糸を3玉使い、総額330円の毛糸代でミニバッグを編む動画が注目を集めています。手作りのバッグ作りに活用できます。",
+   "category": "ファッション・小物",
+   "axis": "use",
+   "things": [
+    "段染め毛糸",
+    "ミニバッグ"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "47e851cae27527d0",
+   "url": "https://article.auone.jp/2173b5d4-4fb2-4be3-bac8-f399e7261235",
+   "title_original": "ごちゃつく箸や調理器具がすっきり！Standard Productsのケースでキッチンの引き出しを仕切る",
+   "source": "au Webポータル",
+   "image": "https://portal.auone.jp/media/thumbnails/2026/11/08/92736_w1280.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T09:00:14+00:00",
+   "title_ja": "Standard Productsのケースでキッチン整理",
+   "summary_ja": "Standard Productsのケースを活用して、ごちゃつきがちな箸や調理器具をキッチンの引き出しですっきりと仕切る方法です。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [
+    "ケース",
+    "箸",
+    "調理器具"
+   ],
+   "importance": 4
+  },
+  {
    "id": "fc1b5fe31292af74",
    "url": "https://enuchi.jp/14611/aeon-pacman-goods-202611",
    "title_original": "イオン限定「パックマン」コラボ雑貨7選！税込327円のファスナーポーチから547円のエコバッグまで",
@@ -644,6 +737,25 @@
    "importance": 3
   },
   {
+   "id": "eb30db0c3da428e5",
+   "url": "https://hochi.news/articles/20261029-YHK1T51000.html?genre=life",
+   "title_original": "「年内には売り切れも」 【ダイソー】の『カレンダーシール』でノートがスケジュール帳に変身！",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/subsite/yohakuto/2026/10/29/20261029-YHK1I51000-C.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T08:00:00+00:00",
+   "title_ja": "ダイソーのカレンダーシールで手作り手帳",
+   "summary_ja": "ダイソーのカレンダーシールをノートに貼ることで、手軽にオリジナルのスケジュール帳へ変身させることができます。",
+   "category": "文具・手帳",
+   "axis": "use",
+   "things": [
+    "カレンダーシール",
+    "ノート"
+   ],
+   "importance": 4
+  },
+  {
    "id": "dd4fad17e84f2fb3",
    "url": "https://trilltrill.jp/articles/5170073",
    "title_original": "猫好きさんはチェックしてみて。【セリア】便利で可愛い猫グッズ3選",
@@ -659,6 +771,22 @@
    "things": [
     "猫グッズ"
    ],
+   "importance": 3
+  },
+  {
+   "id": "9954af5bbbdfc049",
+   "url": "https://article.auone.jp/23819e56-7658-46a0-8d29-bbd691b30e5b",
+   "title_original": "狭い築古の洗面台でもまだ増やせる！100均アイテムで収納アップのアイデア5選",
+   "source": "au Webポータル",
+   "image": "https://portal.auone.jp/media/thumbnails/2026/11/08/73857_w1280.webp",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T07:00:13+00:00",
+   "title_ja": "洗面台の収納を広げるセリアなどの活用アイデア",
+   "summary_ja": "狭い築古の洗面台でも収納スペースを増やすことができる、100円ショップのアイテムを使った便利なアイデア5選を紹介します。",
+   "category": "収納・整理",
+   "axis": "use",
+   "things": [],
    "importance": 3
   },
   {
@@ -678,6 +806,24 @@
     "簡易トイレセット"
    ],
    "importance": 4
+  },
+  {
+   "id": "98ea7a4d0c045612",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-00e7b37c551324f25311063923b92bda2371ae8f?page=2",
+   "title_original": "「ペットボトル、潰すの大変、、」→【ダイソー】220円『便利グッズ』を試したら「こんなに小さく！？」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-00e7b37c551324f25311063923b92bda2371ae8f.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T04:30:00+00:00",
+   "title_ja": "ダイソーのペットボトルを小さく潰せる220円の便利グッズ",
+   "summary_ja": "ダイソーで販売されている220円の便利グッズを試したレビューです。大変なペットボトル潰しが驚くほど小さく簡単にできるようになります。",
+   "category": "キッチン",
+   "axis": "use",
+   "things": [
+    "便利グッズ"
+   ],
+   "importance": 3
   },
   {
    "id": "62923942138d7d08",
@@ -732,6 +878,25 @@
    "importance": 3
   },
   {
+   "id": "ec518f6bb29e4844",
+   "url": "https://www.walkerplus.com/article/1180629/image12661290.html",
+   "title_original": "画像12 / 12＞セリアの「ピングーグッズ」はレトロさがたまらない…。ステーショナリー、ラッピング用品もぜ～んぶ110円！",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1180629/12661280_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T02:39:10+00:00",
+   "title_ja": "セリアで見つかるレトロでかわいいピングーグッズ",
+   "summary_ja": "セリアからレトロなデザインが魅力のピングーグッズが登場しています。ステーショナリーやラッピング用品などがすべて110円で揃います。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ステーショナリー",
+    "ラッピング用品"
+   ],
+   "importance": 4
+  },
+  {
    "id": "41fdf6f373a14562",
    "url": "https://note.com/moon0304_/n/n6ebd5f91a754",
    "title_original": "【暮らし】買ってよかった！ダイソーの便利な日用品3選",
@@ -749,6 +914,24 @@
     "プルアウトボックス(ロング)"
    ],
    "importance": 4
+  },
+  {
+   "id": "22273bfb8c0660ba",
+   "url": "https://hochi.news/articles/pub_mic_250799.html",
+   "title_original": "「もう行列並ぶのやーめた」「200円でコレは他のお店の立場ない」100均キーホルダー",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/publisher/pub_mic_01/2026/11/08/pub_mic_250799/cover.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T02:00:00+00:00",
+   "title_ja": "コスパ抜群と話題の100円ショップのキーホルダー",
+   "summary_ja": "他店に負けないクオリティと価格で話題を集めている、100円ショップのキーホルダーについて紹介しています。",
+   "category": "ファッション・小物",
+   "axis": "new",
+   "things": [
+    "キーホルダー"
+   ],
+   "importance": 3
   },
   {
    "id": "86a6fe435e42c28c",
@@ -858,6 +1041,24 @@
     "カップボード"
    ],
    "importance": 3
+  },
+  {
+   "id": "aaddd737e66ad4d6",
+   "url": "https://diamond.jp/articles/-/402837",
+   "title_original": "かわいすぎて全種類買っちゃった！セリアでみつけた「サンリオの食器」毎日出番が止まりません！《購入レビュー》",
+   "source": "ダイヤモンド・オンライン",
+   "image": "https://dol.ismcdn.jp/mwimgs/b/7/-/img_b74a6f529ca746034d617cf85b4440b7119305.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-08T01:00:00+00:00",
+   "title_ja": "セリアで見つけたかわいいサンリオの食器レビュー",
+   "summary_ja": "セリアで購入したサンリオのデザインがかわいい食器のレビューです。毎日の食卓で活躍する使い心地の良いアイテムを紹介しています。",
+   "category": "キャラクター・コラボ",
+   "axis": "use",
+   "things": [
+    "食器"
+   ],
+   "importance": 4
   },
   {
    "id": "9c5c3a4428fae4e1",
@@ -988,6 +1189,25 @@
    "axis": "use",
    "things": [
     "パスワード管理ノート"
+   ],
+   "importance": 4
+  },
+  {
+   "id": "d791ff37db25d350",
+   "url": "https://www.walkerplus.com/article/1164414/image12325314.html",
+   "title_original": "画像2 / 4＞「ダイソー×セサミストリート」にクリスマスラッピングが仲間入り！ポリ巾着や紙袋など全5種類",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1164414/12325313_615.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-07T23:18:16+00:00",
+   "title_ja": "ダイソーのセサミストリートからクリスマスラッピングが登場",
+   "summary_ja": "ダイソーとセサミストリートのコラボレーションに、クリスマスラッピングの仲間が加わりました。ポリ巾着や紙袋など、全5種類が展開されています。",
+   "category": "キャラクター・コラボ",
+   "axis": "new",
+   "things": [
+    "ポリ巾着",
+    "紙袋"
    ],
    "importance": 4
   },
@@ -4841,6 +5061,22 @@
    "importance": 3
   },
   {
+   "id": "a0f85f84dc28cc46",
+   "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-fdd6e1410a5f3461cf9168a17f72a4add00c25bd",
+   "title_original": "5年間使っているヘタった『ラグ』→ 【ダイソー】の『ペット用品』で元通りに！？「買った時みたい」",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/ftnews/m_ftnews-fdd6e1410a5f3461cf9168a17f72a4add00c25bd.jpg",
+   "media": "news",
+   "region": "国内",
+   "published": "2026-11-04T02:03:00+00:00",
+   "title_ja": "ダイソーのペット用品でヘタったラグを復活",
+   "summary_ja": "5年間使ってヘタったラグを、ダイソーのペット用品で洗浄・リペアし、購入時と同じ状態に復元できたという実例を紹介。洗剤は無臭タイプを使用し、乾燥は自然乾燥で1日で完了。簡単な手順と効果をレポート。",
+   "category": "掃除・洗濯",
+   "axis": "use",
+   "things": [],
+   "importance": 3
+  },
+  {
    "id": "b0076046e2f3be0b",
    "url": "https://note.com/tsukattemitalog/n/n3d90405bb3d8",
    "title_original": "【２枚セット】ダイソーにおしゃれなくすみカラーのメガネ拭きあり。売り場はここをチェック",
@@ -6523,26 +6759,6 @@
    "importance": 3
   },
   {
-   "id": "b861cf17ba8bd6b7",
-   "url": "https://note.com/mamesougetu/n/n60c7eeb63eee",
-   "title_original": "手作りって本当に安いのかな？100均材料で作る「花包（花合羽）」",
-   "source": "note #100均",
-   "image": "https://assets.st-note.com/production/uploads/images/330816712/rectangle_large_type_2_1ed73250cce71ac05f00bfc615de7f2c.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-11-01T12:24:27+00:00",
-   "title_ja": "100円ショップの材料で作る花合羽のハンドメイド",
-   "summary_ja": "100円ショップで買ったビニールシートと紐を使い、いけばな用の花合羽を手作りした記事。大小2枚分の材料費は合計330円で作成できた。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "ビニールシート",
-    "紐",
-    "花包"
-   ],
-   "importance": 3
-  },
-  {
    "id": "a85b1ab7c554ce94",
    "url": "https://topics.smt.docomo.ne.jp/article/ftnews/trend/ftnews-b80decacb9506177dbcf0d82d5226cf2a9f098e1",
    "title_original": "「やっと見つけた！」【ダイソー × サンリオ】どれが出るかはお楽しみ『新作ランダムグッズ』",
@@ -6577,22 +6793,6 @@
     "キッチングッズ"
    ],
    "importance": 4
-  },
-  {
-   "id": "83dbe0b900ae4f90",
-   "url": "https://note.com/riru654321/n/n8f80cab78795",
-   "title_original": "台湾で日本の100円ショップ商品はいくらぐらいで売られているか？DAISO、セリア：1.5倍～2.7倍",
-   "source": "note #セリア",
-   "image": "https://assets.st-note.com/production/uploads/images/331006549/rectangle_large_type_2_94dc798dcf39dc3851a9468aa4a997fc.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-11-01T11:20:58+00:00",
-   "title_ja": "台湾のダイソーやセリア商品の現地価格を調査",
-   "summary_ja": "台北駅の地下街にあるダイソーやセリアの商品を取り扱う店舗での販売価格をまとめた記事。日本の100円ショップ商品が約1.5倍から2.7倍で売られている。",
-   "category": "お店・ブランド",
-   "axis": "new",
-   "things": [],
-   "importance": 2
   },
   {
    "id": "45d8628c46700a93",
@@ -6920,24 +7120,6 @@
     "コインホルダー"
    ],
    "importance": 4
-  },
-  {
-   "id": "748f04528fef4d7b",
-   "url": "https://note.com/gold_committee/n/nbb4248077b19",
-   "title_original": "【レジン失敗作の救済】ボコボコ作品を100均素材でアンティークシェイカーに大逆転させるリカバリ術",
-   "source": "note #セリア",
-   "image": "https://assets.st-note.com/production/uploads/images/330878233/rectangle_large_type_2_d0b229ade17576ad5309342b2ab66f7e.jpeg?fit=bounds&quality=85&width=1280",
-   "media": "blog",
-   "region": "国内",
-   "published": "2026-11-01T05:34:40+00:00",
-   "title_ja": "セリアの素材でレジン失敗作をアンティーク風に再生（note）",
-   "summary_ja": "レジン作りの硬化不良やボコボコとした失敗作を、100円ショップの素材を活用して重厚感のあるアンティークシェイカーに大逆転させるリカバリ方法を解説しています。",
-   "category": "その他",
-   "axis": "use",
-   "things": [
-    "レジン素材"
-   ],
-   "importance": 3
   },
   {
    "id": "2b34bde9554a82eb",
@@ -7302,61 +7484,6 @@
    "importance": 3
   },
   {
-   "id": "3cf846ca7c8a8f31",
-   "url": "https://news.yahoo.co.jp/articles/8ed2ae912b720dcac91e8deae15a93d84d4b7657",
-   "title_original": "【ダイソーで買えるメイクツール】買って損なし！アイメイクのクオリティがアップする4品（MAQUIA）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00010002-maquia-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-31T13:01:13+00:00",
-   "title_ja": "ダイソーのアイメイクツール4選でクオリティ向上",
-   "summary_ja": "ダイソーで購入できるアイメイクツールの特集。アイメイクの仕上がりを上げる便利な4品を紹介している。",
-   "category": "コスメ・美容",
-   "axis": "use",
-   "things": [
-    "メイクツール"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "06141c8056a37aac",
-   "url": "https://www.youtube.com/watch?v=BQdcqB69tO4",
-   "title_original": "【100均】ダイソー＆セリア購入品｜テレビで話題＆見つけたら即買いしたい！キッチン＆おでかけ小物5選｜DAISO, Seria",
-   "source": "きこの100均パトロール",
-   "image": "https://i3.ytimg.com/vi/BQdcqB69tO4/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-31T12:31:00+00:00",
-   "title_ja": "ダイソーとセリアのキッチン・おでかけ小物5選",
-   "summary_ja": "ダイソーのたて型ピーラー（110円）やセリアのダブルリングオープナー（110円）など、話題の便利グッズ5選を紹介。バッグやチャームも含む。",
-   "category": "キッチン",
-   "axis": "new",
-   "things": [
-    "たて型ピーラー",
-    "ダブルリングオープナー",
-    "ねこの毛チャーム",
-    "キルトショルダーバッグ"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "7cea292331c58ace",
-   "url": "https://www.youtube.com/watch?v=1tfK2lnEvVI",
-   "title_original": "【100均ベストバイ】実際に使って優秀だった便利グッズ24選！ダイソー・セリア・THREEPPY・スタンダードプロダクツ・キャンドゥ",
-   "source": "おもち100均マニア",
-   "image": "https://i2.ytimg.com/vi/1tfK2lnEvVI/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-31T12:15:01+00:00",
-   "title_ja": "ダイソーなどの100均で買ってよかった便利グッズ24選",
-   "summary_ja": "ダイソーやセリアなどの店舗で見つけた、実際に使って大正解だった便利なベストバイアイテム24選を紹介している。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 4
-  },
-  {
    "id": "1bbf815693895cd7",
    "url": "https://trilltrill.jp/articles/5150337",
    "title_original": "【ダイソー】すごいの売ってたよ。買ってよかった家電系アイテム3選",
@@ -7371,112 +7498,6 @@
    "axis": "use",
    "things": [],
    "importance": 3
-  },
-  {
-   "id": "0d80a838cb0d15c9",
-   "url": "https://mamagirl.jp/0000331655",
-   "title_original": "「飛ぶように売れてる！？」【ダイソー】人気YouTuber激推しのアイテム9選紹介！",
-   "source": "mamagirl",
-   "image": "https://cdn.mamagirl.jp/images/33/75/70/61/jpg/kok2wg0njahlx2x6ldnxyjwqtdax3v.webp",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-31T12:00:00+00:00",
-   "title_ja": "【ダイソー】人気YouTuberが推す話題の便利アイテム9選",
-   "summary_ja": "ダイソーで飛ぶように売れているという、人気YouTuberがおすすめする話題のアイテム9選を紹介。日常の様々なシーンで便利に使えるおすすめ商品が集まっている。",
-   "category": "その他",
-   "axis": "use",
-   "things": [],
-   "importance": 4
-  },
-  {
-   "id": "b8cb570cc53669b5",
-   "url": "https://news.yahoo.co.jp/articles/8dca3e7f7cc8cd4d7c918048ee1a9993aea5791c",
-   "title_original": "毎年即完売！ダイソー110円で家族全員の予定が整う「神カレンダー」（サンキュ！）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-01161177-thankyu-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-31T12:00:00+00:00",
-   "title_ja": "【ダイソー】110円で家族の予定を管理できる毎年即完売のカレンダー",
-   "summary_ja": "ダイソーで毎年すぐに完売してしまう人気のカレンダーが登場。110円という手頃な価格で、家族全員のスケジュールをしっかり書き込んで整理することができる。",
-   "category": "インテリア・季節",
-   "axis": "new",
-   "things": [
-    "カレンダー"
-   ],
-   "importance": 4
-  },
-  {
-   "id": "3a8c21c74d42c2b3",
-   "url": "https://news.yahoo.co.jp/articles/89f307ae90a5526d6824b8d18b46c17301b41188",
-   "title_original": "【100均DIY】フレームに布と100均のキルト綿を入れるだけ！黒いフレームが「ふわふわのギンガムボード」に変身 季節の飾りを引き立てる（LIMO）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00143387-toushin-000-1-view.jpg?exp=10800",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-31T11:31:05+00:00",
-   "title_ja": "100均のキルト綿を活用したふわふわ飾りボードのDIY",
-   "summary_ja": "黒いフレームに布と100均のキルト綿を挟むだけで作れる、ふわふわな質感のギンガムボードのDIYテクニックです。季節のディスプレイや室内装飾品を引き立てるインテリアグッズとして活用できます。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "キルト綿",
-    "フレーム"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "3831007f460de1c6",
-   "url": "https://www.youtube.com/shorts/uxmLMaZIl78",
-   "title_original": "【100均】新商品速報‼️ついに出た！セリアに神商品登場‼️ #100均 #セリア #セリア新商品 #セリア購入品 #便利 #浮かせる収納 #shorts",
-   "source": "はるチャンネル【100均】",
-   "image": "https://i2.ytimg.com/vi/uxmLMaZIl78/hqdefault.jpg",
-   "media": "youtube",
-   "region": "国内",
-   "published": "2026-10-31T11:30:04+00:00",
-   "title_ja": "セリアから浮かせる収納ができる便利な新商品が登場",
-   "summary_ja": "セリアから壁面などを活用できる浮かせる収納用の新商品が登場しました。デッドスペースを有効活用して小物をすっきりと整理整頓できる、使い勝手のよい収納アイテムです。",
-   "category": "収納・整理",
-   "axis": "new",
-   "things": [],
-   "importance": 3
-  },
-  {
-   "id": "048a7ba96f7c6fd8",
-   "url": "https://limo.media/articles/-/143387",
-   "title_original": "【100均DIY】黒いフレームが「ふわふわのギンガムボード」に変身 キルト綿を入れて季節の飾りを引き立てる！ 室内装飾品への年間支出はどれくらい？ 人気DIYer取材協力のもと注目のDIYテクニックを紹介。 | 概要 | LIMO | くらしとお金の経済メディア",
-   "source": "LIMO | くらしとお金の経済メディア",
-   "image": "https://limo.ismcdn.jp/mwimgs/4/6/1200w/img_46ec026b786bb1367f735ef7362798eb74657.jpg",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-31T11:28:00+00:00",
-   "title_ja": "100均のキルト綿で作るインテリア用ふわふわボードの工夫",
-   "summary_ja": "100均のキルト綿と布を黒いフレームに入れて作る、ふわふわとしたギンガムボードの作り方を紹介しています。季節の飾り付けを引き立てる室内装飾のアイデアとして役立ちます。",
-   "category": "インテリア・季節",
-   "axis": "use",
-   "things": [
-    "キルト綿",
-    "フレーム"
-   ],
-   "importance": 3
-  },
-  {
-   "id": "becabbfb6d3ddc8d",
-   "url": "https://trilltrill.jp/articles/5150143",
-   "title_original": "【ダイソー】優秀でびっくりです。毎日でも使いたくなる調理グッズ3選",
-   "source": "TRILL",
-   "image": "https://media.trilltrill.jp/articles/5150143/featured-image.1353e8661175b6f31ccb0e4199a66fed?w=1200",
-   "media": "news",
-   "region": "国内",
-   "published": "2026-10-31T11:08:58+00:00",
-   "title_ja": "【ダイソー】毎日使いたくなる優秀な調理グッズ3選",
-   "summary_ja": "ダイソーで購入できる、毎日使いたくなるほど優秀な調理グッズ3選を紹介。毎日の料理をより快適にしてくれる便利なアイテムが揃っている。",
-   "category": "キッチン",
-   "axis": "use",
-   "things": [
-    "調理グッズ"
-   ],
-   "importance": 4
   }
  ]
 }
